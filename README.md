@@ -11,3 +11,4 @@ add to `deps()`
 # returns the raw catalog
 AutopsyCatalog.get()
 ```
+

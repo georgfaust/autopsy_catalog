@@ -43,10 +43,10 @@
             "fids": [
               "O-501_R-465//"
             ],
+            "function_text": "Ist-Temperatur",
             "numbers": {
               "0": 501
-            },
-            "function_text": "Ist-Temperatur"
+            }
           }
         ],
         "n_channels": 1
@@ -108,10 +108,10 @@
             "fids": [
               "O-73_R-912//"
             ],
+            "function_text": "Schalten",
             "numbers": {
               "0": 73
-            },
-            "function_text": "Schalten"
+            }
           },
           {
             "global": false,
@@ -119,10 +119,10 @@
             "fids": [
               "O-74_R-913//"
             ],
+            "function_text": "Dimmen",
             "numbers": {
               "0": 74
-            },
-            "function_text": "Dimmen"
+            }
           },
           {
             "global": false,
@@ -130,10 +130,10 @@
             "fids": [
               "O-75_R-914//"
             ],
+            "function_text": "Schalten Rückmeldung",
             "numbers": {
               "0": 75
-            },
-            "function_text": "Schalten Rückmeldung"
+            }
           }
         ],
         "n_channels": 1
@@ -174,10 +174,10 @@
             "fids": [
               "O-113_R-915//"
             ],
+            "function_text": "Kurzzeitbetrieb",
             "numbers": {
               "0": 113
-            },
-            "function_text": "Kurzzeitbetrieb"
+            }
           },
           {
             "global": false,
@@ -185,10 +185,10 @@
             "fids": [
               "O-114_R-916//"
             ],
+            "function_text": "Langzeitbetrieb",
             "numbers": {
               "0": 114
-            },
-            "function_text": "Langzeitbetrieb"
+            }
           }
         ],
         "n_channels": 1
@@ -220,6 +220,17 @@
               "P-942_R-434//"
             ],
             "type_id": "PT-.5FAllg.5FText.5FKnotenbezeichnung"
+          },
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 4,
+            "context": [],
+            "text": "Funktion der Status-LED 1",
+            "fids": [
+              "P-162_R-183//"
+            ],
+            "type_id": "PT-.5F.5FStatus.2DLED.20.2D.20Anzeigefunktion.20WSchalten"
           }
         ],
         "objects": [
@@ -229,10 +240,10 @@
             "fids": [
               "O-37_R-814//"
             ],
+            "function_text": "Schalten",
             "numbers": {
               "0": 37
-            },
-            "function_text": "Schalten"
+            }
           },
           {
             "global": false,
@@ -240,10 +251,10 @@
             "fids": [
               "O-38_R-911//"
             ],
+            "function_text": "Schalten Rückmeldung",
             "numbers": {
               "0": 38
-            },
-            "function_text": "Schalten Rückmeldung"
+            }
           }
         ],
         "n_channels": 1
@@ -300,11 +311,11 @@
               "O-37_R-41//",
               "O-40_R-89//"
             ],
+            "function_text": "Schalten",
             "numbers": {
               "0": 37,
               "1": 40
-            },
-            "function_text": "Schalten"
+            }
           }
         ],
         "n_channels": 2
@@ -361,11 +372,11 @@
               "O-37_R-41//",
               "O-40_R-89//"
             ],
+            "function_text": "Schalten",
             "numbers": {
               "0": 37,
               "1": 40
-            },
-            "function_text": "Schalten"
+            }
           }
         ],
         "n_channels": 2
@@ -412,6 +423,17 @@
               "P-944_R-1297//"
             ],
             "type_id": "PT-.5FAllg.5FText.5FKnotenbezeichnung"
+          },
+          {
+            "global": true,
+            "type": "TypeRestriction",
+            "value": 5,
+            "context": [],
+            "text": "Funktion der Status-LED 1",
+            "fids": [
+              "P-162_R-183//"
+            ],
+            "type_id": "PT-.5F.5FStatus.2DLED.20.2D.20Anzeigefunktion.20WSchalten"
           }
         ],
         "objects": [
@@ -422,11 +444,11 @@
               "O-37_R-41//",
               "O-40_R-89//"
             ],
+            "function_text": "Schalten",
             "numbers": {
               "0": 37,
               "1": 40
-            },
-            "function_text": "Schalten"
+            }
           },
           {
             "global": false,
@@ -435,26 +457,25 @@
               "O-38_R-43//",
               "O-41_R-90//"
             ],
+            "function_text": "Schalten Rückmeldung",
             "numbers": {
               "0": 38,
               "1": 41
-            },
-            "function_text": "Schalten Rückmeldung"
+            }
           }
         ],
         "n_channels": 2
       }
     ],
-    "hardware_to_program_id": "M-0004_H-4.20.2F.2F.20.2E.2E10911ST-0-O000A_HP-1151-22-0000-O000A",
-    "mount_type": "flush",
     "order_numbers": [
       "..10911ST"
     ],
+    "application_name": "Taster Universal 1fach 115122",
+    "application_program_id": "M-0004_A-1151-22-3144-O000A",
+    "hardware_to_program_id": "M-0004_H-4.20.2F.2F.20.2E.2E10911ST-0-O000A_HP-1151-22-0000-O000A",
     "manufacturer_id": "M-0004",
     "manufacturer_name": "Albrecht Jung",
-    "application_program_id": "M-0004_A-1151-22-3144-O000A",
-    "application_name": "Taster Universal 1fach 115122",
-    "product_series": "F10"
+    "mount_type": "flush"
   },
   "M-0004_A-1152-22-AED9-O000A": {
     "modes": [
@@ -480,6 +501,17 @@
               "P-932_R-1269//"
             ],
             "type_id": "PT-Raumtemperaturerfassung"
+          },
+          {
+            "global": false,
+            "type": "TypeNumber",
+            "value": 29,
+            "context": [],
+            "text": "   Zyklisches Senden der Raumtemperatur (min)\r\n   (0 = inaktiv)",
+            "fids": [
+              "P-931_R-1268//"
+            ],
+            "type_id": "PT-Wert.200.2E.2E.2E255"
           }
         ],
         "objects": [
@@ -489,10 +521,10 @@
             "fids": [
               "O-501_R-465//"
             ],
+            "function_text": "Ist-Temperatur",
             "numbers": {
               "0": 501
-            },
-            "function_text": "Ist-Temperatur"
+            }
           }
         ],
         "n_channels": 1
@@ -560,11 +592,11 @@
               "O-73_R-912//",
               "O-81_R-1100//"
             ],
+            "function_text": "Schalten",
             "numbers": {
               "0": 73,
               "1": 81
-            },
-            "function_text": "Schalten"
+            }
           },
           {
             "global": false,
@@ -573,11 +605,11 @@
               "O-74_R-913//",
               "O-82_R-1101//"
             ],
+            "function_text": "Dimmen",
             "numbers": {
               "0": 74,
               "1": 82
-            },
-            "function_text": "Dimmen"
+            }
           },
           {
             "global": false,
@@ -586,11 +618,11 @@
               "O-75_R-914//",
               "O-83_R-1102//"
             ],
+            "function_text": "Schalten Rückmeldung",
             "numbers": {
               "0": 75,
               "1": 83
-            },
-            "function_text": "Schalten Rückmeldung"
+            }
           }
         ],
         "n_channels": 2
@@ -635,11 +667,11 @@
               "O-113_R-915//",
               "O-119_R-1109//"
             ],
+            "function_text": "Kurzzeitbetrieb",
             "numbers": {
               "0": 113,
               "1": 119
-            },
-            "function_text": "Kurzzeitbetrieb"
+            }
           },
           {
             "global": false,
@@ -648,11 +680,11 @@
               "O-114_R-916//",
               "O-120_R-1110//"
             ],
+            "function_text": "Langzeitbetrieb",
             "numbers": {
               "0": 114,
               "1": 120
-            },
-            "function_text": "Langzeitbetrieb"
+            }
           }
         ],
         "n_channels": 2
@@ -697,11 +729,11 @@
               "O-37_R-814//",
               "O-43_R-1094//"
             ],
+            "function_text": "Schalten",
             "numbers": {
               "0": 37,
               "1": 43
-            },
-            "function_text": "Schalten"
+            }
           },
           {
             "global": false,
@@ -710,11 +742,11 @@
               "O-38_R-911//",
               "O-44_R-1095//"
             ],
+            "function_text": "Schalten Rückmeldung",
             "numbers": {
               "0": 38,
               "1": 44
-            },
-            "function_text": "Schalten Rückmeldung"
+            }
           }
         ],
         "n_channels": 2
@@ -791,13 +823,13 @@
               "O-43_R-91//",
               "O-46_R-93//"
             ],
+            "function_text": "Schalten",
             "numbers": {
               "0": 37,
               "1": 40,
               "2": 43,
               "3": 46
-            },
-            "function_text": "Schalten"
+            }
           }
         ],
         "n_channels": 4
@@ -874,13 +906,13 @@
               "O-43_R-91//",
               "O-46_R-93//"
             ],
+            "function_text": "Schalten",
             "numbers": {
               "0": 37,
               "1": 40,
               "2": 43,
               "3": 46
-            },
-            "function_text": "Schalten"
+            }
           }
         ],
         "n_channels": 4
@@ -957,13 +989,13 @@
               "O-43_R-91//",
               "O-46_R-93//"
             ],
+            "function_text": "Schalten",
             "numbers": {
               "0": 37,
               "1": 40,
               "2": 43,
               "3": 46
-            },
-            "function_text": "Schalten"
+            }
           },
           {
             "global": false,
@@ -974,28 +1006,27 @@
               "O-44_R-92//",
               "O-47_R-94//"
             ],
+            "function_text": "Schalten Rückmeldung",
             "numbers": {
               "0": 38,
               "1": 41,
               "2": 44,
               "3": 47
-            },
-            "function_text": "Schalten Rückmeldung"
+            }
           }
         ],
         "n_channels": 4
       }
     ],
-    "hardware_to_program_id": "M-0004_H-4.20.2F.2F.20.2E.2E10921ST-0-O000A_HP-1152-22-0000-O000A",
-    "mount_type": "flush",
     "order_numbers": [
       "..10921ST"
     ],
+    "application_name": "Taster Universal 2fach 115222",
+    "application_program_id": "M-0004_A-1152-22-AED9-O000A",
+    "hardware_to_program_id": "M-0004_H-4.20.2F.2F.20.2E.2E10921ST-0-O000A_HP-1152-22-0000-O000A",
     "manufacturer_id": "M-0004",
     "manufacturer_name": "Albrecht Jung",
-    "application_program_id": "M-0004_A-1152-22-AED9-O000A",
-    "application_name": "Taster Universal 2fach 115222",
-    "product_series": "F10"
+    "mount_type": "flush"
   },
   "M-0004_A-20D5-25-5E0A-O000A": {
     "modes": [
@@ -1134,12 +1165,12 @@
               "MD-1_O-2-0_R-38/MD-1_M-2/1",
               "MD-1_O-2-0_R-38/MD-1_M-3/1"
             ],
+            "function_text": "Langzeitbetrieb",
             "numbers": {
               "0": 20,
               "1": 67,
               "2": 114
-            },
-            "function_text": "Langzeitbetrieb"
+            }
           },
           {
             "global": false,
@@ -1149,12 +1180,12 @@
               "MD-1_O-2-18_R-9/MD-1_M-2/1",
               "MD-1_O-2-18_R-9/MD-1_M-3/1"
             ],
+            "function_text": "Rolllade/Markise - Position - Status",
             "numbers": {
               "0": 38,
               "1": 85,
               "2": 132
-            },
-            "function_text": "Rolllade/Markise - Position - Status"
+            }
           },
           {
             "global": false,
@@ -1164,12 +1195,12 @@
               "MD-1_O-2-1_R-37/MD-1_M-2/1",
               "MD-1_O-2-1_R-37/MD-1_M-3/1"
             ],
+            "function_text": "Kurzzeitbetrieb",
             "numbers": {
               "0": 21,
               "1": 68,
               "2": 115
-            },
-            "function_text": "Kurzzeitbetrieb"
+            }
           },
           {
             "global": false,
@@ -1179,12 +1210,12 @@
               "MD-1_O-2-2_R-3/MD-1_M-2/1",
               "MD-1_O-2-2_R-3/MD-1_M-3/1"
             ],
+            "function_text": "Rolllade/Markise - Position",
             "numbers": {
               "0": 22,
               "1": 69,
               "2": 116
-            },
-            "function_text": "Rolllade/Markise - Position"
+            }
           },
           {
             "global": false,
@@ -1194,12 +1225,12 @@
               "MD-1_O-2-39_R-46/MD-1_M-2/1",
               "MD-1_O-2-39_R-46/MD-1_M-3/1"
             ],
+            "function_text": "Türkontaktsperre - Aktivieren / Deaktivieren",
             "numbers": {
               "0": 59,
               "1": 106,
               "2": 153
-            },
-            "function_text": "Türkontaktsperre - Aktivieren / Deaktivieren"
+            }
           }
         ],
         "n_channels": 3
@@ -1422,12 +1453,12 @@
               "MD-1_O-2-0_R-38/MD-1_M-2/1",
               "MD-1_O-2-0_R-38/MD-1_M-3/1"
             ],
+            "function_text": "Langzeitbetrieb",
             "numbers": {
               "0": 20,
               "1": 67,
               "2": 114
-            },
-            "function_text": "Langzeitbetrieb"
+            }
           },
           {
             "global": false,
@@ -1437,12 +1468,12 @@
               "MD-1_O-2-18_R-5/MD-1_M-2/1",
               "MD-1_O-2-18_R-5/MD-1_M-3/1"
             ],
+            "function_text": "Jalousie - Position - Status",
             "numbers": {
               "0": 38,
               "1": 85,
               "2": 132
-            },
-            "function_text": "Jalousie - Position - Status"
+            }
           },
           {
             "global": false,
@@ -1452,12 +1483,12 @@
               "MD-1_O-2-19_R-7/MD-1_M-2/1",
               "MD-1_O-2-19_R-7/MD-1_M-3/1"
             ],
+            "function_text": "Lamelle - Position - Status",
             "numbers": {
               "0": 39,
               "1": 86,
               "2": 133
-            },
-            "function_text": "Lamelle - Position - Status"
+            }
           },
           {
             "global": false,
@@ -1467,12 +1498,12 @@
               "MD-1_O-2-1_R-37/MD-1_M-2/1",
               "MD-1_O-2-1_R-37/MD-1_M-3/1"
             ],
+            "function_text": "Kurzzeitbetrieb",
             "numbers": {
               "0": 21,
               "1": 68,
               "2": 115
-            },
-            "function_text": "Kurzzeitbetrieb"
+            }
           },
           {
             "global": false,
@@ -1482,12 +1513,12 @@
               "MD-1_O-2-2_R-2/MD-1_M-2/1",
               "MD-1_O-2-2_R-2/MD-1_M-3/1"
             ],
+            "function_text": "Jalousie - Position",
             "numbers": {
               "0": 22,
               "1": 69,
               "2": 116
-            },
-            "function_text": "Jalousie - Position"
+            }
           },
           {
             "global": false,
@@ -1497,12 +1528,12 @@
               "MD-1_O-2-39_R-46/MD-1_M-2/1",
               "MD-1_O-2-39_R-46/MD-1_M-3/1"
             ],
+            "function_text": "Türkontaktsperre - Aktivieren / Deaktivieren",
             "numbers": {
               "0": 59,
               "1": 106,
               "2": 153
-            },
-            "function_text": "Türkontaktsperre - Aktivieren / Deaktivieren"
+            }
           },
           {
             "global": false,
@@ -1512,12 +1543,12 @@
               "MD-1_O-2-3_R-1/MD-1_M-2/1",
               "MD-1_O-2-3_R-1/MD-1_M-3/1"
             ],
+            "function_text": "Lamelle - Position",
             "numbers": {
               "0": 23,
               "1": 70,
               "2": 117
-            },
-            "function_text": "Lamelle - Position"
+            }
           },
           {
             "global": true,
@@ -1525,10 +1556,10 @@
             "fids": [
               "O-11_R-100035//"
             ],
+            "function_text": "Windalarm 1",
             "numbers": {
               "0": 11
-            },
-            "function_text": "Windalarm 1"
+            }
           }
         ],
         "n_channels": 3
@@ -1609,6 +1640,7 @@
               "MD-2_O-2-0_R-1/MD-2_M-17/1",
               "MD-2_O-2-0_R-1/MD-2_M-18/1"
             ],
+            "function_text": "Schalten",
             "numbers": {
               "0": 598,
               "1": 620,
@@ -1616,8 +1648,7 @@
               "3": 664,
               "4": 686,
               "5": 708
-            },
-            "function_text": "Schalten"
+            }
           },
           {
             "global": false,
@@ -1630,6 +1661,7 @@
               "MD-2_O-2-1_R-2/MD-2_M-17/1",
               "MD-2_O-2-1_R-2/MD-2_M-18/1"
             ],
+            "function_text": "Schalten - Status",
             "numbers": {
               "0": 599,
               "1": 621,
@@ -1637,23 +1669,21 @@
               "3": 665,
               "4": 687,
               "5": 709
-            },
-            "function_text": "Schalten - Status"
+            }
           }
         ],
         "n_channels": 6
       }
     ],
-    "hardware_to_program_id": "M-0004_H-4.20.2F.2F.20230061SR-0-O000A_HP-20D5-25-0000-O000A",
-    "mount_type": "rail",
     "order_numbers": [
       "230061SR"
     ],
+    "application_name": "Schalten, Jalousie 20D525",
+    "application_program_id": "M-0004_A-20D5-25-5E0A-O000A",
+    "hardware_to_program_id": "M-0004_H-4.20.2F.2F.20230061SR-0-O000A_HP-20D5-25-0000-O000A",
     "manufacturer_id": "M-0004",
     "manufacturer_name": "Albrecht Jung",
-    "application_program_id": "M-0004_A-20D5-25-5E0A-O000A",
-    "application_name": "Schalten, Jalousie 20D525",
-    "product_series": "20Dx25"
+    "mount_type": "rail"
   },
   "M-0004_A-20D6-25-D965-O000A": {
     "modes": [
@@ -1847,6 +1877,7 @@
               "MD-1_O-2-0_R-38/MD-1_M-7/1",
               "MD-1_O-2-0_R-38/MD-1_M-8/1"
             ],
+            "function_text": "Langzeitbetrieb",
             "numbers": {
               "0": 20,
               "1": 67,
@@ -1856,8 +1887,7 @@
               "5": 255,
               "6": 302,
               "7": 349
-            },
-            "function_text": "Langzeitbetrieb"
+            }
           },
           {
             "global": false,
@@ -1872,6 +1902,7 @@
               "MD-1_O-2-18_R-9/MD-1_M-7/1",
               "MD-1_O-2-18_R-9/MD-1_M-8/1"
             ],
+            "function_text": "Rolllade/Markise - Position - Status",
             "numbers": {
               "0": 38,
               "1": 85,
@@ -1881,8 +1912,7 @@
               "5": 273,
               "6": 320,
               "7": 367
-            },
-            "function_text": "Rolllade/Markise - Position - Status"
+            }
           },
           {
             "global": false,
@@ -1897,6 +1927,7 @@
               "MD-1_O-2-1_R-37/MD-1_M-7/1",
               "MD-1_O-2-1_R-37/MD-1_M-8/1"
             ],
+            "function_text": "Kurzzeitbetrieb",
             "numbers": {
               "0": 21,
               "1": 68,
@@ -1906,8 +1937,7 @@
               "5": 256,
               "6": 303,
               "7": 350
-            },
-            "function_text": "Kurzzeitbetrieb"
+            }
           },
           {
             "global": false,
@@ -1922,6 +1952,7 @@
               "MD-1_O-2-2_R-3/MD-1_M-7/1",
               "MD-1_O-2-2_R-3/MD-1_M-8/1"
             ],
+            "function_text": "Rolllade/Markise - Position",
             "numbers": {
               "0": 22,
               "1": 69,
@@ -1931,8 +1962,7 @@
               "5": 257,
               "6": 304,
               "7": 351
-            },
-            "function_text": "Rolllade/Markise - Position"
+            }
           },
           {
             "global": false,
@@ -1947,6 +1977,7 @@
               "MD-1_O-2-39_R-46/MD-1_M-7/1",
               "MD-1_O-2-39_R-46/MD-1_M-8/1"
             ],
+            "function_text": "Türkontaktsperre - Aktivieren / Deaktivieren",
             "numbers": {
               "0": 59,
               "1": 106,
@@ -1956,8 +1987,7 @@
               "5": 294,
               "6": 341,
               "7": 388
-            },
-            "function_text": "Türkontaktsperre - Aktivieren / Deaktivieren"
+            }
           }
         ],
         "n_channels": 8
@@ -2250,6 +2280,7 @@
               "MD-1_O-2-0_R-38/MD-1_M-7/1",
               "MD-1_O-2-0_R-38/MD-1_M-8/1"
             ],
+            "function_text": "Langzeitbetrieb",
             "numbers": {
               "0": 20,
               "1": 67,
@@ -2259,8 +2290,7 @@
               "5": 255,
               "6": 302,
               "7": 349
-            },
-            "function_text": "Langzeitbetrieb"
+            }
           },
           {
             "global": false,
@@ -2275,6 +2305,7 @@
               "MD-1_O-2-18_R-5/MD-1_M-7/1",
               "MD-1_O-2-18_R-5/MD-1_M-8/1"
             ],
+            "function_text": "Jalousie - Position - Status",
             "numbers": {
               "0": 38,
               "1": 85,
@@ -2284,8 +2315,7 @@
               "5": 273,
               "6": 320,
               "7": 367
-            },
-            "function_text": "Jalousie - Position - Status"
+            }
           },
           {
             "global": false,
@@ -2300,6 +2330,7 @@
               "MD-1_O-2-19_R-7/MD-1_M-7/1",
               "MD-1_O-2-19_R-7/MD-1_M-8/1"
             ],
+            "function_text": "Lamelle - Position - Status",
             "numbers": {
               "0": 39,
               "1": 86,
@@ -2309,8 +2340,7 @@
               "5": 274,
               "6": 321,
               "7": 368
-            },
-            "function_text": "Lamelle - Position - Status"
+            }
           },
           {
             "global": false,
@@ -2325,6 +2355,7 @@
               "MD-1_O-2-1_R-37/MD-1_M-7/1",
               "MD-1_O-2-1_R-37/MD-1_M-8/1"
             ],
+            "function_text": "Kurzzeitbetrieb",
             "numbers": {
               "0": 21,
               "1": 68,
@@ -2334,8 +2365,7 @@
               "5": 256,
               "6": 303,
               "7": 350
-            },
-            "function_text": "Kurzzeitbetrieb"
+            }
           },
           {
             "global": false,
@@ -2350,6 +2380,7 @@
               "MD-1_O-2-2_R-2/MD-1_M-7/1",
               "MD-1_O-2-2_R-2/MD-1_M-8/1"
             ],
+            "function_text": "Jalousie - Position",
             "numbers": {
               "0": 22,
               "1": 69,
@@ -2359,8 +2390,7 @@
               "5": 257,
               "6": 304,
               "7": 351
-            },
-            "function_text": "Jalousie - Position"
+            }
           },
           {
             "global": false,
@@ -2375,6 +2405,7 @@
               "MD-1_O-2-39_R-46/MD-1_M-7/1",
               "MD-1_O-2-39_R-46/MD-1_M-8/1"
             ],
+            "function_text": "Türkontaktsperre - Aktivieren / Deaktivieren",
             "numbers": {
               "0": 59,
               "1": 106,
@@ -2384,8 +2415,7 @@
               "5": 294,
               "6": 341,
               "7": 388
-            },
-            "function_text": "Türkontaktsperre - Aktivieren / Deaktivieren"
+            }
           },
           {
             "global": false,
@@ -2400,6 +2430,7 @@
               "MD-1_O-2-3_R-1/MD-1_M-7/1",
               "MD-1_O-2-3_R-1/MD-1_M-8/1"
             ],
+            "function_text": "Lamelle - Position",
             "numbers": {
               "0": 23,
               "1": 70,
@@ -2409,8 +2440,7 @@
               "5": 258,
               "6": 305,
               "7": 352
-            },
-            "function_text": "Lamelle - Position"
+            }
           },
           {
             "global": true,
@@ -2418,10 +2448,10 @@
             "fids": [
               "O-11_R-100035//"
             ],
+            "function_text": "Windalarm 1",
             "numbers": {
               "0": 11
-            },
-            "function_text": "Windalarm 1"
+            }
           }
         ],
         "n_channels": 8
@@ -2592,6 +2622,7 @@
               "MD-2_O-2-0_R-1/MD-2_M-27/1",
               "MD-2_O-2-0_R-1/MD-2_M-28/1"
             ],
+            "function_text": "Schalten",
             "numbers": {
               "0": 598,
               "1": 620,
@@ -2609,8 +2640,7 @@
               "13": 884,
               "14": 906,
               "15": 928
-            },
-            "function_text": "Schalten"
+            }
           },
           {
             "global": false,
@@ -2633,6 +2663,7 @@
               "MD-2_O-2-1_R-2/MD-2_M-27/1",
               "MD-2_O-2-1_R-2/MD-2_M-28/1"
             ],
+            "function_text": "Schalten - Status",
             "numbers": {
               "0": 599,
               "1": 621,
@@ -2650,23 +2681,21 @@
               "13": 885,
               "14": 907,
               "15": 929
-            },
-            "function_text": "Schalten - Status"
+            }
           }
         ],
         "n_channels": 16
       }
     ],
-    "hardware_to_program_id": "M-0004_H-4.20.2F.2F.20230161SR-0-O000A_HP-20D6-25-0000-O000A",
-    "mount_type": "rail",
     "order_numbers": [
       "230161SR"
     ],
+    "application_name": "Schalten, Jalousie 20D625",
+    "application_program_id": "M-0004_A-20D6-25-D965-O000A",
+    "hardware_to_program_id": "M-0004_H-4.20.2F.2F.20230161SR-0-O000A_HP-20D6-25-0000-O000A",
     "manufacturer_id": "M-0004",
     "manufacturer_name": "Albrecht Jung",
-    "application_program_id": "M-0004_A-20D6-25-D965-O000A",
-    "application_name": "Schalten, Jalousie 20D625",
-    "product_series": "20Dx25"
+    "mount_type": "rail"
   },
   "M-0004_A-20D7-25-11A1-O000A": {
     "modes": [
@@ -2904,6 +2933,7 @@
               "MD-1_O-2-0_R-38/MD-1_M-11/1",
               "MD-1_O-2-0_R-38/MD-1_M-12/1"
             ],
+            "function_text": "Langzeitbetrieb",
             "numbers": {
               "0": 20,
               "1": 67,
@@ -2917,8 +2947,7 @@
               "9": 443,
               "10": 490,
               "11": 537
-            },
-            "function_text": "Langzeitbetrieb"
+            }
           },
           {
             "global": false,
@@ -2937,6 +2966,7 @@
               "MD-1_O-2-18_R-9/MD-1_M-11/1",
               "MD-1_O-2-18_R-9/MD-1_M-12/1"
             ],
+            "function_text": "Rolllade/Markise - Position - Status",
             "numbers": {
               "0": 38,
               "1": 85,
@@ -2950,8 +2980,7 @@
               "9": 461,
               "10": 508,
               "11": 555
-            },
-            "function_text": "Rolllade/Markise - Position - Status"
+            }
           },
           {
             "global": false,
@@ -2970,6 +2999,7 @@
               "MD-1_O-2-1_R-37/MD-1_M-11/1",
               "MD-1_O-2-1_R-37/MD-1_M-12/1"
             ],
+            "function_text": "Kurzzeitbetrieb",
             "numbers": {
               "0": 21,
               "1": 68,
@@ -2983,8 +3013,7 @@
               "9": 444,
               "10": 491,
               "11": 538
-            },
-            "function_text": "Kurzzeitbetrieb"
+            }
           },
           {
             "global": false,
@@ -3003,6 +3032,7 @@
               "MD-1_O-2-2_R-3/MD-1_M-11/1",
               "MD-1_O-2-2_R-3/MD-1_M-12/1"
             ],
+            "function_text": "Rolllade/Markise - Position",
             "numbers": {
               "0": 22,
               "1": 69,
@@ -3016,8 +3046,7 @@
               "9": 445,
               "10": 492,
               "11": 539
-            },
-            "function_text": "Rolllade/Markise - Position"
+            }
           },
           {
             "global": false,
@@ -3036,6 +3065,7 @@
               "MD-1_O-2-39_R-46/MD-1_M-11/1",
               "MD-1_O-2-39_R-46/MD-1_M-12/1"
             ],
+            "function_text": "Türkontaktsperre - Aktivieren / Deaktivieren",
             "numbers": {
               "0": 59,
               "1": 106,
@@ -3049,8 +3079,7 @@
               "9": 482,
               "10": 529,
               "11": 576
-            },
-            "function_text": "Türkontaktsperre - Aktivieren / Deaktivieren"
+            }
           }
         ],
         "n_channels": 12
@@ -3399,6 +3428,7 @@
               "MD-1_O-2-0_R-38/MD-1_M-11/1",
               "MD-1_O-2-0_R-38/MD-1_M-12/1"
             ],
+            "function_text": "Langzeitbetrieb",
             "numbers": {
               "0": 20,
               "1": 67,
@@ -3412,8 +3442,7 @@
               "9": 443,
               "10": 490,
               "11": 537
-            },
-            "function_text": "Langzeitbetrieb"
+            }
           },
           {
             "global": false,
@@ -3432,6 +3461,7 @@
               "MD-1_O-2-18_R-5/MD-1_M-11/1",
               "MD-1_O-2-18_R-5/MD-1_M-12/1"
             ],
+            "function_text": "Jalousie - Position - Status",
             "numbers": {
               "0": 38,
               "1": 85,
@@ -3445,8 +3475,7 @@
               "9": 461,
               "10": 508,
               "11": 555
-            },
-            "function_text": "Jalousie - Position - Status"
+            }
           },
           {
             "global": false,
@@ -3465,6 +3494,7 @@
               "MD-1_O-2-19_R-7/MD-1_M-11/1",
               "MD-1_O-2-19_R-7/MD-1_M-12/1"
             ],
+            "function_text": "Lamelle - Position - Status",
             "numbers": {
               "0": 39,
               "1": 86,
@@ -3478,8 +3508,7 @@
               "9": 462,
               "10": 509,
               "11": 556
-            },
-            "function_text": "Lamelle - Position - Status"
+            }
           },
           {
             "global": false,
@@ -3498,6 +3527,7 @@
               "MD-1_O-2-1_R-37/MD-1_M-11/1",
               "MD-1_O-2-1_R-37/MD-1_M-12/1"
             ],
+            "function_text": "Kurzzeitbetrieb",
             "numbers": {
               "0": 21,
               "1": 68,
@@ -3511,8 +3541,7 @@
               "9": 444,
               "10": 491,
               "11": 538
-            },
-            "function_text": "Kurzzeitbetrieb"
+            }
           },
           {
             "global": false,
@@ -3531,6 +3560,7 @@
               "MD-1_O-2-2_R-2/MD-1_M-11/1",
               "MD-1_O-2-2_R-2/MD-1_M-12/1"
             ],
+            "function_text": "Jalousie - Position",
             "numbers": {
               "0": 22,
               "1": 69,
@@ -3544,8 +3574,7 @@
               "9": 445,
               "10": 492,
               "11": 539
-            },
-            "function_text": "Jalousie - Position"
+            }
           },
           {
             "global": false,
@@ -3564,6 +3593,7 @@
               "MD-1_O-2-39_R-46/MD-1_M-11/1",
               "MD-1_O-2-39_R-46/MD-1_M-12/1"
             ],
+            "function_text": "Türkontaktsperre - Aktivieren / Deaktivieren",
             "numbers": {
               "0": 59,
               "1": 106,
@@ -3577,8 +3607,7 @@
               "9": 482,
               "10": 529,
               "11": 576
-            },
-            "function_text": "Türkontaktsperre - Aktivieren / Deaktivieren"
+            }
           },
           {
             "global": false,
@@ -3597,6 +3626,7 @@
               "MD-1_O-2-3_R-1/MD-1_M-11/1",
               "MD-1_O-2-3_R-1/MD-1_M-12/1"
             ],
+            "function_text": "Lamelle - Position",
             "numbers": {
               "0": 23,
               "1": 70,
@@ -3610,8 +3640,7 @@
               "9": 446,
               "10": 493,
               "11": 540
-            },
-            "function_text": "Lamelle - Position"
+            }
           },
           {
             "global": true,
@@ -3619,10 +3648,10 @@
             "fids": [
               "O-11_R-100035//"
             ],
+            "function_text": "Windalarm 1",
             "numbers": {
               "0": 11
-            },
-            "function_text": "Windalarm 1"
+            }
           }
         ],
         "n_channels": 12
@@ -3865,6 +3894,7 @@
               "MD-2_O-2-0_R-1/MD-2_M-35/1",
               "MD-2_O-2-0_R-1/MD-2_M-36/1"
             ],
+            "function_text": "Schalten",
             "numbers": {
               "0": 598,
               "1": 620,
@@ -3890,8 +3920,7 @@
               "21": 1060,
               "22": 1082,
               "23": 1104
-            },
-            "function_text": "Schalten"
+            }
           },
           {
             "global": false,
@@ -3922,6 +3951,7 @@
               "MD-2_O-2-1_R-2/MD-2_M-35/1",
               "MD-2_O-2-1_R-2/MD-2_M-36/1"
             ],
+            "function_text": "Schalten - Status",
             "numbers": {
               "0": 599,
               "1": 621,
@@ -3947,23 +3977,21 @@
               "21": 1061,
               "22": 1083,
               "23": 1105
-            },
-            "function_text": "Schalten - Status"
+            }
           }
         ],
         "n_channels": 24
       }
     ],
-    "hardware_to_program_id": "M-0004_H-4.20.2F.2F.20230241SR-0-O000A_HP-20D7-25-0000-O000A",
-    "mount_type": "rail",
     "order_numbers": [
       "230241SR"
     ],
+    "application_name": "Schalten, Jalousie 20D725",
+    "application_program_id": "M-0004_A-20D7-25-11A1-O000A",
+    "hardware_to_program_id": "M-0004_H-4.20.2F.2F.20230241SR-0-O000A_HP-20D7-25-0000-O000A",
     "manufacturer_id": "M-0004",
     "manufacturer_name": "Albrecht Jung",
-    "application_program_id": "M-0004_A-20D7-25-11A1-O000A",
-    "application_name": "Schalten, Jalousie 20D725",
-    "product_series": "20Dx25"
+    "mount_type": "rail"
   },
   "M-0004_A-20DE-22-C7D8-O000A": {
     "modes": [
@@ -4036,10 +4064,10 @@
             "fids": [
               "MD-3_O-2-0_R-38/MD-3_M-18/1"
             ],
+            "function_text": "Langzeitbetrieb",
             "numbers": {
               "0": 144
-            },
-            "function_text": "Langzeitbetrieb"
+            }
           },
           {
             "global": false,
@@ -4047,10 +4075,10 @@
             "fids": [
               "MD-3_O-2-18_R-9/MD-3_M-18/1"
             ],
+            "function_text": "Rückmeldung Rollladen-/Markisenposition",
             "numbers": {
               "0": 162
-            },
-            "function_text": "Rückmeldung Rollladen-/Markisenposition"
+            }
           },
           {
             "global": false,
@@ -4058,10 +4086,10 @@
             "fids": [
               "MD-3_O-2-1_R-37/MD-3_M-18/1"
             ],
+            "function_text": "Kurzzeitbetrieb",
             "numbers": {
               "0": 145
-            },
-            "function_text": "Kurzzeitbetrieb"
+            }
           },
           {
             "global": false,
@@ -4069,10 +4097,10 @@
             "fids": [
               "MD-3_O-2-2_R-3/MD-3_M-18/1"
             ],
+            "function_text": "Position Rolllade/Markise",
             "numbers": {
               "0": 146
-            },
-            "function_text": "Position Rolllade/Markise"
+            }
           }
         ],
         "n_channels": 1
@@ -4146,10 +4174,10 @@
             "fids": [
               "MD-3_O-2-0_R-38/MD-3_M-18/1"
             ],
+            "function_text": "Langzeitbetrieb",
             "numbers": {
               "0": 144
-            },
-            "function_text": "Langzeitbetrieb"
+            }
           },
           {
             "global": false,
@@ -4157,10 +4185,10 @@
             "fids": [
               "MD-3_O-2-18_R-5/MD-3_M-18/1"
             ],
+            "function_text": "Rückmeldung Jalousieposition",
             "numbers": {
               "0": 162
-            },
-            "function_text": "Rückmeldung Jalousieposition"
+            }
           },
           {
             "global": false,
@@ -4168,10 +4196,10 @@
             "fids": [
               "MD-3_O-2-19_R-7/MD-3_M-18/1"
             ],
+            "function_text": "Rückmeldung Lamellenposition",
             "numbers": {
               "0": 163
-            },
-            "function_text": "Rückmeldung Lamellenposition"
+            }
           },
           {
             "global": false,
@@ -4179,10 +4207,10 @@
             "fids": [
               "MD-3_O-2-1_R-37/MD-3_M-18/1"
             ],
+            "function_text": "Kurzzeitbetrieb",
             "numbers": {
               "0": 145
-            },
-            "function_text": "Kurzzeitbetrieb"
+            }
           },
           {
             "global": false,
@@ -4190,10 +4218,10 @@
             "fids": [
               "MD-3_O-2-2_R-2/MD-3_M-18/1"
             ],
+            "function_text": "Position Jalousie",
             "numbers": {
               "0": 146
-            },
-            "function_text": "Position Jalousie"
+            }
           },
           {
             "global": false,
@@ -4201,10 +4229,10 @@
             "fids": [
               "MD-3_O-2-3_R-1/MD-3_M-18/1"
             ],
+            "function_text": "Position Lamelle",
             "numbers": {
               "0": 147
-            },
-            "function_text": "Position Lamelle"
+            }
           }
         ],
         "n_channels": 1
@@ -4249,11 +4277,11 @@
               "MD-4_O-2-0_R-1/MD-4_M-19/1",
               "MD-4_O-2-0_R-1/MD-4_M-20/1"
             ],
+            "function_text": "Schalten",
             "numbers": {
               "0": 19,
               "1": 39
-            },
-            "function_text": "Schalten"
+            }
           },
           {
             "global": false,
@@ -4262,11 +4290,11 @@
               "MD-4_O-2-1_R-2/MD-4_M-19/1",
               "MD-4_O-2-1_R-2/MD-4_M-20/1"
             ],
+            "function_text": "Rückmeldung Schalten",
             "numbers": {
               "0": 20,
               "1": 40
-            },
-            "function_text": "Rückmeldung Schalten"
+            }
           }
         ],
         "n_channels": 2
@@ -4321,11 +4349,11 @@
               "MD-1_O-4-0_R-3/MD-1_M-2/1",
               "MD-1_O-4-0_R-3/MD-1_M-1/1"
             ],
+            "function_text": "Schalten",
             "numbers": {
               "0": 486,
               "1": 492
-            },
-            "function_text": "Schalten"
+            }
           },
           {
             "global": false,
@@ -4334,11 +4362,11 @@
               "MD-1_O-4-1_R-4/MD-1_M-2/1",
               "MD-1_O-4-1_R-4/MD-1_M-1/1"
             ],
+            "function_text": "Dimmen Helligkeit",
             "numbers": {
               "0": 487,
               "1": 493
-            },
-            "function_text": "Dimmen Helligkeit"
+            }
           },
           {
             "global": false,
@@ -4347,11 +4375,11 @@
               "MD-1_O-4-2_R-5/MD-1_M-2/1",
               "MD-1_O-4-2_R-5/MD-1_M-1/1"
             ],
+            "function_text": "Schalten Rückmeldung",
             "numbers": {
               "0": 488,
               "1": 494
-            },
-            "function_text": "Schalten Rückmeldung"
+            }
           }
         ],
         "n_channels": 2
@@ -4406,11 +4434,11 @@
               "MD-1_O-4-0_R-3/MD-1_M-2/1",
               "MD-1_O-4-0_R-3/MD-1_M-1/1"
             ],
+            "function_text": "Schalten",
             "numbers": {
               "0": 486,
               "1": 492
-            },
-            "function_text": "Schalten"
+            }
           },
           {
             "global": false,
@@ -4419,11 +4447,11 @@
               "MD-1_O-4-1_R-4/MD-1_M-2/1",
               "MD-1_O-4-1_R-4/MD-1_M-1/1"
             ],
+            "function_text": "Dimmen Helligkeit",
             "numbers": {
               "0": 487,
               "1": 493
-            },
-            "function_text": "Dimmen Helligkeit"
+            }
           }
         ],
         "n_channels": 2
@@ -4478,11 +4506,11 @@
               "MD-1_O-4-0_R-3/MD-1_M-2/1",
               "MD-1_O-4-0_R-3/MD-1_M-1/1"
             ],
+            "function_text": "Schalten",
             "numbers": {
               "0": 486,
               "1": 492
-            },
-            "function_text": "Schalten"
+            }
           },
           {
             "global": false,
@@ -4491,11 +4519,11 @@
               "MD-1_O-4-1_R-4/MD-1_M-2/1",
               "MD-1_O-4-1_R-4/MD-1_M-1/1"
             ],
+            "function_text": "Dimmen Helligkeit",
             "numbers": {
               "0": 487,
               "1": 493
-            },
-            "function_text": "Dimmen Helligkeit"
+            }
           }
         ],
         "n_channels": 2
@@ -4550,11 +4578,11 @@
               "MD-1_O-6-0_R-6/MD-1_M-2/1",
               "MD-1_O-6-0_R-6/MD-1_M-1/1"
             ],
+            "function_text": "Kurzzeitbetrieb",
             "numbers": {
               "0": 516,
               "1": 519
-            },
-            "function_text": "Kurzzeitbetrieb"
+            }
           },
           {
             "global": false,
@@ -4563,11 +4591,11 @@
               "MD-1_O-6-1_R-7/MD-1_M-2/1",
               "MD-1_O-6-1_R-7/MD-1_M-1/1"
             ],
+            "function_text": "Langzeitbetrieb",
             "numbers": {
               "0": 517,
               "1": 520
-            },
-            "function_text": "Langzeitbetrieb"
+            }
           }
         ],
         "n_channels": 2
@@ -4622,11 +4650,11 @@
               "MD-1_O-6-0_R-6/MD-1_M-2/1",
               "MD-1_O-6-0_R-6/MD-1_M-1/1"
             ],
+            "function_text": "Kurzzeitbetrieb",
             "numbers": {
               "0": 516,
               "1": 519
-            },
-            "function_text": "Kurzzeitbetrieb"
+            }
           },
           {
             "global": false,
@@ -4635,11 +4663,11 @@
               "MD-1_O-6-1_R-7/MD-1_M-2/1",
               "MD-1_O-6-1_R-7/MD-1_M-1/1"
             ],
+            "function_text": "Langzeitbetrieb",
             "numbers": {
               "0": 517,
               "1": 520
-            },
-            "function_text": "Langzeitbetrieb"
+            }
           }
         ],
         "n_channels": 2
@@ -4684,11 +4712,11 @@
               "MD-1_O-2-0_R-1/MD-1_M-2/1",
               "MD-1_O-2-0_R-1/MD-1_M-1/1"
             ],
+            "function_text": "Schalten",
             "numbers": {
               "0": 471,
               "1": 474
-            },
-            "function_text": "Schalten"
+            }
           }
         ],
         "n_channels": 2
@@ -4733,11 +4761,11 @@
               "MD-1_O-2-0_R-1/MD-1_M-2/1",
               "MD-1_O-2-0_R-1/MD-1_M-1/1"
             ],
+            "function_text": "Schalten",
             "numbers": {
               "0": 471,
               "1": 474
-            },
-            "function_text": "Schalten"
+            }
           }
         ],
         "n_channels": 2
@@ -4782,11 +4810,11 @@
               "MD-1_O-2-0_R-1/MD-1_M-2/1",
               "MD-1_O-2-0_R-1/MD-1_M-1/1"
             ],
+            "function_text": "Schalten",
             "numbers": {
               "0": 471,
               "1": 474
-            },
-            "function_text": "Schalten"
+            }
           },
           {
             "global": false,
@@ -4795,26 +4823,25 @@
               "MD-1_O-2-1_R-2/MD-1_M-2/1",
               "MD-1_O-2-1_R-2/MD-1_M-1/1"
             ],
+            "function_text": "Schalten Rückmeldung",
             "numbers": {
               "0": 472,
               "1": 475
-            },
-            "function_text": "Schalten Rückmeldung"
+            }
           }
         ],
         "n_channels": 2
       }
     ],
-    "hardware_to_program_id": "M-0004_H-4.20.2F.2F.20230021SU-0-O000A_HP-20DE-22-0000-O000A",
-    "mount_type": "flush",
     "order_numbers": [
       "230021SU"
     ],
+    "application_name": "Schalten, Jalousie, Eingänge 20DE22",
+    "application_program_id": "M-0004_A-20DE-22-C7D8-O000A",
+    "hardware_to_program_id": "M-0004_H-4.20.2F.2F.20230021SU-0-O000A_HP-20DE-22-0000-O000A",
     "manufacturer_id": "M-0004",
     "manufacturer_name": "Albrecht Jung",
-    "application_program_id": "M-0004_A-20DE-22-C7D8-O000A",
-    "application_name": "Schalten, Jalousie, Eingänge 20DE22",
-    "product_series": "jung_pbi"
+    "mount_type": "flush"
   },
   "M-0004_A-20DF-22-8D8E-O000A": {
     "modes": [
@@ -4843,10 +4870,10 @@
             "fids": [
               "MD-4_O-2-0_R-1/MD-4_M-44/1"
             ],
+            "function_text": "Schalten",
             "numbers": {
               "0": 19
-            },
-            "function_text": "Schalten"
+            }
           },
           {
             "global": false,
@@ -4854,10 +4881,10 @@
             "fids": [
               "MD-4_O-2-1_R-2/MD-4_M-44/1"
             ],
+            "function_text": "Rückmeldung Schalten",
             "numbers": {
               "0": 20
-            },
-            "function_text": "Rückmeldung Schalten"
+            }
           }
         ],
         "n_channels": 1
@@ -4912,11 +4939,11 @@
               "MD-1_O-4-0_R-3/MD-1_M-2/1",
               "MD-1_O-4-0_R-3/MD-1_M-1/1"
             ],
+            "function_text": "Schalten",
             "numbers": {
               "0": 486,
               "1": 492
-            },
-            "function_text": "Schalten"
+            }
           },
           {
             "global": false,
@@ -4925,11 +4952,11 @@
               "MD-1_O-4-1_R-4/MD-1_M-2/1",
               "MD-1_O-4-1_R-4/MD-1_M-1/1"
             ],
+            "function_text": "Dimmen Helligkeit",
             "numbers": {
               "0": 487,
               "1": 493
-            },
-            "function_text": "Dimmen Helligkeit"
+            }
           },
           {
             "global": false,
@@ -4938,11 +4965,11 @@
               "MD-1_O-4-2_R-5/MD-1_M-2/1",
               "MD-1_O-4-2_R-5/MD-1_M-1/1"
             ],
+            "function_text": "Schalten Rückmeldung",
             "numbers": {
               "0": 488,
               "1": 494
-            },
-            "function_text": "Schalten Rückmeldung"
+            }
           }
         ],
         "n_channels": 2
@@ -4997,11 +5024,11 @@
               "MD-1_O-4-0_R-3/MD-1_M-2/1",
               "MD-1_O-4-0_R-3/MD-1_M-1/1"
             ],
+            "function_text": "Schalten",
             "numbers": {
               "0": 486,
               "1": 492
-            },
-            "function_text": "Schalten"
+            }
           },
           {
             "global": false,
@@ -5010,11 +5037,11 @@
               "MD-1_O-4-1_R-4/MD-1_M-2/1",
               "MD-1_O-4-1_R-4/MD-1_M-1/1"
             ],
+            "function_text": "Dimmen Helligkeit",
             "numbers": {
               "0": 487,
               "1": 493
-            },
-            "function_text": "Dimmen Helligkeit"
+            }
           }
         ],
         "n_channels": 2
@@ -5069,11 +5096,11 @@
               "MD-1_O-4-0_R-3/MD-1_M-2/1",
               "MD-1_O-4-0_R-3/MD-1_M-1/1"
             ],
+            "function_text": "Schalten",
             "numbers": {
               "0": 486,
               "1": 492
-            },
-            "function_text": "Schalten"
+            }
           },
           {
             "global": false,
@@ -5082,11 +5109,11 @@
               "MD-1_O-4-1_R-4/MD-1_M-2/1",
               "MD-1_O-4-1_R-4/MD-1_M-1/1"
             ],
+            "function_text": "Dimmen Helligkeit",
             "numbers": {
               "0": 487,
               "1": 493
-            },
-            "function_text": "Dimmen Helligkeit"
+            }
           }
         ],
         "n_channels": 2
@@ -5141,11 +5168,11 @@
               "MD-1_O-6-0_R-6/MD-1_M-2/1",
               "MD-1_O-6-0_R-6/MD-1_M-1/1"
             ],
+            "function_text": "Kurzzeitbetrieb",
             "numbers": {
               "0": 516,
               "1": 519
-            },
-            "function_text": "Kurzzeitbetrieb"
+            }
           },
           {
             "global": false,
@@ -5154,11 +5181,11 @@
               "MD-1_O-6-1_R-7/MD-1_M-2/1",
               "MD-1_O-6-1_R-7/MD-1_M-1/1"
             ],
+            "function_text": "Langzeitbetrieb",
             "numbers": {
               "0": 517,
               "1": 520
-            },
-            "function_text": "Langzeitbetrieb"
+            }
           }
         ],
         "n_channels": 2
@@ -5213,11 +5240,11 @@
               "MD-1_O-6-0_R-6/MD-1_M-2/1",
               "MD-1_O-6-0_R-6/MD-1_M-1/1"
             ],
+            "function_text": "Kurzzeitbetrieb",
             "numbers": {
               "0": 516,
               "1": 519
-            },
-            "function_text": "Kurzzeitbetrieb"
+            }
           },
           {
             "global": false,
@@ -5226,11 +5253,11 @@
               "MD-1_O-6-1_R-7/MD-1_M-2/1",
               "MD-1_O-6-1_R-7/MD-1_M-1/1"
             ],
+            "function_text": "Langzeitbetrieb",
             "numbers": {
               "0": 517,
               "1": 520
-            },
-            "function_text": "Langzeitbetrieb"
+            }
           }
         ],
         "n_channels": 2
@@ -5275,11 +5302,11 @@
               "MD-1_O-2-0_R-1/MD-1_M-2/1",
               "MD-1_O-2-0_R-1/MD-1_M-1/1"
             ],
+            "function_text": "Schalten",
             "numbers": {
               "0": 471,
               "1": 474
-            },
-            "function_text": "Schalten"
+            }
           }
         ],
         "n_channels": 2
@@ -5324,11 +5351,11 @@
               "MD-1_O-2-0_R-1/MD-1_M-2/1",
               "MD-1_O-2-0_R-1/MD-1_M-1/1"
             ],
+            "function_text": "Schalten",
             "numbers": {
               "0": 471,
               "1": 474
-            },
-            "function_text": "Schalten"
+            }
           }
         ],
         "n_channels": 2
@@ -5373,11 +5400,11 @@
               "MD-1_O-2-0_R-1/MD-1_M-2/1",
               "MD-1_O-2-0_R-1/MD-1_M-1/1"
             ],
+            "function_text": "Schalten",
             "numbers": {
               "0": 471,
               "1": 474
-            },
-            "function_text": "Schalten"
+            }
           },
           {
             "global": false,
@@ -5386,31 +5413,30 @@
               "MD-1_O-2-1_R-2/MD-1_M-2/1",
               "MD-1_O-2-1_R-2/MD-1_M-1/1"
             ],
+            "function_text": "Schalten Rückmeldung",
             "numbers": {
               "0": 472,
               "1": 475
-            },
-            "function_text": "Schalten Rückmeldung"
+            }
           }
         ],
         "n_channels": 2
       }
     ],
-    "hardware_to_program_id": "M-0004_H-4.20.2F.2F.20230011SU-0-O000A_HP-20DF-22-0000-O000A",
-    "mount_type": "flush",
     "order_numbers": [
       "230011SU"
     ],
+    "application_name": "Schalten, Eingänge 20DF22",
+    "application_program_id": "M-0004_A-20DF-22-8D8E-O000A",
+    "hardware_to_program_id": "M-0004_H-4.20.2F.2F.20230011SU-0-O000A_HP-20DF-22-0000-O000A",
     "manufacturer_id": "M-0004",
     "manufacturer_name": "Albrecht Jung",
-    "application_program_id": "M-0004_A-20DF-22-8D8E-O000A",
-    "application_name": "Schalten, Eingänge 20DF22",
-    "product_series": "jung_pbi"
+    "mount_type": "flush"
   },
   "M-0004_A-20E0-21-5B9E-O000A": {
     "modes": [
       {
-        "block": "control",
+        "block": "actor",
         "id": "mode_hvac_heating_cooling_master",
         "parameters": [
           {
@@ -5579,540 +5605,6 @@
               "MD-2_P-366_R-678/MD-2_M-12/1"
             ],
             "type_id": "PT-.5FAllg.5Fja1.5Fnein.5FCheckbox.201.20Bit"
-          }
-        ],
-        "objects": [
-          {
-            "global": false,
-            "cc": "CC_HVAC_SwitchHeatingCooling",
-            "fids": [
-              "MD-2_O-5-5_R-8/MD-2_M-20/1",
-              "MD-2_O-5-5_R-8/MD-2_M-4/1",
-              "MD-2_O-5-5_R-8/MD-2_M-9/1",
-              "MD-2_O-5-5_R-8/MD-2_M-10/1",
-              "MD-2_O-5-5_R-8/MD-2_M-11/1",
-              "MD-2_O-5-5_R-8/MD-2_M-12/1"
-            ],
-            "numbers": {
-              "0": 338,
-              "1": 388,
-              "2": 438,
-              "3": 488,
-              "4": 538,
-              "5": 588
-            },
-            "function_text": "Betriebsart"
-          },
-          {
-            "global": false,
-            "cc": "CC_HVAC_Mode",
-            "fids": [
-              "MD-2_O-5-7_R-32/MD-2_M-20/1",
-              "MD-2_O-5-7_R-32/MD-2_M-4/1",
-              "MD-2_O-5-7_R-32/MD-2_M-9/1",
-              "MD-2_O-5-7_R-32/MD-2_M-10/1",
-              "MD-2_O-5-7_R-32/MD-2_M-11/1",
-              "MD-2_O-5-7_R-32/MD-2_M-12/1"
-            ],
-            "numbers": {
-              "0": 340,
-              "1": 390,
-              "2": 440,
-              "3": 490,
-              "4": 540,
-              "5": 590
-            },
-            "function_text": "Betriebsmodus - Aktiver Modus - Status"
-          },
-          {
-            "global": false,
-            "cc": "CC_HVAC_Mode",
-            "fids": [
-              "MD-2_O-5-1_R-9/MD-2_M-20/1",
-              "MD-2_O-5-1_R-9/MD-2_M-4/1",
-              "MD-2_O-5-1_R-9/MD-2_M-9/1",
-              "MD-2_O-5-1_R-9/MD-2_M-10/1",
-              "MD-2_O-5-1_R-9/MD-2_M-11/1",
-              "MD-2_O-5-1_R-9/MD-2_M-12/1"
-            ],
-            "numbers": {
-              "0": 334,
-              "1": 384,
-              "2": 434,
-              "3": 484,
-              "4": 534,
-              "5": 584
-            },
-            "function_text": "Betriebsmodus - Vorgabe"
-          },
-          {
-            "global": false,
-            "cc": "CC_HVAC_ControlValue",
-            "fids": [
-              "MD-2_O-2-2_R-7/MD-2_M-20/1",
-              "MD-2_O-2-2_R-7/MD-2_M-4/1",
-              "MD-2_O-2-2_R-7/MD-2_M-9/1",
-              "MD-2_O-2-2_R-7/MD-2_M-10/1",
-              "MD-2_O-2-2_R-7/MD-2_M-11/1",
-              "MD-2_O-2-2_R-7/MD-2_M-12/1"
-            ],
-            "numbers": {
-              "0": 935,
-              "1": 977,
-              "2": 1019,
-              "3": 1061,
-              "4": 1103,
-              "5": 1145
-            },
-            "function_text": "Stellgröße - Heizen/Kühlen"
-          },
-          {
-            "global": false,
-            "cc": "CC_HVAC_CurrentSetPoint",
-            "fids": [
-              "MD-2_O-5-10_R-18/MD-2_M-20/1",
-              "MD-2_O-5-10_R-18/MD-2_M-4/1",
-              "MD-2_O-5-10_R-18/MD-2_M-9/1",
-              "MD-2_O-5-10_R-18/MD-2_M-10/1",
-              "MD-2_O-5-10_R-18/MD-2_M-11/1",
-              "MD-2_O-5-10_R-18/MD-2_M-12/1"
-            ],
-            "numbers": {
-              "0": 343,
-              "1": 393,
-              "2": 443,
-              "3": 493,
-              "4": 543,
-              "5": 593
-            },
-            "function_text": "Solltemperatur - Aktiver Betriebsmodus - Status"
-          },
-          {
-            "global": false,
-            "cc": "CC_Sensor_Temperature",
-            "fids": [
-              "MD-2_O-7-1_R-45/MD-2_M-20/1",
-              "MD-2_O-7-1_R-45/MD-2_M-4/1",
-              "MD-2_O-7-1_R-45/MD-2_M-9/1",
-              "MD-2_O-7-1_R-45/MD-2_M-10/1",
-              "MD-2_O-7-1_R-45/MD-2_M-11/1",
-              "MD-2_O-7-1_R-45/MD-2_M-12/1"
-            ],
-            "numbers": {
-              "0": 1438,
-              "1": 1448,
-              "2": 1458,
-              "3": 1468,
-              "4": 1478,
-              "5": 1488
-            },
-            "function_text": "Raumtemperatur - Messwert 1"
-          },
-          {
-            "global": false,
-            "cc": "CC_HVAC_CurrentSetPoint",
-            "fids": [
-              "MD-2_O-5-0_R-17/MD-2_M-20/1",
-              "MD-2_O-5-0_R-17/MD-2_M-4/1",
-              "MD-2_O-5-0_R-17/MD-2_M-9/1",
-              "MD-2_O-5-0_R-17/MD-2_M-10/1",
-              "MD-2_O-5-0_R-17/MD-2_M-11/1",
-              "MD-2_O-5-0_R-17/MD-2_M-12/1"
-            ],
-            "numbers": {
-              "0": 333,
-              "1": 383,
-              "2": 433,
-              "3": 483,
-              "4": 533,
-              "5": 583
-            },
-            "function_text": "Solltemperatur - Aktiver Betriebsmodus"
-          },
-          {
-            "global": false,
-            "cc": "CC_HVAC_RHCC_Status",
-            "fids": [
-              "MD-2_O-5-14_R-28/MD-2_M-20/1",
-              "MD-2_O-5-14_R-28/MD-2_M-4/1",
-              "MD-2_O-5-14_R-28/MD-2_M-9/1",
-              "MD-2_O-5-14_R-28/MD-2_M-10/1",
-              "MD-2_O-5-14_R-28/MD-2_M-11/1",
-              "MD-2_O-5-14_R-28/MD-2_M-12/1"
-            ],
-            "numbers": {
-              "0": 347,
-              "1": 397,
-              "2": 447,
-              "3": 497,
-              "4": 547,
-              "5": 597
-            },
-            "function_text": "Reglerstatus - RHCC"
-          }
-        ],
-        "n_channels": 6
-      },
-      {
-        "block": "control",
-        "id": "mode_hvac_heating_master",
-        "parameters": [
-          {
-            "global": false,
-            "type": "TypeRestriction",
-            "value": 1,
-            "context": [
-              [],
-              [],
-              [],
-              [],
-              [],
-              []
-            ],
-            "text": "Betriebsart",
-            "fids": [
-              "MD-2_P-19_R-21/MD-2_M-20/1",
-              "MD-2_P-19_R-21/MD-2_M-4/1",
-              "MD-2_P-19_R-21/MD-2_M-9/1",
-              "MD-2_P-19_R-21/MD-2_M-10/1",
-              "MD-2_P-19_R-21/MD-2_M-11/1",
-              "MD-2_P-19_R-21/MD-2_M-12/1"
-            ],
-            "type_id": "PT-.5FRE.5FBetriebsart"
-          },
-          {
-            "global": false,
-            "type": "TypeRestriction",
-            "value": 1,
-            "context": [],
-            "text": "Sollwertvorgabe",
-            "fids": [
-              "MD-2_P-44_R-79/MD-2_M-20/1",
-              "MD-2_P-44_R-79/MD-2_M-4/1",
-              "MD-2_P-44_R-79/MD-2_M-9/1",
-              "MD-2_P-44_R-79/MD-2_M-10/1",
-              "MD-2_P-44_R-79/MD-2_M-11/1",
-              "MD-2_P-44_R-79/MD-2_M-12/1"
-            ],
-            "type_id": "PT-.5FRE.5FSollwertvorgabe"
-          },
-          {
-            "global": false,
-            "type": "TypeRestriction",
-            "value": 0,
-            "context": [],
-            "text": "Betriebsmodus nach Reset",
-            "fids": [
-              "MD-2_P-39_R-72/MD-2_M-20/1",
-              "MD-2_P-39_R-72/MD-2_M-4/1",
-              "MD-2_P-39_R-72/MD-2_M-9/1",
-              "MD-2_P-39_R-72/MD-2_M-10/1",
-              "MD-2_P-39_R-72/MD-2_M-11/1",
-              "MD-2_P-39_R-72/MD-2_M-12/1"
-            ],
-            "type_id": "PT-.5FRE.5FBetriebsmodus.20KNX"
-          },
-          {
-            "global": false,
-            "type": "TypeRestriction",
-            "value": 1,
-            "context": [],
-            "text": "Sollwertvorgabe",
-            "fids": [
-              "MD-2_P-44_R-79/MD-2_M-20/1",
-              "MD-2_P-44_R-79/MD-2_M-4/1",
-              "MD-2_P-44_R-79/MD-2_M-9/1",
-              "MD-2_P-44_R-79/MD-2_M-10/1",
-              "MD-2_P-44_R-79/MD-2_M-11/1",
-              "MD-2_P-44_R-79/MD-2_M-12/1"
-            ],
-            "type_id": "PT-.5FRE.5FSollwertvorgabe"
-          },
-          {
-            "global": false,
-            "type": "TypeNumber",
-            "value": 60,
-            "context": [],
-            "text": "Zyklisches Senden der Solltemperatur\r\n   Minuten (0 = inaktiv)",
-            "fids": [
-              "MD-2_P-71_R-125/MD-2_M-20/1",
-              "MD-2_P-71_R-125/MD-2_M-4/1",
-              "MD-2_P-71_R-125/MD-2_M-9/1",
-              "MD-2_P-71_R-125/MD-2_M-10/1",
-              "MD-2_P-71_R-125/MD-2_M-11/1",
-              "MD-2_P-71_R-125/MD-2_M-12/1"
-            ],
-            "type_id": "PT-.5FRE.5F0.2E.2E.2E255"
-          },
-          {
-            "global": false,
-            "type": "TypeNumber",
-            "value": 1,
-            "context": [],
-            "text": "Zyklische Überwachung der Temperatur-Eingänge",
-            "fids": [
-              "MD-2_P-87_R-152/MD-2_M-20/1",
-              "MD-2_P-87_R-152/MD-2_M-4/1",
-              "MD-2_P-87_R-152/MD-2_M-9/1",
-              "MD-2_P-87_R-152/MD-2_M-10/1",
-              "MD-2_P-87_R-152/MD-2_M-11/1",
-              "MD-2_P-87_R-152/MD-2_M-12/1"
-            ],
-            "type_id": "PT-.5FRE.5FCheck.20Box"
-          },
-          {
-            "global": false,
-            "type": "TypeNumber",
-            "value": 59,
-            "context": [],
-            "text": "Zykluszeit der Ist-Temperatur Überwachung",
-            "fids": [
-              "MD-2_P-383_R-728/MD-2_M-20/1",
-              "MD-2_P-383_R-728/MD-2_M-4/1",
-              "MD-2_P-383_R-728/MD-2_M-9/1",
-              "MD-2_P-383_R-728/MD-2_M-10/1",
-              "MD-2_P-383_R-728/MD-2_M-11/1",
-              "MD-2_P-383_R-728/MD-2_M-12/1"
-            ],
-            "type_id": "PT-.5FRE.5F1.2E.2E.2E59"
-          },
-          {
-            "global": false,
-            "type": "TypeNumber",
-            "value": 1,
-            "context": [],
-            "text": "Status",
-            "fids": [
-              "MD-2_P-76_R-132/MD-2_M-20/1",
-              "MD-2_P-76_R-132/MD-2_M-4/1",
-              "MD-2_P-76_R-132/MD-2_M-9/1",
-              "MD-2_P-76_R-132/MD-2_M-10/1",
-              "MD-2_P-76_R-132/MD-2_M-11/1",
-              "MD-2_P-76_R-132/MD-2_M-12/1"
-            ],
-            "type_id": "PT-.5FRE.5FCheck.20Box"
-          },
-          {
-            "global": false,
-            "type": "TypeNumber",
-            "value": 0,
-            "context": [],
-            "text": "Status-Objekt - RTC",
-            "fids": [
-              "MD-2_P-365_R-676/MD-2_M-20/1",
-              "MD-2_P-365_R-676/MD-2_M-4/1",
-              "MD-2_P-365_R-676/MD-2_M-9/1",
-              "MD-2_P-365_R-676/MD-2_M-10/1",
-              "MD-2_P-365_R-676/MD-2_M-11/1",
-              "MD-2_P-365_R-676/MD-2_M-12/1"
-            ],
-            "type_id": "PT-.5FAllg.5Fja1.5Fnein.5FCheckbox.201.20Bit"
-          },
-          {
-            "global": false,
-            "type": "TypeNumber",
-            "value": 0,
-            "context": [],
-            "text": "Status-Objekt - RTSM",
-            "fids": [
-              "MD-2_P-366_R-678/MD-2_M-20/1",
-              "MD-2_P-366_R-678/MD-2_M-4/1",
-              "MD-2_P-366_R-678/MD-2_M-9/1",
-              "MD-2_P-366_R-678/MD-2_M-10/1",
-              "MD-2_P-366_R-678/MD-2_M-11/1",
-              "MD-2_P-366_R-678/MD-2_M-12/1"
-            ],
-            "type_id": "PT-.5FAllg.5Fja1.5Fnein.5FCheckbox.201.20Bit"
-          }
-        ],
-        "objects": [
-          {
-            "global": false,
-            "cc": "CC_HVAC_ControlValue",
-            "fids": [
-              "MD-2_O-2-2_R-3/MD-2_M-20/1",
-              "MD-2_O-2-2_R-3/MD-2_M-4/1",
-              "MD-2_O-2-2_R-3/MD-2_M-9/1",
-              "MD-2_O-2-2_R-3/MD-2_M-10/1",
-              "MD-2_O-2-2_R-3/MD-2_M-11/1",
-              "MD-2_O-2-2_R-3/MD-2_M-12/1"
-            ],
-            "numbers": {
-              "0": 935,
-              "1": 977,
-              "2": 1019,
-              "3": 1061,
-              "4": 1103,
-              "5": 1145
-            },
-            "function_text": "Stellgröße - Heizen"
-          },
-          {
-            "global": false,
-            "cc": "CC_HVAC_Mode",
-            "fids": [
-              "MD-2_O-5-7_R-32/MD-2_M-20/1",
-              "MD-2_O-5-7_R-32/MD-2_M-4/1",
-              "MD-2_O-5-7_R-32/MD-2_M-9/1",
-              "MD-2_O-5-7_R-32/MD-2_M-10/1",
-              "MD-2_O-5-7_R-32/MD-2_M-11/1",
-              "MD-2_O-5-7_R-32/MD-2_M-12/1"
-            ],
-            "numbers": {
-              "0": 340,
-              "1": 390,
-              "2": 440,
-              "3": 490,
-              "4": 540,
-              "5": 590
-            },
-            "function_text": "Betriebsmodus - Aktiver Modus - Status"
-          },
-          {
-            "global": false,
-            "cc": "CC_HVAC_Mode",
-            "fids": [
-              "MD-2_O-5-1_R-9/MD-2_M-20/1",
-              "MD-2_O-5-1_R-9/MD-2_M-4/1",
-              "MD-2_O-5-1_R-9/MD-2_M-9/1",
-              "MD-2_O-5-1_R-9/MD-2_M-10/1",
-              "MD-2_O-5-1_R-9/MD-2_M-11/1",
-              "MD-2_O-5-1_R-9/MD-2_M-12/1"
-            ],
-            "numbers": {
-              "0": 334,
-              "1": 384,
-              "2": 434,
-              "3": 484,
-              "4": 534,
-              "5": 584
-            },
-            "function_text": "Betriebsmodus - Vorgabe"
-          },
-          {
-            "global": false,
-            "cc": "CC_HVAC_CurrentSetPoint",
-            "fids": [
-              "MD-2_O-5-10_R-18/MD-2_M-20/1",
-              "MD-2_O-5-10_R-18/MD-2_M-4/1",
-              "MD-2_O-5-10_R-18/MD-2_M-9/1",
-              "MD-2_O-5-10_R-18/MD-2_M-10/1",
-              "MD-2_O-5-10_R-18/MD-2_M-11/1",
-              "MD-2_O-5-10_R-18/MD-2_M-12/1"
-            ],
-            "numbers": {
-              "0": 343,
-              "1": 393,
-              "2": 443,
-              "3": 493,
-              "4": 543,
-              "5": 593
-            },
-            "function_text": "Solltemperatur - Aktiver Betriebsmodus - Status"
-          },
-          {
-            "global": false,
-            "cc": "CC_Sensor_Temperature",
-            "fids": [
-              "MD-2_O-7-1_R-45/MD-2_M-20/1",
-              "MD-2_O-7-1_R-45/MD-2_M-4/1",
-              "MD-2_O-7-1_R-45/MD-2_M-9/1",
-              "MD-2_O-7-1_R-45/MD-2_M-10/1",
-              "MD-2_O-7-1_R-45/MD-2_M-11/1",
-              "MD-2_O-7-1_R-45/MD-2_M-12/1"
-            ],
-            "numbers": {
-              "0": 1438,
-              "1": 1448,
-              "2": 1458,
-              "3": 1468,
-              "4": 1478,
-              "5": 1488
-            },
-            "function_text": "Raumtemperatur - Messwert 1"
-          },
-          {
-            "global": false,
-            "cc": "CC_HVAC_CurrentSetPoint",
-            "fids": [
-              "MD-2_O-5-0_R-17/MD-2_M-20/1",
-              "MD-2_O-5-0_R-17/MD-2_M-4/1",
-              "MD-2_O-5-0_R-17/MD-2_M-9/1",
-              "MD-2_O-5-0_R-17/MD-2_M-10/1",
-              "MD-2_O-5-0_R-17/MD-2_M-11/1",
-              "MD-2_O-5-0_R-17/MD-2_M-12/1"
-            ],
-            "numbers": {
-              "0": 333,
-              "1": 383,
-              "2": 433,
-              "3": 483,
-              "4": 533,
-              "5": 583
-            },
-            "function_text": "Solltemperatur - Aktiver Betriebsmodus"
-          },
-          {
-            "global": false,
-            "cc": "CC_HVAC_RHCC_Status",
-            "fids": [
-              "MD-2_O-5-14_R-28/MD-2_M-20/1",
-              "MD-2_O-5-14_R-28/MD-2_M-4/1",
-              "MD-2_O-5-14_R-28/MD-2_M-9/1",
-              "MD-2_O-5-14_R-28/MD-2_M-10/1",
-              "MD-2_O-5-14_R-28/MD-2_M-11/1",
-              "MD-2_O-5-14_R-28/MD-2_M-12/1"
-            ],
-            "numbers": {
-              "0": 347,
-              "1": 397,
-              "2": 447,
-              "3": 497,
-              "4": 547,
-              "5": 597
-            },
-            "function_text": "Reglerstatus - RHCC"
-          }
-        ],
-        "n_channels": 6
-      },
-      {
-        "block": "actor",
-        "id": "mode_hvac_slave",
-        "parameters": [
-          {
-            "global": false,
-            "type": "TypeRestriction",
-            "value": 1,
-            "context": [
-              [],
-              [],
-              [],
-              [],
-              [],
-              []
-            ],
-            "text": "Datenformat",
-            "fids": [
-              "MD-1_P-69_R-86/MD-1_M-13/1",
-              "MD-1_P-69_R-86/MD-1_M-8/1",
-              "MD-1_P-69_R-86/MD-1_M-1/1",
-              "MD-1_P-69_R-86/MD-1_M-2/1",
-              "MD-1_P-69_R-86/MD-1_M-6/1",
-              "MD-1_P-69_R-86/MD-1_M-3/1"
-            ],
-            "type_id": "PT-.5FHA.5FDatenformat.20Auswahl"
-          },
-          {
-            "global": true,
-            "type": "TypeNumber",
-            "value": 1,
-            "context": [],
-            "text": "Servicebetrieb",
-            "fids": [
-              "P-3293_R-6667//"
-            ],
-            "type_id": "PT-.5FRE.5FCheck.20Box"
           },
           {
             "global": true,
@@ -6122,22 +5614,6 @@
             "text": "Status",
             "fids": [
               "P-1305_R-2101//"
-            ],
-            "type_id": "PT-.5FRE.5FCheck.20Box"
-          },
-          {
-            "global": false,
-            "type": "TypeNumber",
-            "value": 1,
-            "context": [],
-            "text": "Status-Objekt",
-            "fids": [
-              "MD-1_P-95_R-119/MD-1_M-13/1",
-              "MD-1_P-95_R-119/MD-1_M-8/1",
-              "MD-1_P-95_R-119/MD-1_M-1/1",
-              "MD-1_P-95_R-119/MD-1_M-2/1",
-              "MD-1_P-95_R-119/MD-1_M-6/1",
-              "MD-1_P-95_R-119/MD-1_M-3/1"
             ],
             "type_id": "PT-.5FRE.5FCheck.20Box"
           },
@@ -6160,7 +5636,23 @@
           {
             "global": false,
             "type": "TypeNumber",
-            "value": 50,
+            "value": 1,
+            "context": [],
+            "text": "Status-Objekt",
+            "fids": [
+              "MD-1_P-95_R-119/MD-1_M-13/1",
+              "MD-1_P-95_R-119/MD-1_M-8/1",
+              "MD-1_P-95_R-119/MD-1_M-1/1",
+              "MD-1_P-95_R-119/MD-1_M-2/1",
+              "MD-1_P-95_R-119/MD-1_M-6/1",
+              "MD-1_P-95_R-119/MD-1_M-3/1"
+            ],
+            "type_id": "PT-.5FRE.5FCheck.20Box"
+          },
+          {
+            "global": false,
+            "type": "TypeNumber",
+            "value": 100,
             "context": [],
             "text": "_VA1_Stellgröße_Zwang_Sommer",
             "fids": [
@@ -6255,19 +5747,564 @@
           },
           {
             "global": false,
-            "type": "TypeRestriction",
-            "value": 2,
+            "type": "TypeNumber",
+            "value": 1,
             "context": [],
-            "text": "Senden bei",
+            "text": "Kurzschluss / Überlast",
             "fids": [
-              "MD-1_P-37_R-45/MD-1_M-13/1",
-              "MD-1_P-37_R-45/MD-1_M-8/1",
-              "MD-1_P-37_R-45/MD-1_M-1/1",
-              "MD-1_P-37_R-45/MD-1_M-2/1",
-              "MD-1_P-37_R-45/MD-1_M-6/1",
-              "MD-1_P-37_R-45/MD-1_M-3/1"
+              "MD-1_P-47_R-57/MD-1_M-13/1",
+              "MD-1_P-47_R-57/MD-1_M-8/1",
+              "MD-1_P-47_R-57/MD-1_M-1/1",
+              "MD-1_P-47_R-57/MD-1_M-2/1",
+              "MD-1_P-47_R-57/MD-1_M-6/1",
+              "MD-1_P-47_R-57/MD-1_M-3/1"
             ],
-            "type_id": "PT-.5FHA.5FSenden.5Fbei"
+            "type_id": "PT-.5FRE.5FCheck.20Box"
+          },
+          {
+            "global": false,
+            "type": "TypeNumber",
+            "value": 1,
+            "context": [],
+            "text": "Stellgrößen der letzten Zykluszeit berücksichtigen",
+            "fids": [
+              "MD-1_P-52_R-64/MD-1_M-13/1",
+              "MD-1_P-52_R-64/MD-1_M-8/1",
+              "MD-1_P-52_R-64/MD-1_M-1/1",
+              "MD-1_P-52_R-64/MD-1_M-2/1",
+              "MD-1_P-52_R-64/MD-1_M-6/1",
+              "MD-1_P-52_R-64/MD-1_M-3/1"
+            ],
+            "type_id": "PT-.5FRE.5FCheck.20Box"
+          },
+          {
+            "global": true,
+            "type": "TypeNumber",
+            "value": 1,
+            "context": [],
+            "text": "Aktivieren",
+            "fids": [
+              "P-1299_R-2095//"
+            ],
+            "type_id": "PT-.5FAllg.5Fja1.5Fnein.5FCheckbox.201.20Bit"
+          }
+        ],
+        "objects": [
+          {
+            "global": false,
+            "cc": "CC_HVAC_SwitchHeatingCooling",
+            "fids": [
+              "MD-2_O-5-5_R-8/MD-2_M-20/1",
+              "MD-2_O-5-5_R-8/MD-2_M-4/1",
+              "MD-2_O-5-5_R-8/MD-2_M-9/1",
+              "MD-2_O-5-5_R-8/MD-2_M-10/1",
+              "MD-2_O-5-5_R-8/MD-2_M-11/1",
+              "MD-2_O-5-5_R-8/MD-2_M-12/1"
+            ],
+            "function_text": "Betriebsart",
+            "numbers": {
+              "0": 338,
+              "1": 388,
+              "2": 438,
+              "3": 488,
+              "4": 538,
+              "5": 588
+            }
+          },
+          {
+            "global": false,
+            "cc": "CC_HVAC_ModeStatus",
+            "fids": [
+              "MD-2_O-5-7_R-32/MD-2_M-20/1",
+              "MD-2_O-5-7_R-32/MD-2_M-4/1",
+              "MD-2_O-5-7_R-32/MD-2_M-9/1",
+              "MD-2_O-5-7_R-32/MD-2_M-10/1",
+              "MD-2_O-5-7_R-32/MD-2_M-11/1",
+              "MD-2_O-5-7_R-32/MD-2_M-12/1"
+            ],
+            "function_text": "Betriebsmodus - Aktiver Modus - Status",
+            "numbers": {
+              "0": 340,
+              "1": 390,
+              "2": 440,
+              "3": 490,
+              "4": 540,
+              "5": 590
+            }
+          },
+          {
+            "global": false,
+            "cc": "CC_HVAC_ControlValue",
+            "fids": [
+              "MD-1_O-2-3_R-7/MD-1_M-13/1",
+              "MD-1_O-2-3_R-7/MD-1_M-8/1",
+              "MD-1_O-2-3_R-7/MD-1_M-1/1",
+              "MD-1_O-2-3_R-7/MD-1_M-2/1",
+              "MD-1_O-2-3_R-7/MD-1_M-6/1",
+              "MD-1_O-2-3_R-7/MD-1_M-3/1"
+            ],
+            "function_text": "Stellgröße - Status",
+            "numbers": {
+              "0": 23,
+              "1": 38,
+              "2": 53,
+              "3": 68,
+              "4": 83,
+              "5": 98
+            }
+          },
+          {
+            "global": false,
+            "cc": "CC_HVAC_Mode",
+            "fids": [
+              "MD-2_O-5-1_R-9/MD-2_M-20/1",
+              "MD-2_O-5-1_R-9/MD-2_M-4/1",
+              "MD-2_O-5-1_R-9/MD-2_M-9/1",
+              "MD-2_O-5-1_R-9/MD-2_M-10/1",
+              "MD-2_O-5-1_R-9/MD-2_M-11/1",
+              "MD-2_O-5-1_R-9/MD-2_M-12/1"
+            ],
+            "function_text": "Betriebsmodus - Vorgabe",
+            "numbers": {
+              "0": 334,
+              "1": 384,
+              "2": 434,
+              "3": 484,
+              "4": 534,
+              "5": 584
+            }
+          },
+          {
+            "global": false,
+            "cc": "CC_HVAC_ControlValue_Set",
+            "fids": [
+              "MD-2_O-2-2_R-7/MD-2_M-20/1",
+              "MD-2_O-2-2_R-7/MD-2_M-4/1",
+              "MD-2_O-2-2_R-7/MD-2_M-9/1",
+              "MD-2_O-2-2_R-7/MD-2_M-10/1",
+              "MD-2_O-2-2_R-7/MD-2_M-11/1",
+              "MD-2_O-2-2_R-7/MD-2_M-12/1"
+            ],
+            "function_text": "Stellgröße - Heizen/Kühlen",
+            "numbers": {
+              "0": 935,
+              "1": 977,
+              "2": 1019,
+              "3": 1061,
+              "4": 1103,
+              "5": 1145
+            }
+          },
+          {
+            "global": false,
+            "cc": "CC_HVAC_ForcedPositionStatus",
+            "fids": [
+              "MD-1_O-2-12_R-25/MD-1_M-13/1",
+              "MD-1_O-2-12_R-25/MD-1_M-8/1",
+              "MD-1_O-2-12_R-25/MD-1_M-1/1",
+              "MD-1_O-2-12_R-25/MD-1_M-2/1",
+              "MD-1_O-2-12_R-25/MD-1_M-6/1",
+              "MD-1_O-2-12_R-25/MD-1_M-3/1"
+            ],
+            "function_text": "Zwangsstellung - Status",
+            "numbers": {
+              "0": 32,
+              "1": 47,
+              "2": 62,
+              "3": 77,
+              "4": 92,
+              "5": 107
+            }
+          },
+          {
+            "global": false,
+            "cc": "CC_HVAC_ControlValue_Set",
+            "fids": [
+              "MD-1_O-2-1_R-2/MD-1_M-13/1",
+              "MD-1_O-2-1_R-2/MD-1_M-8/1",
+              "MD-1_O-2-1_R-2/MD-1_M-1/1",
+              "MD-1_O-2-1_R-2/MD-1_M-2/1",
+              "MD-1_O-2-1_R-2/MD-1_M-6/1",
+              "MD-1_O-2-1_R-2/MD-1_M-3/1"
+            ],
+            "function_text": "Stellgröße",
+            "numbers": {
+              "0": 21,
+              "1": 36,
+              "2": 51,
+              "3": 66,
+              "4": 81,
+              "5": 96
+            }
+          },
+          {
+            "global": false,
+            "cc": "CC_HVAC_EmergencyStatus",
+            "fids": [
+              "MD-1_O-2-11_R-23/MD-1_M-13/1",
+              "MD-1_O-2-11_R-23/MD-1_M-8/1",
+              "MD-1_O-2-11_R-23/MD-1_M-1/1",
+              "MD-1_O-2-11_R-23/MD-1_M-2/1",
+              "MD-1_O-2-11_R-23/MD-1_M-6/1",
+              "MD-1_O-2-11_R-23/MD-1_M-3/1"
+            ],
+            "function_text": "Notbetrieb - Status",
+            "numbers": {
+              "0": 31,
+              "1": 46,
+              "2": 61,
+              "3": 76,
+              "4": 91,
+              "5": 106
+            }
+          },
+          {
+            "global": false,
+            "cc": "CC_HVAC_CurrentSetPoint",
+            "fids": [
+              "MD-2_O-5-10_R-18/MD-2_M-20/1",
+              "MD-2_O-5-10_R-18/MD-2_M-4/1",
+              "MD-2_O-5-10_R-18/MD-2_M-9/1",
+              "MD-2_O-5-10_R-18/MD-2_M-10/1",
+              "MD-2_O-5-10_R-18/MD-2_M-11/1",
+              "MD-2_O-5-10_R-18/MD-2_M-12/1"
+            ],
+            "function_text": "Solltemperatur - Aktiver Betriebsmodus - Status",
+            "numbers": {
+              "0": 343,
+              "1": 393,
+              "2": 443,
+              "3": 493,
+              "4": 543,
+              "5": 593
+            }
+          },
+          {
+            "global": false,
+            "cc": "CC_HVAC_SwitchHeatingCoolingStatus",
+            "fids": [
+              "MD-2_O-5-39_R-1/MD-2_M-20/1",
+              "MD-2_O-5-39_R-1/MD-2_M-4/1",
+              "MD-2_O-5-39_R-1/MD-2_M-9/1",
+              "MD-2_O-5-39_R-1/MD-2_M-10/1",
+              "MD-2_O-5-39_R-1/MD-2_M-11/1",
+              "MD-2_O-5-39_R-1/MD-2_M-12/1"
+            ],
+            "function_text": "Betriebsart - Status",
+            "numbers": {
+              "0": 372,
+              "1": 422,
+              "2": 472,
+              "3": 522,
+              "4": 572,
+              "5": 622
+            }
+          },
+          {
+            "global": false,
+            "cc": "CC_Sensor_Temperature",
+            "fids": [
+              "MD-2_O-7-1_R-45/MD-2_M-20/1",
+              "MD-2_O-7-1_R-45/MD-2_M-4/1",
+              "MD-2_O-7-1_R-45/MD-2_M-9/1",
+              "MD-2_O-7-1_R-45/MD-2_M-10/1",
+              "MD-2_O-7-1_R-45/MD-2_M-11/1",
+              "MD-2_O-7-1_R-45/MD-2_M-12/1"
+            ],
+            "function_text": "Raumtemperatur - Messwert 1",
+            "numbers": {
+              "0": 1438,
+              "1": 1448,
+              "2": 1458,
+              "3": 1468,
+              "4": 1478,
+              "5": 1488
+            }
+          },
+          {
+            "global": false,
+            "cc": "CC_HVAC_SetPointAbsolute",
+            "fids": [
+              "MD-2_O-5-0_R-17/MD-2_M-20/1",
+              "MD-2_O-5-0_R-17/MD-2_M-4/1",
+              "MD-2_O-5-0_R-17/MD-2_M-9/1",
+              "MD-2_O-5-0_R-17/MD-2_M-10/1",
+              "MD-2_O-5-0_R-17/MD-2_M-11/1",
+              "MD-2_O-5-0_R-17/MD-2_M-12/1"
+            ],
+            "function_text": "Solltemperatur - Aktiver Betriebsmodus",
+            "numbers": {
+              "0": 333,
+              "1": 383,
+              "2": 433,
+              "3": 483,
+              "4": 533,
+              "5": 583
+            }
+          },
+          {
+            "global": false,
+            "cc": "CC_HVAC_ForcedPosition",
+            "fids": [
+              "MD-1_O-2-4_R-5/MD-1_M-13/1",
+              "MD-1_O-2-4_R-5/MD-1_M-8/1",
+              "MD-1_O-2-4_R-5/MD-1_M-1/1",
+              "MD-1_O-2-4_R-5/MD-1_M-2/1",
+              "MD-1_O-2-4_R-5/MD-1_M-6/1",
+              "MD-1_O-2-4_R-5/MD-1_M-3/1"
+            ],
+            "function_text": "Zwangsstellung - Aktivieren / Deaktivieren",
+            "numbers": {
+              "0": 24,
+              "1": 39,
+              "2": 54,
+              "3": 69,
+              "4": 84,
+              "5": 99
+            }
+          },
+          {
+            "global": false,
+            "cc": "CC_HVAC_ShortStatus",
+            "fids": [
+              "MD-1_O-2-9_R-12/MD-1_M-13/1",
+              "MD-1_O-2-9_R-12/MD-1_M-8/1",
+              "MD-1_O-2-9_R-12/MD-1_M-1/1",
+              "MD-1_O-2-9_R-12/MD-1_M-2/1",
+              "MD-1_O-2-9_R-12/MD-1_M-6/1",
+              "MD-1_O-2-9_R-12/MD-1_M-3/1"
+            ],
+            "function_text": "Kurzschluss / Überlast - Status",
+            "numbers": {
+              "0": 29,
+              "1": 44,
+              "2": 59,
+              "3": 74,
+              "4": 89,
+              "5": 104
+            }
+          },
+          {
+            "global": false,
+            "cc": "CC_HVAC_RHCC_Status",
+            "fids": [
+              "MD-2_O-5-14_R-28/MD-2_M-20/1",
+              "MD-2_O-5-14_R-28/MD-2_M-4/1",
+              "MD-2_O-5-14_R-28/MD-2_M-9/1",
+              "MD-2_O-5-14_R-28/MD-2_M-10/1",
+              "MD-2_O-5-14_R-28/MD-2_M-11/1",
+              "MD-2_O-5-14_R-28/MD-2_M-12/1"
+            ],
+            "function_text": "Reglerstatus - RHCC",
+            "numbers": {
+              "0": 347,
+              "1": 397,
+              "2": 447,
+              "3": 497,
+              "4": 547,
+              "5": 597
+            }
+          },
+          {
+            "global": false,
+            "cc": "CC_HVAC_FlushValveStatus",
+            "fids": [
+              "MD-1_O-2-8_R-15/MD-1_M-13/1",
+              "MD-1_O-2-8_R-15/MD-1_M-8/1",
+              "MD-1_O-2-8_R-15/MD-1_M-1/1",
+              "MD-1_O-2-8_R-15/MD-1_M-2/1",
+              "MD-1_O-2-8_R-15/MD-1_M-6/1",
+              "MD-1_O-2-8_R-15/MD-1_M-3/1"
+            ],
+            "function_text": "Ventilspülung - Status",
+            "numbers": {
+              "0": 28,
+              "1": 43,
+              "2": 58,
+              "3": 73,
+              "4": 88,
+              "5": 103
+            }
+          }
+        ],
+        "n_channels": 6
+      },
+      {
+        "block": "actor",
+        "id": "mode_hvac_slave",
+        "parameters": [
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 0,
+            "context": [
+              [],
+              [],
+              [],
+              [],
+              [],
+              []
+            ],
+            "text": "Art der Regelung",
+            "fids": [
+              "MD-2_P-20_R-27/MD-2_M-20/1",
+              "MD-2_P-20_R-27/MD-2_M-4/1",
+              "MD-2_P-20_R-27/MD-2_M-9/1",
+              "MD-2_P-20_R-27/MD-2_M-10/1",
+              "MD-2_P-20_R-27/MD-2_M-11/1",
+              "MD-2_P-20_R-27/MD-2_M-12/1"
+            ],
+            "type_id": "PT-.5FRE.5FRegelart"
+          },
+          {
+            "global": true,
+            "type": "TypeNumber",
+            "value": 1,
+            "context": [],
+            "text": "Status",
+            "fids": [
+              "P-1305_R-2101//"
+            ],
+            "type_id": "PT-.5FRE.5FCheck.20Box"
+          },
+          {
+            "global": true,
+            "type": "TypeNumber",
+            "value": 1,
+            "context": [],
+            "text": "Aktivieren",
+            "fids": [
+              "P-1299_R-2095//"
+            ],
+            "type_id": "PT-.5FAllg.5Fja1.5Fnein.5FCheckbox.201.20Bit"
+          },
+          {
+            "global": false,
+            "type": "TypeNumber",
+            "value": 1,
+            "context": [],
+            "text": "Status-Objekt",
+            "fids": [
+              "MD-1_P-95_R-119/MD-1_M-13/1",
+              "MD-1_P-95_R-119/MD-1_M-8/1",
+              "MD-1_P-95_R-119/MD-1_M-1/1",
+              "MD-1_P-95_R-119/MD-1_M-2/1",
+              "MD-1_P-95_R-119/MD-1_M-6/1",
+              "MD-1_P-95_R-119/MD-1_M-3/1"
+            ],
+            "type_id": "PT-.5FRE.5FCheck.20Box"
+          },
+          {
+            "global": false,
+            "type": "TypeNumber",
+            "value": 50,
+            "context": [],
+            "text": "_VA1_Stellgröße_Notbetrieb_Sommer",
+            "fids": [
+              "MD-1_P-29_R-35/MD-1_M-13/1",
+              "MD-1_P-29_R-35/MD-1_M-8/1",
+              "MD-1_P-29_R-35/MD-1_M-1/1",
+              "MD-1_P-29_R-35/MD-1_M-2/1",
+              "MD-1_P-29_R-35/MD-1_M-6/1",
+              "MD-1_P-29_R-35/MD-1_M-3/1"
+            ],
+            "type_id": "PT-Wert.200.2E.2E.2E100.20.2810.25.20Schritte.29"
+          },
+          {
+            "global": false,
+            "type": "TypeNumber",
+            "value": 100,
+            "context": [],
+            "text": "_VA1_Stellgröße_Zwang_Sommer",
+            "fids": [
+              "MD-1_P-31_R-39/MD-1_M-13/1",
+              "MD-1_P-31_R-39/MD-1_M-8/1",
+              "MD-1_P-31_R-39/MD-1_M-1/1",
+              "MD-1_P-31_R-39/MD-1_M-2/1",
+              "MD-1_P-31_R-39/MD-1_M-6/1",
+              "MD-1_P-31_R-39/MD-1_M-3/1"
+            ],
+            "type_id": "PT-Wert.200.2E.2E.2E100.20.2810.25.20Schritte.29"
+          },
+          {
+            "global": false,
+            "type": "TypeNumber",
+            "value": 1,
+            "context": [],
+            "text": "Zwangsstellung über Objekt steuerbar",
+            "fids": [
+              "MD-1_P-33_R-41/MD-1_M-13/1",
+              "MD-1_P-33_R-41/MD-1_M-8/1",
+              "MD-1_P-33_R-41/MD-1_M-1/1",
+              "MD-1_P-33_R-41/MD-1_M-2/1",
+              "MD-1_P-33_R-41/MD-1_M-6/1",
+              "MD-1_P-33_R-41/MD-1_M-3/1"
+            ],
+            "type_id": "PT-.5FRE.5FCheck.20Box"
+          },
+          {
+            "global": false,
+            "type": "TypeNumber",
+            "value": 1,
+            "context": [],
+            "text": "Status-Objekt",
+            "fids": [
+              "MD-1_P-94_R-118/MD-1_M-13/1",
+              "MD-1_P-94_R-118/MD-1_M-8/1",
+              "MD-1_P-94_R-118/MD-1_M-1/1",
+              "MD-1_P-94_R-118/MD-1_M-2/1",
+              "MD-1_P-94_R-118/MD-1_M-6/1",
+              "MD-1_P-94_R-118/MD-1_M-3/1"
+            ],
+            "type_id": "PT-.5FRE.5FCheck.20Box"
+          },
+          {
+            "global": false,
+            "type": "TypeNumber",
+            "value": 1,
+            "context": [],
+            "text": "Status",
+            "fids": [
+              "MD-1_P-18_R-21/MD-1_M-13/1",
+              "MD-1_P-18_R-21/MD-1_M-8/1",
+              "MD-1_P-18_R-21/MD-1_M-1/1",
+              "MD-1_P-18_R-21/MD-1_M-2/1",
+              "MD-1_P-18_R-21/MD-1_M-6/1",
+              "MD-1_P-18_R-21/MD-1_M-3/1"
+            ],
+            "type_id": "PT-.5FRE.5FCheck.20Box"
+          },
+          {
+            "global": false,
+            "type": "TypeNumber",
+            "value": 1,
+            "context": [],
+            "text": "Ventilspülung",
+            "fids": [
+              "MD-1_P-19_R-22/MD-1_M-13/1",
+              "MD-1_P-19_R-22/MD-1_M-8/1",
+              "MD-1_P-19_R-22/MD-1_M-1/1",
+              "MD-1_P-19_R-22/MD-1_M-2/1",
+              "MD-1_P-19_R-22/MD-1_M-6/1",
+              "MD-1_P-19_R-22/MD-1_M-3/1"
+            ],
+            "type_id": "PT-.5FRE.5FCheck.20Box"
+          },
+          {
+            "global": false,
+            "type": "TypeNumber",
+            "value": 1,
+            "context": [],
+            "text": "Ventilstellgröße",
+            "fids": [
+              "MD-1_P-35_R-43/MD-1_M-13/1",
+              "MD-1_P-35_R-43/MD-1_M-8/1",
+              "MD-1_P-35_R-43/MD-1_M-1/1",
+              "MD-1_P-35_R-43/MD-1_M-2/1",
+              "MD-1_P-35_R-43/MD-1_M-6/1",
+              "MD-1_P-35_R-43/MD-1_M-3/1"
+            ],
+            "type_id": "PT-.5FRE.5FCheck.20Box"
           },
           {
             "global": false,
@@ -6307,48 +6344,6 @@
             "global": false,
             "cc": "CC_HVAC_ControlValue",
             "fids": [
-              "MD-1_O-2-3_R-7/MD-1_M-13/1",
-              "MD-1_O-2-3_R-7/MD-1_M-8/1",
-              "MD-1_O-2-3_R-7/MD-1_M-1/1",
-              "MD-1_O-2-3_R-7/MD-1_M-2/1",
-              "MD-1_O-2-3_R-7/MD-1_M-6/1",
-              "MD-1_O-2-3_R-7/MD-1_M-3/1"
-            ],
-            "numbers": {
-              "0": 23,
-              "1": 38,
-              "2": 53,
-              "3": 68,
-              "4": 83,
-              "5": 98
-            },
-            "function_text": "Stellgröße - Status"
-          },
-          {
-            "global": false,
-            "cc": "CC_HVAC_ForcedPosition",
-            "fids": [
-              "MD-1_O-2-12_R-25/MD-1_M-13/1",
-              "MD-1_O-2-12_R-25/MD-1_M-8/1",
-              "MD-1_O-2-12_R-25/MD-1_M-1/1",
-              "MD-1_O-2-12_R-25/MD-1_M-2/1",
-              "MD-1_O-2-12_R-25/MD-1_M-6/1",
-              "MD-1_O-2-12_R-25/MD-1_M-3/1"
-            ],
-            "numbers": {
-              "0": 32,
-              "1": 47,
-              "2": 62,
-              "3": 77,
-              "4": 92,
-              "5": 107
-            },
-            "function_text": "Zwangsstellung - Status"
-          },
-          {
-            "global": false,
-            "cc": "CC_HVAC_ControlValue",
-            "fids": [
               "MD-1_O-2-1_R-2/MD-1_M-13/1",
               "MD-1_O-2-1_R-2/MD-1_M-8/1",
               "MD-1_O-2-1_R-2/MD-1_M-1/1",
@@ -6356,6 +6351,7 @@
               "MD-1_O-2-1_R-2/MD-1_M-6/1",
               "MD-1_O-2-1_R-2/MD-1_M-3/1"
             ],
+            "function_text": "Stellgröße",
             "numbers": {
               "0": 21,
               "1": 36,
@@ -6363,8 +6359,7 @@
               "3": 66,
               "4": 81,
               "5": 96
-            },
-            "function_text": "Stellgröße"
+            }
           },
           {
             "global": false,
@@ -6377,6 +6372,7 @@
               "MD-1_O-2-4_R-5/MD-1_M-6/1",
               "MD-1_O-2-4_R-5/MD-1_M-3/1"
             ],
+            "function_text": "Zwangsstellung - Aktivieren / Deaktivieren",
             "numbers": {
               "0": 24,
               "1": 39,
@@ -6384,23 +6380,21 @@
               "3": 69,
               "4": 84,
               "5": 99
-            },
-            "function_text": "Zwangsstellung - Aktivieren / Deaktivieren"
+            }
           }
         ],
         "n_channels": 6
       }
     ],
-    "hardware_to_program_id": "M-0004_H-4.20.2F.2F.20360061SR-0-O000A_HP-20E0-21-0000-O000A",
-    "mount_type": "rail",
     "order_numbers": [
       "360061SR"
     ],
+    "application_name": "Heizungsaktor 6fach mit Regler 20E021",
+    "application_program_id": "M-0004_A-20E0-21-5B9E-O000A",
+    "hardware_to_program_id": "M-0004_H-4.20.2F.2F.20360061SR-0-O000A_HP-20E0-21-0000-O000A",
     "manufacturer_id": "M-0004",
     "manufacturer_name": "Albrecht Jung",
-    "application_program_id": "M-0004_A-20E0-21-5B9E-O000A",
-    "application_name": "Heizungsaktor 6fach mit Regler 20E021",
-    "product_series": "TODO_M-0004_A-20E0-21-5B9E-O000A"
+    "mount_type": "rail"
   },
   "M-0004_A-3030-23-F0EA-O000A": {
     "modes": [
@@ -6438,13 +6432,13 @@
               "O-71_R-56//",
               "O-91_R-69//"
             ],
+            "function_text": "Schalten",
             "numbers": {
               "0": 31,
               "1": 51,
               "2": 71,
               "3": 91
-            },
-            "function_text": "Schalten"
+            }
           },
           {
             "global": false,
@@ -6455,13 +6449,13 @@
               "O-72_R-59//",
               "O-92_R-72//"
             ],
+            "function_text": "Rückmeldung Schalten",
             "numbers": {
               "0": 32,
               "1": 52,
               "2": 72,
               "3": 92
-            },
-            "function_text": "Rückmeldung Schalten"
+            }
           },
           {
             "global": false,
@@ -6472,13 +6466,13 @@
               "O-74_R-57//",
               "O-94_R-70//"
             ],
+            "function_text": "Dimmen",
             "numbers": {
               "0": 34,
               "1": 54,
               "2": 74,
               "3": 94
-            },
-            "function_text": "Dimmen"
+            }
           },
           {
             "global": false,
@@ -6489,13 +6483,13 @@
               "O-75_R-58//",
               "O-95_R-71//"
             ],
+            "function_text": "Helligkeitswert",
             "numbers": {
               "0": 35,
               "1": 55,
               "2": 75,
               "3": 95
-            },
-            "function_text": "Helligkeitswert"
+            }
           },
           {
             "global": false,
@@ -6506,28 +6500,27 @@
               "O-76_R-61//",
               "O-96_R-90//"
             ],
+            "function_text": "Rückmeldung Helligkeitswert",
             "numbers": {
               "0": 36,
               "1": 56,
               "2": 76,
               "3": 96
-            },
-            "function_text": "Rückmeldung Helligkeitswert"
+            }
           }
         ],
         "n_channels": 4
       }
     ],
-    "hardware_to_program_id": "M-0004_H-4.20.2F.2F.20390041SR-0-O000A_HP-3030-23-0000-O000A",
-    "mount_type": "rail",
     "order_numbers": [
       "390041SR"
     ],
+    "application_name": "Dimmen 303023",
+    "application_program_id": "M-0004_A-3030-23-F0EA-O000A",
+    "hardware_to_program_id": "M-0004_H-4.20.2F.2F.20390041SR-0-O000A_HP-3030-23-0000-O000A",
     "manufacturer_id": "M-0004",
     "manufacturer_name": "Albrecht Jung",
-    "application_program_id": "M-0004_A-3030-23-F0EA-O000A",
-    "application_name": "Dimmen 303023",
-    "product_series": "303023"
+    "mount_type": "rail"
   },
   "M-0004_A-A011-13-400D-O000A": {
     "modes": [
@@ -6556,10 +6549,10 @@
             "fids": [
               "O-12_R-275//"
             ],
+            "function_text": "Externe Bewegung",
             "numbers": {
               "0": 12
-            },
-            "function_text": "Externe Bewegung"
+            }
           },
           {
             "global": false,
@@ -6567,10 +6560,10 @@
             "fids": [
               "O-3_R-94//"
             ],
+            "function_text": "Schalten",
             "numbers": {
               "0": 3
-            },
-            "function_text": "Schalten"
+            }
           }
         ],
         "n_channels": 1
@@ -6593,20 +6586,31 @@
             "type_id": "PT-Type.5FFB.5FApplikationstyp"
           }
         ],
-        "objects": [],
+        "objects": [
+          {
+            "global": false,
+            "cc": "CC_Motion_ExternalTrigger",
+            "fids": [
+              "O-13_R-226//"
+            ],
+            "function_text": "Bewegung",
+            "numbers": {
+              "0": 13
+            }
+          }
+        ],
         "n_channels": 1
       }
     ],
-    "hardware_to_program_id": "M-0004_H-4.20.2F.2F.203361.2D1MWW-1-O000A_HP-A011-13-0000-O000A",
-    "mount_type": "flush",
     "order_numbers": [
       "3361-1MWW"
     ],
+    "application_name": "Präsenzmelder Universal A01113",
+    "application_program_id": "M-0004_A-A011-13-400D-O000A",
+    "hardware_to_program_id": "M-0004_H-4.20.2F.2F.203361.2D1MWW-1-O000A_HP-A011-13-0000-O000A",
     "manufacturer_id": "M-0004",
     "manufacturer_name": "Albrecht Jung",
-    "application_program_id": "M-0004_A-A011-13-400D-O000A",
-    "application_name": "Präsenzmelder Universal A01113",
-    "product_series": "TODO_M-0004_A-A011-13-400D-O000A"
+    "mount_type": "flush"
   },
   "M-0004_A-A032-12-6F42-O000A": {
     "modes": [
@@ -6617,15 +6621,92 @@
           {
             "global": false,
             "type": "TypeRestriction",
-            "value": 1,
+            "value": 0,
             "context": [
               []
             ],
-            "text": "Applikationstyp",
+            "text": "Anwendung",
             "fids": [
-              "P-39_R-46//"
+              "P-28_R-45//"
             ],
-            "type_id": "PT-Type.5FFB.5FApplikationstyp"
+            "type_id": "PT-Type.5FFB.5FFunktion.5FFB1bisFB5"
+          },
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 0,
+            "context": [],
+            "text": "Vorgabe Betriebsart durch\r\nVor-Ort-Bedienung",
+            "fids": [
+              "P-42_R-12//"
+            ],
+            "type_id": "PT-Type.5Ffreigegeben.5Fgesperrt"
+          },
+          {
+            "global": false,
+            "type": "TypeNumber",
+            "value": 30,
+            "context": [],
+            "text": "   Dämmerungsstufe",
+            "fids": [
+              "P-55_R-2588//"
+            ],
+            "type_id": "PT-Type.5FFB.5FDämmerungsstufe.5FWert"
+          },
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 1,
+            "context": [],
+            "text": "   Objekt\r\n   \"Vorgabe Dämmerungsstufe\"",
+            "fids": [
+              "P-56_R-2620//"
+            ],
+            "type_id": "PT-Type.5FFB.5FDämmerungsstufe.5FErmittlung"
+          },
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 0,
+            "context": [],
+            "text": "   Rückmeldung\r\n   \"Aktive Dämmerungsstufe\"",
+            "fids": [
+              "P-57_R-2621//"
+            ],
+            "type_id": "PT-Type.5Fpassiv.5Faktiv"
+          },
+          {
+            "global": false,
+            "type": "TypeNumber",
+            "value": 5,
+            "context": [],
+            "text": "   Sekunden",
+            "fids": [
+              "P-94_R-2139//"
+            ],
+            "type_id": "PT-Type.5F0.2E.2E.2E59.5F8Bit"
+          },
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 1,
+            "context": [],
+            "text": "IR-Fernbedienung",
+            "fids": [
+              "P-119_R-979//"
+            ],
+            "type_id": "PT-Type.5Ffreigegeben.5Fgesperrt"
+          },
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 1,
+            "context": [],
+            "text": "Zeitverlängerung für\r\nzusätzliche Sendeverzögerung",
+            "fids": [
+              "P-95_R-2140//"
+            ],
+            "type_id": "PT-Type.5FFB.5FVerlängerung.20Sendeverzögerung"
           }
         ],
         "objects": [
@@ -6633,23 +6714,78 @@
             "global": false,
             "cc": "CC_Motion_ExternalTrigger",
             "fids": [
-              "O-12_R-333//"
+              "O-12_R-332//"
             ],
+            "function_text": "Externe Bewegung",
             "numbers": {
               "0": 12
-            },
-            "function_text": "Externe Bewegung"
+            }
+          },
+          {
+            "global": false,
+            "cc": "CC_Motion_Param_Fallback_Time_JUNG_DPT5",
+            "fids": [
+              "O-14_R-260//"
+            ],
+            "function_text": "Faktor zus. Sendeverzögerung",
+            "numbers": {
+              "0": 14
+            }
+          },
+          {
+            "global": false,
+            "cc": "CC_Motion_Lock",
+            "fids": [
+              "O-16_R-193//"
+            ],
+            "function_text": "Sperren",
+            "numbers": {
+              "0": 16
+            }
           },
           {
             "global": false,
             "cc": "CC_Output_Switch",
             "fids": [
-              "O-3_R-70//"
+              "O-3_R-52//"
             ],
+            "function_text": "Schalten",
             "numbers": {
               "0": 3
-            },
-            "function_text": "Schalten"
+            }
+          },
+          {
+            "global": false,
+            "cc": "CC_Motion_Param_Threshold",
+            "fids": [
+              "O-5_R-291//"
+            ],
+            "function_text": "Vorgabe Dämmerungsstufe",
+            "numbers": {
+              "0": 5
+            }
+          },
+          {
+            "global": false,
+            "cc": "CC_Motion_Param_Threshold",
+            "fids": [
+              "O-7_R-293//"
+            ],
+            "function_text": "Aktive Dämmerungsstufe",
+            "numbers": {
+              "0": 7
+            }
+          },
+          {
+            "global": false,
+            "cc": "CC_Motion_Param_Threshold_Used",
+            "fids": [
+              "O-8_R-294//"
+            ],
+            "function_text": "Deaktivierung Dämmerungsstufe",
+            "numbers": {
+              "0": 8
+            }
           }
         ],
         "n_channels": 1
@@ -6665,27 +6801,133 @@
             "context": [
               []
             ],
-            "text": "Applikationstyp",
+            "text": "Anwendung",
             "fids": [
-              "P-39_R-46//"
+              "P-28_R-45//"
             ],
-            "type_id": "PT-Type.5FFB.5FApplikationstyp"
+            "type_id": "PT-Type.5FFB.5FFunktion.5FFB1bisFB5"
           }
         ],
-        "objects": [],
+        "objects": [
+          {
+            "global": false,
+            "cc": "CC_Motion_ExternalTrigger",
+            "fids": [
+              "O-3_R-53//"
+            ],
+            "function_text": "Melden",
+            "numbers": {
+              "0": 3
+            }
+          }
+        ],
+        "n_channels": 1
+      },
+      {
+        "block": "sensor",
+        "id": "mode_sensors_brightness",
+        "parameters": [
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 1,
+            "context": [],
+            "text": "Funktion Helligkeitsgrenzwerte",
+            "fids": [
+              "P-211_R-1892//"
+            ],
+            "type_id": "PT-Type.5Ffreigegeben.5Fgesperrt"
+          },
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 1,
+            "context": [],
+            "text": "Telegramm senden beim Überschreiten\r\nder oberen Schwelle ?",
+            "fids": [
+              "P-220_R-1912//"
+            ],
+            "type_id": "PT-Type.5Fja.5Fnein"
+          },
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 1,
+            "context": [],
+            "text": "Telegramm senden beim Unterschreiten\r\nder unteren Schwelle ?",
+            "fids": [
+              "P-219_R-1910//"
+            ],
+            "type_id": "PT-Type.5Fja.5Fnein"
+          }
+        ],
+        "objects": [
+          {
+            "global": false,
+            "cc": "CC_Sensor_BrightnessThreshold",
+            "fids": [
+              "O-102_R-230//"
+            ],
+            "function_text": "Grenzwert 1 Schalten",
+            "numbers": {
+              "0": 102
+            }
+          },
+          {
+            "global": false,
+            "cc": "CC_Sensor_Brightness",
+            "fids": [
+              "O-1_R-5//"
+            ],
+            "function_text": "Gemessener Helligkeitswert",
+            "numbers": {
+              "0": 1
+            }
+          }
+        ],
+        "n_channels": 1
+      },
+      {
+        "block": "sensor",
+        "id": "mode_sensors_temperature",
+        "parameters": [
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 1,
+            "context": [],
+            "text": "Funktion Temperaturmessung",
+            "fids": [
+              "P-138_R-100//"
+            ],
+            "type_id": "PT-Type.5Ffreigegeben.5Fgesperrt"
+          }
+        ],
+        "objects": [
+          {
+            "global": false,
+            "cc": "CC_Sensor_Temperature",
+            "fids": [
+              "O-115_R-125//"
+            ],
+            "function_text": "Temperatur",
+            "numbers": {
+              "0": 115
+            }
+          }
+        ],
         "n_channels": 1
       }
     ],
-    "hardware_to_program_id": "M-0004_H-4.20.2F.2F.203181.2D1-1-O000A_HP-A032-12-0000-O000A",
-    "mount_type": "flush",
     "order_numbers": [
       "3181-1"
     ],
+    "application_name": "PIR Universal A03212",
+    "application_program_id": "M-0004_A-A032-12-6F42-O000A",
+    "hardware_to_program_id": "M-0004_H-4.20.2F.2F.203181.2D1-1-O000A_HP-A032-12-0000-O000A",
     "manufacturer_id": "M-0004",
     "manufacturer_name": "Albrecht Jung",
-    "application_program_id": "M-0004_A-A032-12-6F42-O000A",
-    "application_name": "PIR Universal A03212",
-    "product_series": "TODO_M-0004_A-A032-12-6F42-O000A"
+    "mount_type": "flush"
   },
   "M-0004_A-D131-21-C9F7-O000A": {
     "modes": [
@@ -6711,6 +6953,28 @@
               "MD-11_P-181_R-255/MD-11_M-36/1"
             ],
             "type_id": "PT-.5FTemperaturerfassung.20durch"
+          },
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 3,
+            "context": [],
+            "text": "Ist-Temperatur senden",
+            "fids": [
+              "MD-11_P-198_R-275/MD-11_M-36/1"
+            ],
+            "type_id": "PT-NEU.5FType.5FautoAussendenZählerstand"
+          },
+          {
+            "global": false,
+            "type": "TypeNumber",
+            "value": 25,
+            "context": [],
+            "text": "E - Temperatur - Zykluszeit min",
+            "fids": [
+              "MD-11_P-831_R-421/MD-11_M-36/1"
+            ],
+            "type_id": "PT-NEU.5FType.5FZeit.5F0bis59.5F6Bit"
           }
         ],
         "objects": [
@@ -6720,10 +6984,10 @@
             "fids": [
               "MD-11_O-21-0_R-68/MD-11_M-36/1"
             ],
+            "function_text": "Temperatursensor - Ist-Temperatur - Status",
             "numbers": {
               "0": 1237
-            },
-            "function_text": "Temperatursensor - Ist-Temperatur - Status"
+            }
           }
         ],
         "n_channels": 1
@@ -6764,10 +7028,10 @@
             "fids": [
               "MD-14_O-4-0_R-3/MD-14_M-45/1"
             ],
+            "function_text": "Dimmen - Schalten",
             "numbers": {
               "0": 153
-            },
-            "function_text": "Dimmen - Schalten"
+            }
           },
           {
             "global": false,
@@ -6775,10 +7039,10 @@
             "fids": [
               "MD-14_O-4-1_R-4/MD-14_M-45/1"
             ],
+            "function_text": "Dimmen",
             "numbers": {
               "0": 154
-            },
-            "function_text": "Dimmen"
+            }
           }
         ],
         "n_channels": 1
@@ -6819,10 +7083,10 @@
             "fids": [
               "MD-15_O-6-0_R-6/MD-15_M-46/1"
             ],
+            "function_text": "Jalousie - Kurzzeitbetrieb",
             "numbers": {
               "0": 261
-            },
-            "function_text": "Jalousie - Kurzzeitbetrieb"
+            }
           },
           {
             "global": false,
@@ -6830,10 +7094,10 @@
             "fids": [
               "MD-15_O-6-1_R-7/MD-15_M-46/1"
             ],
+            "function_text": "Jalousie - Langzeitbetrieb",
             "numbers": {
               "0": 262
-            },
-            "function_text": "Jalousie - Langzeitbetrieb"
+            }
           }
         ],
         "n_channels": 1
@@ -6874,10 +7138,10 @@
             "fids": [
               "MD-13_O-2-0_R-1/MD-13_M-44/1"
             ],
+            "function_text": "Schalten",
             "numbers": {
               "0": 49
-            },
-            "function_text": "Schalten"
+            }
           }
         ],
         "n_channels": 1
@@ -6934,11 +7198,11 @@
               "MD-3_O-2-0_R-1/MD-3_M-1/1",
               "MD-3_O-2-0_R-1/MD-3_M-8/1"
             ],
+            "function_text": "Schalten",
             "numbers": {
               "0": 49,
               "1": 53
-            },
-            "function_text": "Schalten"
+            }
           }
         ],
         "n_channels": 2
@@ -6995,11 +7259,11 @@
               "MD-3_O-2-0_R-1/MD-3_M-1/1",
               "MD-3_O-2-0_R-1/MD-3_M-8/1"
             ],
+            "function_text": "Schalten",
             "numbers": {
               "0": 49,
               "1": 53
-            },
-            "function_text": "Schalten"
+            }
           }
         ],
         "n_channels": 2
@@ -7056,11 +7320,11 @@
               "MD-3_O-2-0_R-1/MD-3_M-1/1",
               "MD-3_O-2-0_R-1/MD-3_M-8/1"
             ],
+            "function_text": "Schalten",
             "numbers": {
               "0": 49,
               "1": 53
-            },
-            "function_text": "Schalten"
+            }
           },
           {
             "global": false,
@@ -7069,26 +7333,25 @@
               "MD-3_O-2-1_R-2/MD-3_M-1/1",
               "MD-3_O-2-1_R-2/MD-3_M-8/1"
             ],
+            "function_text": "Schalten - Status",
             "numbers": {
               "0": 50,
               "1": 54
-            },
-            "function_text": "Schalten - Status"
+            }
           }
         ],
         "n_channels": 2
       }
     ],
-    "hardware_to_program_id": "M-0004_H-4.20.2F.2F.2042911.20ST-0-O000A_HP-D131-21-0000-O000A",
-    "mount_type": "flush",
     "order_numbers": [
       "42911 ST"
     ],
+    "application_name": "Tastsensor-Modul Universal 1fach D13121",
+    "application_program_id": "M-0004_A-D131-21-C9F7-O000A",
+    "hardware_to_program_id": "M-0004_H-4.20.2F.2F.2042911.20ST-0-O000A_HP-D131-21-0000-O000A",
     "manufacturer_id": "M-0004",
     "manufacturer_name": "Albrecht Jung",
-    "application_program_id": "M-0004_A-D131-21-C9F7-O000A",
-    "application_name": "Tastsensor-Modul Universal 1fach D13121",
-    "product_series": "F40"
+    "mount_type": "flush"
   },
   "M-0004_A-D132-21-1794-O000A": {
     "modes": [
@@ -7114,6 +7377,28 @@
               "MD-11_P-181_R-255/MD-11_M-36/1"
             ],
             "type_id": "PT-.5FTemperaturerfassung.20durch"
+          },
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 3,
+            "context": [],
+            "text": "Ist-Temperatur senden",
+            "fids": [
+              "MD-11_P-198_R-275/MD-11_M-36/1"
+            ],
+            "type_id": "PT-NEU.5FType.5FautoAussendenZählerstand"
+          },
+          {
+            "global": false,
+            "type": "TypeNumber",
+            "value": 25,
+            "context": [],
+            "text": "E - Temperatur - Zykluszeit min",
+            "fids": [
+              "MD-11_P-831_R-421/MD-11_M-36/1"
+            ],
+            "type_id": "PT-NEU.5FType.5FZeit.5F0bis59.5F6Bit"
           }
         ],
         "objects": [
@@ -7123,10 +7408,10 @@
             "fids": [
               "MD-11_O-21-0_R-68/MD-11_M-36/1"
             ],
+            "function_text": "Temperatursensor - Ist-Temperatur - Status",
             "numbers": {
               "0": 1237
-            },
-            "function_text": "Temperatursensor - Ist-Temperatur - Status"
+            }
           }
         ],
         "n_channels": 1
@@ -7171,11 +7456,11 @@
               "MD-14_O-4-0_R-3/MD-14_M-45/1",
               "MD-14_O-4-0_R-3/MD-14_M-25/1"
             ],
+            "function_text": "Dimmen - Schalten",
             "numbers": {
               "0": 153,
               "1": 165
-            },
-            "function_text": "Dimmen - Schalten"
+            }
           },
           {
             "global": false,
@@ -7184,11 +7469,11 @@
               "MD-14_O-4-1_R-4/MD-14_M-45/1",
               "MD-14_O-4-1_R-4/MD-14_M-25/1"
             ],
+            "function_text": "Dimmen",
             "numbers": {
               "0": 154,
               "1": 166
-            },
-            "function_text": "Dimmen"
+            }
           }
         ],
         "n_channels": 2
@@ -7233,11 +7518,11 @@
               "MD-15_O-6-0_R-6/MD-15_M-46/1",
               "MD-15_O-6-0_R-6/MD-15_M-26/1"
             ],
+            "function_text": "Jalousie - Kurzzeitbetrieb",
             "numbers": {
               "0": 261,
               "1": 269
-            },
-            "function_text": "Jalousie - Kurzzeitbetrieb"
+            }
           },
           {
             "global": false,
@@ -7246,11 +7531,11 @@
               "MD-15_O-6-1_R-7/MD-15_M-46/1",
               "MD-15_O-6-1_R-7/MD-15_M-26/1"
             ],
+            "function_text": "Jalousie - Langzeitbetrieb",
             "numbers": {
               "0": 262,
               "1": 270
-            },
-            "function_text": "Jalousie - Langzeitbetrieb"
+            }
           }
         ],
         "n_channels": 2
@@ -7295,11 +7580,11 @@
               "MD-13_O-2-0_R-1/MD-13_M-44/1",
               "MD-13_O-2-0_R-1/MD-13_M-14/1"
             ],
+            "function_text": "Schalten",
             "numbers": {
               "0": 49,
               "1": 57
-            },
-            "function_text": "Schalten"
+            }
           }
         ],
         "n_channels": 2
@@ -7376,13 +7661,13 @@
               "MD-3_O-2-0_R-1/MD-3_M-34/1",
               "MD-3_O-2-0_R-1/MD-3_M-59/1"
             ],
+            "function_text": "Schalten",
             "numbers": {
               "0": 49,
               "1": 53,
               "2": 57,
               "3": 61
-            },
-            "function_text": "Schalten"
+            }
           }
         ],
         "n_channels": 4
@@ -7459,13 +7744,13 @@
               "MD-3_O-2-0_R-1/MD-3_M-34/1",
               "MD-3_O-2-0_R-1/MD-3_M-59/1"
             ],
+            "function_text": "Schalten",
             "numbers": {
               "0": 49,
               "1": 53,
               "2": 57,
               "3": 61
-            },
-            "function_text": "Schalten"
+            }
           }
         ],
         "n_channels": 4
@@ -7542,13 +7827,13 @@
               "MD-3_O-2-0_R-1/MD-3_M-34/1",
               "MD-3_O-2-0_R-1/MD-3_M-59/1"
             ],
+            "function_text": "Schalten",
             "numbers": {
               "0": 49,
               "1": 53,
               "2": 57,
               "3": 61
-            },
-            "function_text": "Schalten"
+            }
           },
           {
             "global": false,
@@ -7559,28 +7844,27 @@
               "MD-3_O-2-1_R-2/MD-3_M-34/1",
               "MD-3_O-2-1_R-2/MD-3_M-59/1"
             ],
+            "function_text": "Schalten - Status",
             "numbers": {
               "0": 50,
               "1": 54,
               "2": 58,
               "3": 62
-            },
-            "function_text": "Schalten - Status"
+            }
           }
         ],
         "n_channels": 4
       }
     ],
-    "hardware_to_program_id": "M-0004_H-4.20.2F.2F.2042921.20ST-0-O000A_HP-D132-21-0000-O000A",
-    "mount_type": "flush",
     "order_numbers": [
       "42921 ST"
     ],
+    "application_name": "Tastsensor-Modul Universal 2fach D13221",
+    "application_program_id": "M-0004_A-D132-21-1794-O000A",
+    "hardware_to_program_id": "M-0004_H-4.20.2F.2F.2042921.20ST-0-O000A_HP-D132-21-0000-O000A",
     "manufacturer_id": "M-0004",
     "manufacturer_name": "Albrecht Jung",
-    "application_program_id": "M-0004_A-D132-21-1794-O000A",
-    "application_name": "Tastsensor-Modul Universal 2fach D13221",
-    "product_series": "F40"
+    "mount_type": "flush"
   },
   "M-0004_A-D133-21-7C78-O000A": {
     "modes": [
@@ -7606,6 +7890,28 @@
               "MD-11_P-181_R-255/MD-11_M-36/1"
             ],
             "type_id": "PT-.5FTemperaturerfassung.20durch"
+          },
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 3,
+            "context": [],
+            "text": "Ist-Temperatur senden",
+            "fids": [
+              "MD-11_P-198_R-275/MD-11_M-36/1"
+            ],
+            "type_id": "PT-NEU.5FType.5FautoAussendenZählerstand"
+          },
+          {
+            "global": false,
+            "type": "TypeNumber",
+            "value": 25,
+            "context": [],
+            "text": "E - Temperatur - Zykluszeit min",
+            "fids": [
+              "MD-11_P-831_R-421/MD-11_M-36/1"
+            ],
+            "type_id": "PT-NEU.5FType.5FZeit.5F0bis59.5F6Bit"
           }
         ],
         "objects": [
@@ -7615,10 +7921,10 @@
             "fids": [
               "MD-11_O-21-0_R-68/MD-11_M-36/1"
             ],
+            "function_text": "Temperatursensor - Ist-Temperatur - Status",
             "numbers": {
               "0": 1237
-            },
-            "function_text": "Temperatursensor - Ist-Temperatur - Status"
+            }
           }
         ],
         "n_channels": 1
@@ -7667,12 +7973,12 @@
               "MD-14_O-4-0_R-3/MD-14_M-25/1",
               "MD-14_O-4-0_R-3/MD-14_M-225/1"
             ],
+            "function_text": "Dimmen - Schalten",
             "numbers": {
               "0": 153,
               "1": 165,
               "2": 177
-            },
-            "function_text": "Dimmen - Schalten"
+            }
           },
           {
             "global": false,
@@ -7682,12 +7988,12 @@
               "MD-14_O-4-1_R-4/MD-14_M-25/1",
               "MD-14_O-4-1_R-4/MD-14_M-225/1"
             ],
+            "function_text": "Dimmen",
             "numbers": {
               "0": 154,
               "1": 166,
               "2": 178
-            },
-            "function_text": "Dimmen"
+            }
           }
         ],
         "n_channels": 3
@@ -7736,12 +8042,12 @@
               "MD-15_O-6-0_R-6/MD-15_M-26/1",
               "MD-15_O-6-0_R-6/MD-15_M-226/1"
             ],
+            "function_text": "Jalousie - Kurzzeitbetrieb",
             "numbers": {
               "0": 261,
               "1": 269,
               "2": 277
-            },
-            "function_text": "Jalousie - Kurzzeitbetrieb"
+            }
           },
           {
             "global": false,
@@ -7751,12 +8057,12 @@
               "MD-15_O-6-1_R-7/MD-15_M-26/1",
               "MD-15_O-6-1_R-7/MD-15_M-226/1"
             ],
+            "function_text": "Jalousie - Langzeitbetrieb",
             "numbers": {
               "0": 262,
               "1": 270,
               "2": 278
-            },
-            "function_text": "Jalousie - Langzeitbetrieb"
+            }
           }
         ],
         "n_channels": 3
@@ -7805,12 +8111,12 @@
               "MD-13_O-2-0_R-1/MD-13_M-14/1",
               "MD-13_O-2-0_R-1/MD-13_M-224/1"
             ],
+            "function_text": "Schalten",
             "numbers": {
               "0": 49,
               "1": 57,
               "2": 65
-            },
-            "function_text": "Schalten"
+            }
           }
         ],
         "n_channels": 3
@@ -7907,6 +8213,7 @@
               "MD-3_O-2-0_R-1/MD-3_M-234/1",
               "MD-3_O-2-0_R-1/MD-3_M-244/1"
             ],
+            "function_text": "Schalten",
             "numbers": {
               "0": 49,
               "1": 53,
@@ -7914,8 +8221,7 @@
               "3": 61,
               "4": 65,
               "5": 69
-            },
-            "function_text": "Schalten"
+            }
           }
         ],
         "n_channels": 6
@@ -8012,6 +8318,7 @@
               "MD-3_O-2-0_R-1/MD-3_M-234/1",
               "MD-3_O-2-0_R-1/MD-3_M-244/1"
             ],
+            "function_text": "Schalten",
             "numbers": {
               "0": 49,
               "1": 53,
@@ -8019,8 +8326,7 @@
               "3": 61,
               "4": 65,
               "5": 69
-            },
-            "function_text": "Schalten"
+            }
           }
         ],
         "n_channels": 6
@@ -8117,6 +8423,7 @@
               "MD-3_O-2-0_R-1/MD-3_M-234/1",
               "MD-3_O-2-0_R-1/MD-3_M-244/1"
             ],
+            "function_text": "Schalten",
             "numbers": {
               "0": 49,
               "1": 53,
@@ -8124,8 +8431,7 @@
               "3": 61,
               "4": 65,
               "5": 69
-            },
-            "function_text": "Schalten"
+            }
           },
           {
             "global": false,
@@ -8138,6 +8444,7 @@
               "MD-3_O-2-1_R-2/MD-3_M-234/1",
               "MD-3_O-2-1_R-2/MD-3_M-244/1"
             ],
+            "function_text": "Schalten - Status",
             "numbers": {
               "0": 50,
               "1": 54,
@@ -8145,23 +8452,21 @@
               "3": 62,
               "4": 66,
               "5": 70
-            },
-            "function_text": "Schalten - Status"
+            }
           }
         ],
         "n_channels": 6
       }
     ],
-    "hardware_to_program_id": "M-0004_H-4.20.2F.2F.2042931.20ST-0-O000A_HP-D133-21-0000-O000A",
-    "mount_type": "flush",
     "order_numbers": [
       "42931 ST"
     ],
+    "application_name": "Tastsensor-Modul Universal 3fach D13321",
+    "application_program_id": "M-0004_A-D133-21-7C78-O000A",
+    "hardware_to_program_id": "M-0004_H-4.20.2F.2F.2042931.20ST-0-O000A_HP-D133-21-0000-O000A",
     "manufacturer_id": "M-0004",
     "manufacturer_name": "Albrecht Jung",
-    "application_program_id": "M-0004_A-D133-21-7C78-O000A",
-    "application_name": "Tastsensor-Modul Universal 3fach D13321",
-    "product_series": "F40"
+    "mount_type": "flush"
   },
   "M-0004_A-D134-21-67E4-O000A": {
     "modes": [
@@ -8187,6 +8492,28 @@
               "MD-11_P-181_R-255/MD-11_M-36/1"
             ],
             "type_id": "PT-.5FTemperaturerfassung.20durch"
+          },
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 3,
+            "context": [],
+            "text": "Ist-Temperatur senden",
+            "fids": [
+              "MD-11_P-198_R-275/MD-11_M-36/1"
+            ],
+            "type_id": "PT-NEU.5FType.5FautoAussendenZählerstand"
+          },
+          {
+            "global": false,
+            "type": "TypeNumber",
+            "value": 25,
+            "context": [],
+            "text": "E - Temperatur - Zykluszeit min",
+            "fids": [
+              "MD-11_P-831_R-421/MD-11_M-36/1"
+            ],
+            "type_id": "PT-NEU.5FType.5FZeit.5F0bis59.5F6Bit"
           }
         ],
         "objects": [
@@ -8196,10 +8523,10 @@
             "fids": [
               "MD-11_O-21-0_R-68/MD-11_M-36/1"
             ],
+            "function_text": "Temperatursensor - Ist-Temperatur - Status",
             "numbers": {
               "0": 1237
-            },
-            "function_text": "Temperatursensor - Ist-Temperatur - Status"
+            }
           }
         ],
         "n_channels": 1
@@ -8252,13 +8579,13 @@
               "MD-14_O-4-0_R-3/MD-14_M-225/1",
               "MD-14_O-4-0_R-3/MD-14_M-255/1"
             ],
+            "function_text": "Dimmen - Schalten",
             "numbers": {
               "0": 153,
               "1": 165,
               "2": 177,
               "3": 189
-            },
-            "function_text": "Dimmen - Schalten"
+            }
           },
           {
             "global": false,
@@ -8269,13 +8596,13 @@
               "MD-14_O-4-1_R-4/MD-14_M-225/1",
               "MD-14_O-4-1_R-4/MD-14_M-255/1"
             ],
+            "function_text": "Dimmen",
             "numbers": {
               "0": 154,
               "1": 166,
               "2": 178,
               "3": 190
-            },
-            "function_text": "Dimmen"
+            }
           }
         ],
         "n_channels": 4
@@ -8328,13 +8655,13 @@
               "MD-15_O-6-0_R-6/MD-15_M-226/1",
               "MD-15_O-6-0_R-6/MD-15_M-256/1"
             ],
+            "function_text": "Jalousie - Kurzzeitbetrieb",
             "numbers": {
               "0": 261,
               "1": 269,
               "2": 277,
               "3": 285
-            },
-            "function_text": "Jalousie - Kurzzeitbetrieb"
+            }
           },
           {
             "global": false,
@@ -8345,13 +8672,13 @@
               "MD-15_O-6-1_R-7/MD-15_M-226/1",
               "MD-15_O-6-1_R-7/MD-15_M-256/1"
             ],
+            "function_text": "Jalousie - Langzeitbetrieb",
             "numbers": {
               "0": 262,
               "1": 270,
               "2": 278,
               "3": 286
-            },
-            "function_text": "Jalousie - Langzeitbetrieb"
+            }
           }
         ],
         "n_channels": 4
@@ -8404,13 +8731,13 @@
               "MD-13_O-2-0_R-1/MD-13_M-224/1",
               "MD-13_O-2-0_R-1/MD-13_M-254/1"
             ],
+            "function_text": "Schalten",
             "numbers": {
               "0": 49,
               "1": 57,
               "2": 65,
               "3": 73
-            },
-            "function_text": "Schalten"
+            }
           }
         ],
         "n_channels": 4
@@ -8527,6 +8854,7 @@
               "MD-3_O-2-0_R-1/MD-3_M-264/1",
               "MD-3_O-2-0_R-1/MD-3_M-274/1"
             ],
+            "function_text": "Schalten",
             "numbers": {
               "0": 49,
               "1": 53,
@@ -8536,8 +8864,7 @@
               "5": 69,
               "6": 73,
               "7": 77
-            },
-            "function_text": "Schalten"
+            }
           }
         ],
         "n_channels": 8
@@ -8654,6 +8981,7 @@
               "MD-3_O-2-0_R-1/MD-3_M-264/1",
               "MD-3_O-2-0_R-1/MD-3_M-274/1"
             ],
+            "function_text": "Schalten",
             "numbers": {
               "0": 49,
               "1": 53,
@@ -8663,8 +8991,7 @@
               "5": 69,
               "6": 73,
               "7": 77
-            },
-            "function_text": "Schalten"
+            }
           }
         ],
         "n_channels": 8
@@ -8781,6 +9108,7 @@
               "MD-3_O-2-0_R-1/MD-3_M-264/1",
               "MD-3_O-2-0_R-1/MD-3_M-274/1"
             ],
+            "function_text": "Schalten",
             "numbers": {
               "0": 49,
               "1": 53,
@@ -8790,8 +9118,7 @@
               "5": 69,
               "6": 73,
               "7": 77
-            },
-            "function_text": "Schalten"
+            }
           },
           {
             "global": false,
@@ -8806,6 +9133,7 @@
               "MD-3_O-2-1_R-2/MD-3_M-264/1",
               "MD-3_O-2-1_R-2/MD-3_M-274/1"
             ],
+            "function_text": "Schalten - Status",
             "numbers": {
               "0": 50,
               "1": 54,
@@ -8815,23 +9143,21 @@
               "5": 70,
               "6": 74,
               "7": 78
-            },
-            "function_text": "Schalten - Status"
+            }
           }
         ],
         "n_channels": 8
       }
     ],
-    "hardware_to_program_id": "M-0004_H-4.20.2F.2F.2042941.20ST-0-O000A_HP-D134-21-0000-O000A",
-    "mount_type": "flush",
     "order_numbers": [
       "42941 ST"
     ],
+    "application_name": "Tastsensor-Modul Universal 4fach D13421",
+    "application_program_id": "M-0004_A-D134-21-67E4-O000A",
+    "hardware_to_program_id": "M-0004_H-4.20.2F.2F.2042941.20ST-0-O000A_HP-D134-21-0000-O000A",
     "manufacturer_id": "M-0004",
     "manufacturer_name": "Albrecht Jung",
-    "application_program_id": "M-0004_A-D134-21-67E4-O000A",
-    "application_name": "Tastsensor-Modul Universal 4fach D13421",
-    "product_series": "F40"
+    "mount_type": "flush"
   },
   "M-0004_A-D141-21-39B8-O000A": {
     "modes": [
@@ -8857,6 +9183,28 @@
               "MD-11_P-181_R-255/MD-11_M-36/1"
             ],
             "type_id": "PT-.5FTemperaturerfassung.20durch"
+          },
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 3,
+            "context": [],
+            "text": "Ist-Temperatur senden",
+            "fids": [
+              "MD-11_P-198_R-275/MD-11_M-36/1"
+            ],
+            "type_id": "PT-NEU.5FType.5FautoAussendenZählerstand"
+          },
+          {
+            "global": false,
+            "type": "TypeNumber",
+            "value": 25,
+            "context": [],
+            "text": "E - Temperatur - Zykluszeit min",
+            "fids": [
+              "MD-11_P-831_R-421/MD-11_M-36/1"
+            ],
+            "type_id": "PT-NEU.5FType.5FZeit.5F0bis59.5F6Bit"
           }
         ],
         "objects": [
@@ -8866,10 +9214,10 @@
             "fids": [
               "MD-11_O-21-0_R-68/MD-11_M-36/1"
             ],
+            "function_text": "Temperatursensor - Ist-Temperatur - Status",
             "numbers": {
               "0": 1289
-            },
-            "function_text": "Temperatursensor - Ist-Temperatur - Status"
+            }
           }
         ],
         "n_channels": 1
@@ -8910,10 +9258,10 @@
             "fids": [
               "MD-14_O-4-0_R-3/MD-14_M-45/1"
             ],
+            "function_text": "Dimmen - Schalten",
             "numbers": {
               "0": 169
-            },
-            "function_text": "Dimmen - Schalten"
+            }
           },
           {
             "global": false,
@@ -8921,10 +9269,10 @@
             "fids": [
               "MD-14_O-4-1_R-4/MD-14_M-45/1"
             ],
+            "function_text": "Dimmen",
             "numbers": {
               "0": 170
-            },
-            "function_text": "Dimmen"
+            }
           }
         ],
         "n_channels": 1
@@ -8965,10 +9313,10 @@
             "fids": [
               "MD-15_O-6-0_R-6/MD-15_M-46/1"
             ],
+            "function_text": "Jalousie - Kurzzeitbetrieb",
             "numbers": {
               "0": 277
-            },
-            "function_text": "Jalousie - Kurzzeitbetrieb"
+            }
           },
           {
             "global": false,
@@ -8976,10 +9324,10 @@
             "fids": [
               "MD-15_O-6-1_R-7/MD-15_M-46/1"
             ],
+            "function_text": "Jalousie - Langzeitbetrieb",
             "numbers": {
               "0": 278
-            },
-            "function_text": "Jalousie - Langzeitbetrieb"
+            }
           }
         ],
         "n_channels": 1
@@ -9020,10 +9368,10 @@
             "fids": [
               "MD-13_O-2-0_R-1/MD-13_M-44/1"
             ],
+            "function_text": "Schalten",
             "numbers": {
               "0": 65
-            },
-            "function_text": "Schalten"
+            }
           }
         ],
         "n_channels": 1
@@ -9080,11 +9428,11 @@
               "MD-3_O-2-0_R-1/MD-3_M-1/1",
               "MD-3_O-2-0_R-1/MD-3_M-8/1"
             ],
+            "function_text": "Schalten",
             "numbers": {
               "0": 65,
               "1": 69
-            },
-            "function_text": "Schalten"
+            }
           }
         ],
         "n_channels": 2
@@ -9141,11 +9489,11 @@
               "MD-3_O-2-0_R-1/MD-3_M-1/1",
               "MD-3_O-2-0_R-1/MD-3_M-8/1"
             ],
+            "function_text": "Schalten",
             "numbers": {
               "0": 65,
               "1": 69
-            },
-            "function_text": "Schalten"
+            }
           }
         ],
         "n_channels": 2
@@ -9202,11 +9550,11 @@
               "MD-3_O-2-0_R-1/MD-3_M-1/1",
               "MD-3_O-2-0_R-1/MD-3_M-8/1"
             ],
+            "function_text": "Schalten",
             "numbers": {
               "0": 65,
               "1": 69
-            },
-            "function_text": "Schalten"
+            }
           },
           {
             "global": false,
@@ -9215,26 +9563,25 @@
               "MD-3_O-2-1_R-2/MD-3_M-1/1",
               "MD-3_O-2-1_R-2/MD-3_M-8/1"
             ],
+            "function_text": "Schalten - Status",
             "numbers": {
               "0": 66,
               "1": 70
-            },
-            "function_text": "Schalten - Status"
+            }
           }
         ],
         "n_channels": 2
       }
     ],
-    "hardware_to_program_id": "M-0004_H-4.20.2F.2F.2052911ST-0-O000A_HP-D141-21-0000-O000A",
-    "mount_type": "flush",
     "order_numbers": [
       "52911ST"
     ],
+    "application_name": "Tastsensor-Modul Universal 1fach D14121",
+    "application_program_id": "M-0004_A-D141-21-39B8-O000A",
+    "hardware_to_program_id": "M-0004_H-4.20.2F.2F.2052911ST-0-O000A_HP-D141-21-0000-O000A",
     "manufacturer_id": "M-0004",
     "manufacturer_name": "Albrecht Jung",
-    "application_program_id": "M-0004_A-D141-21-39B8-O000A",
-    "application_name": "Tastsensor-Modul Universal 1fach D14121",
-    "product_series": "F50"
+    "mount_type": "flush"
   },
   "M-0004_A-D142-21-8848-O000A": {
     "modes": [
@@ -9260,6 +9607,28 @@
               "MD-11_P-181_R-255/MD-11_M-36/1"
             ],
             "type_id": "PT-.5FTemperaturerfassung.20durch"
+          },
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 3,
+            "context": [],
+            "text": "Ist-Temperatur senden",
+            "fids": [
+              "MD-11_P-198_R-275/MD-11_M-36/1"
+            ],
+            "type_id": "PT-NEU.5FType.5FautoAussendenZählerstand"
+          },
+          {
+            "global": false,
+            "type": "TypeNumber",
+            "value": 25,
+            "context": [],
+            "text": "E - Temperatur - Zykluszeit min",
+            "fids": [
+              "MD-11_P-831_R-421/MD-11_M-36/1"
+            ],
+            "type_id": "PT-NEU.5FType.5FZeit.5F0bis59.5F6Bit"
           }
         ],
         "objects": [
@@ -9269,10 +9638,10 @@
             "fids": [
               "MD-11_O-21-0_R-68/MD-11_M-36/1"
             ],
+            "function_text": "Temperatursensor - Ist-Temperatur - Status",
             "numbers": {
               "0": 1289
-            },
-            "function_text": "Temperatursensor - Ist-Temperatur - Status"
+            }
           }
         ],
         "n_channels": 1
@@ -9317,11 +9686,11 @@
               "MD-14_O-4-0_R-3/MD-14_M-45/1",
               "MD-14_O-4-0_R-3/MD-14_M-25/1"
             ],
+            "function_text": "Dimmen - Schalten",
             "numbers": {
               "0": 169,
               "1": 181
-            },
-            "function_text": "Dimmen - Schalten"
+            }
           },
           {
             "global": false,
@@ -9330,11 +9699,11 @@
               "MD-14_O-4-1_R-4/MD-14_M-45/1",
               "MD-14_O-4-1_R-4/MD-14_M-25/1"
             ],
+            "function_text": "Dimmen",
             "numbers": {
               "0": 170,
               "1": 182
-            },
-            "function_text": "Dimmen"
+            }
           }
         ],
         "n_channels": 2
@@ -9379,11 +9748,11 @@
               "MD-15_O-6-0_R-6/MD-15_M-46/1",
               "MD-15_O-6-0_R-6/MD-15_M-26/1"
             ],
+            "function_text": "Jalousie - Kurzzeitbetrieb",
             "numbers": {
               "0": 277,
               "1": 285
-            },
-            "function_text": "Jalousie - Kurzzeitbetrieb"
+            }
           },
           {
             "global": false,
@@ -9392,11 +9761,11 @@
               "MD-15_O-6-1_R-7/MD-15_M-46/1",
               "MD-15_O-6-1_R-7/MD-15_M-26/1"
             ],
+            "function_text": "Jalousie - Langzeitbetrieb",
             "numbers": {
               "0": 278,
               "1": 286
-            },
-            "function_text": "Jalousie - Langzeitbetrieb"
+            }
           }
         ],
         "n_channels": 2
@@ -9441,11 +9810,11 @@
               "MD-13_O-2-0_R-1/MD-13_M-44/1",
               "MD-13_O-2-0_R-1/MD-13_M-14/1"
             ],
+            "function_text": "Schalten",
             "numbers": {
               "0": 65,
               "1": 73
-            },
-            "function_text": "Schalten"
+            }
           }
         ],
         "n_channels": 2
@@ -9522,13 +9891,13 @@
               "MD-3_O-2-0_R-1/MD-3_M-34/1",
               "MD-3_O-2-0_R-1/MD-3_M-59/1"
             ],
+            "function_text": "Schalten",
             "numbers": {
               "0": 65,
               "1": 69,
               "2": 73,
               "3": 77
-            },
-            "function_text": "Schalten"
+            }
           }
         ],
         "n_channels": 4
@@ -9605,13 +9974,13 @@
               "MD-3_O-2-0_R-1/MD-3_M-34/1",
               "MD-3_O-2-0_R-1/MD-3_M-59/1"
             ],
+            "function_text": "Schalten",
             "numbers": {
               "0": 65,
               "1": 69,
               "2": 73,
               "3": 77
-            },
-            "function_text": "Schalten"
+            }
           }
         ],
         "n_channels": 4
@@ -9688,13 +10057,13 @@
               "MD-3_O-2-0_R-1/MD-3_M-34/1",
               "MD-3_O-2-0_R-1/MD-3_M-59/1"
             ],
+            "function_text": "Schalten",
             "numbers": {
               "0": 65,
               "1": 69,
               "2": 73,
               "3": 77
-            },
-            "function_text": "Schalten"
+            }
           },
           {
             "global": false,
@@ -9705,28 +10074,27 @@
               "MD-3_O-2-1_R-2/MD-3_M-34/1",
               "MD-3_O-2-1_R-2/MD-3_M-59/1"
             ],
+            "function_text": "Schalten - Status",
             "numbers": {
               "0": 66,
               "1": 70,
               "2": 74,
               "3": 78
-            },
-            "function_text": "Schalten - Status"
+            }
           }
         ],
         "n_channels": 4
       }
     ],
-    "hardware_to_program_id": "M-0004_H-4.20.2F.2F.2052921ST-0-O000A_HP-D142-21-0000-O000A",
-    "mount_type": "flush",
     "order_numbers": [
       "52921ST"
     ],
+    "application_name": "Tastsensor-Modul Universal 2fach D14221",
+    "application_program_id": "M-0004_A-D142-21-8848-O000A",
+    "hardware_to_program_id": "M-0004_H-4.20.2F.2F.2052921ST-0-O000A_HP-D142-21-0000-O000A",
     "manufacturer_id": "M-0004",
     "manufacturer_name": "Albrecht Jung",
-    "application_program_id": "M-0004_A-D142-21-8848-O000A",
-    "application_name": "Tastsensor-Modul Universal 2fach D14221",
-    "product_series": "F50"
+    "mount_type": "flush"
   },
   "M-0004_A-D143-21-AB5B-O000A": {
     "modes": [
@@ -9752,6 +10120,28 @@
               "MD-11_P-181_R-255/MD-11_M-36/1"
             ],
             "type_id": "PT-.5FTemperaturerfassung.20durch"
+          },
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 3,
+            "context": [],
+            "text": "Ist-Temperatur senden",
+            "fids": [
+              "MD-11_P-198_R-275/MD-11_M-36/1"
+            ],
+            "type_id": "PT-NEU.5FType.5FautoAussendenZählerstand"
+          },
+          {
+            "global": false,
+            "type": "TypeNumber",
+            "value": 25,
+            "context": [],
+            "text": "E - Temperatur - Zykluszeit min",
+            "fids": [
+              "MD-11_P-831_R-421/MD-11_M-36/1"
+            ],
+            "type_id": "PT-NEU.5FType.5FZeit.5F0bis59.5F6Bit"
           }
         ],
         "objects": [
@@ -9761,10 +10151,10 @@
             "fids": [
               "MD-11_O-21-0_R-68/MD-11_M-36/1"
             ],
+            "function_text": "Temperatursensor - Ist-Temperatur - Status",
             "numbers": {
               "0": 1289
-            },
-            "function_text": "Temperatursensor - Ist-Temperatur - Status"
+            }
           }
         ],
         "n_channels": 1
@@ -9813,12 +10203,12 @@
               "MD-14_O-4-0_R-3/MD-14_M-25/1",
               "MD-14_O-4-0_R-3/MD-14_M-225/1"
             ],
+            "function_text": "Dimmen - Schalten",
             "numbers": {
               "0": 169,
               "1": 181,
               "2": 193
-            },
-            "function_text": "Dimmen - Schalten"
+            }
           },
           {
             "global": false,
@@ -9828,12 +10218,12 @@
               "MD-14_O-4-1_R-4/MD-14_M-25/1",
               "MD-14_O-4-1_R-4/MD-14_M-225/1"
             ],
+            "function_text": "Dimmen",
             "numbers": {
               "0": 170,
               "1": 182,
               "2": 194
-            },
-            "function_text": "Dimmen"
+            }
           }
         ],
         "n_channels": 3
@@ -9882,12 +10272,12 @@
               "MD-15_O-6-0_R-6/MD-15_M-26/1",
               "MD-15_O-6-0_R-6/MD-15_M-226/1"
             ],
+            "function_text": "Jalousie - Kurzzeitbetrieb",
             "numbers": {
               "0": 277,
               "1": 285,
               "2": 293
-            },
-            "function_text": "Jalousie - Kurzzeitbetrieb"
+            }
           },
           {
             "global": false,
@@ -9897,12 +10287,12 @@
               "MD-15_O-6-1_R-7/MD-15_M-26/1",
               "MD-15_O-6-1_R-7/MD-15_M-226/1"
             ],
+            "function_text": "Jalousie - Langzeitbetrieb",
             "numbers": {
               "0": 278,
               "1": 286,
               "2": 294
-            },
-            "function_text": "Jalousie - Langzeitbetrieb"
+            }
           }
         ],
         "n_channels": 3
@@ -9951,12 +10341,12 @@
               "MD-13_O-2-0_R-1/MD-13_M-14/1",
               "MD-13_O-2-0_R-1/MD-13_M-224/1"
             ],
+            "function_text": "Schalten",
             "numbers": {
               "0": 65,
               "1": 73,
               "2": 81
-            },
-            "function_text": "Schalten"
+            }
           }
         ],
         "n_channels": 3
@@ -10053,6 +10443,7 @@
               "MD-3_O-2-0_R-1/MD-3_M-234/1",
               "MD-3_O-2-0_R-1/MD-3_M-244/1"
             ],
+            "function_text": "Schalten",
             "numbers": {
               "0": 65,
               "1": 69,
@@ -10060,8 +10451,7 @@
               "3": 77,
               "4": 81,
               "5": 85
-            },
-            "function_text": "Schalten"
+            }
           }
         ],
         "n_channels": 6
@@ -10158,6 +10548,7 @@
               "MD-3_O-2-0_R-1/MD-3_M-234/1",
               "MD-3_O-2-0_R-1/MD-3_M-244/1"
             ],
+            "function_text": "Schalten",
             "numbers": {
               "0": 65,
               "1": 69,
@@ -10165,8 +10556,7 @@
               "3": 77,
               "4": 81,
               "5": 85
-            },
-            "function_text": "Schalten"
+            }
           }
         ],
         "n_channels": 6
@@ -10263,6 +10653,7 @@
               "MD-3_O-2-0_R-1/MD-3_M-234/1",
               "MD-3_O-2-0_R-1/MD-3_M-244/1"
             ],
+            "function_text": "Schalten",
             "numbers": {
               "0": 65,
               "1": 69,
@@ -10270,8 +10661,7 @@
               "3": 77,
               "4": 81,
               "5": 85
-            },
-            "function_text": "Schalten"
+            }
           },
           {
             "global": false,
@@ -10284,6 +10674,7 @@
               "MD-3_O-2-1_R-2/MD-3_M-234/1",
               "MD-3_O-2-1_R-2/MD-3_M-244/1"
             ],
+            "function_text": "Schalten - Status",
             "numbers": {
               "0": 66,
               "1": 70,
@@ -10291,23 +10682,21 @@
               "3": 78,
               "4": 82,
               "5": 86
-            },
-            "function_text": "Schalten - Status"
+            }
           }
         ],
         "n_channels": 6
       }
     ],
-    "hardware_to_program_id": "M-0004_H-4.20.2F.2F.2052931ST-0-O000A_HP-D143-21-0000-O000A",
-    "mount_type": "flush",
     "order_numbers": [
       "52931ST"
     ],
+    "application_name": "Tastsensor-Modul Universal 3fach D14321",
+    "application_program_id": "M-0004_A-D143-21-AB5B-O000A",
+    "hardware_to_program_id": "M-0004_H-4.20.2F.2F.2052931ST-0-O000A_HP-D143-21-0000-O000A",
     "manufacturer_id": "M-0004",
     "manufacturer_name": "Albrecht Jung",
-    "application_program_id": "M-0004_A-D143-21-AB5B-O000A",
-    "application_name": "Tastsensor-Modul Universal 3fach D14321",
-    "product_series": "F50"
+    "mount_type": "flush"
   },
   "M-0004_A-D144-21-4C84-O000A": {
     "modes": [
@@ -10333,6 +10722,28 @@
               "MD-11_P-181_R-255/MD-11_M-36/1"
             ],
             "type_id": "PT-.5FTemperaturerfassung.20durch"
+          },
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 3,
+            "context": [],
+            "text": "Ist-Temperatur senden",
+            "fids": [
+              "MD-11_P-198_R-275/MD-11_M-36/1"
+            ],
+            "type_id": "PT-NEU.5FType.5FautoAussendenZählerstand"
+          },
+          {
+            "global": false,
+            "type": "TypeNumber",
+            "value": 25,
+            "context": [],
+            "text": "E - Temperatur - Zykluszeit min",
+            "fids": [
+              "MD-11_P-831_R-421/MD-11_M-36/1"
+            ],
+            "type_id": "PT-NEU.5FType.5FZeit.5F0bis59.5F6Bit"
           }
         ],
         "objects": [
@@ -10342,10 +10753,10 @@
             "fids": [
               "MD-11_O-21-0_R-68/MD-11_M-36/1"
             ],
+            "function_text": "Temperatursensor - Ist-Temperatur - Status",
             "numbers": {
               "0": 1289
-            },
-            "function_text": "Temperatursensor - Ist-Temperatur - Status"
+            }
           }
         ],
         "n_channels": 1
@@ -10398,13 +10809,13 @@
               "MD-14_O-4-0_R-3/MD-14_M-225/1",
               "MD-14_O-4-0_R-3/MD-14_M-255/1"
             ],
+            "function_text": "Dimmen - Schalten",
             "numbers": {
               "0": 169,
               "1": 181,
               "2": 193,
               "3": 205
-            },
-            "function_text": "Dimmen - Schalten"
+            }
           },
           {
             "global": false,
@@ -10415,13 +10826,13 @@
               "MD-14_O-4-1_R-4/MD-14_M-225/1",
               "MD-14_O-4-1_R-4/MD-14_M-255/1"
             ],
+            "function_text": "Dimmen",
             "numbers": {
               "0": 170,
               "1": 182,
               "2": 194,
               "3": 206
-            },
-            "function_text": "Dimmen"
+            }
           }
         ],
         "n_channels": 4
@@ -10474,13 +10885,13 @@
               "MD-15_O-6-0_R-6/MD-15_M-226/1",
               "MD-15_O-6-0_R-6/MD-15_M-256/1"
             ],
+            "function_text": "Jalousie - Kurzzeitbetrieb",
             "numbers": {
               "0": 277,
               "1": 285,
               "2": 293,
               "3": 301
-            },
-            "function_text": "Jalousie - Kurzzeitbetrieb"
+            }
           },
           {
             "global": false,
@@ -10491,13 +10902,13 @@
               "MD-15_O-6-1_R-7/MD-15_M-226/1",
               "MD-15_O-6-1_R-7/MD-15_M-256/1"
             ],
+            "function_text": "Jalousie - Langzeitbetrieb",
             "numbers": {
               "0": 278,
               "1": 286,
               "2": 294,
               "3": 302
-            },
-            "function_text": "Jalousie - Langzeitbetrieb"
+            }
           }
         ],
         "n_channels": 4
@@ -10550,13 +10961,13 @@
               "MD-13_O-2-0_R-1/MD-13_M-224/1",
               "MD-13_O-2-0_R-1/MD-13_M-254/1"
             ],
+            "function_text": "Schalten",
             "numbers": {
               "0": 65,
               "1": 73,
               "2": 81,
               "3": 89
-            },
-            "function_text": "Schalten"
+            }
           }
         ],
         "n_channels": 4
@@ -10673,6 +11084,7 @@
               "MD-3_O-2-0_R-1/MD-3_M-264/1",
               "MD-3_O-2-0_R-1/MD-3_M-274/1"
             ],
+            "function_text": "Schalten",
             "numbers": {
               "0": 65,
               "1": 69,
@@ -10682,8 +11094,7 @@
               "5": 85,
               "6": 89,
               "7": 93
-            },
-            "function_text": "Schalten"
+            }
           }
         ],
         "n_channels": 8
@@ -10800,6 +11211,7 @@
               "MD-3_O-2-0_R-1/MD-3_M-264/1",
               "MD-3_O-2-0_R-1/MD-3_M-274/1"
             ],
+            "function_text": "Schalten",
             "numbers": {
               "0": 65,
               "1": 69,
@@ -10809,8 +11221,7 @@
               "5": 85,
               "6": 89,
               "7": 93
-            },
-            "function_text": "Schalten"
+            }
           }
         ],
         "n_channels": 8
@@ -10927,6 +11338,7 @@
               "MD-3_O-2-0_R-1/MD-3_M-264/1",
               "MD-3_O-2-0_R-1/MD-3_M-274/1"
             ],
+            "function_text": "Schalten",
             "numbers": {
               "0": 65,
               "1": 69,
@@ -10936,8 +11348,7 @@
               "5": 85,
               "6": 89,
               "7": 93
-            },
-            "function_text": "Schalten"
+            }
           },
           {
             "global": false,
@@ -10952,6 +11363,7 @@
               "MD-3_O-2-1_R-2/MD-3_M-264/1",
               "MD-3_O-2-1_R-2/MD-3_M-274/1"
             ],
+            "function_text": "Schalten - Status",
             "numbers": {
               "0": 66,
               "1": 70,
@@ -10961,23 +11373,115 @@
               "5": 86,
               "6": 90,
               "7": 94
-            },
-            "function_text": "Schalten - Status"
+            }
           }
         ],
         "n_channels": 8
       }
     ],
-    "hardware_to_program_id": "M-0004_H-4.20.2F.2F.2052941ST-0-O000A_HP-D144-21-0000-O000A",
-    "mount_type": "flush",
     "order_numbers": [
       "52941ST"
     ],
+    "application_name": "Tastsensor-Modul Universal 4fach D14421",
+    "application_program_id": "M-0004_A-D144-21-4C84-O000A",
+    "hardware_to_program_id": "M-0004_H-4.20.2F.2F.2052941ST-0-O000A_HP-D144-21-0000-O000A",
     "manufacturer_id": "M-0004",
     "manufacturer_name": "Albrecht Jung",
-    "application_program_id": "M-0004_A-D144-21-4C84-O000A",
-    "application_name": "Tastsensor-Modul Universal 4fach D14421",
-    "product_series": "F50"
+    "mount_type": "flush"
+  },
+  "M-0004_A-D164-22-B1A0-O000A": {
+    "modes": [
+      {
+        "block": "trigger",
+        "id": "mode_trigger_dim",
+        "parameters": [
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 1,
+            "context": [
+              [],
+              [],
+              [],
+              []
+            ],
+            "text": "Funktion",
+            "fids": [
+              "P-382_R-327//",
+              "P-583_R-1114//",
+              "P-739_R-421//",
+              "P-767_R-425//"
+            ],
+            "type_id": "PT-.5FFunktion.20.28Wippe.29"
+          }
+        ],
+        "objects": [],
+        "n_channels": 4
+      },
+      {
+        "block": "trigger",
+        "id": "mode_trigger_motor",
+        "parameters": [
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 2,
+            "context": [
+              [],
+              [],
+              [],
+              []
+            ],
+            "text": "Funktion",
+            "fids": [
+              "P-382_R-327//",
+              "P-583_R-1114//",
+              "P-739_R-421//",
+              "P-767_R-425//"
+            ],
+            "type_id": "PT-.5FFunktion.20.28Wippe.29"
+          }
+        ],
+        "objects": [],
+        "n_channels": 4
+      },
+      {
+        "block": "trigger",
+        "id": "mode_trigger_switch",
+        "parameters": [
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 0,
+            "context": [
+              [],
+              [],
+              [],
+              []
+            ],
+            "text": "Funktion",
+            "fids": [
+              "P-382_R-327//",
+              "P-583_R-1114//",
+              "P-739_R-421//",
+              "P-767_R-425//"
+            ],
+            "type_id": "PT-.5FFunktion.20.28Wippe.29"
+          }
+        ],
+        "objects": [],
+        "n_channels": 4
+      }
+    ],
+    "order_numbers": [
+      "5294D1ST"
+    ],
+    "application_name": "Raumcontroller-Modul 4fach D16422",
+    "application_program_id": "M-0004_A-D164-22-B1A0-O000A",
+    "hardware_to_program_id": "M-0004_H-4.20.2F.2F.205294D1ST-0-O000A_HP-D164-22-0000-O000A",
+    "manufacturer_id": "M-0004",
+    "manufacturer_name": "Albrecht Jung",
+    "mount_type": "flush"
   },
   "M-0083_A-018A-31-EEE8": {
     "modes": [
@@ -11004,10 +11508,10 @@
             "fids": [
               "O-133_R-11//"
             ],
+            "function_text": "Tag = 1 / Nacht = 0",
             "numbers": {
               "0": 133
-            },
-            "function_text": "Tag = 1 / Nacht = 0"
+            }
           },
           {
             "global": true,
@@ -11015,10 +11519,10 @@
             "fids": [
               "O-139_R-1//"
             ],
+            "function_text": "Aktuellen Wert empfangen",
             "numbers": {
               "0": 139
-            },
-            "function_text": "Aktuellen Wert empfangen"
+            }
           }
         ],
         "n_channels": 1
@@ -11131,6 +11635,7 @@
               "MD-2_O-2-0_R-118/MD-2_M-17/1",
               "MD-2_O-2-0_R-118/MD-2_M-18/1"
             ],
+            "function_text": "Sollwertverschiebung",
             "numbers": {
               "0": 0,
               "1": 14,
@@ -11138,8 +11643,7 @@
               "3": 42,
               "4": 56,
               "5": 70
-            },
-            "function_text": "Sollwertverschiebung"
+            }
           },
           {
             "global": false,
@@ -11152,6 +11656,7 @@
               "MD-2_O-2-2_R-114/MD-2_M-17/1",
               "MD-2_O-2-2_R-114/MD-2_M-18/1"
             ],
+            "function_text": "Status aktueller Sollwert",
             "numbers": {
               "0": 2,
               "1": 16,
@@ -11159,8 +11664,7 @@
               "3": 44,
               "4": 58,
               "5": 72
-            },
-            "function_text": "Status aktueller Sollwert"
+            }
           }
         ],
         "n_channels": 6
@@ -11322,10 +11826,10 @@
             "fids": [
               "O-135_R-370//"
             ],
+            "function_text": "Messwert senden",
             "numbers": {
               "0": 135
-            },
-            "function_text": "Messwert senden"
+            }
           }
         ],
         "n_channels": 1
@@ -11438,6 +11942,7 @@
               "MD-2_O-2-0_R-129/MD-2_M-17/1",
               "MD-2_O-2-0_R-129/MD-2_M-18/1"
             ],
+            "function_text": "Dimmen Ein/Aus",
             "numbers": {
               "0": 0,
               "1": 14,
@@ -11445,8 +11950,7 @@
               "3": 42,
               "4": 56,
               "5": 70
-            },
-            "function_text": "Dimmen Ein/Aus"
+            }
           },
           {
             "global": false,
@@ -11459,6 +11963,7 @@
               "MD-2_O-2-1_R-130/MD-2_M-17/1",
               "MD-2_O-2-1_R-130/MD-2_M-18/1"
             ],
+            "function_text": "Dimmen relativ",
             "numbers": {
               "0": 1,
               "1": 15,
@@ -11466,8 +11971,7 @@
               "3": 43,
               "4": 57,
               "5": 71
-            },
-            "function_text": "Dimmen relativ"
+            }
           },
           {
             "global": false,
@@ -11480,6 +11984,7 @@
               "MD-2_O-2-3_R-140/MD-2_M-17/1",
               "MD-2_O-2-3_R-140/MD-2_M-18/1"
             ],
+            "function_text": "Status Dimmwert für Anzeige",
             "numbers": {
               "0": 3,
               "1": 17,
@@ -11487,8 +11992,7 @@
               "3": 45,
               "4": 59,
               "5": 73
-            },
-            "function_text": "Status Dimmwert für Anzeige"
+            }
           }
         ],
         "n_channels": 6
@@ -11727,6 +12231,7 @@
               "MD-2_O-2-0_R-76/MD-2_M-17/1",
               "MD-2_O-2-0_R-76/MD-2_M-18/1"
             ],
+            "function_text": "Schalten",
             "numbers": {
               "0": 0,
               "1": 14,
@@ -11734,8 +12239,7 @@
               "3": 42,
               "4": 56,
               "5": 70
-            },
-            "function_text": "Schalten"
+            }
           },
           {
             "global": false,
@@ -11748,6 +12252,7 @@
               "MD-2_O-2-2_R-96/MD-2_M-17/1",
               "MD-2_O-2-2_R-96/MD-2_M-18/1"
             ],
+            "function_text": "Schalten",
             "numbers": {
               "0": 2,
               "1": 16,
@@ -11755,8 +12260,7 @@
               "3": 44,
               "4": 58,
               "5": 72
-            },
-            "function_text": "Schalten"
+            }
           },
           {
             "global": false,
@@ -11769,6 +12273,7 @@
               "MD-2_O-2-3_R-97/MD-2_M-17/1",
               "MD-2_O-2-3_R-97/MD-2_M-18/1"
             ],
+            "function_text": "Status für Anzeige",
             "numbers": {
               "0": 3,
               "1": 17,
@@ -11776,8 +12281,7 @@
               "3": 45,
               "4": 59,
               "5": 73
-            },
-            "function_text": "Status für Anzeige"
+            }
           }
         ],
         "n_channels": 6
@@ -11890,6 +12394,7 @@
               "MD-2_O-2-0_R-125/MD-2_M-17/1",
               "MD-2_O-2-0_R-125/MD-2_M-18/1"
             ],
+            "function_text": "Jalousie Auf/Ab",
             "numbers": {
               "0": 0,
               "1": 14,
@@ -11897,8 +12402,7 @@
               "3": 42,
               "4": 56,
               "5": 70
-            },
-            "function_text": "Jalousie Auf/Ab"
+            }
           },
           {
             "global": false,
@@ -11911,6 +12415,7 @@
               "MD-2_O-2-1_R-126/MD-2_M-17/1",
               "MD-2_O-2-1_R-126/MD-2_M-18/1"
             ],
+            "function_text": "Stopp / Lamellen Auf/Zu",
             "numbers": {
               "0": 1,
               "1": 15,
@@ -11918,8 +12423,7 @@
               "3": 43,
               "4": 57,
               "5": 71
-            },
-            "function_text": "Stopp / Lamellen Auf/Zu"
+            }
           },
           {
             "global": false,
@@ -11932,6 +12436,7 @@
               "MD-2_O-2-3_R-138/MD-2_M-17/1",
               "MD-2_O-2-3_R-138/MD-2_M-18/1"
             ],
+            "function_text": "Status \"Höhe\" für Anzeige",
             "numbers": {
               "0": 3,
               "1": 17,
@@ -11939,8 +12444,7 @@
               "3": 45,
               "4": 59,
               "5": 73
-            },
-            "function_text": "Status \"Höhe\" für Anzeige"
+            }
           }
         ],
         "n_channels": 6
@@ -12101,6 +12605,7 @@
               "MD-2_O-2-0_R-1/MD-2_M-17/1",
               "MD-2_O-2-0_R-1/MD-2_M-18/1"
             ],
+            "function_text": "Schalten",
             "numbers": {
               "0": 0,
               "1": 14,
@@ -12108,8 +12613,7 @@
               "3": 42,
               "4": 56,
               "5": 70
-            },
-            "function_text": "Schalten"
+            }
           }
         ],
         "n_channels": 6
@@ -12150,10 +12654,10 @@
             "fids": [
               "O-84_R-189//"
             ],
+            "function_text": "Schalten",
             "numbers": {
               "0": 84
-            },
-            "function_text": "Schalten"
+            }
           },
           {
             "global": false,
@@ -12161,10 +12665,10 @@
             "fids": [
               "O-86_R-200//"
             ],
+            "function_text": "Schalten",
             "numbers": {
               "0": 86
-            },
-            "function_text": "Schalten"
+            }
           }
         ],
         "n_channels": 1
@@ -12309,6 +12813,7 @@
               "MD-2_O-2-0_R-1/MD-2_M-17/1",
               "MD-2_O-2-0_R-1/MD-2_M-18/1"
             ],
+            "function_text": "Schalten",
             "numbers": {
               "0": 0,
               "1": 14,
@@ -12316,8 +12821,7 @@
               "3": 42,
               "4": 56,
               "5": 70
-            },
-            "function_text": "Schalten"
+            }
           },
           {
             "global": false,
@@ -12330,6 +12834,7 @@
               "MD-2_O-2-1_R-2/MD-2_M-17/1",
               "MD-2_O-2-1_R-2/MD-2_M-18/1"
             ],
+            "function_text": "Status für Anzeige",
             "numbers": {
               "0": 1,
               "1": 15,
@@ -12337,8 +12842,7 @@
               "3": 43,
               "4": 57,
               "5": 71
-            },
-            "function_text": "Status für Anzeige"
+            }
           }
         ],
         "n_channels": 6
@@ -12374,10 +12878,10 @@
             "fids": [
               "O-84_R-222//"
             ],
+            "function_text": "Umschalten",
             "numbers": {
               "0": 84
-            },
-            "function_text": "Umschalten"
+            }
           },
           {
             "global": false,
@@ -12385,10 +12889,10 @@
             "fids": [
               "O-85_R-223//"
             ],
+            "function_text": "Status für Umschaltung",
             "numbers": {
               "0": 85
-            },
-            "function_text": "Status für Umschaltung"
+            }
           }
         ],
         "n_channels": 1
@@ -12533,6 +13037,7 @@
               "MD-2_O-2-1_R-132/MD-2_M-17/1",
               "MD-2_O-2-1_R-132/MD-2_M-18/1"
             ],
+            "function_text": "Farbtemperatur relativ ändern",
             "numbers": {
               "0": 1,
               "1": 15,
@@ -12540,8 +13045,7 @@
               "3": 43,
               "4": 57,
               "5": 71
-            },
-            "function_text": "Farbtemperatur relativ ändern"
+            }
           },
           {
             "global": false,
@@ -12554,6 +13058,7 @@
               "MD-2_O-2-3_R-152/MD-2_M-17/1",
               "MD-2_O-2-3_R-152/MD-2_M-18/1"
             ],
+            "function_text": "Status: Farbtemperatur",
             "numbers": {
               "0": 3,
               "1": 17,
@@ -12561,23 +13066,21 @@
               "3": 45,
               "4": 59,
               "5": 73
-            },
-            "function_text": "Status: Farbtemperatur"
+            }
           }
         ],
         "n_channels": 6
       }
     ],
-    "hardware_to_program_id": "M-0083_H-3.2E37-1_HP-018A-31-0000",
-    "mount_type": "flush",
     "order_numbers": [
       "BE-GT2Tx.02",
       "BE-TAS86Tx.02"
     ],
+    "application_name": "Glastaster II Smart, Temperatur",
+    "application_program_id": "M-0083_A-018A-31-EEE8",
+    "hardware_to_program_id": "M-0083_H-3.2E37-1_HP-018A-31-0000",
     "manufacturer_id": "M-0083",
     "manufacturer_name": "MDT technologies",
-    "application_program_id": "M-0083_A-018A-31-EEE8",
-    "application_name": "Glastaster II Smart, Temperatur",
-    "product_series": "TODO_M-0083_A-018A-31-EEE8"
+    "mount_type": "flush"
   }
 }
