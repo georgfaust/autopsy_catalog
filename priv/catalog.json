@@ -19752,6 +19752,244 @@
   "M-0102_A-2245-60-553F": {
     "modes": [
       {
+        "block": "actor",
+        "id": "mode_motors_roller_shutter",
+        "parameters": [
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 1,
+            "context": [],
+            "text": "Funktion",
+            "fids": [
+              "P-181_R-181//"
+            ],
+            "type_id": "PT-PT.5FUM.5FFN"
+          }
+        ],
+        "objects": [
+          {
+            "global": false,
+            "cc": "CC_Motor_Move",
+            "fids": [
+              "O-81_R-93//"
+            ],
+            "function_text": "Fahren",
+            "numbers": {
+              "0": 81
+            }
+          },
+          {
+            "global": false,
+            "cc": "CC_Motor_Stop",
+            "fids": [
+              "O-82_R-94//"
+            ],
+            "function_text": "Stopp",
+            "numbers": {
+              "0": 82
+            }
+          },
+          {
+            "global": false,
+            "cc": "CC_Motor_Position",
+            "fids": [
+              "O-84_R-95//"
+            ],
+            "function_text": "Position",
+            "numbers": {
+              "0": 84
+            }
+          },
+          {
+            "global": false,
+            "cc": "CC_Motor_Lock",
+            "fids": [
+              "O-90_R-97//"
+            ],
+            "function_text": "Sperren",
+            "numbers": {
+              "0": 90
+            }
+          },
+          {
+            "global": false,
+            "cc": "CC_Motor_PositionStatus",
+            "fids": [
+              "O-93_R-100//"
+            ],
+            "function_text": "Status Position",
+            "numbers": {
+              "0": 93
+            }
+          },
+          {
+            "global": false,
+            "cc": "CC_Motor_Param_Move_Dn_Time",
+            "fids": [
+              "O-97_R-103//"
+            ],
+            "function_text": "Parameter Verfahrzeit Abfahrt",
+            "numbers": {
+              "0": 97
+            }
+          },
+          {
+            "global": false,
+            "cc": "CC_Motor_Param_Move_Up_Time",
+            "fids": [
+              "O-98_R-104//"
+            ],
+            "function_text": "Parameter Verfahrzeit Auffahrt",
+            "numbers": {
+              "0": 98
+            }
+          }
+        ],
+        "n_channels": 1
+      },
+      {
+        "block": "actor",
+        "id": "mode_motors_venetian_blind",
+        "parameters": [
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 1,
+            "context": [],
+            "text": "Funktion",
+            "fids": [
+              "P-181_R-181//"
+            ],
+            "type_id": "PT-PT.5FUM.5FFN"
+          },
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 1,
+            "context": [],
+            "text": "Behangtyp",
+            "fids": [
+              "P-182_R-182//"
+            ],
+            "type_id": "PT-PT.5FSHADE.5FT"
+          },
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 26,
+            "context": [],
+            "text": "Schrittweite Lamellen",
+            "fids": [
+              "P-193_R-193//"
+            ],
+            "type_id": "PT-PT.5FSLATS.5FRESOLUTION"
+          }
+        ],
+        "objects": [
+          {
+            "global": false,
+            "cc": "CC_Motor_Move",
+            "fids": [
+              "O-81_R-93//"
+            ],
+            "function_text": "Fahren",
+            "numbers": {
+              "0": 81
+            }
+          },
+          {
+            "global": false,
+            "cc": "CC_Motor_Stop",
+            "fids": [
+              "O-82_R-94//"
+            ],
+            "function_text": "Stopp",
+            "numbers": {
+              "0": 82
+            }
+          },
+          {
+            "global": false,
+            "cc": "CC_Motor_Position",
+            "fids": [
+              "O-84_R-95//"
+            ],
+            "function_text": "Position",
+            "numbers": {
+              "0": 84
+            }
+          },
+          {
+            "global": false,
+            "cc": "CC_Motor_BladePosition",
+            "fids": [
+              "O-85_R-106//"
+            ],
+            "function_text": "Lamelle",
+            "numbers": {
+              "0": 85
+            }
+          },
+          {
+            "global": false,
+            "cc": "CC_Motor_PositionStatus",
+            "fids": [
+              "O-93_R-100//"
+            ],
+            "function_text": "Status Position",
+            "numbers": {
+              "0": 93
+            }
+          },
+          {
+            "global": false,
+            "cc": "CC_Motor_BladePositionStatus",
+            "fids": [
+              "O-94_R-107//"
+            ],
+            "function_text": "Status Lamelle",
+            "numbers": {
+              "0": 94
+            }
+          },
+          {
+            "global": false,
+            "cc": "CC_Motor_Param_Move_Dn_Time",
+            "fids": [
+              "O-97_R-103//"
+            ],
+            "function_text": "Parameter Verfahrzeit Abfahrt",
+            "numbers": {
+              "0": 97
+            }
+          },
+          {
+            "global": false,
+            "cc": "CC_Motor_Param_Move_Up_Time",
+            "fids": [
+              "O-98_R-104//"
+            ],
+            "function_text": "Parameter Verfahrzeit Auffahrt",
+            "numbers": {
+              "0": 98
+            }
+          },
+          {
+            "global": false,
+            "cc": "CC_Motor_Param_Slat_Time",
+            "fids": [
+              "O-99_R-105//"
+            ],
+            "function_text": "Parameter Verfahrzeit Lamellen",
+            "numbers": {
+              "0": 99
+            }
+          }
+        ],
+        "n_channels": 1
+      },
+      {
         "block": "led",
         "id": "mode_status_led",
         "parameters": [

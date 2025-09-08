@@ -150,4 +150,10 @@ defmodule AutopsyCatalog do
   def get, do: @catalog_raw
   def get_planner_catalog, do: @catalog_planner
   def get_cuete_catalog, do: @catalog_cuete
+
+  def get_ordnernumers_to_appid() do
+    for app <- @catalog_raw, order_number <- app.order_numbers, into: %{} do
+      {order_number, app.application_program_id}
+    end
+  end
 end
