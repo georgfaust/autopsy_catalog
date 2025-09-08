@@ -4119,50 +4119,6 @@
               "MD-3_P-14_R-14/MD-3_M-18/1"
             ],
             "type_id": "PT-.5FJA.5FBetriebsart"
-          },
-          {
-            "global": false,
-            "type": "TypeNumber",
-            "value": 1,
-            "context": [],
-            "text": "   Zyklisches Senden bei aktiver Fahrt",
-            "fids": [
-              "MD-3_P-78_R-128/MD-3_M-18/1"
-            ],
-            "type_id": "PT-.5FAllg.5Fja1.5Fnein.5FCheckbox"
-          },
-          {
-            "global": false,
-            "type": "TypeNumber",
-            "value": 2,
-            "context": [],
-            "text": "      Zykluszeit\r\n         Sekunden",
-            "fids": [
-              "MD-3_P-79_R-130/MD-3_M-18/1"
-            ],
-            "type_id": "PT-.5FJA.5FZeit.5F2bis59"
-          },
-          {
-            "global": false,
-            "type": "TypeRestriction",
-            "value": 1,
-            "context": [],
-            "text": "Nach ETS-Programmiervorgang",
-            "fids": [
-              "MD-3_UP-15_R-20/MD-3_M-18/1"
-            ],
-            "type_id": "PT-.5FJA.5FVerhaltenETS.5FJalRoll"
-          },
-          {
-            "global": false,
-            "type": "TypeRestriction",
-            "value": 1,
-            "context": [],
-            "text": "Nach Busspannungswiederkehr",
-            "fids": [
-              "MD-3_UP-17_R-22/MD-3_M-18/1"
-            ],
-            "type_id": "PT-.5FJA.5FBuswdk.5FJalRoll"
           }
         ],
         "objects": [
@@ -4229,50 +4185,6 @@
               "MD-3_P-14_R-14/MD-3_M-18/1"
             ],
             "type_id": "PT-.5FJA.5FBetriebsart"
-          },
-          {
-            "global": false,
-            "type": "TypeRestriction",
-            "value": 1,
-            "context": [],
-            "text": "Nach ETS-Programmiervorgang",
-            "fids": [
-              "MD-3_UP-15_R-15/MD-3_M-18/1"
-            ],
-            "type_id": "PT-.5FJA.5FVerhaltenETS.5FJalRoll"
-          },
-          {
-            "global": false,
-            "type": "TypeRestriction",
-            "value": 1,
-            "context": [],
-            "text": "Nach Busspannungswiederkehr",
-            "fids": [
-              "MD-3_UP-17_R-17/MD-3_M-18/1"
-            ],
-            "type_id": "PT-.5FJA.5FBuswdk.5FJalRoll"
-          },
-          {
-            "global": false,
-            "type": "TypeNumber",
-            "value": 1,
-            "context": [],
-            "text": "   Zyklisches Senden bei aktiver Fahrt",
-            "fids": [
-              "MD-3_P-78_R-128/MD-3_M-18/1"
-            ],
-            "type_id": "PT-.5FAllg.5Fja1.5Fnein.5FCheckbox"
-          },
-          {
-            "global": false,
-            "type": "TypeNumber",
-            "value": 2,
-            "context": [],
-            "text": "      Zykluszeit\r\n         Sekunden",
-            "fids": [
-              "MD-3_P-79_R-130/MD-3_M-18/1"
-            ],
-            "type_id": "PT-.5FJA.5FZeit.5F2bis59"
           }
         ],
         "objects": [
@@ -4409,379 +4321,6 @@
       },
       {
         "block": "trigger",
-        "id": "mode_trigger_dim",
-        "parameters": [
-          {
-            "global": false,
-            "type": "TypeRestriction",
-            "value": 3,
-            "context": [
-              [
-                {
-                  "type": "TypeNumber",
-                  "value": 0,
-                  "fid": "P-750_R-110//"
-                },
-                {
-                  "type": "TypeRestriction",
-                  "value": 1,
-                  "fid": "MD-1_P-2_R-2/MD-1_M-2/1"
-                }
-              ],
-              [
-                {
-                  "type": "TypeNumber",
-                  "value": 0,
-                  "fid": "P-750_R-110//"
-                },
-                {
-                  "type": "TypeRestriction",
-                  "value": 1,
-                  "fid": "MD-1_P-2_R-2/MD-1_M-1/1"
-                }
-              ]
-            ],
-            "text": "Helligkeit beim Schließen des Kontaktes",
-            "fids": [
-              "MD-1_UP-6_R-8/MD-1_M-2/1",
-              "MD-1_UP-6_R-8/MD-1_M-1/1"
-            ],
-            "type_id": "PT-.5FE.5FBefehl.20Dimmen.20Helligkeit"
-          }
-        ],
-        "objects": [
-          {
-            "global": false,
-            "cc": "CC_Output_Switch",
-            "fids": [
-              "MD-1_O-4-0_R-3/MD-1_M-2/1",
-              "MD-1_O-4-0_R-3/MD-1_M-1/1"
-            ],
-            "function_text": "Schalten",
-            "numbers": {
-              "0": 486,
-              "1": 492
-            }
-          },
-          {
-            "global": false,
-            "cc": "CC_Output_DimmingControl",
-            "fids": [
-              "MD-1_O-4-1_R-4/MD-1_M-2/1",
-              "MD-1_O-4-1_R-4/MD-1_M-1/1"
-            ],
-            "function_text": "Dimmen Helligkeit",
-            "numbers": {
-              "0": 487,
-              "1": 493
-            }
-          },
-          {
-            "global": false,
-            "cc": "CC_Output_SwitchStatus",
-            "fids": [
-              "MD-1_O-4-2_R-5/MD-1_M-2/1",
-              "MD-1_O-4-2_R-5/MD-1_M-1/1"
-            ],
-            "function_text": "Schalten Rückmeldung",
-            "numbers": {
-              "0": 488,
-              "1": 494
-            }
-          }
-        ],
-        "n_channels": 2
-      },
-      {
-        "block": "trigger",
-        "id": "mode_trigger_dim_down",
-        "parameters": [
-          {
-            "global": false,
-            "type": "TypeRestriction",
-            "value": 2,
-            "context": [
-              [
-                {
-                  "type": "TypeNumber",
-                  "value": 0,
-                  "fid": "P-750_R-110//"
-                },
-                {
-                  "type": "TypeRestriction",
-                  "value": 1,
-                  "fid": "MD-1_P-2_R-2/MD-1_M-2/1"
-                }
-              ],
-              [
-                {
-                  "type": "TypeNumber",
-                  "value": 0,
-                  "fid": "P-750_R-110//"
-                },
-                {
-                  "type": "TypeRestriction",
-                  "value": 1,
-                  "fid": "MD-1_P-2_R-2/MD-1_M-1/1"
-                }
-              ]
-            ],
-            "text": "Helligkeit beim Schließen des Kontaktes",
-            "fids": [
-              "MD-1_UP-6_R-8/MD-1_M-2/1",
-              "MD-1_UP-6_R-8/MD-1_M-1/1"
-            ],
-            "type_id": "PT-.5FE.5FBefehl.20Dimmen.20Helligkeit"
-          }
-        ],
-        "objects": [
-          {
-            "global": false,
-            "cc": "CC_Output_Switch",
-            "fids": [
-              "MD-1_O-4-0_R-3/MD-1_M-2/1",
-              "MD-1_O-4-0_R-3/MD-1_M-1/1"
-            ],
-            "function_text": "Schalten",
-            "numbers": {
-              "0": 486,
-              "1": 492
-            }
-          },
-          {
-            "global": false,
-            "cc": "CC_Output_DimmingControl",
-            "fids": [
-              "MD-1_O-4-1_R-4/MD-1_M-2/1",
-              "MD-1_O-4-1_R-4/MD-1_M-1/1"
-            ],
-            "function_text": "Dimmen Helligkeit",
-            "numbers": {
-              "0": 487,
-              "1": 493
-            }
-          }
-        ],
-        "n_channels": 2
-      },
-      {
-        "block": "trigger",
-        "id": "mode_trigger_dim_up",
-        "parameters": [
-          {
-            "global": false,
-            "type": "TypeRestriction",
-            "value": 1,
-            "context": [
-              [
-                {
-                  "type": "TypeNumber",
-                  "value": 0,
-                  "fid": "P-750_R-110//"
-                },
-                {
-                  "type": "TypeRestriction",
-                  "value": 1,
-                  "fid": "MD-1_P-2_R-2/MD-1_M-2/1"
-                }
-              ],
-              [
-                {
-                  "type": "TypeNumber",
-                  "value": 0,
-                  "fid": "P-750_R-110//"
-                },
-                {
-                  "type": "TypeRestriction",
-                  "value": 1,
-                  "fid": "MD-1_P-2_R-2/MD-1_M-1/1"
-                }
-              ]
-            ],
-            "text": "Helligkeit beim Schließen des Kontaktes",
-            "fids": [
-              "MD-1_UP-6_R-8/MD-1_M-2/1",
-              "MD-1_UP-6_R-8/MD-1_M-1/1"
-            ],
-            "type_id": "PT-.5FE.5FBefehl.20Dimmen.20Helligkeit"
-          }
-        ],
-        "objects": [
-          {
-            "global": false,
-            "cc": "CC_Output_Switch",
-            "fids": [
-              "MD-1_O-4-0_R-3/MD-1_M-2/1",
-              "MD-1_O-4-0_R-3/MD-1_M-1/1"
-            ],
-            "function_text": "Schalten",
-            "numbers": {
-              "0": 486,
-              "1": 492
-            }
-          },
-          {
-            "global": false,
-            "cc": "CC_Output_DimmingControl",
-            "fids": [
-              "MD-1_O-4-1_R-4/MD-1_M-2/1",
-              "MD-1_O-4-1_R-4/MD-1_M-1/1"
-            ],
-            "function_text": "Dimmen Helligkeit",
-            "numbers": {
-              "0": 487,
-              "1": 493
-            }
-          }
-        ],
-        "n_channels": 2
-      },
-      {
-        "block": "trigger",
-        "id": "mode_trigger_motor_down",
-        "parameters": [
-          {
-            "global": false,
-            "type": "TypeRestriction",
-            "value": 1,
-            "context": [
-              [
-                {
-                  "type": "TypeNumber",
-                  "value": 0,
-                  "fid": "P-750_R-110//"
-                },
-                {
-                  "type": "TypeRestriction",
-                  "value": 2,
-                  "fid": "MD-1_P-2_R-2/MD-1_M-2/1"
-                }
-              ],
-              [
-                {
-                  "type": "TypeNumber",
-                  "value": 0,
-                  "fid": "P-750_R-110//"
-                },
-                {
-                  "type": "TypeRestriction",
-                  "value": 2,
-                  "fid": "MD-1_P-2_R-2/MD-1_M-1/1"
-                }
-              ]
-            ],
-            "text": "Beim Schließen des Kontaktes",
-            "fids": [
-              "MD-1_P-21_R-26/MD-1_M-2/1",
-              "MD-1_P-21_R-26/MD-1_M-1/1"
-            ],
-            "type_id": "PT-.5FE.5FBefehl.20Jalousie.20Taste"
-          }
-        ],
-        "objects": [
-          {
-            "global": false,
-            "cc": "CC_Motor_Stop",
-            "fids": [
-              "MD-1_O-6-0_R-6/MD-1_M-2/1",
-              "MD-1_O-6-0_R-6/MD-1_M-1/1"
-            ],
-            "function_text": "Kurzzeitbetrieb",
-            "numbers": {
-              "0": 516,
-              "1": 519
-            }
-          },
-          {
-            "global": false,
-            "cc": "CC_Motor_Move",
-            "fids": [
-              "MD-1_O-6-1_R-7/MD-1_M-2/1",
-              "MD-1_O-6-1_R-7/MD-1_M-1/1"
-            ],
-            "function_text": "Langzeitbetrieb",
-            "numbers": {
-              "0": 517,
-              "1": 520
-            }
-          }
-        ],
-        "n_channels": 2
-      },
-      {
-        "block": "trigger",
-        "id": "mode_trigger_motor_up",
-        "parameters": [
-          {
-            "global": false,
-            "type": "TypeRestriction",
-            "value": 0,
-            "context": [
-              [
-                {
-                  "type": "TypeNumber",
-                  "value": 0,
-                  "fid": "P-750_R-110//"
-                },
-                {
-                  "type": "TypeRestriction",
-                  "value": 2,
-                  "fid": "MD-1_P-2_R-2/MD-1_M-2/1"
-                }
-              ],
-              [
-                {
-                  "type": "TypeNumber",
-                  "value": 0,
-                  "fid": "P-750_R-110//"
-                },
-                {
-                  "type": "TypeRestriction",
-                  "value": 2,
-                  "fid": "MD-1_P-2_R-2/MD-1_M-1/1"
-                }
-              ]
-            ],
-            "text": "Beim Schließen des Kontaktes",
-            "fids": [
-              "MD-1_P-21_R-26/MD-1_M-2/1",
-              "MD-1_P-21_R-26/MD-1_M-1/1"
-            ],
-            "type_id": "PT-.5FE.5FBefehl.20Jalousie.20Taste"
-          }
-        ],
-        "objects": [
-          {
-            "global": false,
-            "cc": "CC_Motor_Stop",
-            "fids": [
-              "MD-1_O-6-0_R-6/MD-1_M-2/1",
-              "MD-1_O-6-0_R-6/MD-1_M-1/1"
-            ],
-            "function_text": "Kurzzeitbetrieb",
-            "numbers": {
-              "0": 516,
-              "1": 519
-            }
-          },
-          {
-            "global": false,
-            "cc": "CC_Motor_Move",
-            "fids": [
-              "MD-1_O-6-1_R-7/MD-1_M-2/1",
-              "MD-1_O-6-1_R-7/MD-1_M-1/1"
-            ],
-            "function_text": "Langzeitbetrieb",
-            "numbers": {
-              "0": 517,
-              "1": 520
-            }
-          }
-        ],
-        "n_channels": 2
-      },
-      {
-        "block": "trigger",
         "id": "mode_trigger_switch_off",
         "parameters": [
           {
@@ -4802,12 +4341,14 @@
                   "value": 0,
                   "fid": "P-750_R-110//"
                 }
-              ]
+              ],
+              []
             ],
             "text": "Beim Schließen des Kontaktes",
             "fids": [
               "MD-1_P-3_R-6/MD-1_M-2/1",
-              "MD-1_P-3_R-6/MD-1_M-1/1"
+              "MD-1_P-3_R-6/MD-1_M-1/1",
+              "MD-5_P-3_R-6/MD-5_M-21/1"
             ],
             "type_id": "PT-.5FE.5FBefehl.20Schalten"
           }
@@ -4818,16 +4359,33 @@
             "cc": "CC_Output_Switch",
             "fids": [
               "MD-1_O-2-0_R-1/MD-1_M-2/1",
-              "MD-1_O-2-0_R-1/MD-1_M-1/1"
+              "MD-1_O-2-0_R-1/MD-1_M-1/1",
+              "MD-5_O-2-0_R-1/MD-5_M-21/1"
             ],
             "function_text": "Schalten",
             "numbers": {
               "0": 471,
-              "1": 474
+              "1": 474,
+              "2": 477
+            }
+          },
+          {
+            "global": false,
+            "cc": "CC_Output_SwitchStatus",
+            "fids": [
+              "MD-1_O-2-1_R-2/MD-1_M-2/1",
+              "MD-1_O-2-1_R-2/MD-1_M-1/1",
+              "MD-5_O-2-1_R-2/MD-5_M-21/1"
+            ],
+            "function_text": "Schalten Rückmeldung",
+            "numbers": {
+              "0": 472,
+              "1": 475,
+              "2": 478
             }
           }
         ],
-        "n_channels": 2
+        "n_channels": 3
       },
       {
         "block": "trigger",
@@ -4851,12 +4409,14 @@
                   "value": 0,
                   "fid": "P-750_R-110//"
                 }
-              ]
+              ],
+              []
             ],
             "text": "Beim Schließen des Kontaktes",
             "fids": [
               "MD-1_P-3_R-6/MD-1_M-2/1",
-              "MD-1_P-3_R-6/MD-1_M-1/1"
+              "MD-1_P-3_R-6/MD-1_M-1/1",
+              "MD-5_P-3_R-6/MD-5_M-21/1"
             ],
             "type_id": "PT-.5FE.5FBefehl.20Schalten"
           }
@@ -4867,16 +4427,33 @@
             "cc": "CC_Output_Switch",
             "fids": [
               "MD-1_O-2-0_R-1/MD-1_M-2/1",
-              "MD-1_O-2-0_R-1/MD-1_M-1/1"
+              "MD-1_O-2-0_R-1/MD-1_M-1/1",
+              "MD-5_O-2-0_R-1/MD-5_M-21/1"
             ],
             "function_text": "Schalten",
             "numbers": {
               "0": 471,
-              "1": 474
+              "1": 474,
+              "2": 477
+            }
+          },
+          {
+            "global": false,
+            "cc": "CC_Output_SwitchStatus",
+            "fids": [
+              "MD-1_O-2-1_R-2/MD-1_M-2/1",
+              "MD-1_O-2-1_R-2/MD-1_M-1/1",
+              "MD-5_O-2-1_R-2/MD-5_M-21/1"
+            ],
+            "function_text": "Schalten Rückmeldung",
+            "numbers": {
+              "0": 472,
+              "1": 475,
+              "2": 478
             }
           }
         ],
-        "n_channels": 2
+        "n_channels": 3
       },
       {
         "block": "trigger",
@@ -4900,12 +4477,14 @@
                   "value": 0,
                   "fid": "P-750_R-110//"
                 }
-              ]
+              ],
+              []
             ],
             "text": "Beim Schließen des Kontaktes",
             "fids": [
               "MD-1_P-3_R-6/MD-1_M-2/1",
-              "MD-1_P-3_R-6/MD-1_M-1/1"
+              "MD-1_P-3_R-6/MD-1_M-1/1",
+              "MD-5_P-3_R-6/MD-5_M-21/1"
             ],
             "type_id": "PT-.5FE.5FBefehl.20Schalten"
           }
@@ -4916,12 +4495,14 @@
             "cc": "CC_Output_Switch",
             "fids": [
               "MD-1_O-2-0_R-1/MD-1_M-2/1",
-              "MD-1_O-2-0_R-1/MD-1_M-1/1"
+              "MD-1_O-2-0_R-1/MD-1_M-1/1",
+              "MD-5_O-2-0_R-1/MD-5_M-21/1"
             ],
             "function_text": "Schalten",
             "numbers": {
               "0": 471,
-              "1": 474
+              "1": 474,
+              "2": 477
             }
           },
           {
@@ -4929,27 +4510,28 @@
             "cc": "CC_Output_SwitchStatus",
             "fids": [
               "MD-1_O-2-1_R-2/MD-1_M-2/1",
-              "MD-1_O-2-1_R-2/MD-1_M-1/1"
+              "MD-1_O-2-1_R-2/MD-1_M-1/1",
+              "MD-5_O-2-1_R-2/MD-5_M-21/1"
             ],
             "function_text": "Schalten Rückmeldung",
             "numbers": {
               "0": 472,
-              "1": 475
+              "1": 475,
+              "2": 478
             }
           }
         ],
-        "n_channels": 2
+        "n_channels": 3
       }
     ],
     "application_program_id": "M-0004_A-20DE-22-C7D8-O000A",
     "order_numbers": [
       "230021SU"
     ],
-    "application_name": "Schalten, Jalousie, Eingänge 20DE22",
+    "application_name": "Switching, Shutter/blinds, Inputs 20DE22",
     "hardware_to_program_id": "M-0004_H-4.20.2F.2F.20230021SU-0-O000A_HP-20DE-22-0000-O000A",
     "manufacturer_id": "M-0004",
-    "manufacturer_name": "Albrecht Jung",
-    "mount_type": "flush"
+    "manufacturer_name": "Albrecht Jung"
   },
   {
     "modes": [
@@ -5029,12 +4611,20 @@
                   "value": 1,
                   "fid": "MD-1_P-2_R-2/MD-1_M-1/1"
                 }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "MD-5_P-2_R-2/MD-5_M-21/1"
+                }
               ]
             ],
             "text": "Helligkeit beim Schließen des Kontaktes",
             "fids": [
               "MD-1_UP-6_R-8/MD-1_M-2/1",
-              "MD-1_UP-6_R-8/MD-1_M-1/1"
+              "MD-1_UP-6_R-8/MD-1_M-1/1",
+              "MD-5_UP-6_R-8/MD-5_M-21/1"
             ],
             "type_id": "PT-.5FE.5FBefehl.20Dimmen.20Helligkeit"
           }
@@ -5045,12 +4635,14 @@
             "cc": "CC_Output_Switch",
             "fids": [
               "MD-1_O-4-0_R-3/MD-1_M-2/1",
-              "MD-1_O-4-0_R-3/MD-1_M-1/1"
+              "MD-1_O-4-0_R-3/MD-1_M-1/1",
+              "MD-5_O-4-0_R-3/MD-5_M-21/1"
             ],
             "function_text": "Schalten",
             "numbers": {
               "0": 486,
-              "1": 492
+              "1": 492,
+              "2": 498
             }
           },
           {
@@ -5058,12 +4650,14 @@
             "cc": "CC_Output_DimmingControl",
             "fids": [
               "MD-1_O-4-1_R-4/MD-1_M-2/1",
-              "MD-1_O-4-1_R-4/MD-1_M-1/1"
+              "MD-1_O-4-1_R-4/MD-1_M-1/1",
+              "MD-5_O-4-1_R-4/MD-5_M-21/1"
             ],
             "function_text": "Dimmen Helligkeit",
             "numbers": {
               "0": 487,
-              "1": 493
+              "1": 493,
+              "2": 499
             }
           },
           {
@@ -5071,16 +4665,18 @@
             "cc": "CC_Output_SwitchStatus",
             "fids": [
               "MD-1_O-4-2_R-5/MD-1_M-2/1",
-              "MD-1_O-4-2_R-5/MD-1_M-1/1"
+              "MD-1_O-4-2_R-5/MD-1_M-1/1",
+              "MD-5_O-4-2_R-5/MD-5_M-21/1"
             ],
             "function_text": "Schalten Rückmeldung",
             "numbers": {
               "0": 488,
-              "1": 494
+              "1": 494,
+              "2": 500
             }
           }
         ],
-        "n_channels": 2
+        "n_channels": 3
       },
       {
         "block": "trigger",
@@ -5114,12 +4710,20 @@
                   "value": 1,
                   "fid": "MD-1_P-2_R-2/MD-1_M-1/1"
                 }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "MD-5_P-2_R-2/MD-5_M-21/1"
+                }
               ]
             ],
             "text": "Helligkeit beim Schließen des Kontaktes",
             "fids": [
               "MD-1_UP-6_R-8/MD-1_M-2/1",
-              "MD-1_UP-6_R-8/MD-1_M-1/1"
+              "MD-1_UP-6_R-8/MD-1_M-1/1",
+              "MD-5_UP-6_R-8/MD-5_M-21/1"
             ],
             "type_id": "PT-.5FE.5FBefehl.20Dimmen.20Helligkeit"
           }
@@ -5130,12 +4734,14 @@
             "cc": "CC_Output_Switch",
             "fids": [
               "MD-1_O-4-0_R-3/MD-1_M-2/1",
-              "MD-1_O-4-0_R-3/MD-1_M-1/1"
+              "MD-1_O-4-0_R-3/MD-1_M-1/1",
+              "MD-5_O-4-0_R-3/MD-5_M-21/1"
             ],
             "function_text": "Schalten",
             "numbers": {
               "0": 486,
-              "1": 492
+              "1": 492,
+              "2": 498
             }
           },
           {
@@ -5143,16 +4749,18 @@
             "cc": "CC_Output_DimmingControl",
             "fids": [
               "MD-1_O-4-1_R-4/MD-1_M-2/1",
-              "MD-1_O-4-1_R-4/MD-1_M-1/1"
+              "MD-1_O-4-1_R-4/MD-1_M-1/1",
+              "MD-5_O-4-1_R-4/MD-5_M-21/1"
             ],
             "function_text": "Dimmen Helligkeit",
             "numbers": {
               "0": 487,
-              "1": 493
+              "1": 493,
+              "2": 499
             }
           }
         ],
-        "n_channels": 2
+        "n_channels": 3
       },
       {
         "block": "trigger",
@@ -5186,12 +4794,20 @@
                   "value": 1,
                   "fid": "MD-1_P-2_R-2/MD-1_M-1/1"
                 }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "MD-5_P-2_R-2/MD-5_M-21/1"
+                }
               ]
             ],
             "text": "Helligkeit beim Schließen des Kontaktes",
             "fids": [
               "MD-1_UP-6_R-8/MD-1_M-2/1",
-              "MD-1_UP-6_R-8/MD-1_M-1/1"
+              "MD-1_UP-6_R-8/MD-1_M-1/1",
+              "MD-5_UP-6_R-8/MD-5_M-21/1"
             ],
             "type_id": "PT-.5FE.5FBefehl.20Dimmen.20Helligkeit"
           }
@@ -5202,12 +4818,14 @@
             "cc": "CC_Output_Switch",
             "fids": [
               "MD-1_O-4-0_R-3/MD-1_M-2/1",
-              "MD-1_O-4-0_R-3/MD-1_M-1/1"
+              "MD-1_O-4-0_R-3/MD-1_M-1/1",
+              "MD-5_O-4-0_R-3/MD-5_M-21/1"
             ],
             "function_text": "Schalten",
             "numbers": {
               "0": 486,
-              "1": 492
+              "1": 492,
+              "2": 498
             }
           },
           {
@@ -5215,92 +4833,22 @@
             "cc": "CC_Output_DimmingControl",
             "fids": [
               "MD-1_O-4-1_R-4/MD-1_M-2/1",
-              "MD-1_O-4-1_R-4/MD-1_M-1/1"
+              "MD-1_O-4-1_R-4/MD-1_M-1/1",
+              "MD-5_O-4-1_R-4/MD-5_M-21/1"
             ],
             "function_text": "Dimmen Helligkeit",
             "numbers": {
               "0": 487,
-              "1": 493
+              "1": 493,
+              "2": 499
             }
           }
         ],
-        "n_channels": 2
+        "n_channels": 3
       },
       {
         "block": "trigger",
         "id": "mode_trigger_motor_down",
-        "parameters": [
-          {
-            "global": false,
-            "type": "TypeRestriction",
-            "value": 1,
-            "context": [
-              [
-                {
-                  "type": "TypeNumber",
-                  "value": 0,
-                  "fid": "P-750_R-110//"
-                },
-                {
-                  "type": "TypeRestriction",
-                  "value": 2,
-                  "fid": "MD-1_P-2_R-2/MD-1_M-2/1"
-                }
-              ],
-              [
-                {
-                  "type": "TypeNumber",
-                  "value": 0,
-                  "fid": "P-750_R-110//"
-                },
-                {
-                  "type": "TypeRestriction",
-                  "value": 2,
-                  "fid": "MD-1_P-2_R-2/MD-1_M-1/1"
-                }
-              ]
-            ],
-            "text": "Beim Schließen des Kontaktes",
-            "fids": [
-              "MD-1_P-21_R-26/MD-1_M-2/1",
-              "MD-1_P-21_R-26/MD-1_M-1/1"
-            ],
-            "type_id": "PT-.5FE.5FBefehl.20Jalousie.20Taste"
-          }
-        ],
-        "objects": [
-          {
-            "global": false,
-            "cc": "CC_Motor_Stop",
-            "fids": [
-              "MD-1_O-6-0_R-6/MD-1_M-2/1",
-              "MD-1_O-6-0_R-6/MD-1_M-1/1"
-            ],
-            "function_text": "Kurzzeitbetrieb",
-            "numbers": {
-              "0": 516,
-              "1": 519
-            }
-          },
-          {
-            "global": false,
-            "cc": "CC_Motor_Move",
-            "fids": [
-              "MD-1_O-6-1_R-7/MD-1_M-2/1",
-              "MD-1_O-6-1_R-7/MD-1_M-1/1"
-            ],
-            "function_text": "Langzeitbetrieb",
-            "numbers": {
-              "0": 517,
-              "1": 520
-            }
-          }
-        ],
-        "n_channels": 2
-      },
-      {
-        "block": "trigger",
-        "id": "mode_trigger_motor_up",
         "parameters": [
           {
             "global": false,
@@ -5330,12 +4878,20 @@
                   "value": 2,
                   "fid": "MD-1_P-2_R-2/MD-1_M-1/1"
                 }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 2,
+                  "fid": "MD-5_P-2_R-2/MD-5_M-21/1"
+                }
               ]
             ],
             "text": "Beim Schließen des Kontaktes",
             "fids": [
               "MD-1_P-21_R-26/MD-1_M-2/1",
-              "MD-1_P-21_R-26/MD-1_M-1/1"
+              "MD-1_P-21_R-26/MD-1_M-1/1",
+              "MD-5_P-21_R-26/MD-5_M-21/1"
             ],
             "type_id": "PT-.5FE.5FBefehl.20Jalousie.20Taste"
           }
@@ -5346,12 +4902,14 @@
             "cc": "CC_Motor_Stop",
             "fids": [
               "MD-1_O-6-0_R-6/MD-1_M-2/1",
-              "MD-1_O-6-0_R-6/MD-1_M-1/1"
+              "MD-1_O-6-0_R-6/MD-1_M-1/1",
+              "MD-5_O-6-0_R-6/MD-5_M-21/1"
             ],
             "function_text": "Kurzzeitbetrieb",
             "numbers": {
               "0": 516,
-              "1": 519
+              "1": 519,
+              "2": 522
             }
           },
           {
@@ -5359,16 +4917,102 @@
             "cc": "CC_Motor_Move",
             "fids": [
               "MD-1_O-6-1_R-7/MD-1_M-2/1",
-              "MD-1_O-6-1_R-7/MD-1_M-1/1"
+              "MD-1_O-6-1_R-7/MD-1_M-1/1",
+              "MD-5_O-6-1_R-7/MD-5_M-21/1"
             ],
             "function_text": "Langzeitbetrieb",
             "numbers": {
               "0": 517,
-              "1": 520
+              "1": 520,
+              "2": 523
             }
           }
         ],
-        "n_channels": 2
+        "n_channels": 3
+      },
+      {
+        "block": "trigger",
+        "id": "mode_trigger_motor_up",
+        "parameters": [
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 1,
+            "context": [
+              [
+                {
+                  "type": "TypeNumber",
+                  "value": 0,
+                  "fid": "P-750_R-110//"
+                },
+                {
+                  "type": "TypeRestriction",
+                  "value": 2,
+                  "fid": "MD-1_P-2_R-2/MD-1_M-2/1"
+                }
+              ],
+              [
+                {
+                  "type": "TypeNumber",
+                  "value": 0,
+                  "fid": "P-750_R-110//"
+                },
+                {
+                  "type": "TypeRestriction",
+                  "value": 2,
+                  "fid": "MD-1_P-2_R-2/MD-1_M-1/1"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 2,
+                  "fid": "MD-5_P-2_R-2/MD-5_M-21/1"
+                }
+              ]
+            ],
+            "text": "Beim Schließen des Kontaktes",
+            "fids": [
+              "MD-1_P-21_R-26/MD-1_M-2/1",
+              "MD-1_P-21_R-26/MD-1_M-1/1",
+              "MD-5_P-21_R-26/MD-5_M-21/1"
+            ],
+            "type_id": "PT-.5FE.5FBefehl.20Jalousie.20Taste"
+          }
+        ],
+        "objects": [
+          {
+            "global": false,
+            "cc": "CC_Motor_Stop",
+            "fids": [
+              "MD-1_O-6-0_R-6/MD-1_M-2/1",
+              "MD-1_O-6-0_R-6/MD-1_M-1/1",
+              "MD-5_O-6-0_R-6/MD-5_M-21/1"
+            ],
+            "function_text": "Kurzzeitbetrieb",
+            "numbers": {
+              "0": 516,
+              "1": 519,
+              "2": 522
+            }
+          },
+          {
+            "global": false,
+            "cc": "CC_Motor_Move",
+            "fids": [
+              "MD-1_O-6-1_R-7/MD-1_M-2/1",
+              "MD-1_O-6-1_R-7/MD-1_M-1/1",
+              "MD-5_O-6-1_R-7/MD-5_M-21/1"
+            ],
+            "function_text": "Langzeitbetrieb",
+            "numbers": {
+              "0": 517,
+              "1": 520,
+              "2": 523
+            }
+          }
+        ],
+        "n_channels": 3
       },
       {
         "block": "trigger",
@@ -5392,12 +5036,14 @@
                   "value": 0,
                   "fid": "P-750_R-110//"
                 }
-              ]
+              ],
+              []
             ],
             "text": "Beim Schließen des Kontaktes",
             "fids": [
               "MD-1_P-3_R-6/MD-1_M-2/1",
-              "MD-1_P-3_R-6/MD-1_M-1/1"
+              "MD-1_P-3_R-6/MD-1_M-1/1",
+              "MD-5_P-3_R-6/MD-5_M-21/1"
             ],
             "type_id": "PT-.5FE.5FBefehl.20Schalten"
           }
@@ -5408,16 +5054,33 @@
             "cc": "CC_Output_Switch",
             "fids": [
               "MD-1_O-2-0_R-1/MD-1_M-2/1",
-              "MD-1_O-2-0_R-1/MD-1_M-1/1"
+              "MD-1_O-2-0_R-1/MD-1_M-1/1",
+              "MD-5_O-2-0_R-1/MD-5_M-21/1"
             ],
             "function_text": "Schalten",
             "numbers": {
               "0": 471,
-              "1": 474
+              "1": 474,
+              "2": 477
+            }
+          },
+          {
+            "global": false,
+            "cc": "CC_Output_SwitchStatus",
+            "fids": [
+              "MD-1_O-2-1_R-2/MD-1_M-2/1",
+              "MD-1_O-2-1_R-2/MD-1_M-1/1",
+              "MD-5_O-2-1_R-2/MD-5_M-21/1"
+            ],
+            "function_text": "Schalten Rückmeldung",
+            "numbers": {
+              "0": 472,
+              "1": 475,
+              "2": 478
             }
           }
         ],
-        "n_channels": 2
+        "n_channels": 3
       },
       {
         "block": "trigger",
@@ -5441,12 +5104,14 @@
                   "value": 0,
                   "fid": "P-750_R-110//"
                 }
-              ]
+              ],
+              []
             ],
             "text": "Beim Schließen des Kontaktes",
             "fids": [
               "MD-1_P-3_R-6/MD-1_M-2/1",
-              "MD-1_P-3_R-6/MD-1_M-1/1"
+              "MD-1_P-3_R-6/MD-1_M-1/1",
+              "MD-5_P-3_R-6/MD-5_M-21/1"
             ],
             "type_id": "PT-.5FE.5FBefehl.20Schalten"
           }
@@ -5457,16 +5122,33 @@
             "cc": "CC_Output_Switch",
             "fids": [
               "MD-1_O-2-0_R-1/MD-1_M-2/1",
-              "MD-1_O-2-0_R-1/MD-1_M-1/1"
+              "MD-1_O-2-0_R-1/MD-1_M-1/1",
+              "MD-5_O-2-0_R-1/MD-5_M-21/1"
             ],
             "function_text": "Schalten",
             "numbers": {
               "0": 471,
-              "1": 474
+              "1": 474,
+              "2": 477
+            }
+          },
+          {
+            "global": false,
+            "cc": "CC_Output_SwitchStatus",
+            "fids": [
+              "MD-1_O-2-1_R-2/MD-1_M-2/1",
+              "MD-1_O-2-1_R-2/MD-1_M-1/1",
+              "MD-5_O-2-1_R-2/MD-5_M-21/1"
+            ],
+            "function_text": "Schalten Rückmeldung",
+            "numbers": {
+              "0": 472,
+              "1": 475,
+              "2": 478
             }
           }
         ],
-        "n_channels": 2
+        "n_channels": 3
       },
       {
         "block": "trigger",
@@ -5490,12 +5172,14 @@
                   "value": 0,
                   "fid": "P-750_R-110//"
                 }
-              ]
+              ],
+              []
             ],
             "text": "Beim Schließen des Kontaktes",
             "fids": [
               "MD-1_P-3_R-6/MD-1_M-2/1",
-              "MD-1_P-3_R-6/MD-1_M-1/1"
+              "MD-1_P-3_R-6/MD-1_M-1/1",
+              "MD-5_P-3_R-6/MD-5_M-21/1"
             ],
             "type_id": "PT-.5FE.5FBefehl.20Schalten"
           }
@@ -5506,12 +5190,14 @@
             "cc": "CC_Output_Switch",
             "fids": [
               "MD-1_O-2-0_R-1/MD-1_M-2/1",
-              "MD-1_O-2-0_R-1/MD-1_M-1/1"
+              "MD-1_O-2-0_R-1/MD-1_M-1/1",
+              "MD-5_O-2-0_R-1/MD-5_M-21/1"
             ],
             "function_text": "Schalten",
             "numbers": {
               "0": 471,
-              "1": 474
+              "1": 474,
+              "2": 477
             }
           },
           {
@@ -5519,27 +5205,28 @@
             "cc": "CC_Output_SwitchStatus",
             "fids": [
               "MD-1_O-2-1_R-2/MD-1_M-2/1",
-              "MD-1_O-2-1_R-2/MD-1_M-1/1"
+              "MD-1_O-2-1_R-2/MD-1_M-1/1",
+              "MD-5_O-2-1_R-2/MD-5_M-21/1"
             ],
             "function_text": "Schalten Rückmeldung",
             "numbers": {
               "0": 472,
-              "1": 475
+              "1": 475,
+              "2": 478
             }
           }
         ],
-        "n_channels": 2
+        "n_channels": 3
       }
     ],
     "application_program_id": "M-0004_A-20DF-22-8D8E-O000A",
     "order_numbers": [
       "230011SU"
     ],
-    "application_name": "Schalten, Eingänge 20DF22",
+    "application_name": "Switching, Inputs 20DF22",
     "hardware_to_program_id": "M-0004_H-4.20.2F.2F.20230011SU-0-O000A_HP-20DF-22-0000-O000A",
     "manufacturer_id": "M-0004",
-    "manufacturer_name": "Albrecht Jung",
-    "mount_type": "flush"
+    "manufacturer_name": "Albrecht Jung"
   },
   {
     "modes": [
@@ -9502,6 +9189,453 @@
     "modes": [
       {
         "block": "trigger",
+        "id": "mode_trigger_dim",
+        "parameters": [
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 3,
+            "context": [
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "MD-1_P-2_R-2/MD-1_M-100/1"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "MD-1_P-2_R-2/MD-1_M-200/1"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "MD-4_P-2_R-2/MD-4_M-300/1"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "MD-4_P-2_R-2/MD-4_M-400/1"
+                }
+              ]
+            ],
+            "text": "   Helligkeit beim Drücken",
+            "fids": [
+              "MD-1_UP-6_R-8/MD-1_M-100/1",
+              "MD-1_UP-6_R-8/MD-1_M-200/1",
+              "MD-4_UP-6_R-8/MD-4_M-300/1",
+              "MD-4_UP-6_R-8/MD-4_M-400/1"
+            ],
+            "type_id": "PT-.5FE.5FBefehl.20Dimmen.20Helligkeit"
+          }
+        ],
+        "objects": [
+          {
+            "global": false,
+            "cc": "CC_Output_Switch",
+            "fids": [
+              "MD-1_O-4-0_R-3/MD-1_M-100/1",
+              "MD-1_O-4-0_R-3/MD-1_M-200/1",
+              "MD-4_O-4-0_R-3/MD-4_M-300/1",
+              "MD-4_O-4-0_R-3/MD-4_M-400/1"
+            ],
+            "function_text": "Dimmen - Schalten",
+            "numbers": {
+              "0": 317,
+              "1": 323,
+              "2": 329,
+              "3": 335
+            }
+          },
+          {
+            "global": false,
+            "cc": "CC_Output_DimmingControl",
+            "fids": [
+              "MD-1_O-4-1_R-4/MD-1_M-100/1",
+              "MD-1_O-4-1_R-4/MD-1_M-200/1",
+              "MD-4_O-4-1_R-4/MD-4_M-300/1",
+              "MD-4_O-4-1_R-4/MD-4_M-400/1"
+            ],
+            "function_text": "Dimmen - Helligkeit",
+            "numbers": {
+              "0": 318,
+              "1": 324,
+              "2": 330,
+              "3": 336
+            }
+          },
+          {
+            "global": false,
+            "cc": "CC_Output_SwitchStatus",
+            "fids": [
+              "MD-1_O-4-2_R-5/MD-1_M-100/1",
+              "MD-1_O-4-2_R-5/MD-1_M-200/1",
+              "MD-4_O-4-2_R-5/MD-4_M-300/1",
+              "MD-4_O-4-2_R-5/MD-4_M-400/1"
+            ],
+            "function_text": "Dimmen - Schalten - Status",
+            "numbers": {
+              "0": 319,
+              "1": 325,
+              "2": 331,
+              "3": 337
+            }
+          }
+        ],
+        "n_channels": 4
+      },
+      {
+        "block": "trigger",
+        "id": "mode_trigger_dim_down",
+        "parameters": [
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 2,
+            "context": [
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "MD-1_P-2_R-2/MD-1_M-100/1"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "MD-1_P-2_R-2/MD-1_M-200/1"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "MD-4_P-2_R-2/MD-4_M-300/1"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "MD-4_P-2_R-2/MD-4_M-400/1"
+                }
+              ]
+            ],
+            "text": "   Helligkeit beim Drücken",
+            "fids": [
+              "MD-1_UP-6_R-8/MD-1_M-100/1",
+              "MD-1_UP-6_R-8/MD-1_M-200/1",
+              "MD-4_UP-6_R-8/MD-4_M-300/1",
+              "MD-4_UP-6_R-8/MD-4_M-400/1"
+            ],
+            "type_id": "PT-.5FE.5FBefehl.20Dimmen.20Helligkeit"
+          }
+        ],
+        "objects": [
+          {
+            "global": false,
+            "cc": "CC_Output_Switch",
+            "fids": [
+              "MD-1_O-4-0_R-3/MD-1_M-100/1",
+              "MD-1_O-4-0_R-3/MD-1_M-200/1",
+              "MD-4_O-4-0_R-3/MD-4_M-300/1",
+              "MD-4_O-4-0_R-3/MD-4_M-400/1"
+            ],
+            "function_text": "Dimmen - Schalten",
+            "numbers": {
+              "0": 317,
+              "1": 323,
+              "2": 329,
+              "3": 335
+            }
+          },
+          {
+            "global": false,
+            "cc": "CC_Output_DimmingControl",
+            "fids": [
+              "MD-1_O-4-1_R-4/MD-1_M-100/1",
+              "MD-1_O-4-1_R-4/MD-1_M-200/1",
+              "MD-4_O-4-1_R-4/MD-4_M-300/1",
+              "MD-4_O-4-1_R-4/MD-4_M-400/1"
+            ],
+            "function_text": "Dimmen - Helligkeit",
+            "numbers": {
+              "0": 318,
+              "1": 324,
+              "2": 330,
+              "3": 336
+            }
+          }
+        ],
+        "n_channels": 4
+      },
+      {
+        "block": "trigger",
+        "id": "mode_trigger_dim_up",
+        "parameters": [
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 1,
+            "context": [
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "MD-1_P-2_R-2/MD-1_M-100/1"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "MD-1_P-2_R-2/MD-1_M-200/1"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "MD-4_P-2_R-2/MD-4_M-300/1"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "MD-4_P-2_R-2/MD-4_M-400/1"
+                }
+              ]
+            ],
+            "text": "   Helligkeit beim Drücken",
+            "fids": [
+              "MD-1_UP-6_R-8/MD-1_M-100/1",
+              "MD-1_UP-6_R-8/MD-1_M-200/1",
+              "MD-4_UP-6_R-8/MD-4_M-300/1",
+              "MD-4_UP-6_R-8/MD-4_M-400/1"
+            ],
+            "type_id": "PT-.5FE.5FBefehl.20Dimmen.20Helligkeit"
+          }
+        ],
+        "objects": [
+          {
+            "global": false,
+            "cc": "CC_Output_Switch",
+            "fids": [
+              "MD-1_O-4-0_R-3/MD-1_M-100/1",
+              "MD-1_O-4-0_R-3/MD-1_M-200/1",
+              "MD-4_O-4-0_R-3/MD-4_M-300/1",
+              "MD-4_O-4-0_R-3/MD-4_M-400/1"
+            ],
+            "function_text": "Dimmen - Schalten",
+            "numbers": {
+              "0": 317,
+              "1": 323,
+              "2": 329,
+              "3": 335
+            }
+          },
+          {
+            "global": false,
+            "cc": "CC_Output_DimmingControl",
+            "fids": [
+              "MD-1_O-4-1_R-4/MD-1_M-100/1",
+              "MD-1_O-4-1_R-4/MD-1_M-200/1",
+              "MD-4_O-4-1_R-4/MD-4_M-300/1",
+              "MD-4_O-4-1_R-4/MD-4_M-400/1"
+            ],
+            "function_text": "Dimmen - Helligkeit",
+            "numbers": {
+              "0": 318,
+              "1": 324,
+              "2": 330,
+              "3": 336
+            }
+          }
+        ],
+        "n_channels": 4
+      },
+      {
+        "block": "trigger",
+        "id": "mode_trigger_motor_down",
+        "parameters": [
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 1,
+            "context": [
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 2,
+                  "fid": "MD-1_P-2_R-2/MD-1_M-100/1"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 2,
+                  "fid": "MD-1_P-2_R-2/MD-1_M-200/1"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 2,
+                  "fid": "MD-4_P-2_R-2/MD-4_M-300/1"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 2,
+                  "fid": "MD-4_P-2_R-2/MD-4_M-400/1"
+                }
+              ]
+            ],
+            "text": "Befehl beim Drücken",
+            "fids": [
+              "MD-1_P-21_R-26/MD-1_M-100/1",
+              "MD-1_P-21_R-26/MD-1_M-200/1",
+              "MD-4_P-21_R-26/MD-4_M-300/1",
+              "MD-4_P-21_R-26/MD-4_M-400/1"
+            ],
+            "type_id": "PT-.5FE.5FBefehl.20Jalousie.20Taste"
+          }
+        ],
+        "objects": [
+          {
+            "global": false,
+            "cc": "CC_Motor_Stop",
+            "fids": [
+              "MD-1_O-6-0_R-6/MD-1_M-100/1",
+              "MD-1_O-6-0_R-6/MD-1_M-200/1",
+              "MD-4_O-6-0_R-6/MD-4_M-300/1",
+              "MD-4_O-6-0_R-6/MD-4_M-400/1"
+            ],
+            "function_text": "Jalousie - Kurzzeitbetrieb",
+            "numbers": {
+              "0": 365,
+              "1": 369,
+              "2": 373,
+              "3": 377
+            }
+          },
+          {
+            "global": false,
+            "cc": "CC_Motor_Move",
+            "fids": [
+              "MD-1_O-6-1_R-7/MD-1_M-100/1",
+              "MD-1_O-6-1_R-7/MD-1_M-200/1",
+              "MD-4_O-6-1_R-7/MD-4_M-300/1",
+              "MD-4_O-6-1_R-7/MD-4_M-400/1"
+            ],
+            "function_text": "Jalousie - Langzeitbetrieb",
+            "numbers": {
+              "0": 366,
+              "1": 370,
+              "2": 374,
+              "3": 378
+            }
+          }
+        ],
+        "n_channels": 4
+      },
+      {
+        "block": "trigger",
+        "id": "mode_trigger_motor_up",
+        "parameters": [
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 0,
+            "context": [
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 2,
+                  "fid": "MD-1_P-2_R-2/MD-1_M-100/1"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 2,
+                  "fid": "MD-1_P-2_R-2/MD-1_M-200/1"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 2,
+                  "fid": "MD-4_P-2_R-2/MD-4_M-300/1"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 2,
+                  "fid": "MD-4_P-2_R-2/MD-4_M-400/1"
+                }
+              ]
+            ],
+            "text": "Befehl beim Drücken",
+            "fids": [
+              "MD-1_P-21_R-26/MD-1_M-100/1",
+              "MD-1_P-21_R-26/MD-1_M-200/1",
+              "MD-4_P-21_R-26/MD-4_M-300/1",
+              "MD-4_P-21_R-26/MD-4_M-400/1"
+            ],
+            "type_id": "PT-.5FE.5FBefehl.20Jalousie.20Taste"
+          }
+        ],
+        "objects": [
+          {
+            "global": false,
+            "cc": "CC_Motor_Stop",
+            "fids": [
+              "MD-1_O-6-0_R-6/MD-1_M-100/1",
+              "MD-1_O-6-0_R-6/MD-1_M-200/1",
+              "MD-4_O-6-0_R-6/MD-4_M-300/1",
+              "MD-4_O-6-0_R-6/MD-4_M-400/1"
+            ],
+            "function_text": "Jalousie - Kurzzeitbetrieb",
+            "numbers": {
+              "0": 365,
+              "1": 369,
+              "2": 373,
+              "3": 377
+            }
+          },
+          {
+            "global": false,
+            "cc": "CC_Motor_Move",
+            "fids": [
+              "MD-1_O-6-1_R-7/MD-1_M-100/1",
+              "MD-1_O-6-1_R-7/MD-1_M-200/1",
+              "MD-4_O-6-1_R-7/MD-4_M-300/1",
+              "MD-4_O-6-1_R-7/MD-4_M-400/1"
+            ],
+            "function_text": "Jalousie - Langzeitbetrieb",
+            "numbers": {
+              "0": 366,
+              "1": 370,
+              "2": 374,
+              "3": 378
+            }
+          }
+        ],
+        "n_channels": 4
+      },
+      {
+        "block": "trigger",
         "id": "mode_trigger_switch_off",
         "parameters": [
           {
@@ -9664,6 +9798,701 @@
   },
   {
     "modes": [
+      {
+        "block": "trigger",
+        "id": "mode_trigger_dim",
+        "parameters": [
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 3,
+            "context": [
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "MD-1_P-2_R-2/MD-1_M-100/1"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "MD-1_P-2_R-2/MD-1_M-200/1"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "MD-4_P-2_R-2/MD-4_M-300/1"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "MD-4_P-2_R-2/MD-4_M-400/1"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "MD-4_P-2_R-2/MD-4_M-500/1"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "MD-4_P-2_R-2/MD-4_M-600/1"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "MD-4_P-2_R-2/MD-4_M-700/1"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "MD-4_P-2_R-2/MD-4_M-800/1"
+                }
+              ]
+            ],
+            "text": "   Helligkeit beim Drücken",
+            "fids": [
+              "MD-1_UP-6_R-8/MD-1_M-100/1",
+              "MD-1_UP-6_R-8/MD-1_M-200/1",
+              "MD-4_UP-6_R-8/MD-4_M-300/1",
+              "MD-4_UP-6_R-8/MD-4_M-400/1",
+              "MD-4_UP-6_R-8/MD-4_M-500/1",
+              "MD-4_UP-6_R-8/MD-4_M-600/1",
+              "MD-4_UP-6_R-8/MD-4_M-700/1",
+              "MD-4_UP-6_R-8/MD-4_M-800/1"
+            ],
+            "type_id": "PT-.5FE.5FBefehl.20Dimmen.20Helligkeit"
+          }
+        ],
+        "objects": [
+          {
+            "global": false,
+            "cc": "CC_Output_Switch",
+            "fids": [
+              "MD-1_O-4-0_R-3/MD-1_M-100/1",
+              "MD-1_O-4-0_R-3/MD-1_M-200/1",
+              "MD-4_O-4-0_R-3/MD-4_M-300/1",
+              "MD-4_O-4-0_R-3/MD-4_M-400/1",
+              "MD-4_O-4-0_R-3/MD-4_M-500/1",
+              "MD-4_O-4-0_R-3/MD-4_M-600/1",
+              "MD-4_O-4-0_R-3/MD-4_M-700/1",
+              "MD-4_O-4-0_R-3/MD-4_M-800/1"
+            ],
+            "function_text": "Dimmen - Schalten",
+            "numbers": {
+              "0": 317,
+              "1": 323,
+              "2": 329,
+              "3": 335,
+              "4": 341,
+              "5": 347,
+              "6": 353,
+              "7": 359
+            }
+          },
+          {
+            "global": false,
+            "cc": "CC_Output_DimmingControl",
+            "fids": [
+              "MD-1_O-4-1_R-4/MD-1_M-100/1",
+              "MD-1_O-4-1_R-4/MD-1_M-200/1",
+              "MD-4_O-4-1_R-4/MD-4_M-300/1",
+              "MD-4_O-4-1_R-4/MD-4_M-400/1",
+              "MD-4_O-4-1_R-4/MD-4_M-500/1",
+              "MD-4_O-4-1_R-4/MD-4_M-600/1",
+              "MD-4_O-4-1_R-4/MD-4_M-700/1",
+              "MD-4_O-4-1_R-4/MD-4_M-800/1"
+            ],
+            "function_text": "Dimmen - Helligkeit",
+            "numbers": {
+              "0": 318,
+              "1": 324,
+              "2": 330,
+              "3": 336,
+              "4": 342,
+              "5": 348,
+              "6": 354,
+              "7": 360
+            }
+          },
+          {
+            "global": false,
+            "cc": "CC_Output_SwitchStatus",
+            "fids": [
+              "MD-1_O-4-2_R-5/MD-1_M-100/1",
+              "MD-1_O-4-2_R-5/MD-1_M-200/1",
+              "MD-4_O-4-2_R-5/MD-4_M-300/1",
+              "MD-4_O-4-2_R-5/MD-4_M-400/1",
+              "MD-4_O-4-2_R-5/MD-4_M-500/1",
+              "MD-4_O-4-2_R-5/MD-4_M-600/1",
+              "MD-4_O-4-2_R-5/MD-4_M-700/1",
+              "MD-4_O-4-2_R-5/MD-4_M-800/1"
+            ],
+            "function_text": "Dimmen - Schalten - Status",
+            "numbers": {
+              "0": 319,
+              "1": 325,
+              "2": 331,
+              "3": 337,
+              "4": 343,
+              "5": 349,
+              "6": 355,
+              "7": 361
+            }
+          }
+        ],
+        "n_channels": 8
+      },
+      {
+        "block": "trigger",
+        "id": "mode_trigger_dim_down",
+        "parameters": [
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 2,
+            "context": [
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "MD-1_P-2_R-2/MD-1_M-100/1"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "MD-1_P-2_R-2/MD-1_M-200/1"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "MD-4_P-2_R-2/MD-4_M-300/1"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "MD-4_P-2_R-2/MD-4_M-400/1"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "MD-4_P-2_R-2/MD-4_M-500/1"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "MD-4_P-2_R-2/MD-4_M-600/1"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "MD-4_P-2_R-2/MD-4_M-700/1"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "MD-4_P-2_R-2/MD-4_M-800/1"
+                }
+              ]
+            ],
+            "text": "   Helligkeit beim Drücken",
+            "fids": [
+              "MD-1_UP-6_R-8/MD-1_M-100/1",
+              "MD-1_UP-6_R-8/MD-1_M-200/1",
+              "MD-4_UP-6_R-8/MD-4_M-300/1",
+              "MD-4_UP-6_R-8/MD-4_M-400/1",
+              "MD-4_UP-6_R-8/MD-4_M-500/1",
+              "MD-4_UP-6_R-8/MD-4_M-600/1",
+              "MD-4_UP-6_R-8/MD-4_M-700/1",
+              "MD-4_UP-6_R-8/MD-4_M-800/1"
+            ],
+            "type_id": "PT-.5FE.5FBefehl.20Dimmen.20Helligkeit"
+          }
+        ],
+        "objects": [
+          {
+            "global": false,
+            "cc": "CC_Output_Switch",
+            "fids": [
+              "MD-1_O-4-0_R-3/MD-1_M-100/1",
+              "MD-1_O-4-0_R-3/MD-1_M-200/1",
+              "MD-4_O-4-0_R-3/MD-4_M-300/1",
+              "MD-4_O-4-0_R-3/MD-4_M-400/1",
+              "MD-4_O-4-0_R-3/MD-4_M-500/1",
+              "MD-4_O-4-0_R-3/MD-4_M-600/1",
+              "MD-4_O-4-0_R-3/MD-4_M-700/1",
+              "MD-4_O-4-0_R-3/MD-4_M-800/1"
+            ],
+            "function_text": "Dimmen - Schalten",
+            "numbers": {
+              "0": 317,
+              "1": 323,
+              "2": 329,
+              "3": 335,
+              "4": 341,
+              "5": 347,
+              "6": 353,
+              "7": 359
+            }
+          },
+          {
+            "global": false,
+            "cc": "CC_Output_DimmingControl",
+            "fids": [
+              "MD-1_O-4-1_R-4/MD-1_M-100/1",
+              "MD-1_O-4-1_R-4/MD-1_M-200/1",
+              "MD-4_O-4-1_R-4/MD-4_M-300/1",
+              "MD-4_O-4-1_R-4/MD-4_M-400/1",
+              "MD-4_O-4-1_R-4/MD-4_M-500/1",
+              "MD-4_O-4-1_R-4/MD-4_M-600/1",
+              "MD-4_O-4-1_R-4/MD-4_M-700/1",
+              "MD-4_O-4-1_R-4/MD-4_M-800/1"
+            ],
+            "function_text": "Dimmen - Helligkeit",
+            "numbers": {
+              "0": 318,
+              "1": 324,
+              "2": 330,
+              "3": 336,
+              "4": 342,
+              "5": 348,
+              "6": 354,
+              "7": 360
+            }
+          }
+        ],
+        "n_channels": 8
+      },
+      {
+        "block": "trigger",
+        "id": "mode_trigger_dim_up",
+        "parameters": [
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 1,
+            "context": [
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "MD-1_P-2_R-2/MD-1_M-100/1"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "MD-1_P-2_R-2/MD-1_M-200/1"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "MD-4_P-2_R-2/MD-4_M-300/1"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "MD-4_P-2_R-2/MD-4_M-400/1"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "MD-4_P-2_R-2/MD-4_M-500/1"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "MD-4_P-2_R-2/MD-4_M-600/1"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "MD-4_P-2_R-2/MD-4_M-700/1"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "MD-4_P-2_R-2/MD-4_M-800/1"
+                }
+              ]
+            ],
+            "text": "   Helligkeit beim Drücken",
+            "fids": [
+              "MD-1_UP-6_R-8/MD-1_M-100/1",
+              "MD-1_UP-6_R-8/MD-1_M-200/1",
+              "MD-4_UP-6_R-8/MD-4_M-300/1",
+              "MD-4_UP-6_R-8/MD-4_M-400/1",
+              "MD-4_UP-6_R-8/MD-4_M-500/1",
+              "MD-4_UP-6_R-8/MD-4_M-600/1",
+              "MD-4_UP-6_R-8/MD-4_M-700/1",
+              "MD-4_UP-6_R-8/MD-4_M-800/1"
+            ],
+            "type_id": "PT-.5FE.5FBefehl.20Dimmen.20Helligkeit"
+          }
+        ],
+        "objects": [
+          {
+            "global": false,
+            "cc": "CC_Output_Switch",
+            "fids": [
+              "MD-1_O-4-0_R-3/MD-1_M-100/1",
+              "MD-1_O-4-0_R-3/MD-1_M-200/1",
+              "MD-4_O-4-0_R-3/MD-4_M-300/1",
+              "MD-4_O-4-0_R-3/MD-4_M-400/1",
+              "MD-4_O-4-0_R-3/MD-4_M-500/1",
+              "MD-4_O-4-0_R-3/MD-4_M-600/1",
+              "MD-4_O-4-0_R-3/MD-4_M-700/1",
+              "MD-4_O-4-0_R-3/MD-4_M-800/1"
+            ],
+            "function_text": "Dimmen - Schalten",
+            "numbers": {
+              "0": 317,
+              "1": 323,
+              "2": 329,
+              "3": 335,
+              "4": 341,
+              "5": 347,
+              "6": 353,
+              "7": 359
+            }
+          },
+          {
+            "global": false,
+            "cc": "CC_Output_DimmingControl",
+            "fids": [
+              "MD-1_O-4-1_R-4/MD-1_M-100/1",
+              "MD-1_O-4-1_R-4/MD-1_M-200/1",
+              "MD-4_O-4-1_R-4/MD-4_M-300/1",
+              "MD-4_O-4-1_R-4/MD-4_M-400/1",
+              "MD-4_O-4-1_R-4/MD-4_M-500/1",
+              "MD-4_O-4-1_R-4/MD-4_M-600/1",
+              "MD-4_O-4-1_R-4/MD-4_M-700/1",
+              "MD-4_O-4-1_R-4/MD-4_M-800/1"
+            ],
+            "function_text": "Dimmen - Helligkeit",
+            "numbers": {
+              "0": 318,
+              "1": 324,
+              "2": 330,
+              "3": 336,
+              "4": 342,
+              "5": 348,
+              "6": 354,
+              "7": 360
+            }
+          }
+        ],
+        "n_channels": 8
+      },
+      {
+        "block": "trigger",
+        "id": "mode_trigger_motor_down",
+        "parameters": [
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 1,
+            "context": [
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 2,
+                  "fid": "MD-1_P-2_R-2/MD-1_M-100/1"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 2,
+                  "fid": "MD-1_P-2_R-2/MD-1_M-200/1"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 2,
+                  "fid": "MD-4_P-2_R-2/MD-4_M-300/1"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 2,
+                  "fid": "MD-4_P-2_R-2/MD-4_M-400/1"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 2,
+                  "fid": "MD-4_P-2_R-2/MD-4_M-500/1"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 2,
+                  "fid": "MD-4_P-2_R-2/MD-4_M-600/1"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 2,
+                  "fid": "MD-4_P-2_R-2/MD-4_M-700/1"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 2,
+                  "fid": "MD-4_P-2_R-2/MD-4_M-800/1"
+                }
+              ]
+            ],
+            "text": "Befehl beim Drücken",
+            "fids": [
+              "MD-1_P-21_R-26/MD-1_M-100/1",
+              "MD-1_P-21_R-26/MD-1_M-200/1",
+              "MD-4_P-21_R-26/MD-4_M-300/1",
+              "MD-4_P-21_R-26/MD-4_M-400/1",
+              "MD-4_P-21_R-26/MD-4_M-500/1",
+              "MD-4_P-21_R-26/MD-4_M-600/1",
+              "MD-4_P-21_R-26/MD-4_M-700/1",
+              "MD-4_P-21_R-26/MD-4_M-800/1"
+            ],
+            "type_id": "PT-.5FE.5FBefehl.20Jalousie.20Taste"
+          }
+        ],
+        "objects": [
+          {
+            "global": false,
+            "cc": "CC_Motor_Stop",
+            "fids": [
+              "MD-1_O-6-0_R-6/MD-1_M-100/1",
+              "MD-1_O-6-0_R-6/MD-1_M-200/1",
+              "MD-4_O-6-0_R-6/MD-4_M-300/1",
+              "MD-4_O-6-0_R-6/MD-4_M-400/1",
+              "MD-4_O-6-0_R-6/MD-4_M-500/1",
+              "MD-4_O-6-0_R-6/MD-4_M-600/1",
+              "MD-4_O-6-0_R-6/MD-4_M-700/1",
+              "MD-4_O-6-0_R-6/MD-4_M-800/1"
+            ],
+            "function_text": "Jalousie - Kurzzeitbetrieb",
+            "numbers": {
+              "0": 365,
+              "1": 369,
+              "2": 373,
+              "3": 377,
+              "4": 381,
+              "5": 385,
+              "6": 389,
+              "7": 393
+            }
+          },
+          {
+            "global": false,
+            "cc": "CC_Motor_Move",
+            "fids": [
+              "MD-1_O-6-1_R-7/MD-1_M-100/1",
+              "MD-1_O-6-1_R-7/MD-1_M-200/1",
+              "MD-4_O-6-1_R-7/MD-4_M-300/1",
+              "MD-4_O-6-1_R-7/MD-4_M-400/1",
+              "MD-4_O-6-1_R-7/MD-4_M-500/1",
+              "MD-4_O-6-1_R-7/MD-4_M-600/1",
+              "MD-4_O-6-1_R-7/MD-4_M-700/1",
+              "MD-4_O-6-1_R-7/MD-4_M-800/1"
+            ],
+            "function_text": "Jalousie - Langzeitbetrieb",
+            "numbers": {
+              "0": 366,
+              "1": 370,
+              "2": 374,
+              "3": 378,
+              "4": 382,
+              "5": 386,
+              "6": 390,
+              "7": 394
+            }
+          }
+        ],
+        "n_channels": 8
+      },
+      {
+        "block": "trigger",
+        "id": "mode_trigger_motor_up",
+        "parameters": [
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 0,
+            "context": [
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 2,
+                  "fid": "MD-1_P-2_R-2/MD-1_M-100/1"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 2,
+                  "fid": "MD-1_P-2_R-2/MD-1_M-200/1"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 2,
+                  "fid": "MD-4_P-2_R-2/MD-4_M-300/1"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 2,
+                  "fid": "MD-4_P-2_R-2/MD-4_M-400/1"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 2,
+                  "fid": "MD-4_P-2_R-2/MD-4_M-500/1"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 2,
+                  "fid": "MD-4_P-2_R-2/MD-4_M-600/1"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 2,
+                  "fid": "MD-4_P-2_R-2/MD-4_M-700/1"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 2,
+                  "fid": "MD-4_P-2_R-2/MD-4_M-800/1"
+                }
+              ]
+            ],
+            "text": "Befehl beim Drücken",
+            "fids": [
+              "MD-1_P-21_R-26/MD-1_M-100/1",
+              "MD-1_P-21_R-26/MD-1_M-200/1",
+              "MD-4_P-21_R-26/MD-4_M-300/1",
+              "MD-4_P-21_R-26/MD-4_M-400/1",
+              "MD-4_P-21_R-26/MD-4_M-500/1",
+              "MD-4_P-21_R-26/MD-4_M-600/1",
+              "MD-4_P-21_R-26/MD-4_M-700/1",
+              "MD-4_P-21_R-26/MD-4_M-800/1"
+            ],
+            "type_id": "PT-.5FE.5FBefehl.20Jalousie.20Taste"
+          }
+        ],
+        "objects": [
+          {
+            "global": false,
+            "cc": "CC_Motor_Stop",
+            "fids": [
+              "MD-1_O-6-0_R-6/MD-1_M-100/1",
+              "MD-1_O-6-0_R-6/MD-1_M-200/1",
+              "MD-4_O-6-0_R-6/MD-4_M-300/1",
+              "MD-4_O-6-0_R-6/MD-4_M-400/1",
+              "MD-4_O-6-0_R-6/MD-4_M-500/1",
+              "MD-4_O-6-0_R-6/MD-4_M-600/1",
+              "MD-4_O-6-0_R-6/MD-4_M-700/1",
+              "MD-4_O-6-0_R-6/MD-4_M-800/1"
+            ],
+            "function_text": "Jalousie - Kurzzeitbetrieb",
+            "numbers": {
+              "0": 365,
+              "1": 369,
+              "2": 373,
+              "3": 377,
+              "4": 381,
+              "5": 385,
+              "6": 389,
+              "7": 393
+            }
+          },
+          {
+            "global": false,
+            "cc": "CC_Motor_Move",
+            "fids": [
+              "MD-1_O-6-1_R-7/MD-1_M-100/1",
+              "MD-1_O-6-1_R-7/MD-1_M-200/1",
+              "MD-4_O-6-1_R-7/MD-4_M-300/1",
+              "MD-4_O-6-1_R-7/MD-4_M-400/1",
+              "MD-4_O-6-1_R-7/MD-4_M-500/1",
+              "MD-4_O-6-1_R-7/MD-4_M-600/1",
+              "MD-4_O-6-1_R-7/MD-4_M-700/1",
+              "MD-4_O-6-1_R-7/MD-4_M-800/1"
+            ],
+            "function_text": "Jalousie - Langzeitbetrieb",
+            "numbers": {
+              "0": 366,
+              "1": 370,
+              "2": 374,
+              "3": 378,
+              "4": 382,
+              "5": 386,
+              "6": 390,
+              "7": 394
+            }
+          }
+        ],
+        "n_channels": 8
+      },
       {
         "block": "trigger",
         "id": "mode_trigger_switch_off",
