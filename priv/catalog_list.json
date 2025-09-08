@@ -1,5 +1,5 @@
-{
-  "M-0004_A-0000-01-0F25": {
+[
+  {
     "modes": [
       {
         "block": "weatherstation",
@@ -107,7 +107,7 @@
     "manufacturer_id": "M-0004",
     "manufacturer_name": "Albrecht Jung"
   },
-  "M-0004_A-5017-51-218F": {
+  {
     "modes": [
       {
         "block": "common",
@@ -2082,7 +2082,7 @@
     "manufacturer_id": "M-0004",
     "manufacturer_name": "Albrecht Jung"
   },
-  "M-0004_A-7066-11-94AD-O000A": {
+  {
     "modes": [
       {
         "block": "trigger",
@@ -2220,7 +2220,7 @@
     "manufacturer_id": "M-0004",
     "manufacturer_name": "Albrecht Jung"
   },
-  "M-0004_A-7068-11-E40A-O000A": {
+  {
     "modes": [
       {
         "block": "trigger",
@@ -2516,7 +2516,7 @@
     "manufacturer_id": "M-0004",
     "manufacturer_name": "Albrecht Jung"
   },
-  "M-0004_A-C02F-21-8D47-O000A": {
+  {
     "modes": [
       {
         "block": "actor",
@@ -3211,7 +3211,7 @@
     "manufacturer_id": "M-0004",
     "manufacturer_name": "Albrecht Jung"
   },
-  "M-0004_A-D131-22-1A67-O000A": {
+  {
     "modes": [
       {
         "block": "common",
@@ -3697,7 +3697,7 @@
     "manufacturer_id": "M-0004",
     "manufacturer_name": "Albrecht Jung"
   },
-  "M-0004_A-D132-22-373B-O000A": {
+  {
     "modes": [
       {
         "block": "common",
@@ -4230,7 +4230,7 @@
     "manufacturer_id": "M-0004",
     "manufacturer_name": "Albrecht Jung"
   },
-  "M-0004_A-D133-22-D159-O000A": {
+  {
     "modes": [
       {
         "block": "common",
@@ -4810,7 +4810,7 @@
     "manufacturer_id": "M-0004",
     "manufacturer_name": "Albrecht Jung"
   },
-  "M-0004_A-D134-22-2013-O000A": {
+  {
     "modes": [
       {
         "block": "common",
@@ -5437,7 +5437,7 @@
     "manufacturer_id": "M-0004",
     "manufacturer_name": "Albrecht Jung"
   },
-  "M-00C5_A-0401-10-6607": {
+  {
     "modes": [
       {
         "block": "common",
@@ -5626,7 +5626,7 @@
     "manufacturer_id": "M-00C5",
     "manufacturer_name": "Weinzierl Engineering GmbH"
   },
-  "M-00C5_A-0402-10-1B9C": {
+  {
     "modes": [
       {
         "block": "common",
@@ -5815,7 +5815,7 @@
     "manufacturer_id": "M-00C5",
     "manufacturer_name": "Weinzierl Engineering GmbH"
   },
-  "M-0102_A-2116-60-9E8E": {
+  {
     "modes": [
       {
         "block": "led",
@@ -6268,7 +6268,7 @@
     "manufacturer_id": "M-0102",
     "manufacturer_name": "ambiHome"
   },
-  "M-0102_A-2210-60-81D1": {
+  {
     "modes": [
       {
         "block": "led",
@@ -6726,7 +6726,7 @@
     "manufacturer_id": "M-0102",
     "manufacturer_name": "ambiHome"
   },
-  "M-0102_A-2245-60-553F": {
+  {
     "modes": [
       {
         "block": "led",
@@ -7137,7 +7137,7 @@
     "manufacturer_id": "M-0102",
     "manufacturer_name": "ambiHome"
   },
-  "M-0102_A-2881-60-C23E": {
+  {
     "modes": [
       {
         "block": "led",
@@ -7688,7 +7688,7 @@
     "manufacturer_id": "M-0102",
     "manufacturer_name": "ambiHome"
   },
-  "M-0102_A-6616-60-A127": {
+  {
     "modes": [
       {
         "block": "actor",
@@ -7767,4 +7767,4 @@
     "manufacturer_id": "M-0102",
     "manufacturer_name": "ambiHome"
   }
-}
+]
