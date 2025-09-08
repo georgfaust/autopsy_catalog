@@ -9042,6 +9042,849 @@
   {
     "modes": [
       {
+        "block": "trigger",
+        "id": "mode_trigger_dim",
+        "parameters": [
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 3,
+            "context": [
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "MD-1_P-2_R-2/MD-1_M-100/1"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "MD-1_P-2_R-2/MD-1_M-200/1"
+                }
+              ]
+            ],
+            "text": "   Helligkeit beim Drücken",
+            "fids": [
+              "MD-1_UP-6_R-8/MD-1_M-100/1",
+              "MD-1_UP-6_R-8/MD-1_M-200/1"
+            ],
+            "type_id": "PT-.5FE.5FBefehl.20Dimmen.20Helligkeit"
+          }
+        ],
+        "objects": [
+          {
+            "global": false,
+            "cc": "CC_Output_Switch",
+            "fids": [
+              "MD-1_O-4-0_R-3/MD-1_M-100/1",
+              "MD-1_O-4-0_R-3/MD-1_M-200/1"
+            ],
+            "function_text": "Dimmen - Schalten",
+            "numbers": {
+              "0": 317,
+              "1": 323
+            }
+          },
+          {
+            "global": false,
+            "cc": "CC_Output_DimmingControl",
+            "fids": [
+              "MD-1_O-4-1_R-4/MD-1_M-100/1",
+              "MD-1_O-4-1_R-4/MD-1_M-200/1"
+            ],
+            "function_text": "Dimmen - Helligkeit",
+            "numbers": {
+              "0": 318,
+              "1": 324
+            }
+          },
+          {
+            "global": false,
+            "cc": "CC_Output_SwitchStatus",
+            "fids": [
+              "MD-1_O-4-2_R-5/MD-1_M-100/1",
+              "MD-1_O-4-2_R-5/MD-1_M-200/1"
+            ],
+            "function_text": "Dimmen - Schalten - Status",
+            "numbers": {
+              "0": 319,
+              "1": 325
+            }
+          }
+        ],
+        "n_channels": 2
+      },
+      {
+        "block": "trigger",
+        "id": "mode_trigger_dim_down",
+        "parameters": [
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 2,
+            "context": [
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "MD-1_P-2_R-2/MD-1_M-100/1"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "MD-1_P-2_R-2/MD-1_M-200/1"
+                }
+              ]
+            ],
+            "text": "   Helligkeit beim Drücken",
+            "fids": [
+              "MD-1_UP-6_R-8/MD-1_M-100/1",
+              "MD-1_UP-6_R-8/MD-1_M-200/1"
+            ],
+            "type_id": "PT-.5FE.5FBefehl.20Dimmen.20Helligkeit"
+          }
+        ],
+        "objects": [
+          {
+            "global": false,
+            "cc": "CC_Output_Switch",
+            "fids": [
+              "MD-1_O-4-0_R-3/MD-1_M-100/1",
+              "MD-1_O-4-0_R-3/MD-1_M-200/1"
+            ],
+            "function_text": "Dimmen - Schalten",
+            "numbers": {
+              "0": 317,
+              "1": 323
+            }
+          },
+          {
+            "global": false,
+            "cc": "CC_Output_DimmingControl",
+            "fids": [
+              "MD-1_O-4-1_R-4/MD-1_M-100/1",
+              "MD-1_O-4-1_R-4/MD-1_M-200/1"
+            ],
+            "function_text": "Dimmen - Helligkeit",
+            "numbers": {
+              "0": 318,
+              "1": 324
+            }
+          }
+        ],
+        "n_channels": 2
+      },
+      {
+        "block": "trigger",
+        "id": "mode_trigger_dim_up",
+        "parameters": [
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 1,
+            "context": [
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "MD-1_P-2_R-2/MD-1_M-100/1"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "MD-1_P-2_R-2/MD-1_M-200/1"
+                }
+              ]
+            ],
+            "text": "   Helligkeit beim Drücken",
+            "fids": [
+              "MD-1_UP-6_R-8/MD-1_M-100/1",
+              "MD-1_UP-6_R-8/MD-1_M-200/1"
+            ],
+            "type_id": "PT-.5FE.5FBefehl.20Dimmen.20Helligkeit"
+          }
+        ],
+        "objects": [
+          {
+            "global": false,
+            "cc": "CC_Output_Switch",
+            "fids": [
+              "MD-1_O-4-0_R-3/MD-1_M-100/1",
+              "MD-1_O-4-0_R-3/MD-1_M-200/1"
+            ],
+            "function_text": "Dimmen - Schalten",
+            "numbers": {
+              "0": 317,
+              "1": 323
+            }
+          },
+          {
+            "global": false,
+            "cc": "CC_Output_DimmingControl",
+            "fids": [
+              "MD-1_O-4-1_R-4/MD-1_M-100/1",
+              "MD-1_O-4-1_R-4/MD-1_M-200/1"
+            ],
+            "function_text": "Dimmen - Helligkeit",
+            "numbers": {
+              "0": 318,
+              "1": 324
+            }
+          }
+        ],
+        "n_channels": 2
+      },
+      {
+        "block": "trigger",
+        "id": "mode_trigger_motor_down",
+        "parameters": [
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 1,
+            "context": [
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 2,
+                  "fid": "MD-1_P-2_R-2/MD-1_M-100/1"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 2,
+                  "fid": "MD-1_P-2_R-2/MD-1_M-200/1"
+                }
+              ]
+            ],
+            "text": "Befehl beim Drücken",
+            "fids": [
+              "MD-1_P-21_R-26/MD-1_M-100/1",
+              "MD-1_P-21_R-26/MD-1_M-200/1"
+            ],
+            "type_id": "PT-.5FE.5FBefehl.20Jalousie.20Taste"
+          }
+        ],
+        "objects": [
+          {
+            "global": false,
+            "cc": "CC_Motor_Stop",
+            "fids": [
+              "MD-1_O-6-0_R-6/MD-1_M-100/1",
+              "MD-1_O-6-0_R-6/MD-1_M-200/1"
+            ],
+            "function_text": "Jalousie - Kurzzeitbetrieb",
+            "numbers": {
+              "0": 365,
+              "1": 369
+            }
+          },
+          {
+            "global": false,
+            "cc": "CC_Motor_Move",
+            "fids": [
+              "MD-1_O-6-1_R-7/MD-1_M-100/1",
+              "MD-1_O-6-1_R-7/MD-1_M-200/1"
+            ],
+            "function_text": "Jalousie - Langzeitbetrieb",
+            "numbers": {
+              "0": 366,
+              "1": 370
+            }
+          }
+        ],
+        "n_channels": 2
+      },
+      {
+        "block": "trigger",
+        "id": "mode_trigger_motor_up",
+        "parameters": [
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 0,
+            "context": [
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 2,
+                  "fid": "MD-1_P-2_R-2/MD-1_M-100/1"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 2,
+                  "fid": "MD-1_P-2_R-2/MD-1_M-200/1"
+                }
+              ]
+            ],
+            "text": "Befehl beim Drücken",
+            "fids": [
+              "MD-1_P-21_R-26/MD-1_M-100/1",
+              "MD-1_P-21_R-26/MD-1_M-200/1"
+            ],
+            "type_id": "PT-.5FE.5FBefehl.20Jalousie.20Taste"
+          }
+        ],
+        "objects": [
+          {
+            "global": false,
+            "cc": "CC_Motor_Stop",
+            "fids": [
+              "MD-1_O-6-0_R-6/MD-1_M-100/1",
+              "MD-1_O-6-0_R-6/MD-1_M-200/1"
+            ],
+            "function_text": "Jalousie - Kurzzeitbetrieb",
+            "numbers": {
+              "0": 365,
+              "1": 369
+            }
+          },
+          {
+            "global": false,
+            "cc": "CC_Motor_Move",
+            "fids": [
+              "MD-1_O-6-1_R-7/MD-1_M-100/1",
+              "MD-1_O-6-1_R-7/MD-1_M-200/1"
+            ],
+            "function_text": "Jalousie - Langzeitbetrieb",
+            "numbers": {
+              "0": 366,
+              "1": 370
+            }
+          }
+        ],
+        "n_channels": 2
+      },
+      {
+        "block": "trigger",
+        "id": "mode_trigger_switch_off",
+        "parameters": [
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 2,
+            "context": [
+              [],
+              []
+            ],
+            "text": "Beim Drücken",
+            "fids": [
+              "MD-1_UP-3_R-6/MD-1_M-100/1",
+              "MD-1_UP-3_R-6/MD-1_M-200/1"
+            ],
+            "type_id": "PT-.5FE.5FBefehl.20Schalten"
+          }
+        ],
+        "objects": [
+          {
+            "global": false,
+            "cc": "CC_Output_Switch",
+            "fids": [
+              "MD-1_O-2-0_R-1/MD-1_M-100/1",
+              "MD-1_O-2-0_R-1/MD-1_M-200/1"
+            ],
+            "function_text": "Schalten",
+            "numbers": {
+              "0": 253,
+              "1": 261
+            }
+          }
+        ],
+        "n_channels": 2
+      },
+      {
+        "block": "trigger",
+        "id": "mode_trigger_switch_on",
+        "parameters": [
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 1,
+            "context": [
+              [],
+              []
+            ],
+            "text": "Beim Drücken",
+            "fids": [
+              "MD-1_UP-3_R-6/MD-1_M-100/1",
+              "MD-1_UP-3_R-6/MD-1_M-200/1"
+            ],
+            "type_id": "PT-.5FE.5FBefehl.20Schalten"
+          }
+        ],
+        "objects": [
+          {
+            "global": false,
+            "cc": "CC_Output_Switch",
+            "fids": [
+              "MD-1_O-2-0_R-1/MD-1_M-100/1",
+              "MD-1_O-2-0_R-1/MD-1_M-200/1"
+            ],
+            "function_text": "Schalten",
+            "numbers": {
+              "0": 253,
+              "1": 261
+            }
+          }
+        ],
+        "n_channels": 2
+      },
+      {
+        "block": "trigger",
+        "id": "mode_trigger_toggle",
+        "parameters": [
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 3,
+            "context": [
+              [],
+              []
+            ],
+            "text": "Beim Drücken",
+            "fids": [
+              "MD-1_UP-3_R-6/MD-1_M-100/1",
+              "MD-1_UP-3_R-6/MD-1_M-200/1"
+            ],
+            "type_id": "PT-.5FE.5FBefehl.20Schalten"
+          }
+        ],
+        "objects": [
+          {
+            "global": false,
+            "cc": "CC_Output_Switch",
+            "fids": [
+              "MD-1_O-2-0_R-1/MD-1_M-100/1",
+              "MD-1_O-2-0_R-1/MD-1_M-200/1"
+            ],
+            "function_text": "Schalten",
+            "numbers": {
+              "0": 253,
+              "1": 261
+            }
+          },
+          {
+            "global": false,
+            "cc": "CC_Output_SwitchStatus",
+            "fids": [
+              "MD-1_O-2-1_R-2/MD-1_M-100/1",
+              "MD-1_O-2-1_R-2/MD-1_M-200/1"
+            ],
+            "function_text": "Schalten - Status",
+            "numbers": {
+              "0": 254,
+              "1": 262
+            }
+          }
+        ],
+        "n_channels": 2
+      }
+    ],
+    "application_program_id": "M-0004_A-7072-21-99A7-O000A",
+    "order_numbers": [
+      "400021SE"
+    ],
+    "application_name": "Push-button interface 2-gang 707221",
+    "hardware_to_program_id": "M-0004_H-4.20.2F.2F.20400021SE-0-O000A_HP-7072-21-0000-O000A",
+    "manufacturer_id": "M-0004",
+    "manufacturer_name": "Albrecht Jung"
+  },
+  {
+    "modes": [
+      {
+        "block": "trigger",
+        "id": "mode_trigger_switch_off",
+        "parameters": [
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 2,
+            "context": [
+              [],
+              [],
+              [],
+              []
+            ],
+            "text": "Beim Drücken",
+            "fids": [
+              "MD-1_UP-3_R-6/MD-1_M-100/1",
+              "MD-1_UP-3_R-6/MD-1_M-200/1",
+              "MD-4_UP-3_R-6/MD-4_M-300/1",
+              "MD-4_UP-3_R-6/MD-4_M-400/1"
+            ],
+            "type_id": "PT-.5FE.5FBefehl.20Schalten"
+          }
+        ],
+        "objects": [
+          {
+            "global": false,
+            "cc": "CC_Output_Switch",
+            "fids": [
+              "MD-1_O-2-0_R-1/MD-1_M-100/1",
+              "MD-1_O-2-0_R-1/MD-1_M-200/1",
+              "MD-4_O-2-0_R-1/MD-4_M-300/1",
+              "MD-4_O-2-0_R-1/MD-4_M-400/1"
+            ],
+            "function_text": "Schalten",
+            "numbers": {
+              "0": 253,
+              "1": 261,
+              "2": 269,
+              "3": 277
+            }
+          }
+        ],
+        "n_channels": 4
+      },
+      {
+        "block": "trigger",
+        "id": "mode_trigger_switch_on",
+        "parameters": [
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 1,
+            "context": [
+              [],
+              [],
+              [],
+              []
+            ],
+            "text": "Beim Drücken",
+            "fids": [
+              "MD-1_UP-3_R-6/MD-1_M-100/1",
+              "MD-1_UP-3_R-6/MD-1_M-200/1",
+              "MD-4_UP-3_R-6/MD-4_M-300/1",
+              "MD-4_UP-3_R-6/MD-4_M-400/1"
+            ],
+            "type_id": "PT-.5FE.5FBefehl.20Schalten"
+          }
+        ],
+        "objects": [
+          {
+            "global": false,
+            "cc": "CC_Output_Switch",
+            "fids": [
+              "MD-1_O-2-0_R-1/MD-1_M-100/1",
+              "MD-1_O-2-0_R-1/MD-1_M-200/1",
+              "MD-4_O-2-0_R-1/MD-4_M-300/1",
+              "MD-4_O-2-0_R-1/MD-4_M-400/1"
+            ],
+            "function_text": "Schalten",
+            "numbers": {
+              "0": 253,
+              "1": 261,
+              "2": 269,
+              "3": 277
+            }
+          }
+        ],
+        "n_channels": 4
+      },
+      {
+        "block": "trigger",
+        "id": "mode_trigger_toggle",
+        "parameters": [
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 3,
+            "context": [
+              [],
+              [],
+              [],
+              []
+            ],
+            "text": "Beim Drücken",
+            "fids": [
+              "MD-1_UP-3_R-6/MD-1_M-100/1",
+              "MD-1_UP-3_R-6/MD-1_M-200/1",
+              "MD-4_UP-3_R-6/MD-4_M-300/1",
+              "MD-4_UP-3_R-6/MD-4_M-400/1"
+            ],
+            "type_id": "PT-.5FE.5FBefehl.20Schalten"
+          }
+        ],
+        "objects": [
+          {
+            "global": false,
+            "cc": "CC_Output_Switch",
+            "fids": [
+              "MD-1_O-2-0_R-1/MD-1_M-100/1",
+              "MD-1_O-2-0_R-1/MD-1_M-200/1",
+              "MD-4_O-2-0_R-1/MD-4_M-300/1",
+              "MD-4_O-2-0_R-1/MD-4_M-400/1"
+            ],
+            "function_text": "Schalten",
+            "numbers": {
+              "0": 253,
+              "1": 261,
+              "2": 269,
+              "3": 277
+            }
+          },
+          {
+            "global": false,
+            "cc": "CC_Output_SwitchStatus",
+            "fids": [
+              "MD-1_O-2-1_R-2/MD-1_M-100/1",
+              "MD-1_O-2-1_R-2/MD-1_M-200/1",
+              "MD-4_O-2-1_R-2/MD-4_M-300/1",
+              "MD-4_O-2-1_R-2/MD-4_M-400/1"
+            ],
+            "function_text": "Schalten - Status",
+            "numbers": {
+              "0": 254,
+              "1": 262,
+              "2": 270,
+              "3": 278
+            }
+          }
+        ],
+        "n_channels": 4
+      }
+    ],
+    "application_program_id": "M-0004_A-7074-21-1DA0-O000A",
+    "order_numbers": [
+      "400041SE"
+    ],
+    "application_name": "Push-button interface 4-gang 707421",
+    "hardware_to_program_id": "M-0004_H-4.20.2F.2F.20400041SE-0-O000A_HP-7074-21-0000-O000A",
+    "manufacturer_id": "M-0004",
+    "manufacturer_name": "Albrecht Jung"
+  },
+  {
+    "modes": [
+      {
+        "block": "trigger",
+        "id": "mode_trigger_switch_off",
+        "parameters": [
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 2,
+            "context": [
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              []
+            ],
+            "text": "Beim Drücken",
+            "fids": [
+              "MD-1_UP-3_R-6/MD-1_M-100/1",
+              "MD-1_UP-3_R-6/MD-1_M-200/1",
+              "MD-4_UP-3_R-6/MD-4_M-300/1",
+              "MD-4_UP-3_R-6/MD-4_M-400/1",
+              "MD-4_UP-3_R-6/MD-4_M-500/1",
+              "MD-4_UP-3_R-6/MD-4_M-600/1",
+              "MD-4_UP-3_R-6/MD-4_M-700/1",
+              "MD-4_UP-3_R-6/MD-4_M-800/1"
+            ],
+            "type_id": "PT-.5FE.5FBefehl.20Schalten"
+          }
+        ],
+        "objects": [
+          {
+            "global": false,
+            "cc": "CC_Output_Switch",
+            "fids": [
+              "MD-1_O-2-0_R-1/MD-1_M-100/1",
+              "MD-1_O-2-0_R-1/MD-1_M-200/1",
+              "MD-4_O-2-0_R-1/MD-4_M-300/1",
+              "MD-4_O-2-0_R-1/MD-4_M-400/1",
+              "MD-4_O-2-0_R-1/MD-4_M-500/1",
+              "MD-4_O-2-0_R-1/MD-4_M-600/1",
+              "MD-4_O-2-0_R-1/MD-4_M-700/1",
+              "MD-4_O-2-0_R-1/MD-4_M-800/1"
+            ],
+            "function_text": "Schalten",
+            "numbers": {
+              "0": 253,
+              "1": 261,
+              "2": 269,
+              "3": 277,
+              "4": 285,
+              "5": 293,
+              "6": 301,
+              "7": 309
+            }
+          }
+        ],
+        "n_channels": 8
+      },
+      {
+        "block": "trigger",
+        "id": "mode_trigger_switch_on",
+        "parameters": [
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 1,
+            "context": [
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              []
+            ],
+            "text": "Beim Drücken",
+            "fids": [
+              "MD-1_UP-3_R-6/MD-1_M-100/1",
+              "MD-1_UP-3_R-6/MD-1_M-200/1",
+              "MD-4_UP-3_R-6/MD-4_M-300/1",
+              "MD-4_UP-3_R-6/MD-4_M-400/1",
+              "MD-4_UP-3_R-6/MD-4_M-500/1",
+              "MD-4_UP-3_R-6/MD-4_M-600/1",
+              "MD-4_UP-3_R-6/MD-4_M-700/1",
+              "MD-4_UP-3_R-6/MD-4_M-800/1"
+            ],
+            "type_id": "PT-.5FE.5FBefehl.20Schalten"
+          }
+        ],
+        "objects": [
+          {
+            "global": false,
+            "cc": "CC_Output_Switch",
+            "fids": [
+              "MD-1_O-2-0_R-1/MD-1_M-100/1",
+              "MD-1_O-2-0_R-1/MD-1_M-200/1",
+              "MD-4_O-2-0_R-1/MD-4_M-300/1",
+              "MD-4_O-2-0_R-1/MD-4_M-400/1",
+              "MD-4_O-2-0_R-1/MD-4_M-500/1",
+              "MD-4_O-2-0_R-1/MD-4_M-600/1",
+              "MD-4_O-2-0_R-1/MD-4_M-700/1",
+              "MD-4_O-2-0_R-1/MD-4_M-800/1"
+            ],
+            "function_text": "Schalten",
+            "numbers": {
+              "0": 253,
+              "1": 261,
+              "2": 269,
+              "3": 277,
+              "4": 285,
+              "5": 293,
+              "6": 301,
+              "7": 309
+            }
+          }
+        ],
+        "n_channels": 8
+      },
+      {
+        "block": "trigger",
+        "id": "mode_trigger_toggle",
+        "parameters": [
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 3,
+            "context": [
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              []
+            ],
+            "text": "Beim Drücken",
+            "fids": [
+              "MD-1_UP-3_R-6/MD-1_M-100/1",
+              "MD-1_UP-3_R-6/MD-1_M-200/1",
+              "MD-4_UP-3_R-6/MD-4_M-300/1",
+              "MD-4_UP-3_R-6/MD-4_M-400/1",
+              "MD-4_UP-3_R-6/MD-4_M-500/1",
+              "MD-4_UP-3_R-6/MD-4_M-600/1",
+              "MD-4_UP-3_R-6/MD-4_M-700/1",
+              "MD-4_UP-3_R-6/MD-4_M-800/1"
+            ],
+            "type_id": "PT-.5FE.5FBefehl.20Schalten"
+          }
+        ],
+        "objects": [
+          {
+            "global": false,
+            "cc": "CC_Output_Switch",
+            "fids": [
+              "MD-1_O-2-0_R-1/MD-1_M-100/1",
+              "MD-1_O-2-0_R-1/MD-1_M-200/1",
+              "MD-4_O-2-0_R-1/MD-4_M-300/1",
+              "MD-4_O-2-0_R-1/MD-4_M-400/1",
+              "MD-4_O-2-0_R-1/MD-4_M-500/1",
+              "MD-4_O-2-0_R-1/MD-4_M-600/1",
+              "MD-4_O-2-0_R-1/MD-4_M-700/1",
+              "MD-4_O-2-0_R-1/MD-4_M-800/1"
+            ],
+            "function_text": "Schalten",
+            "numbers": {
+              "0": 253,
+              "1": 261,
+              "2": 269,
+              "3": 277,
+              "4": 285,
+              "5": 293,
+              "6": 301,
+              "7": 309
+            }
+          },
+          {
+            "global": false,
+            "cc": "CC_Output_SwitchStatus",
+            "fids": [
+              "MD-1_O-2-1_R-2/MD-1_M-100/1",
+              "MD-1_O-2-1_R-2/MD-1_M-200/1",
+              "MD-4_O-2-1_R-2/MD-4_M-300/1",
+              "MD-4_O-2-1_R-2/MD-4_M-400/1",
+              "MD-4_O-2-1_R-2/MD-4_M-500/1",
+              "MD-4_O-2-1_R-2/MD-4_M-600/1",
+              "MD-4_O-2-1_R-2/MD-4_M-700/1",
+              "MD-4_O-2-1_R-2/MD-4_M-800/1"
+            ],
+            "function_text": "Schalten - Status",
+            "numbers": {
+              "0": 254,
+              "1": 262,
+              "2": 270,
+              "3": 278,
+              "4": 286,
+              "5": 294,
+              "6": 302,
+              "7": 310
+            }
+          }
+        ],
+        "n_channels": 8
+      }
+    ],
+    "application_program_id": "M-0004_A-7078-21-4711-O000A",
+    "order_numbers": [
+      "400081SE"
+    ],
+    "application_name": "Push-button interface 8-gang 707821",
+    "hardware_to_program_id": "M-0004_H-4.20.2F.2F.20400081SE-0-O000A_HP-7078-21-0000-O000A",
+    "manufacturer_id": "M-0004",
+    "manufacturer_name": "Albrecht Jung"
+  },
+  {
+    "modes": [
+      {
         "block": "sensor_motion",
         "id": "mode_motion_full_automaton",
         "parameters": [
