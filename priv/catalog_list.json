@@ -98,10 +98,10 @@
         "n_channels": 1
       }
     ],
+    "application_program_id": "M-0004_A-0000-01-0F25",
     "order_numbers": [
       "Dummy"
     ],
-    "application_program_id": "M-0004_A-0000-01-0F25",
     "application_name": "gr. Dummy-Applikation 900201",
     "hardware_to_program_id": "M-0004_H-4.20.2F.2F.20Dummy-1_HP-0000-01-0000",
     "manufacturer_id": "M-0004",
@@ -575,10 +575,10 @@
         "n_channels": 2
       }
     ],
+    "application_program_id": "M-0004_A-1151-22-3144-O000A",
     "order_numbers": [
       "..10911ST"
     ],
-    "application_program_id": "M-0004_A-1151-22-3144-O000A",
     "application_name": "Taster Universal 1fach 115122",
     "hardware_to_program_id": "M-0004_H-4.20.2F.2F.20.2E.2E10911ST-0-O000A_HP-1151-22-0000-O000A",
     "manufacturer_id": "M-0004",
@@ -1126,10 +1126,10 @@
         "n_channels": 4
       }
     ],
+    "application_program_id": "M-0004_A-1152-22-AED9-O000A",
     "order_numbers": [
       "..10921ST"
     ],
-    "application_program_id": "M-0004_A-1152-22-AED9-O000A",
     "application_name": "Taster Universal 2fach 115222",
     "hardware_to_program_id": "M-0004_H-4.20.2F.2F.20.2E.2E10921ST-0-O000A_HP-1152-22-0000-O000A",
     "manufacturer_id": "M-0004",
@@ -1783,10 +1783,10 @@
         "n_channels": 6
       }
     ],
+    "application_program_id": "M-0004_A-20D5-25-5E0A-O000A",
     "order_numbers": [
       "230061SR"
     ],
-    "application_program_id": "M-0004_A-20D5-25-5E0A-O000A",
     "application_name": "Schalten, Jalousie 20D525",
     "hardware_to_program_id": "M-0004_H-4.20.2F.2F.20230061SR-0-O000A_HP-20D5-25-0000-O000A",
     "manufacturer_id": "M-0004",
@@ -2795,10 +2795,10 @@
         "n_channels": 16
       }
     ],
+    "application_program_id": "M-0004_A-20D6-25-D965-O000A",
     "order_numbers": [
       "230161SR"
     ],
-    "application_program_id": "M-0004_A-20D6-25-D965-O000A",
     "application_name": "Schalten, Jalousie 20D625",
     "hardware_to_program_id": "M-0004_H-4.20.2F.2F.20230161SR-0-O000A_HP-20D6-25-0000-O000A",
     "manufacturer_id": "M-0004",
@@ -4091,10 +4091,10 @@
         "n_channels": 24
       }
     ],
+    "application_program_id": "M-0004_A-20D7-25-11A1-O000A",
     "order_numbers": [
       "230241SR"
     ],
-    "application_program_id": "M-0004_A-20D7-25-11A1-O000A",
     "application_name": "Schalten, Jalousie 20D725",
     "hardware_to_program_id": "M-0004_H-4.20.2F.2F.20230241SR-0-O000A_HP-20D7-25-0000-O000A",
     "manufacturer_id": "M-0004",
@@ -4524,10 +4524,10 @@
         "n_channels": 3
       }
     ],
+    "application_program_id": "M-0004_A-20DE-22-C7D8-O000A",
     "order_numbers": [
       "230021SU"
     ],
-    "application_program_id": "M-0004_A-20DE-22-C7D8-O000A",
     "application_name": "Switching, Shutter/blinds, Inputs 20DE22",
     "hardware_to_program_id": "M-0004_H-4.20.2F.2F.20230021SU-0-O000A_HP-20DE-22-0000-O000A",
     "manufacturer_id": "M-0004",
@@ -5219,10 +5219,10 @@
         "n_channels": 3
       }
     ],
+    "application_program_id": "M-0004_A-20DF-22-8D8E-O000A",
     "order_numbers": [
       "230011SU"
     ],
-    "application_program_id": "M-0004_A-20DF-22-8D8E-O000A",
     "application_name": "Switching, Inputs 20DF22",
     "hardware_to_program_id": "M-0004_H-4.20.2F.2F.20230011SU-0-O000A_HP-20DF-22-0000-O000A",
     "manufacturer_id": "M-0004",
@@ -6181,10 +6181,10 @@
         "n_channels": 6
       }
     ],
+    "application_program_id": "M-0004_A-20E0-21-5B9E-O000A",
     "order_numbers": [
       "360061SR"
     ],
-    "application_program_id": "M-0004_A-20E0-21-5B9E-O000A",
     "application_name": "Heizungsaktor 6fach mit Regler 20E021",
     "hardware_to_program_id": "M-0004_H-4.20.2F.2F.20360061SR-0-O000A_HP-20E0-21-0000-O000A",
     "manufacturer_id": "M-0004",
@@ -6307,10 +6307,10 @@
         "n_channels": 4
       }
     ],
+    "application_program_id": "M-0004_A-3030-23-F0EA-O000A",
     "order_numbers": [
       "390041SR"
     ],
-    "application_program_id": "M-0004_A-3030-23-F0EA-O000A",
     "application_name": "Dimmen 303023",
     "hardware_to_program_id": "M-0004_H-4.20.2F.2F.20390041SR-0-O000A_HP-3030-23-0000-O000A",
     "manufacturer_id": "M-0004",
@@ -10781,10 +10781,10 @@
         "n_channels": 20
       }
     ],
+    "application_program_id": "M-0004_A-5017-51-218F",
     "order_numbers": [
       "..459D1S.."
     ],
-    "application_program_id": "M-0004_A-5017-51-218F",
     "application_name": "LS-Touch",
     "hardware_to_program_id": "M-0004_H-0000002F-1_HP-5017-51-0000",
     "manufacturer_id": "M-0004",
@@ -10919,10 +10919,10 @@
         "n_channels": 6
       }
     ],
+    "application_program_id": "M-0004_A-7066-11-94AD-O000A",
     "order_numbers": [
       "2116REG"
     ],
-    "application_program_id": "M-0004_A-7066-11-94AD-O000A",
     "application_name": "Eingang 706611",
     "hardware_to_program_id": "M-0004_H-4.20.2F.2F.202116REG-1-O000A_HP-7066-11-0000-O000A",
     "manufacturer_id": "M-0004",
@@ -11215,10 +11215,10 @@
         "n_channels": 8
       }
     ],
+    "application_program_id": "M-0004_A-7068-11-E40A-O000A",
     "order_numbers": [
       "2128REG"
     ],
-    "application_program_id": "M-0004_A-7068-11-E40A-O000A",
     "application_name": "Eingang 706811",
     "hardware_to_program_id": "M-0004_H-4.20.2F.2F.202128REG-1-O000A_HP-7068-11-0000-O000A",
     "manufacturer_id": "M-0004",
@@ -11674,10 +11674,10 @@
         "n_channels": 2
       }
     ],
+    "application_program_id": "M-0004_A-7072-21-99A7-O000A",
     "order_numbers": [
       "400021SE"
     ],
-    "application_program_id": "M-0004_A-7072-21-99A7-O000A",
     "application_name": "Push-button interface 2-gang 707221",
     "hardware_to_program_id": "M-0004_H-4.20.2F.2F.20400021SE-0-O000A_HP-7072-21-0000-O000A",
     "manufacturer_id": "M-0004",
@@ -12285,10 +12285,10 @@
         "n_channels": 4
       }
     ],
+    "application_program_id": "M-0004_A-7074-21-1DA0-O000A",
     "order_numbers": [
       "400041SE"
     ],
-    "application_program_id": "M-0004_A-7074-21-1DA0-O000A",
     "application_name": "Push-button interface 4-gang 707421",
     "hardware_to_program_id": "M-0004_H-4.20.2F.2F.20400041SE-0-O000A_HP-7074-21-0000-O000A",
     "manufacturer_id": "M-0004",
@@ -13200,10 +13200,10 @@
         "n_channels": 8
       }
     ],
+    "application_program_id": "M-0004_A-7078-21-4711-O000A",
     "order_numbers": [
       "400081SE"
     ],
-    "application_program_id": "M-0004_A-7078-21-4711-O000A",
     "application_name": "Push-button interface 8-gang 707821",
     "hardware_to_program_id": "M-0004_H-4.20.2F.2F.20400081SE-0-O000A_HP-7078-21-0000-O000A",
     "manufacturer_id": "M-0004",
@@ -13289,10 +13289,10 @@
         "n_channels": 1
       }
     ],
+    "application_program_id": "M-0004_A-A011-13-400D-O000A",
     "order_numbers": [
       "3361-1MWW"
     ],
-    "application_program_id": "M-0004_A-A011-13-400D-O000A",
     "application_name": "Präsenzmelder Universal A01113",
     "hardware_to_program_id": "M-0004_H-4.20.2F.2F.203361.2D1MWW-1-O000A_HP-A011-13-0000-O000A",
     "manufacturer_id": "M-0004",
@@ -13606,10 +13606,10 @@
         "n_channels": 1
       }
     ],
+    "application_program_id": "M-0004_A-A032-12-6F42-O000A",
     "order_numbers": [
       "3181-1"
     ],
-    "application_program_id": "M-0004_A-A032-12-6F42-O000A",
     "application_name": "PIR Universal A03212",
     "hardware_to_program_id": "M-0004_H-4.20.2F.2F.203181.2D1-1-O000A_HP-A032-12-0000-O000A",
     "manufacturer_id": "M-0004",
@@ -14302,10 +14302,10 @@
         "n_channels": 4
       }
     ],
+    "application_program_id": "M-0004_A-C02F-21-8D47-O000A",
     "order_numbers": [
       "300041SDA2R"
     ],
-    "application_program_id": "M-0004_A-C02F-21-8D47-O000A",
     "application_name": "DALI actuator C02F21",
     "hardware_to_program_id": "M-0004_H-4.20.2F.2F.20300041SDA2R-0-O000A_HP-C02F-21-0000-O000A",
     "manufacturer_id": "M-0004",
@@ -14788,10 +14788,10 @@
         "n_channels": 1
       }
     ],
+    "application_program_id": "M-0004_A-D131-22-1A67-O000A",
     "order_numbers": [
       "42911ST"
     ],
-    "application_program_id": "M-0004_A-D131-22-1A67-O000A",
     "application_name": "Push-button sensor module Universal 1-gang D13122",
     "hardware_to_program_id": "M-0004_H-4.20.2F.2F.2042911ST-0-O000A_HP-D131-22-0000-O000A",
     "manufacturer_id": "M-0004",
@@ -15321,10 +15321,10 @@
         "n_channels": 2
       }
     ],
+    "application_program_id": "M-0004_A-D132-22-373B-O000A",
     "order_numbers": [
       "42921ST"
     ],
-    "application_program_id": "M-0004_A-D132-22-373B-O000A",
     "application_name": "Push-button sensor module Universal 2-gang D13222",
     "hardware_to_program_id": "M-0004_H-4.20.2F.2F.2042921ST-0-O000A_HP-D132-22-0000-O000A",
     "manufacturer_id": "M-0004",
@@ -15901,10 +15901,10 @@
         "n_channels": 3
       }
     ],
+    "application_program_id": "M-0004_A-D133-22-D159-O000A",
     "order_numbers": [
       "42931ST"
     ],
-    "application_program_id": "M-0004_A-D133-22-D159-O000A",
     "application_name": "Push-button sensor module Universal 3-gang D13322",
     "hardware_to_program_id": "M-0004_H-4.20.2F.2F.2042931ST-0-O000A_HP-D133-22-0000-O000A",
     "manufacturer_id": "M-0004",
@@ -16528,10 +16528,10 @@
         "n_channels": 4
       }
     ],
+    "application_program_id": "M-0004_A-D134-22-2013-O000A",
     "order_numbers": [
       "42941ST"
     ],
-    "application_program_id": "M-0004_A-D134-22-2013-O000A",
     "application_name": "Push-button sensor module Universal 4-gang D13422",
     "hardware_to_program_id": "M-0004_H-4.20.2F.2F.2042941ST-0-O000A_HP-D134-22-0000-O000A",
     "manufacturer_id": "M-0004",
@@ -16951,10 +16951,10 @@
         "n_channels": 2
       }
     ],
+    "application_program_id": "M-0004_A-D141-21-39B8-O000A",
     "order_numbers": [
       "52911ST"
     ],
-    "application_program_id": "M-0004_A-D141-21-39B8-O000A",
     "application_name": "Tastsensor-Modul Universal 1fach D14121",
     "hardware_to_program_id": "M-0004_H-4.20.2F.2F.2052911ST-0-O000A_HP-D141-21-0000-O000A",
     "manufacturer_id": "M-0004",
@@ -17464,10 +17464,10 @@
         "n_channels": 4
       }
     ],
+    "application_program_id": "M-0004_A-D142-21-8848-O000A",
     "order_numbers": [
       "52921ST"
     ],
-    "application_program_id": "M-0004_A-D142-21-8848-O000A",
     "application_name": "Tastsensor-Modul Universal 2fach D14221",
     "hardware_to_program_id": "M-0004_H-4.20.2F.2F.2052921ST-0-O000A_HP-D142-21-0000-O000A",
     "manufacturer_id": "M-0004",
@@ -18066,10 +18066,10 @@
         "n_channels": 6
       }
     ],
+    "application_program_id": "M-0004_A-D143-21-AB5B-O000A",
     "order_numbers": [
       "52931ST"
     ],
-    "application_program_id": "M-0004_A-D143-21-AB5B-O000A",
     "application_name": "Tastsensor-Modul Universal 3fach D14321",
     "hardware_to_program_id": "M-0004_H-4.20.2F.2F.2052931ST-0-O000A_HP-D143-21-0000-O000A",
     "manufacturer_id": "M-0004",
@@ -18757,15 +18757,857 @@
         "n_channels": 8
       }
     ],
+    "application_program_id": "M-0004_A-D144-21-4C84-O000A",
     "order_numbers": [
       "52941ST"
     ],
-    "application_program_id": "M-0004_A-D144-21-4C84-O000A",
     "application_name": "Tastsensor-Modul Universal 4fach D14421",
     "hardware_to_program_id": "M-0004_H-4.20.2F.2F.2052941ST-0-O000A_HP-D144-21-0000-O000A",
     "manufacturer_id": "M-0004",
     "manufacturer_name": "Albrecht Jung",
     "mount_type": "flush"
+  },
+  {
+    "modes": [
+      {
+        "block": "common",
+        "id": "mode_common",
+        "parameters": [
+          {
+            "global": true,
+            "type": "TypeRestriction",
+            "value": 0,
+            "context": [],
+            "text": "Tastsensor Erweiterungsmodul",
+            "fids": [
+              "P-388_R-471//"
+            ],
+            "type_id": "PT-Tastsensor.2DErweiterungsmodul"
+          },
+          {
+            "global": true,
+            "type": "TypeRestriction",
+            "value": 4,
+            "context": [],
+            "text": "   Helligkeit",
+            "fids": [
+              "P-185_R-96//"
+            ],
+            "type_id": "PT-Betriebs.2DLED.20Helligkeitsstufen"
+          },
+          {
+            "global": true,
+            "type": "TypeRestriction",
+            "value": 4,
+            "context": [],
+            "text": "Helligkeit am Tastsensor Grundmodul",
+            "fids": [
+              "P-186_R-97//"
+            ],
+            "type_id": "PT-LED.20Helligkeitsstufen"
+          },
+          {
+            "global": true,
+            "type": "TypeNumber",
+            "value": 1,
+            "context": [],
+            "text": "Helligkeitsreduzierung",
+            "fids": [
+              "P-180_R-87//"
+            ],
+            "type_id": "PT-.5FAllg.5Fja1.5Fnein.5FCheckbox"
+          },
+          {
+            "global": true,
+            "type": "TypeNumber",
+            "value": 1,
+            "context": [],
+            "text": "Energiesparmodus",
+            "fids": [
+              "P-8_R-5//"
+            ],
+            "type_id": "PT-.5FAllg.5Fja1.5Fnein.5FCheckbox"
+          },
+          {
+            "global": true,
+            "type": "TypeRestriction",
+            "value": 1,
+            "context": [],
+            "text": "Objekt-Polarität",
+            "fids": [
+              "P-181_R-88//"
+            ],
+            "type_id": "PT-Nachtabsenkung.20Polarität.20Meldeobjekt"
+          },
+          {
+            "global": true,
+            "type": "TypeRestriction",
+            "value": 1,
+            "context": [],
+            "text": "Reduzierte Helligkeit am\r\nTastsensor Grundmodul",
+            "fids": [
+              "P-182_R-93//"
+            ],
+            "type_id": "PT-LED.20Helligkeitsstufen"
+          }
+        ],
+        "objects": [
+          {
+            "global": true,
+            "cc": "CC_DayNightToggle",
+            "fids": [
+              "MD-38_O-6-6_R-13/MD-38_M-159/1"
+            ],
+            "function_text": "Aktivieren / Deaktivieren",
+            "numbers": {
+              "0": 7
+            }
+          }
+        ],
+        "n_channels": 1
+      },
+      {
+        "block": "trigger",
+        "id": "mode_control_room_temperature",
+        "parameters": [
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 6,
+            "context": [
+              []
+            ],
+            "text": "Funktion",
+            "fids": [
+              "P-592_R-1124//"
+            ],
+            "type_id": "PT-.5FFunktion.20.28Wippe.29"
+          },
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 2,
+            "context": [],
+            "text": "Raumtemperaturregler-Funktion",
+            "fids": [
+              "P-985_R-924//"
+            ],
+            "type_id": "PT-RTR.2DFunktion"
+          },
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 3,
+            "context": [],
+            "text": "Funktionsweise",
+            "fids": [
+              "P-593_R-1125//"
+            ],
+            "type_id": "PT-.5FE.5FFunktionsweise.20Reglernebenstelle"
+          },
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 6,
+            "context": [],
+            "text": "   Solltemperaturverschiebung",
+            "fids": [
+              "P-1635_R-2697//"
+            ],
+            "type_id": "PT-.5FE.5FArt.20der.20Sollwertverschiebung"
+          },
+          {
+            "global": false,
+            "type": "TypeFloat",
+            "value": 17.0,
+            "context": [],
+            "text": "T1 - Min Verstellung",
+            "fids": [
+              "MD-25_UP-13_R-14/MD-25_M-763/1"
+            ],
+            "type_id": "PT-.5FRegler.5FHA.5FRE.5FFloat.5F7bis45.20.28Inkrement.20.3D.201.29"
+          },
+          {
+            "global": false,
+            "type": "TypeFloat",
+            "value": 25.0,
+            "context": [],
+            "text": "T1 - Max Verstellung",
+            "fids": [
+              "MD-25_UP-12_R-10/MD-25_M-763/1"
+            ],
+            "type_id": "PT-.5FRegler.5FHA.5FRE.5FFloat.5F7bis45.20.28Inkrement.20.3D.201.29"
+          },
+          {
+            "global": false,
+            "type": "TypeFloat",
+            "value": 17.0,
+            "context": [],
+            "text": "T2 - Min Verstellung",
+            "fids": [
+              "MD-25_UP-19_R-16/MD-25_M-763/1"
+            ],
+            "type_id": "PT-.5FRegler.5FHA.5FRE.5FFloat.5F7bis45.20.28Inkrement.20.3D.201.29"
+          },
+          {
+            "global": false,
+            "type": "TypeFloat",
+            "value": 25.0,
+            "context": [],
+            "text": "T2 - Max Verstellung",
+            "fids": [
+              "MD-25_UP-18_R-15/MD-25_M-763/1"
+            ],
+            "type_id": "PT-.5FRegler.5FHA.5FRE.5FFloat.5F7bis45.20.28Inkrement.20.3D.201.29"
+          },
+          {
+            "global": false,
+            "type": "TypeNumber",
+            "value": 1,
+            "context": [],
+            "text": "Wertanforderung der Reglernebenstelle",
+            "fids": [
+              "P-194_R-76//"
+            ],
+            "type_id": "PT-.5F0612.5FCheck.20Box"
+          },
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 2,
+            "context": [],
+            "text": "Reglerbetriebsart",
+            "fids": [
+              "P-348_R-177//"
+            ],
+            "type_id": "PT-.5F0612.5FReglernebenstelle.5FBetriebsart"
+          },
+          {
+            "global": false,
+            "type": "TypeNumber",
+            "value": 0,
+            "context": [],
+            "text": "Uhrzeit anfordern",
+            "fids": [
+              "P-807_R-1524//"
+            ],
+            "type_id": "PT-.5F0611.5FAllg.5Fja1.5Fnein.5FCheckbox.201.20Bit"
+          },
+          {
+            "global": false,
+            "type": "TypeNumber",
+            "value": 1,
+            "context": [],
+            "text": "   Anzahl der Anzeigeinformationen",
+            "fids": [
+              "MD-38_P-6_R-7/MD-38_M-159/1"
+            ],
+            "type_id": "PT-.5F0611.5FWert.201.2E.2E.2E4.20Spin.20Edit"
+          },
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 3,
+            "context": [],
+            "text": "Anzeigeinformation 1",
+            "fids": [
+              "MD-38_P-11_R-17/MD-38_M-159/1"
+            ],
+            "type_id": "PT-.5F0611.5FDisplay.5FAnzeigeinformation"
+          },
+          {
+            "global": false,
+            "type": "TypeNumber",
+            "value": 0,
+            "context": [],
+            "text": "Reglersymbole anzeigen",
+            "fids": [
+              "MD-38_UP-12_R-299/MD-38_M-159/1"
+            ],
+            "type_id": "PT-.5F0612.5FAllg.5Fja1.5Fnein.5FCheckbox.202.20Bit"
+          }
+        ],
+        "objects": [
+          {
+            "global": false,
+            "cc": "CC_HVAC_SetPointAbsolute",
+            "fids": [
+              "MD-25_O-14-1_R-1/MD-25_M-763/1"
+            ],
+            "function_text": "RTR-Bedienstelle - Solltemperaturverschiebung",
+            "numbers": {
+              "0": 962
+            }
+          },
+          {
+            "global": false,
+            "cc": "CC_HVAC_CurrentSetPoint",
+            "fids": [
+              "MD-25_O-14-2_R-2/MD-25_M-763/1"
+            ],
+            "function_text": "RTR-Bedienstelle - Solltemperaturverschiebung - Status",
+            "numbers": {
+              "0": 963
+            }
+          },
+          {
+            "global": false,
+            "cc": "CC_HVAC_CurrentSetPoint",
+            "fids": [
+              "MD-38_O-2-7_R-9/MD-38_M-159/1"
+            ],
+            "function_text": "Solltemperatur",
+            "numbers": {
+              "0": 1412
+            }
+          },
+          {
+            "global": false,
+            "cc": "CC_HVAC_CurrentSetPoint",
+            "fids": [
+              "O-1290_R-164//"
+            ],
+            "function_text": "Solltemperatur - Aktiver Betriebsmodus - Status",
+            "numbers": {
+              "0": 1290
+            }
+          }
+        ],
+        "n_channels": 1
+      },
+      {
+        "block": "sensor",
+        "id": "mode_sensors_temperature",
+        "parameters": [
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 0,
+            "context": [
+              []
+            ],
+            "text": "Temperaturmessung durch",
+            "fids": [
+              "MD-11_P-181_R-255/MD-11_M-36/1"
+            ],
+            "type_id": "PT-.5FTemperaturerfassung.20durch"
+          },
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 3,
+            "context": [],
+            "text": "Ist-Temperatur senden",
+            "fids": [
+              "MD-11_P-198_R-275/MD-11_M-36/1"
+            ],
+            "type_id": "PT-NEU.5FType.5FautoAussendenZählerstand"
+          },
+          {
+            "global": false,
+            "type": "TypeNumber",
+            "value": 25,
+            "context": [],
+            "text": "E - Temperatur - Zykluszeit min",
+            "fids": [
+              "MD-11_P-831_R-421/MD-11_M-36/1"
+            ],
+            "type_id": "PT-NEU.5FType.5FZeit.5F0bis59.5F6Bit"
+          }
+        ],
+        "objects": [
+          {
+            "global": false,
+            "cc": "CC_Sensor_Temperature",
+            "fids": [
+              "MD-11_O-21-0_R-68/MD-11_M-36/1"
+            ],
+            "function_text": "Temperatursensor - Ist-Temperatur - Status",
+            "numbers": {
+              "0": 1249
+            }
+          }
+        ],
+        "n_channels": 1
+      },
+      {
+        "block": "trigger",
+        "id": "mode_trigger_dim",
+        "parameters": [
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 1,
+            "context": [
+              [],
+              []
+            ],
+            "text": "Funktion",
+            "fids": [
+              "P-382_R-327//",
+              "P-583_R-1114//"
+            ],
+            "type_id": "PT-.5FFunktion.20.28Wippe.29"
+          },
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 0,
+            "context": [],
+            "text": "Funktion der Status-LED",
+            "fids": [
+              "P-251_R-310//",
+              "P-654_R-1331//"
+            ],
+            "type_id": "PT-1151.5FStatus.2DLED.20.2D.20Anzeigefunktion.20WSchalten"
+          },
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 6,
+            "context": [],
+            "text": "Funktion der Status-LED",
+            "fids": [
+              "P-346_R-436//",
+              "P-748_R-1459//"
+            ],
+            "type_id": "PT-1151.5FStatus.2DLED.20.2D.20Anzeigefunktion.20WSchalten"
+          }
+        ],
+        "objects": [
+          {
+            "global": false,
+            "cc": "CC_Output_Switch",
+            "fids": [
+              "MD-14_O-4-0_R-3/MD-14_M-45/1",
+              "MD-14_O-4-0_R-3/MD-14_M-25/1"
+            ],
+            "function_text": "Dimmen - Schalten",
+            "numbers": {
+              "0": 153,
+              "1": 165
+            }
+          },
+          {
+            "global": false,
+            "cc": "CC_Output_DimmingControl",
+            "fids": [
+              "MD-14_O-4-1_R-4/MD-14_M-45/1",
+              "MD-14_O-4-1_R-4/MD-14_M-25/1"
+            ],
+            "function_text": "Dimmen",
+            "numbers": {
+              "0": 154,
+              "1": 166
+            }
+          },
+          {
+            "global": false,
+            "cc": "CC_Output_SwitchStatus",
+            "fids": [
+              "O-1043_R-31//",
+              "O-1067_R-105//"
+            ],
+            "function_text": "Schalten",
+            "numbers": {
+              "0": 1043,
+              "1": 1067
+            }
+          }
+        ],
+        "n_channels": 2
+      },
+      {
+        "block": "trigger",
+        "id": "mode_trigger_garage_door_drive",
+        "parameters": [
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 0,
+            "context": [
+              [],
+              []
+            ],
+            "text": "Funktion",
+            "fids": [
+              "P-382_R-327//",
+              "P-583_R-1114//"
+            ],
+            "type_id": "PT-.5FFunktion.20.28Wippe.29"
+          },
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 1,
+            "context": [],
+            "text": "Beim Drücken",
+            "fids": [
+              "MD-13_P-1_R-1/MD-13_M-44/1",
+              "MD-13_P-1_R-1/MD-13_M-14/1"
+            ],
+            "type_id": "PT-.5FE.5FBefehl.20Schalten"
+          }
+        ],
+        "objects": [
+          {
+            "global": false,
+            "cc": "CC_Output_StairCaseAutomaton",
+            "fids": [
+              "MD-13_O-2-0_R-1/MD-13_M-44/1",
+              "MD-13_O-2-0_R-1/MD-13_M-14/1"
+            ],
+            "function_text": "Schalten",
+            "numbers": {
+              "0": 49,
+              "1": 57
+            }
+          }
+        ],
+        "n_channels": 2
+      },
+      {
+        "block": "trigger",
+        "id": "mode_trigger_lock_motion",
+        "parameters": [
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 5,
+            "context": [
+              [],
+              []
+            ],
+            "text": "Funktion",
+            "fids": [
+              "P-382_R-327//",
+              "P-583_R-1114//"
+            ],
+            "type_id": "PT-.5FFunktion.20.28Wippe.29"
+          },
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 1,
+            "context": [],
+            "text": "Kurzer Tastendruck (Objekt 1)",
+            "fids": [
+              "MD-18_UP-59_R-68/MD-18_M-38/1",
+              "MD-18_UP-59_R-68/MD-18_M-29/1"
+            ],
+            "type_id": "PT-.5FE.5F2.2DKanal.20Bedienung.20Befehl.20Schalten.20.282.20Byte.29"
+          },
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 1,
+            "context": [],
+            "text": "Langer Tastendruck (Objekt 2)",
+            "fids": [
+              "MD-18_UP-70_R-79/MD-18_M-38/1",
+              "MD-18_UP-70_R-79/MD-18_M-29/1"
+            ],
+            "type_id": "PT-.5FE.5F2.2DKanal.20Bedienung.20Befehl.20Schalten.20.282.20Byte.29"
+          },
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 2,
+            "context": [],
+            "text": "Kurzer Tastendruck (Objekt 1)",
+            "fids": [
+              "MD-18_UP-36_R-50/MD-18_M-38/1",
+              "MD-18_UP-36_R-50/MD-18_M-29/1"
+            ],
+            "type_id": "PT-.5FE.5F2.2DKanal.20Bedienung.20Befehl.20Schalten.20.282.20Byte.29"
+          },
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 2,
+            "context": [],
+            "text": "Langer Tastendruck (Objekt 2)",
+            "fids": [
+              "MD-18_UP-98_R-115/MD-18_M-38/1",
+              "MD-18_UP-98_R-115/MD-18_M-29/1"
+            ],
+            "type_id": "PT-.5FE.5F2.2DKanal.20Bedienung.20Befehl.20Schalten.20.282.20Byte.29"
+          },
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 6,
+            "context": [],
+            "text": "Funktion der Status-LED",
+            "fids": [
+              "P-253_R-322//",
+              "P-658_R-1345//"
+            ],
+            "type_id": "PT-1151.5FStatus.2DLED.20.2D.20Anzeigefunktion.20W.202.2DKanal.20Bedienung"
+          },
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 6,
+            "context": [],
+            "text": "Funktion der Status-LED",
+            "fids": [
+              "P-350_R-450//",
+              "P-752_R-1473//"
+            ],
+            "type_id": "PT-1151.5FStatus.2DLED.20.2D.20Anzeigefunktion.20W.202.2DKanal.20Bedienung"
+          }
+        ],
+        "objects": [
+          {
+            "global": false,
+            "cc": "CC_Output_Switch",
+            "fids": [
+              "MD-18_O-12-0_R-17/MD-18_M-38/1",
+              "MD-18_O-12-0_R-17/MD-18_M-29/1"
+            ],
+            "function_text": "Kurzer und langer Tastendruck - Objekt 1 - Schalten",
+            "numbers": {
+              "0": 653,
+              "1": 685
+            }
+          },
+          {
+            "global": false,
+            "cc": "CC_Motion_Lock",
+            "fids": [
+              "MD-18_O-12-1_R-27/MD-18_M-38/1",
+              "MD-18_O-12-1_R-27/MD-18_M-29/1"
+            ],
+            "function_text": "Kurzer und langer Tastendruck - Objekt 2 - Schalten",
+            "numbers": {
+              "0": 654,
+              "1": 686
+            }
+          },
+          {
+            "global": false,
+            "cc": "CC_Motion_Lock",
+            "fids": [
+              "O-1031_R-8//",
+              "O-1055_R-79//"
+            ],
+            "function_text": "Schalten",
+            "numbers": {
+              "0": 1031,
+              "1": 1055
+            }
+          },
+          {
+            "global": false,
+            "cc": "CC_Motion_Lock",
+            "fids": [
+              "O-1043_R-31//",
+              "O-1067_R-105//"
+            ],
+            "function_text": "Schalten",
+            "numbers": {
+              "0": 1043,
+              "1": 1067
+            }
+          }
+        ],
+        "n_channels": 2
+      },
+      {
+        "block": "trigger",
+        "id": "mode_trigger_motor",
+        "parameters": [
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 2,
+            "context": [
+              [],
+              []
+            ],
+            "text": "Funktion",
+            "fids": [
+              "P-382_R-327//",
+              "P-583_R-1114//"
+            ],
+            "type_id": "PT-.5FFunktion.20.28Wippe.29"
+          }
+        ],
+        "objects": [
+          {
+            "global": false,
+            "cc": "CC_Motor_Stop",
+            "fids": [
+              "MD-15_O-6-0_R-6/MD-15_M-46/1",
+              "MD-15_O-6-0_R-6/MD-15_M-26/1"
+            ],
+            "function_text": "Jalousie - Kurzzeitbetrieb",
+            "numbers": {
+              "0": 261,
+              "1": 269
+            }
+          },
+          {
+            "global": false,
+            "cc": "CC_Motor_Move",
+            "fids": [
+              "MD-15_O-6-1_R-7/MD-15_M-46/1",
+              "MD-15_O-6-1_R-7/MD-15_M-26/1"
+            ],
+            "function_text": "Jalousie - Langzeitbetrieb",
+            "numbers": {
+              "0": 262,
+              "1": 270
+            }
+          }
+        ],
+        "n_channels": 2
+      },
+      {
+        "block": "trigger",
+        "id": "mode_trigger_scene",
+        "parameters": [
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 0,
+            "context": [
+              [],
+              []
+            ],
+            "text": "Funktion",
+            "fids": [
+              "P-382_R-327//",
+              "P-583_R-1114//"
+            ],
+            "type_id": "PT-.5FFunktion.20.28Wippe.29"
+          },
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 2,
+            "context": [],
+            "text": "Beim Drücken",
+            "fids": [
+              "MD-13_P-3_R-6/MD-13_M-44/1",
+              "MD-13_P-3_R-6/MD-13_M-14/1"
+            ],
+            "type_id": "PT-.5FE.5FBefehl.20Schalten"
+          },
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 1,
+            "context": [],
+            "text": "Beim Drücken",
+            "fids": [
+              "MD-13_P-1_R-1/MD-13_M-44/1",
+              "MD-13_P-1_R-1/MD-13_M-14/1"
+            ],
+            "type_id": "PT-.5FE.5FBefehl.20Schalten"
+          }
+        ],
+        "objects": [
+          {
+            "global": false,
+            "cc": "CC_Scene_Call",
+            "fids": [
+              "MD-13_O-2-0_R-1/MD-13_M-44/1",
+              "MD-13_O-2-0_R-1/MD-13_M-14/1"
+            ],
+            "function_text": "Schalten",
+            "numbers": {
+              "0": 49,
+              "1": 57
+            }
+          }
+        ],
+        "n_channels": 2
+      },
+      {
+        "block": "trigger",
+        "id": "mode_trigger_switch",
+        "parameters": [
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 0,
+            "context": [
+              [],
+              []
+            ],
+            "text": "Funktion",
+            "fids": [
+              "P-382_R-327//",
+              "P-583_R-1114//"
+            ],
+            "type_id": "PT-.5FFunktion.20.28Wippe.29"
+          },
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 0,
+            "context": [],
+            "text": "Funktion der Status-LED",
+            "fids": [
+              "P-251_R-310//",
+              "P-654_R-1331//"
+            ],
+            "type_id": "PT-1151.5FStatus.2DLED.20.2D.20Anzeigefunktion.20WSchalten"
+          },
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 6,
+            "context": [],
+            "text": "Funktion der Status-LED",
+            "fids": [
+              "P-346_R-436//",
+              "P-748_R-1459//"
+            ],
+            "type_id": "PT-1151.5FStatus.2DLED.20.2D.20Anzeigefunktion.20WSchalten"
+          }
+        ],
+        "objects": [
+          {
+            "global": false,
+            "cc": "CC_Output_Switch",
+            "fids": [
+              "MD-13_O-2-0_R-1/MD-13_M-44/1",
+              "MD-13_O-2-0_R-1/MD-13_M-14/1"
+            ],
+            "function_text": "Schalten",
+            "numbers": {
+              "0": 49,
+              "1": 57
+            }
+          },
+          {
+            "global": false,
+            "cc": "CC_Output_SwitchStatus",
+            "fids": [
+              "O-1043_R-31//",
+              "O-1067_R-105//"
+            ],
+            "function_text": "Schalten",
+            "numbers": {
+              "0": 1043,
+              "1": 1067
+            }
+          }
+        ],
+        "n_channels": 2
+      }
+    ],
+    "application_program_id": "M-0004_A-D151-22-8A63-O000A",
+    "order_numbers": [
+      "429D1ST"
+    ],
+    "application_name": "Room controller module D15122",
+    "hardware_to_program_id": "M-0004_H-4.20.2F.2F.20429D1ST-0-O000A_HP-D151-22-0000-O000A",
+    "manufacturer_id": "M-0004",
+    "manufacturer_name": "Albrecht Jung"
   },
   {
     "modes": [
@@ -18851,10 +19693,10 @@
         "n_channels": 4
       }
     ],
+    "application_program_id": "M-0004_A-D164-22-B1A0-O000A",
     "order_numbers": [
       "5294D1ST"
     ],
-    "application_program_id": "M-0004_A-D164-22-B1A0-O000A",
     "application_name": "Raumcontroller-Modul 4fach D16422",
     "hardware_to_program_id": "M-0004_H-4.20.2F.2F.205294D1ST-0-O000A_HP-D164-22-0000-O000A",
     "manufacturer_id": "M-0004",
@@ -20450,11 +21292,11 @@
         "n_channels": 6
       }
     ],
+    "application_program_id": "M-0083_A-018A-31-EEE8",
     "order_numbers": [
       "BE-GT2Tx.02",
       "BE-TAS86Tx.02"
     ],
-    "application_program_id": "M-0083_A-018A-31-EEE8",
     "application_name": "Glastaster II Smart, Temperatur",
     "hardware_to_program_id": "M-0083_H-3.2E37-1_HP-018A-31-0000",
     "manufacturer_id": "M-0083",
@@ -20641,10 +21483,10 @@
         "n_channels": 4
       }
     ],
+    "application_program_id": "M-00C5_A-0401-10-6607",
     "order_numbers": [
       "KNX IO 410"
     ],
-    "application_program_id": "M-00C5_A-0401-10-6607",
     "application_name": "KNX IO 410 (4I)",
     "hardware_to_program_id": "M-00C5_H-KNX.20IO.20410-256_HP-0401-10-0000",
     "manufacturer_id": "M-00C5",
@@ -20830,10 +21672,10 @@
         "n_channels": 4
       }
     ],
+    "application_program_id": "M-00C5_A-0402-10-1B9C",
     "order_numbers": [
       "KNX IO 411"
     ],
-    "application_program_id": "M-00C5_A-0402-10-1B9C",
     "application_name": "KNX IO 411 (4Ii)",
     "hardware_to_program_id": "M-00C5_H-KNX.20IO.20411-256_HP-0402-10-0000",
     "manufacturer_id": "M-00C5",
@@ -22258,10 +23100,10 @@
         "n_channels": 4
       }
     ],
+    "application_program_id": "M-0102_A-2116-60-9E8E",
     "order_numbers": [
       "302116.1"
     ],
-    "application_program_id": "M-0102_A-2116-60-9E8E",
     "application_name": "Schaltaktor 1-fach",
     "hardware_to_program_id": "M-0102_H-302116.2E1-0_HP-2116-60-0000",
     "manufacturer_id": "M-0102",
@@ -23616,10 +24458,10 @@
         "n_channels": 4
       }
     ],
+    "application_program_id": "M-0102_A-2210-60-81D1",
     "order_numbers": [
       "302210.1"
     ],
-    "application_program_id": "M-0102_A-2210-60-81D1",
     "application_name": "Schaltaktor 2-fach",
     "hardware_to_program_id": "M-0102_H-302210.2E1-0_HP-2210-60-0000",
     "manufacturer_id": "M-0102",
@@ -25220,10 +26062,10 @@
         "n_channels": 4
       }
     ],
+    "application_program_id": "M-0102_A-2245-60-553F",
     "order_numbers": [
       "302245.1"
     ],
-    "application_program_id": "M-0102_A-2245-60-553F",
     "application_name": "Sonnenschutzaktor 1-fach",
     "hardware_to_program_id": "M-0102_H-302245.2E1-0_HP-2245-60-0000",
     "manufacturer_id": "M-0102",
@@ -26994,10 +27836,10 @@
         "n_channels": 8
       }
     ],
+    "application_program_id": "M-0102_A-2881-60-C23E",
     "order_numbers": [
       "302881.2"
     ],
-    "application_program_id": "M-0102_A-2881-60-C23E",
     "application_name": "Tasterschnittstelle 8-fach",
     "hardware_to_program_id": "M-0102_H-302881.2E2-0_HP-2881-60-0000",
     "manufacturer_id": "M-0102",
@@ -27073,10 +27915,10 @@
         "n_channels": 6
       }
     ],
+    "application_program_id": "M-0102_A-6616-60-A127",
     "order_numbers": [
       "306616.1"
     ],
-    "application_program_id": "M-0102_A-6616-60-A127",
     "application_name": "Schaltaktor 6-fach",
     "hardware_to_program_id": "M-0102_H-306616.2E1-0_HP-6616-60-0000",
     "manufacturer_id": "M-0102",
