@@ -7384,41 +7384,8 @@
         ]
       },
       {
-        "id": "mode_sensors_temperature",
-        "block": "sensor",
-        "n_channels": 1,
-        "parameters": [
-          {
-            "fids": [
-              "UP-572_R-572//"
-            ],
-            "text": "Temperaturerfassung durch",
-            "value": 0,
-            "type_id": "PT-eTemperaturerfassungDurchOhneFernfuehler",
-            "type": "TypeRestriction",
-            "global": false,
-            "context": [
-              []
-            ]
-          }
-        ],
-        "objects": [
-          {
-            "cc": "CC_Sensor_Temperature",
-            "fids": [
-              "O-232_R-7//"
-            ],
-            "function_text": "Ist-Temperatur",
-            "numbers": {
-              "0": 232
-            },
-            "global": false
-          }
-        ]
-      },
-      {
         "id": "mode_control_room_temperature",
-        "block": "trigger",
+        "block": "control",
         "n_channels": 20,
         "parameters": [
           {
@@ -7999,6 +7966,39 @@
               "17": 125,
               "18": 131,
               "19": 137
+            },
+            "global": false
+          }
+        ]
+      },
+      {
+        "id": "mode_sensors_temperature",
+        "block": "sensor",
+        "n_channels": 1,
+        "parameters": [
+          {
+            "fids": [
+              "UP-572_R-572//"
+            ],
+            "text": "Temperaturerfassung durch",
+            "value": 0,
+            "type_id": "PT-eTemperaturerfassungDurchOhneFernfuehler",
+            "type": "TypeRestriction",
+            "global": false,
+            "context": [
+              []
+            ]
+          }
+        ],
+        "objects": [
+          {
+            "cc": "CC_Sensor_Temperature",
+            "fids": [
+              "O-232_R-7//"
+            ],
+            "function_text": "Ist-Temperatur",
+            "numbers": {
+              "0": 232
             },
             "global": false
           }

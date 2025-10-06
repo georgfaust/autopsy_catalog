@@ -1,0 +1,363 @@
+[
+  {
+    "application_program_id": "M-0004_A-0000-01-0F25",
+    "hardware_to_program_id": "M-0004_H-4.20.2F.2F.20Dummy-1_HP-0000-01-0000",
+    "manufacturer_id": "M-0004",
+    "application_name": "gr. Dummy-Applikation 900201",
+    "order_numbers": [
+      "Dummy"
+    ]
+  },
+  {
+    "application_program_id": "M-0004_A-1151-22-3144-O000A",
+    "hardware_to_program_id": "M-0004_H-4.20.2F.2F.20.2E.2E10911ST-0-O000A_HP-1151-22-0000-O000A",
+    "manufacturer_id": "M-0004",
+    "application_name": "Taster Universal 1fach 115122",
+    "order_numbers": [
+      "..10911ST"
+    ]
+  },
+  {
+    "application_program_id": "M-0004_A-1152-22-AED9-O000A",
+    "hardware_to_program_id": "M-0004_H-4.20.2F.2F.20.2E.2E10921ST-0-O000A_HP-1152-22-0000-O000A",
+    "manufacturer_id": "M-0004",
+    "application_name": "Taster Universal 2fach 115222",
+    "order_numbers": [
+      "..10921ST"
+    ]
+  },
+  {
+    "application_program_id": "M-0004_A-20D5-25-5E0A-O000A",
+    "hardware_to_program_id": "M-0004_H-4.20.2F.2F.20230061SR-0-O000A_HP-20D5-25-0000-O000A",
+    "manufacturer_id": "M-0004",
+    "application_name": "Schalten, Jalousie 20D525",
+    "order_numbers": [
+      "230061SR"
+    ]
+  },
+  {
+    "application_program_id": "M-0004_A-20D6-25-D965-O000A",
+    "hardware_to_program_id": "M-0004_H-4.20.2F.2F.20230161SR-0-O000A_HP-20D6-25-0000-O000A",
+    "manufacturer_id": "M-0004",
+    "application_name": "Schalten, Jalousie 20D625",
+    "order_numbers": [
+      "230161SR"
+    ]
+  },
+  {
+    "application_program_id": "M-0004_A-20D7-25-11A1-O000A",
+    "hardware_to_program_id": "M-0004_H-4.20.2F.2F.20230241SR-0-O000A_HP-20D7-25-0000-O000A",
+    "manufacturer_id": "M-0004",
+    "application_name": "Schalten, Jalousie 20D725",
+    "order_numbers": [
+      "230241SR"
+    ]
+  },
+  {
+    "application_program_id": "M-0004_A-20DE-22-C7D8-O000A",
+    "hardware_to_program_id": "M-0004_H-4.20.2F.2F.20230021SU-0-O000A_HP-20DE-22-0000-O000A",
+    "manufacturer_id": "M-0004",
+    "application_name": "Switching, Shutter/blinds, Inputs 20DE22",
+    "order_numbers": [
+      "230021SU"
+    ]
+  },
+  {
+    "application_program_id": "M-0004_A-20DF-22-8D8E-O000A",
+    "hardware_to_program_id": "M-0004_H-4.20.2F.2F.20230011SU-0-O000A_HP-20DF-22-0000-O000A",
+    "manufacturer_id": "M-0004",
+    "application_name": "Switching, Inputs 20DF22",
+    "order_numbers": [
+      "230011SU"
+    ]
+  },
+  {
+    "application_program_id": "M-0004_A-20E0-21-5B9E-O000A",
+    "hardware_to_program_id": "M-0004_H-4.20.2F.2F.20360061SR-0-O000A_HP-20E0-21-0000-O000A",
+    "manufacturer_id": "M-0004",
+    "application_name": "Heizungsaktor 6fach mit Regler 20E021",
+    "order_numbers": [
+      "360061SR"
+    ]
+  },
+  {
+    "application_program_id": "M-0004_A-3030-23-F0EA-O000A",
+    "hardware_to_program_id": "M-0004_H-4.20.2F.2F.20390041SR-0-O000A_HP-3030-23-0000-O000A",
+    "manufacturer_id": "M-0004",
+    "application_name": "Dimmen 303023",
+    "order_numbers": [
+      "390041SR"
+    ]
+  },
+  {
+    "application_program_id": "M-0004_A-3031-22-10FF-O000A",
+    "hardware_to_program_id": "M-0004_H-4.20.2F.2F.20390011SU-0-O000A_HP-3031-22-0000-O000A",
+    "manufacturer_id": "M-0004",
+    "application_name": "Dimming, inputs 303122",
+    "order_numbers": [
+      "390011SU"
+    ]
+  },
+  {
+    "application_program_id": "M-0004_A-5017-51-218F",
+    "hardware_to_program_id": "M-0004_H-0000002F-1_HP-5017-51-0000",
+    "manufacturer_id": "M-0004",
+    "application_name": "LS-Touch",
+    "order_numbers": [
+      "..459D1S.."
+    ]
+  },
+  {
+    "application_program_id": "M-0004_A-7066-11-94AD-O000A",
+    "hardware_to_program_id": "M-0004_H-4.20.2F.2F.202116REG-1-O000A_HP-7066-11-0000-O000A",
+    "manufacturer_id": "M-0004",
+    "application_name": "Eingang 706611",
+    "order_numbers": [
+      "2116REG"
+    ]
+  },
+  {
+    "application_program_id": "M-0004_A-7068-11-E40A-O000A",
+    "hardware_to_program_id": "M-0004_H-4.20.2F.2F.202128REG-1-O000A_HP-7068-11-0000-O000A",
+    "manufacturer_id": "M-0004",
+    "application_name": "Eingang 706811",
+    "order_numbers": [
+      "2128REG"
+    ]
+  },
+  {
+    "application_program_id": "M-0004_A-7072-21-99A7-O000A",
+    "hardware_to_program_id": "M-0004_H-4.20.2F.2F.20400021SE-0-O000A_HP-7072-21-0000-O000A",
+    "manufacturer_id": "M-0004",
+    "application_name": "Push-button interface 2-gang 707221",
+    "order_numbers": [
+      "400021SE"
+    ]
+  },
+  {
+    "application_program_id": "M-0004_A-7074-21-1DA0-O000A",
+    "hardware_to_program_id": "M-0004_H-4.20.2F.2F.20400041SE-0-O000A_HP-7074-21-0000-O000A",
+    "manufacturer_id": "M-0004",
+    "application_name": "Push-button interface 4-gang 707421",
+    "order_numbers": [
+      "400041SE"
+    ]
+  },
+  {
+    "application_program_id": "M-0004_A-7078-21-4711-O000A",
+    "hardware_to_program_id": "M-0004_H-4.20.2F.2F.20400081SE-0-O000A_HP-7078-21-0000-O000A",
+    "manufacturer_id": "M-0004",
+    "application_name": "Push-button interface 8-gang 707821",
+    "order_numbers": [
+      "400081SE"
+    ]
+  },
+  {
+    "application_program_id": "M-0004_A-A011-13-400D-O000A",
+    "hardware_to_program_id": "M-0004_H-4.20.2F.2F.203361.2D1MWW-1-O000A_HP-A011-13-0000-O000A",
+    "manufacturer_id": "M-0004",
+    "application_name": "Präsenzmelder Universal A01113",
+    "order_numbers": [
+      "3361-1MWW"
+    ]
+  },
+  {
+    "application_program_id": "M-0004_A-A032-12-6F42-O000A",
+    "hardware_to_program_id": "M-0004_H-4.20.2F.2F.203181.2D1-1-O000A_HP-A032-12-0000-O000A",
+    "manufacturer_id": "M-0004",
+    "application_name": "PIR Universal A03212",
+    "order_numbers": [
+      "3181-1"
+    ]
+  },
+  {
+    "application_program_id": "M-0004_A-C02F-21-8D47-O000A",
+    "hardware_to_program_id": "M-0004_H-4.20.2F.2F.20300041SDA2R-0-O000A_HP-C02F-21-0000-O000A",
+    "manufacturer_id": "M-0004",
+    "application_name": "DALI actuator C02F21",
+    "order_numbers": [
+      "300041SDA2R"
+    ]
+  },
+  {
+    "application_program_id": "M-0004_A-D131-22-1A67-O000A",
+    "hardware_to_program_id": "M-0004_H-4.20.2F.2F.2042911ST-0-O000A_HP-D131-22-0000-O000A",
+    "manufacturer_id": "M-0004",
+    "application_name": "Push-button sensor module Universal 1-gang D13122",
+    "order_numbers": [
+      "42911ST"
+    ]
+  },
+  {
+    "application_program_id": "M-0004_A-D132-22-373B-O000A",
+    "hardware_to_program_id": "M-0004_H-4.20.2F.2F.2042921ST-0-O000A_HP-D132-22-0000-O000A",
+    "manufacturer_id": "M-0004",
+    "application_name": "Push-button sensor module Universal 2-gang D13222",
+    "order_numbers": [
+      "42921ST"
+    ]
+  },
+  {
+    "application_program_id": "M-0004_A-D133-22-D159-O000A",
+    "hardware_to_program_id": "M-0004_H-4.20.2F.2F.2042931ST-0-O000A_HP-D133-22-0000-O000A",
+    "manufacturer_id": "M-0004",
+    "application_name": "Push-button sensor module Universal 3-gang D13322",
+    "order_numbers": [
+      "42931ST"
+    ]
+  },
+  {
+    "application_program_id": "M-0004_A-D134-22-2013-O000A",
+    "hardware_to_program_id": "M-0004_H-4.20.2F.2F.2042941ST-0-O000A_HP-D134-22-0000-O000A",
+    "manufacturer_id": "M-0004",
+    "application_name": "Push-button sensor module Universal 4-gang D13422",
+    "order_numbers": [
+      "42941ST"
+    ]
+  },
+  {
+    "application_program_id": "M-0004_A-D141-22-151B-O000A",
+    "hardware_to_program_id": "M-0004_H-4.20.2F.2F.2052911ST-0-O000A_HP-D141-22-0000-O000A",
+    "manufacturer_id": "M-0004",
+    "application_name": "Push-button sensor module Universal 1-gang D14122",
+    "order_numbers": [
+      "52911ST"
+    ]
+  },
+  {
+    "application_program_id": "M-0004_A-D142-22-28A3-O000A",
+    "hardware_to_program_id": "M-0004_H-4.20.2F.2F.2052921ST-0-O000A_HP-D142-22-0000-O000A",
+    "manufacturer_id": "M-0004",
+    "application_name": "Push-button sensor module Universal 2-gang D14222",
+    "order_numbers": [
+      "52921ST"
+    ]
+  },
+  {
+    "application_program_id": "M-0004_A-D143-22-3D3C-O000A",
+    "hardware_to_program_id": "M-0004_H-4.20.2F.2F.2052931ST-0-O000A_HP-D143-22-0000-O000A",
+    "manufacturer_id": "M-0004",
+    "application_name": "Push-button sensor module Universal 3-gang D14322",
+    "order_numbers": [
+      "52931ST"
+    ]
+  },
+  {
+    "application_program_id": "M-0004_A-D144-22-14F8-O000A",
+    "hardware_to_program_id": "M-0004_H-4.20.2F.2F.2052941ST-0-O000A_HP-D144-22-0000-O000A",
+    "manufacturer_id": "M-0004",
+    "application_name": "Push-button sensor module Universal 4-gang D14422",
+    "order_numbers": [
+      "52941ST"
+    ]
+  },
+  {
+    "application_program_id": "M-0004_A-D151-22-8A63-O000A",
+    "hardware_to_program_id": "M-0004_H-4.20.2F.2F.20429D1ST-0-O000A_HP-D151-22-0000-O000A",
+    "manufacturer_id": "M-0004",
+    "application_name": "Room controller module D15122",
+    "order_numbers": [
+      "429D1ST"
+    ]
+  },
+  {
+    "application_program_id": "M-0004_A-D162-22-D781-O000A",
+    "hardware_to_program_id": "M-0004_H-4.20.2F.2F.205292D1ST-0-O000A_HP-D162-22-0000-O000A",
+    "manufacturer_id": "M-0004",
+    "application_name": "Room controller module 2-gang D16222",
+    "order_numbers": [
+      "5292D1ST"
+    ]
+  },
+  {
+    "application_program_id": "M-0004_A-D164-22-B1A0-O000A",
+    "hardware_to_program_id": "M-0004_H-4.20.2F.2F.205294D1ST-0-O000A_HP-D164-22-0000-O000A",
+    "manufacturer_id": "M-0004",
+    "application_name": "Raumcontroller-Modul 4fach D16422",
+    "order_numbers": [
+      "5294D1ST"
+    ]
+  },
+  {
+    "application_program_id": "M-0083_A-018A-31-EEE8",
+    "hardware_to_program_id": "M-0083_H-3.2E37-1_HP-018A-31-0000",
+    "manufacturer_id": "M-0083",
+    "application_name": "Glastaster II Smart, Temperatur",
+    "order_numbers": [
+      "BE-GT2Tx.02",
+      "BE-TAS86Tx.02"
+    ]
+  },
+  {
+    "application_program_id": "M-00C5_A-0401-10-6607",
+    "hardware_to_program_id": "M-00C5_H-KNX.20IO.20410-256_HP-0401-10-0000",
+    "manufacturer_id": "M-00C5",
+    "application_name": "KNX IO 410 (4I)",
+    "order_numbers": [
+      "KNX IO 410"
+    ]
+  },
+  {
+    "application_program_id": "M-00C5_A-0402-10-1B9C",
+    "hardware_to_program_id": "M-00C5_H-KNX.20IO.20411-256_HP-0402-10-0000",
+    "manufacturer_id": "M-00C5",
+    "application_name": "KNX IO 411 (4Ii)",
+    "order_numbers": [
+      "KNX IO 411"
+    ]
+  },
+  {
+    "application_program_id": "M-0102_A-2116-60-9E8E",
+    "hardware_to_program_id": "M-0102_H-302116.2E1-0_HP-2116-60-0000",
+    "manufacturer_id": "M-0102",
+    "application_name": "Schaltaktor 1-fach",
+    "order_numbers": [
+      "302116.1"
+    ]
+  },
+  {
+    "application_program_id": "M-0102_A-2210-60-81D1",
+    "hardware_to_program_id": "M-0102_H-302210.2E1-0_HP-2210-60-0000",
+    "manufacturer_id": "M-0102",
+    "application_name": "Schaltaktor 2-fach",
+    "order_numbers": [
+      "302210.1"
+    ]
+  },
+  {
+    "application_program_id": "M-0102_A-2245-60-553F",
+    "hardware_to_program_id": "M-0102_H-302245.2E1-0_HP-2245-60-0000",
+    "manufacturer_id": "M-0102",
+    "application_name": "Sonnenschutzaktor 1-fach",
+    "order_numbers": [
+      "302245.1"
+    ]
+  },
+  {
+    "application_program_id": "M-0102_A-2515-60-0A9E",
+    "hardware_to_program_id": "M-0102_H-302515.2E2-0_HP-2515-60-0000",
+    "manufacturer_id": "M-0102",
+    "application_name": "Multisensor",
+    "order_numbers": [
+      "302515.2"
+    ]
+  },
+  {
+    "application_program_id": "M-0102_A-2881-60-C23E",
+    "hardware_to_program_id": "M-0102_H-302881.2E2-0_HP-2881-60-0000",
+    "manufacturer_id": "M-0102",
+    "application_name": "Tasterschnittstelle 8-fach",
+    "order_numbers": [
+      "302881.2"
+    ]
+  },
+  {
+    "application_program_id": "M-0102_A-6616-60-A127",
+    "hardware_to_program_id": "M-0102_H-306616.2E1-0_HP-6616-60-0000",
+    "manufacturer_id": "M-0102",
+    "application_name": "Schaltaktor 6-fach",
+    "order_numbers": [
+      "306616.1"
+    ]
+  }
+]
