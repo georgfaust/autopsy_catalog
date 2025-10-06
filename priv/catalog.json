@@ -1223,7 +1223,7 @@
         "n_channels": 1
       },
       {
-        "block": "trigger",
+        "block": "control",
         "id": "mode_control_room_temperature",
         "parameters": [
           {
@@ -12281,7 +12281,7 @@
         "n_channels": 1
       },
       {
-        "block": "trigger",
+        "block": "control",
         "id": "mode_control_room_temperature",
         "parameters": [
           {
@@ -20862,7 +20862,7 @@
         "n_channels": 1
       },
       {
-        "block": "trigger",
+        "block": "control",
         "id": "mode_control_room_temperature",
         "parameters": [
           {

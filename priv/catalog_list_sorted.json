@@ -19752,63 +19752,8 @@
         ]
       },
       {
-        "id": "mode_sensors_temperature",
-        "block": "sensor",
-        "n_channels": 1,
-        "parameters": [
-          {
-            "fids": [
-              "MD-11_P-181_R-255/MD-11_M-36/1"
-            ],
-            "text": "Temperaturmessung durch",
-            "value": 0,
-            "type_id": "PT-.5FTemperaturerfassung.20durch",
-            "type": "TypeRestriction",
-            "global": false,
-            "context": [
-              []
-            ]
-          },
-          {
-            "fids": [
-              "MD-11_P-198_R-275/MD-11_M-36/1"
-            ],
-            "text": "Ist-Temperatur senden",
-            "value": 3,
-            "type_id": "PT-NEU.5FType.5FautoAussendenZählerstand",
-            "type": "TypeRestriction",
-            "global": false,
-            "context": []
-          },
-          {
-            "fids": [
-              "MD-11_P-831_R-421/MD-11_M-36/1"
-            ],
-            "text": "E - Temperatur - Zykluszeit min",
-            "value": 25,
-            "type_id": "PT-NEU.5FType.5FZeit.5F0bis59.5F6Bit",
-            "type": "TypeNumber",
-            "global": false,
-            "context": []
-          }
-        ],
-        "objects": [
-          {
-            "cc": "CC_Sensor_Temperature",
-            "fids": [
-              "MD-11_O-21-0_R-68/MD-11_M-36/1"
-            ],
-            "function_text": "Temperatursensor - Ist-Temperatur - Status",
-            "numbers": {
-              "0": 1249
-            },
-            "global": false
-          }
-        ]
-      },
-      {
         "id": "mode_control_room_temperature",
-        "block": "trigger",
+        "block": "control",
         "n_channels": 1,
         "parameters": [
           {
@@ -20010,6 +19955,61 @@
             "function_text": "RTR-Bedienstelle - Solltemperaturverschiebung",
             "numbers": {
               "0": 962
+            },
+            "global": false
+          }
+        ]
+      },
+      {
+        "id": "mode_sensors_temperature",
+        "block": "sensor",
+        "n_channels": 1,
+        "parameters": [
+          {
+            "fids": [
+              "MD-11_P-181_R-255/MD-11_M-36/1"
+            ],
+            "text": "Temperaturmessung durch",
+            "value": 0,
+            "type_id": "PT-.5FTemperaturerfassung.20durch",
+            "type": "TypeRestriction",
+            "global": false,
+            "context": [
+              []
+            ]
+          },
+          {
+            "fids": [
+              "MD-11_P-198_R-275/MD-11_M-36/1"
+            ],
+            "text": "Ist-Temperatur senden",
+            "value": 3,
+            "type_id": "PT-NEU.5FType.5FautoAussendenZählerstand",
+            "type": "TypeRestriction",
+            "global": false,
+            "context": []
+          },
+          {
+            "fids": [
+              "MD-11_P-831_R-421/MD-11_M-36/1"
+            ],
+            "text": "E - Temperatur - Zykluszeit min",
+            "value": 25,
+            "type_id": "PT-NEU.5FType.5FZeit.5F0bis59.5F6Bit",
+            "type": "TypeNumber",
+            "global": false,
+            "context": []
+          }
+        ],
+        "objects": [
+          {
+            "cc": "CC_Sensor_Temperature",
+            "fids": [
+              "MD-11_O-21-0_R-68/MD-11_M-36/1"
+            ],
+            "function_text": "Temperatursensor - Ist-Temperatur - Status",
+            "numbers": {
+              "0": 1249
             },
             "global": false
           }
@@ -20574,63 +20574,8 @@
         ]
       },
       {
-        "id": "mode_sensors_temperature",
-        "block": "sensor",
-        "n_channels": 1,
-        "parameters": [
-          {
-            "fids": [
-              "MD-11_P-181_R-255/MD-11_M-36/1"
-            ],
-            "text": "Temperaturmessung durch",
-            "value": 0,
-            "type_id": "PT-.5FTemperaturerfassung.20durch",
-            "type": "TypeRestriction",
-            "global": false,
-            "context": [
-              []
-            ]
-          },
-          {
-            "fids": [
-              "MD-11_P-198_R-275/MD-11_M-36/1"
-            ],
-            "text": "Ist-Temperatur senden",
-            "value": 3,
-            "type_id": "PT-NEU.5FType.5FautoAussendenZählerstand",
-            "type": "TypeRestriction",
-            "global": false,
-            "context": []
-          },
-          {
-            "fids": [
-              "MD-11_P-831_R-421/MD-11_M-36/1"
-            ],
-            "text": "E - Temperatur - Zykluszeit min",
-            "value": 25,
-            "type_id": "PT-NEU.5FType.5FZeit.5F0bis59.5F6Bit",
-            "type": "TypeNumber",
-            "global": false,
-            "context": []
-          }
-        ],
-        "objects": [
-          {
-            "cc": "CC_Sensor_Temperature",
-            "fids": [
-              "MD-11_O-21-0_R-68/MD-11_M-36/1"
-            ],
-            "function_text": "Temperatursensor - Ist-Temperatur - Status",
-            "numbers": {
-              "0": 729
-            },
-            "global": false
-          }
-        ]
-      },
-      {
         "id": "mode_control_room_temperature",
-        "block": "trigger",
+        "block": "control",
         "n_channels": 1,
         "parameters": [
           {
@@ -20964,6 +20909,61 @@
             "function_text": "Ist-Temperatur",
             "numbers": {
               "0": 1081
+            },
+            "global": false
+          }
+        ]
+      },
+      {
+        "id": "mode_sensors_temperature",
+        "block": "sensor",
+        "n_channels": 1,
+        "parameters": [
+          {
+            "fids": [
+              "MD-11_P-181_R-255/MD-11_M-36/1"
+            ],
+            "text": "Temperaturmessung durch",
+            "value": 0,
+            "type_id": "PT-.5FTemperaturerfassung.20durch",
+            "type": "TypeRestriction",
+            "global": false,
+            "context": [
+              []
+            ]
+          },
+          {
+            "fids": [
+              "MD-11_P-198_R-275/MD-11_M-36/1"
+            ],
+            "text": "Ist-Temperatur senden",
+            "value": 3,
+            "type_id": "PT-NEU.5FType.5FautoAussendenZählerstand",
+            "type": "TypeRestriction",
+            "global": false,
+            "context": []
+          },
+          {
+            "fids": [
+              "MD-11_P-831_R-421/MD-11_M-36/1"
+            ],
+            "text": "E - Temperatur - Zykluszeit min",
+            "value": 25,
+            "type_id": "PT-NEU.5FType.5FZeit.5F0bis59.5F6Bit",
+            "type": "TypeNumber",
+            "global": false,
+            "context": []
+          }
+        ],
+        "objects": [
+          {
+            "cc": "CC_Sensor_Temperature",
+            "fids": [
+              "MD-11_O-21-0_R-68/MD-11_M-36/1"
+            ],
+            "function_text": "Temperatursensor - Ist-Temperatur - Status",
+            "numbers": {
+              "0": 729
             },
             "global": false
           }
@@ -21625,6 +21625,148 @@
         ]
       },
       {
+        "id": "mode_control_room_temperature",
+        "block": "control",
+        "n_channels": 6,
+        "parameters": [
+          {
+            "fids": [
+              "MD-2_P-2_R-2/MD-2_M-13/1",
+              "MD-2_P-2_R-2/MD-2_M-14/1",
+              "MD-2_P-2_R-2/MD-2_M-15/1",
+              "MD-2_P-2_R-2/MD-2_M-16/1",
+              "MD-2_P-2_R-2/MD-2_M-17/1",
+              "MD-2_P-2_R-2/MD-2_M-18/1"
+            ],
+            "text": "Zwei-Tastenfunktion",
+            "value": 4,
+            "type_id": "PT-InputFunctionGroup",
+            "type": "TypeRestriction",
+            "global": false,
+            "context": [
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-1007_R-512//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-1021_R-513//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-121_R-514//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-364_R-515//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-365_R-516//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-366_R-517//"
+                }
+              ]
+            ]
+          },
+          {
+            "fids": [
+              "MD-2_P-107_R-378/MD-2_M-13/1",
+              "MD-2_P-107_R-378/MD-2_M-14/1",
+              "MD-2_P-107_R-378/MD-2_M-15/1",
+              "MD-2_P-107_R-378/MD-2_M-16/1",
+              "MD-2_P-107_R-378/MD-2_M-17/1",
+              "MD-2_P-107_R-378/MD-2_M-18/1"
+            ],
+            "text": "Temperaturverschiebung",
+            "value": 2,
+            "type_id": "PT-TempShift",
+            "type": "TypeRestriction",
+            "global": false,
+            "context": []
+          },
+          {
+            "fids": [
+              "MD-2_UP-136_R-510/MD-2_M-13/1",
+              "MD-2_UP-136_R-510/MD-2_M-14/1",
+              "MD-2_UP-136_R-510/MD-2_M-15/1",
+              "MD-2_UP-136_R-510/MD-2_M-16/1",
+              "MD-2_UP-136_R-510/MD-2_M-17/1",
+              "MD-2_UP-136_R-510/MD-2_M-18/1"
+            ],
+            "text": "    Text",
+            "value": null,
+            "type_id": "PT-String.5F20Byte",
+            "type": "TypeText",
+            "global": false,
+            "context": []
+          }
+        ],
+        "objects": [
+          {
+            "cc": "CC_HVAC_CurrentSetPoint",
+            "fids": [
+              "MD-2_O-2-2_R-114/MD-2_M-13/1",
+              "MD-2_O-2-2_R-114/MD-2_M-14/1",
+              "MD-2_O-2-2_R-114/MD-2_M-15/1",
+              "MD-2_O-2-2_R-114/MD-2_M-16/1",
+              "MD-2_O-2-2_R-114/MD-2_M-17/1",
+              "MD-2_O-2-2_R-114/MD-2_M-18/1"
+            ],
+            "function_text": "Status aktueller Sollwert",
+            "numbers": {
+              "0": 2,
+              "1": 16,
+              "2": 30,
+              "3": 44,
+              "4": 58,
+              "5": 72
+            },
+            "global": false
+          },
+          {
+            "cc": "CC_HVAC_SetPointDifference",
+            "fids": [
+              "MD-2_O-2-0_R-118/MD-2_M-13/1",
+              "MD-2_O-2-0_R-118/MD-2_M-14/1",
+              "MD-2_O-2-0_R-118/MD-2_M-15/1",
+              "MD-2_O-2-0_R-118/MD-2_M-16/1",
+              "MD-2_O-2-0_R-118/MD-2_M-17/1",
+              "MD-2_O-2-0_R-118/MD-2_M-18/1"
+            ],
+            "function_text": "Sollwertverschiebung",
+            "numbers": {
+              "0": 0,
+              "1": 14,
+              "2": 28,
+              "3": 42,
+              "4": 56,
+              "5": 70
+            },
+            "global": false
+          }
+        ]
+      },
+      {
         "id": "mode_global",
         "block": "global",
         "n_channels": 1,
@@ -21784,148 +21926,6 @@
             "function_text": "Messwert senden",
             "numbers": {
               "0": 135
-            },
-            "global": false
-          }
-        ]
-      },
-      {
-        "id": "mode_control_room_temperature",
-        "block": "trigger",
-        "n_channels": 6,
-        "parameters": [
-          {
-            "fids": [
-              "MD-2_P-2_R-2/MD-2_M-13/1",
-              "MD-2_P-2_R-2/MD-2_M-14/1",
-              "MD-2_P-2_R-2/MD-2_M-15/1",
-              "MD-2_P-2_R-2/MD-2_M-16/1",
-              "MD-2_P-2_R-2/MD-2_M-17/1",
-              "MD-2_P-2_R-2/MD-2_M-18/1"
-            ],
-            "text": "Zwei-Tastenfunktion",
-            "value": 4,
-            "type_id": "PT-InputFunctionGroup",
-            "type": "TypeRestriction",
-            "global": false,
-            "context": [
-              [
-                {
-                  "type": "TypeRestriction",
-                  "value": 1,
-                  "fid": "P-1007_R-512//"
-                }
-              ],
-              [
-                {
-                  "type": "TypeRestriction",
-                  "value": 1,
-                  "fid": "P-1021_R-513//"
-                }
-              ],
-              [
-                {
-                  "type": "TypeRestriction",
-                  "value": 1,
-                  "fid": "P-121_R-514//"
-                }
-              ],
-              [
-                {
-                  "type": "TypeRestriction",
-                  "value": 1,
-                  "fid": "P-364_R-515//"
-                }
-              ],
-              [
-                {
-                  "type": "TypeRestriction",
-                  "value": 1,
-                  "fid": "P-365_R-516//"
-                }
-              ],
-              [
-                {
-                  "type": "TypeRestriction",
-                  "value": 1,
-                  "fid": "P-366_R-517//"
-                }
-              ]
-            ]
-          },
-          {
-            "fids": [
-              "MD-2_P-107_R-378/MD-2_M-13/1",
-              "MD-2_P-107_R-378/MD-2_M-14/1",
-              "MD-2_P-107_R-378/MD-2_M-15/1",
-              "MD-2_P-107_R-378/MD-2_M-16/1",
-              "MD-2_P-107_R-378/MD-2_M-17/1",
-              "MD-2_P-107_R-378/MD-2_M-18/1"
-            ],
-            "text": "Temperaturverschiebung",
-            "value": 2,
-            "type_id": "PT-TempShift",
-            "type": "TypeRestriction",
-            "global": false,
-            "context": []
-          },
-          {
-            "fids": [
-              "MD-2_UP-136_R-510/MD-2_M-13/1",
-              "MD-2_UP-136_R-510/MD-2_M-14/1",
-              "MD-2_UP-136_R-510/MD-2_M-15/1",
-              "MD-2_UP-136_R-510/MD-2_M-16/1",
-              "MD-2_UP-136_R-510/MD-2_M-17/1",
-              "MD-2_UP-136_R-510/MD-2_M-18/1"
-            ],
-            "text": "    Text",
-            "value": null,
-            "type_id": "PT-String.5F20Byte",
-            "type": "TypeText",
-            "global": false,
-            "context": []
-          }
-        ],
-        "objects": [
-          {
-            "cc": "CC_HVAC_CurrentSetPoint",
-            "fids": [
-              "MD-2_O-2-2_R-114/MD-2_M-13/1",
-              "MD-2_O-2-2_R-114/MD-2_M-14/1",
-              "MD-2_O-2-2_R-114/MD-2_M-15/1",
-              "MD-2_O-2-2_R-114/MD-2_M-16/1",
-              "MD-2_O-2-2_R-114/MD-2_M-17/1",
-              "MD-2_O-2-2_R-114/MD-2_M-18/1"
-            ],
-            "function_text": "Status aktueller Sollwert",
-            "numbers": {
-              "0": 2,
-              "1": 16,
-              "2": 30,
-              "3": 44,
-              "4": 58,
-              "5": 72
-            },
-            "global": false
-          },
-          {
-            "cc": "CC_HVAC_SetPointDifference",
-            "fids": [
-              "MD-2_O-2-0_R-118/MD-2_M-13/1",
-              "MD-2_O-2-0_R-118/MD-2_M-14/1",
-              "MD-2_O-2-0_R-118/MD-2_M-15/1",
-              "MD-2_O-2-0_R-118/MD-2_M-16/1",
-              "MD-2_O-2-0_R-118/MD-2_M-17/1",
-              "MD-2_O-2-0_R-118/MD-2_M-18/1"
-            ],
-            "function_text": "Sollwertverschiebung",
-            "numbers": {
-              "0": 0,
-              "1": 14,
-              "2": 28,
-              "3": 42,
-              "4": 56,
-              "5": 70
             },
             "global": false
           }
