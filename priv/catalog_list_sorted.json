@@ -15500,6 +15500,166 @@
             "global": false
           }
         ]
+      },
+      {
+        "id": "mode_trigger_switch_off",
+        "block": "trigger",
+        "n_channels": 2,
+        "parameters": [
+          {
+            "fids": [
+              "MD-3_P-3_R-6/MD-3_M-1/1",
+              "MD-3_P-3_R-6/MD-3_M-8/1"
+            ],
+            "text": "Beim Drücken",
+            "value": 2,
+            "type_id": "PT-.5FE.5FBefehl.20Schalten",
+            "type": "TypeRestriction",
+            "global": false,
+            "context": [
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-1313_R-191//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-1313_R-191//"
+                }
+              ]
+            ]
+          }
+        ],
+        "objects": [
+          {
+            "cc": "CC_Output_Switch",
+            "fids": [
+              "MD-3_O-2-0_R-1/MD-3_M-1/1",
+              "MD-3_O-2-0_R-1/MD-3_M-8/1"
+            ],
+            "function_text": "Schalten",
+            "numbers": {
+              "0": 49,
+              "1": 53
+            },
+            "global": false
+          }
+        ]
+      },
+      {
+        "id": "mode_trigger_switch_on",
+        "block": "trigger",
+        "n_channels": 2,
+        "parameters": [
+          {
+            "fids": [
+              "MD-3_P-3_R-6/MD-3_M-1/1",
+              "MD-3_P-3_R-6/MD-3_M-8/1"
+            ],
+            "text": "Beim Drücken",
+            "value": 1,
+            "type_id": "PT-.5FE.5FBefehl.20Schalten",
+            "type": "TypeRestriction",
+            "global": false,
+            "context": [
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-1313_R-191//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-1313_R-191//"
+                }
+              ]
+            ]
+          }
+        ],
+        "objects": [
+          {
+            "cc": "CC_Output_Switch",
+            "fids": [
+              "MD-3_O-2-0_R-1/MD-3_M-1/1",
+              "MD-3_O-2-0_R-1/MD-3_M-8/1"
+            ],
+            "function_text": "Schalten",
+            "numbers": {
+              "0": 49,
+              "1": 53
+            },
+            "global": false
+          }
+        ]
+      },
+      {
+        "id": "mode_trigger_toggle",
+        "block": "trigger",
+        "n_channels": 2,
+        "parameters": [
+          {
+            "fids": [
+              "MD-3_P-3_R-6/MD-3_M-1/1",
+              "MD-3_P-3_R-6/MD-3_M-8/1"
+            ],
+            "text": "Beim Drücken",
+            "value": 3,
+            "type_id": "PT-.5FE.5FBefehl.20Schalten",
+            "type": "TypeRestriction",
+            "global": false,
+            "context": [
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-1313_R-191//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-1313_R-191//"
+                }
+              ]
+            ]
+          }
+        ],
+        "objects": [
+          {
+            "cc": "CC_Output_Switch",
+            "fids": [
+              "MD-3_O-2-0_R-1/MD-3_M-1/1",
+              "MD-3_O-2-0_R-1/MD-3_M-8/1"
+            ],
+            "function_text": "Schalten",
+            "numbers": {
+              "0": 49,
+              "1": 53
+            },
+            "global": false
+          },
+          {
+            "cc": "CC_Output_SwitchStatus",
+            "fids": [
+              "MD-3_O-2-1_R-2/MD-3_M-1/1",
+              "MD-3_O-2-1_R-2/MD-3_M-8/1"
+            ],
+            "function_text": "Schalten - Status",
+            "numbers": {
+              "0": 50,
+              "1": 54
+            },
+            "global": false
+          }
+        ]
       }
     ]
   },
@@ -16005,6 +16165,230 @@
             "numbers": {
               "0": 1043,
               "1": 1067
+            },
+            "global": false
+          }
+        ]
+      },
+      {
+        "id": "mode_trigger_switch_off",
+        "block": "trigger",
+        "n_channels": 4,
+        "parameters": [
+          {
+            "fids": [
+              "MD-3_P-3_R-6/MD-3_M-1/1",
+              "MD-3_P-3_R-6/MD-3_M-8/1",
+              "MD-3_P-3_R-6/MD-3_M-34/1",
+              "MD-3_P-3_R-6/MD-3_M-59/1"
+            ],
+            "text": "Beim Drücken",
+            "value": 2,
+            "type_id": "PT-.5FE.5FBefehl.20Schalten",
+            "type": "TypeRestriction",
+            "global": false,
+            "context": [
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-1313_R-191//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-1313_R-191//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-389_R-473//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-389_R-473//"
+                }
+              ]
+            ]
+          }
+        ],
+        "objects": [
+          {
+            "cc": "CC_Output_Switch",
+            "fids": [
+              "MD-3_O-2-0_R-1/MD-3_M-1/1",
+              "MD-3_O-2-0_R-1/MD-3_M-8/1",
+              "MD-3_O-2-0_R-1/MD-3_M-34/1",
+              "MD-3_O-2-0_R-1/MD-3_M-59/1"
+            ],
+            "function_text": "Schalten",
+            "numbers": {
+              "0": 49,
+              "1": 53,
+              "2": 57,
+              "3": 61
+            },
+            "global": false
+          }
+        ]
+      },
+      {
+        "id": "mode_trigger_switch_on",
+        "block": "trigger",
+        "n_channels": 4,
+        "parameters": [
+          {
+            "fids": [
+              "MD-3_P-3_R-6/MD-3_M-1/1",
+              "MD-3_P-3_R-6/MD-3_M-8/1",
+              "MD-3_P-3_R-6/MD-3_M-34/1",
+              "MD-3_P-3_R-6/MD-3_M-59/1"
+            ],
+            "text": "Beim Drücken",
+            "value": 1,
+            "type_id": "PT-.5FE.5FBefehl.20Schalten",
+            "type": "TypeRestriction",
+            "global": false,
+            "context": [
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-1313_R-191//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-1313_R-191//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-389_R-473//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-389_R-473//"
+                }
+              ]
+            ]
+          }
+        ],
+        "objects": [
+          {
+            "cc": "CC_Output_Switch",
+            "fids": [
+              "MD-3_O-2-0_R-1/MD-3_M-1/1",
+              "MD-3_O-2-0_R-1/MD-3_M-8/1",
+              "MD-3_O-2-0_R-1/MD-3_M-34/1",
+              "MD-3_O-2-0_R-1/MD-3_M-59/1"
+            ],
+            "function_text": "Schalten",
+            "numbers": {
+              "0": 49,
+              "1": 53,
+              "2": 57,
+              "3": 61
+            },
+            "global": false
+          }
+        ]
+      },
+      {
+        "id": "mode_trigger_toggle",
+        "block": "trigger",
+        "n_channels": 4,
+        "parameters": [
+          {
+            "fids": [
+              "MD-3_P-3_R-6/MD-3_M-1/1",
+              "MD-3_P-3_R-6/MD-3_M-8/1",
+              "MD-3_P-3_R-6/MD-3_M-34/1",
+              "MD-3_P-3_R-6/MD-3_M-59/1"
+            ],
+            "text": "Beim Drücken",
+            "value": 3,
+            "type_id": "PT-.5FE.5FBefehl.20Schalten",
+            "type": "TypeRestriction",
+            "global": false,
+            "context": [
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-1313_R-191//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-1313_R-191//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-389_R-473//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-389_R-473//"
+                }
+              ]
+            ]
+          }
+        ],
+        "objects": [
+          {
+            "cc": "CC_Output_Switch",
+            "fids": [
+              "MD-3_O-2-0_R-1/MD-3_M-1/1",
+              "MD-3_O-2-0_R-1/MD-3_M-8/1",
+              "MD-3_O-2-0_R-1/MD-3_M-34/1",
+              "MD-3_O-2-0_R-1/MD-3_M-59/1"
+            ],
+            "function_text": "Schalten",
+            "numbers": {
+              "0": 49,
+              "1": 53,
+              "2": 57,
+              "3": 61
+            },
+            "global": false
+          },
+          {
+            "cc": "CC_Output_SwitchStatus",
+            "fids": [
+              "MD-3_O-2-1_R-2/MD-3_M-1/1",
+              "MD-3_O-2-1_R-2/MD-3_M-8/1",
+              "MD-3_O-2-1_R-2/MD-3_M-34/1",
+              "MD-3_O-2-1_R-2/MD-3_M-59/1"
+            ],
+            "function_text": "Schalten - Status",
+            "numbers": {
+              "0": 50,
+              "1": 54,
+              "2": 58,
+              "3": 62
             },
             "global": false
           }
@@ -16559,6 +16943,294 @@
               "0": 1043,
               "1": 1067,
               "2": 1091
+            },
+            "global": false
+          }
+        ]
+      },
+      {
+        "id": "mode_trigger_switch_off",
+        "block": "trigger",
+        "n_channels": 6,
+        "parameters": [
+          {
+            "fids": [
+              "MD-3_P-3_R-6/MD-3_M-1/1",
+              "MD-3_P-3_R-6/MD-3_M-8/1",
+              "MD-3_P-3_R-6/MD-3_M-34/1",
+              "MD-3_P-3_R-6/MD-3_M-59/1",
+              "MD-3_P-3_R-6/MD-3_M-234/1",
+              "MD-3_P-3_R-6/MD-3_M-244/1"
+            ],
+            "text": "Beim Drücken",
+            "value": 2,
+            "type_id": "PT-.5FE.5FBefehl.20Schalten",
+            "type": "TypeRestriction",
+            "global": false,
+            "context": [
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-1313_R-191//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-1313_R-191//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-389_R-473//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-389_R-473//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-390_R-474//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-390_R-474//"
+                }
+              ]
+            ]
+          }
+        ],
+        "objects": [
+          {
+            "cc": "CC_Output_Switch",
+            "fids": [
+              "MD-3_O-2-0_R-1/MD-3_M-1/1",
+              "MD-3_O-2-0_R-1/MD-3_M-8/1",
+              "MD-3_O-2-0_R-1/MD-3_M-34/1",
+              "MD-3_O-2-0_R-1/MD-3_M-59/1",
+              "MD-3_O-2-0_R-1/MD-3_M-234/1",
+              "MD-3_O-2-0_R-1/MD-3_M-244/1"
+            ],
+            "function_text": "Schalten",
+            "numbers": {
+              "0": 49,
+              "1": 53,
+              "2": 57,
+              "3": 61,
+              "4": 65,
+              "5": 69
+            },
+            "global": false
+          }
+        ]
+      },
+      {
+        "id": "mode_trigger_switch_on",
+        "block": "trigger",
+        "n_channels": 6,
+        "parameters": [
+          {
+            "fids": [
+              "MD-3_P-3_R-6/MD-3_M-1/1",
+              "MD-3_P-3_R-6/MD-3_M-8/1",
+              "MD-3_P-3_R-6/MD-3_M-34/1",
+              "MD-3_P-3_R-6/MD-3_M-59/1",
+              "MD-3_P-3_R-6/MD-3_M-234/1",
+              "MD-3_P-3_R-6/MD-3_M-244/1"
+            ],
+            "text": "Beim Drücken",
+            "value": 1,
+            "type_id": "PT-.5FE.5FBefehl.20Schalten",
+            "type": "TypeRestriction",
+            "global": false,
+            "context": [
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-1313_R-191//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-1313_R-191//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-389_R-473//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-389_R-473//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-390_R-474//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-390_R-474//"
+                }
+              ]
+            ]
+          }
+        ],
+        "objects": [
+          {
+            "cc": "CC_Output_Switch",
+            "fids": [
+              "MD-3_O-2-0_R-1/MD-3_M-1/1",
+              "MD-3_O-2-0_R-1/MD-3_M-8/1",
+              "MD-3_O-2-0_R-1/MD-3_M-34/1",
+              "MD-3_O-2-0_R-1/MD-3_M-59/1",
+              "MD-3_O-2-0_R-1/MD-3_M-234/1",
+              "MD-3_O-2-0_R-1/MD-3_M-244/1"
+            ],
+            "function_text": "Schalten",
+            "numbers": {
+              "0": 49,
+              "1": 53,
+              "2": 57,
+              "3": 61,
+              "4": 65,
+              "5": 69
+            },
+            "global": false
+          }
+        ]
+      },
+      {
+        "id": "mode_trigger_toggle",
+        "block": "trigger",
+        "n_channels": 6,
+        "parameters": [
+          {
+            "fids": [
+              "MD-3_P-3_R-6/MD-3_M-1/1",
+              "MD-3_P-3_R-6/MD-3_M-8/1",
+              "MD-3_P-3_R-6/MD-3_M-34/1",
+              "MD-3_P-3_R-6/MD-3_M-59/1",
+              "MD-3_P-3_R-6/MD-3_M-234/1",
+              "MD-3_P-3_R-6/MD-3_M-244/1"
+            ],
+            "text": "Beim Drücken",
+            "value": 3,
+            "type_id": "PT-.5FE.5FBefehl.20Schalten",
+            "type": "TypeRestriction",
+            "global": false,
+            "context": [
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-1313_R-191//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-1313_R-191//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-389_R-473//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-389_R-473//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-390_R-474//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-390_R-474//"
+                }
+              ]
+            ]
+          }
+        ],
+        "objects": [
+          {
+            "cc": "CC_Output_Switch",
+            "fids": [
+              "MD-3_O-2-0_R-1/MD-3_M-1/1",
+              "MD-3_O-2-0_R-1/MD-3_M-8/1",
+              "MD-3_O-2-0_R-1/MD-3_M-34/1",
+              "MD-3_O-2-0_R-1/MD-3_M-59/1",
+              "MD-3_O-2-0_R-1/MD-3_M-234/1",
+              "MD-3_O-2-0_R-1/MD-3_M-244/1"
+            ],
+            "function_text": "Schalten",
+            "numbers": {
+              "0": 49,
+              "1": 53,
+              "2": 57,
+              "3": 61,
+              "4": 65,
+              "5": 69
+            },
+            "global": false
+          },
+          {
+            "cc": "CC_Output_SwitchStatus",
+            "fids": [
+              "MD-3_O-2-1_R-2/MD-3_M-1/1",
+              "MD-3_O-2-1_R-2/MD-3_M-8/1",
+              "MD-3_O-2-1_R-2/MD-3_M-34/1",
+              "MD-3_O-2-1_R-2/MD-3_M-59/1",
+              "MD-3_O-2-1_R-2/MD-3_M-234/1",
+              "MD-3_O-2-1_R-2/MD-3_M-244/1"
+            ],
+            "function_text": "Schalten - Status",
+            "numbers": {
+              "0": 50,
+              "1": 54,
+              "2": 58,
+              "3": 62,
+              "4": 66,
+              "5": 70
             },
             "global": false
           }
@@ -17162,6 +17834,358 @@
             "global": false
           }
         ]
+      },
+      {
+        "id": "mode_trigger_switch_off",
+        "block": "trigger",
+        "n_channels": 8,
+        "parameters": [
+          {
+            "fids": [
+              "MD-3_P-3_R-6/MD-3_M-1/1",
+              "MD-3_P-3_R-6/MD-3_M-8/1",
+              "MD-3_P-3_R-6/MD-3_M-34/1",
+              "MD-3_P-3_R-6/MD-3_M-59/1",
+              "MD-3_P-3_R-6/MD-3_M-234/1",
+              "MD-3_P-3_R-6/MD-3_M-244/1",
+              "MD-3_P-3_R-6/MD-3_M-264/1",
+              "MD-3_P-3_R-6/MD-3_M-274/1"
+            ],
+            "text": "Beim Drücken",
+            "value": 2,
+            "type_id": "PT-.5FE.5FBefehl.20Schalten",
+            "type": "TypeRestriction",
+            "global": false,
+            "context": [
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-1313_R-191//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-1313_R-191//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-389_R-473//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-389_R-473//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-390_R-474//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-390_R-474//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-391_R-476//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-391_R-476//"
+                }
+              ]
+            ]
+          }
+        ],
+        "objects": [
+          {
+            "cc": "CC_Output_Switch",
+            "fids": [
+              "MD-3_O-2-0_R-1/MD-3_M-1/1",
+              "MD-3_O-2-0_R-1/MD-3_M-8/1",
+              "MD-3_O-2-0_R-1/MD-3_M-34/1",
+              "MD-3_O-2-0_R-1/MD-3_M-59/1",
+              "MD-3_O-2-0_R-1/MD-3_M-234/1",
+              "MD-3_O-2-0_R-1/MD-3_M-244/1",
+              "MD-3_O-2-0_R-1/MD-3_M-264/1",
+              "MD-3_O-2-0_R-1/MD-3_M-274/1"
+            ],
+            "function_text": "Schalten",
+            "numbers": {
+              "0": 49,
+              "1": 53,
+              "2": 57,
+              "3": 61,
+              "4": 65,
+              "5": 69,
+              "6": 73,
+              "7": 77
+            },
+            "global": false
+          }
+        ]
+      },
+      {
+        "id": "mode_trigger_switch_on",
+        "block": "trigger",
+        "n_channels": 8,
+        "parameters": [
+          {
+            "fids": [
+              "MD-3_P-3_R-6/MD-3_M-1/1",
+              "MD-3_P-3_R-6/MD-3_M-8/1",
+              "MD-3_P-3_R-6/MD-3_M-34/1",
+              "MD-3_P-3_R-6/MD-3_M-59/1",
+              "MD-3_P-3_R-6/MD-3_M-234/1",
+              "MD-3_P-3_R-6/MD-3_M-244/1",
+              "MD-3_P-3_R-6/MD-3_M-264/1",
+              "MD-3_P-3_R-6/MD-3_M-274/1"
+            ],
+            "text": "Beim Drücken",
+            "value": 1,
+            "type_id": "PT-.5FE.5FBefehl.20Schalten",
+            "type": "TypeRestriction",
+            "global": false,
+            "context": [
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-1313_R-191//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-1313_R-191//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-389_R-473//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-389_R-473//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-390_R-474//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-390_R-474//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-391_R-476//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-391_R-476//"
+                }
+              ]
+            ]
+          }
+        ],
+        "objects": [
+          {
+            "cc": "CC_Output_Switch",
+            "fids": [
+              "MD-3_O-2-0_R-1/MD-3_M-1/1",
+              "MD-3_O-2-0_R-1/MD-3_M-8/1",
+              "MD-3_O-2-0_R-1/MD-3_M-34/1",
+              "MD-3_O-2-0_R-1/MD-3_M-59/1",
+              "MD-3_O-2-0_R-1/MD-3_M-234/1",
+              "MD-3_O-2-0_R-1/MD-3_M-244/1",
+              "MD-3_O-2-0_R-1/MD-3_M-264/1",
+              "MD-3_O-2-0_R-1/MD-3_M-274/1"
+            ],
+            "function_text": "Schalten",
+            "numbers": {
+              "0": 49,
+              "1": 53,
+              "2": 57,
+              "3": 61,
+              "4": 65,
+              "5": 69,
+              "6": 73,
+              "7": 77
+            },
+            "global": false
+          }
+        ]
+      },
+      {
+        "id": "mode_trigger_toggle",
+        "block": "trigger",
+        "n_channels": 8,
+        "parameters": [
+          {
+            "fids": [
+              "MD-3_P-3_R-6/MD-3_M-1/1",
+              "MD-3_P-3_R-6/MD-3_M-8/1",
+              "MD-3_P-3_R-6/MD-3_M-34/1",
+              "MD-3_P-3_R-6/MD-3_M-59/1",
+              "MD-3_P-3_R-6/MD-3_M-234/1",
+              "MD-3_P-3_R-6/MD-3_M-244/1",
+              "MD-3_P-3_R-6/MD-3_M-264/1",
+              "MD-3_P-3_R-6/MD-3_M-274/1"
+            ],
+            "text": "Beim Drücken",
+            "value": 3,
+            "type_id": "PT-.5FE.5FBefehl.20Schalten",
+            "type": "TypeRestriction",
+            "global": false,
+            "context": [
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-1313_R-191//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-1313_R-191//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-389_R-473//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-389_R-473//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-390_R-474//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-390_R-474//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-391_R-476//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-391_R-476//"
+                }
+              ]
+            ]
+          }
+        ],
+        "objects": [
+          {
+            "cc": "CC_Output_Switch",
+            "fids": [
+              "MD-3_O-2-0_R-1/MD-3_M-1/1",
+              "MD-3_O-2-0_R-1/MD-3_M-8/1",
+              "MD-3_O-2-0_R-1/MD-3_M-34/1",
+              "MD-3_O-2-0_R-1/MD-3_M-59/1",
+              "MD-3_O-2-0_R-1/MD-3_M-234/1",
+              "MD-3_O-2-0_R-1/MD-3_M-244/1",
+              "MD-3_O-2-0_R-1/MD-3_M-264/1",
+              "MD-3_O-2-0_R-1/MD-3_M-274/1"
+            ],
+            "function_text": "Schalten",
+            "numbers": {
+              "0": 49,
+              "1": 53,
+              "2": 57,
+              "3": 61,
+              "4": 65,
+              "5": 69,
+              "6": 73,
+              "7": 77
+            },
+            "global": false
+          },
+          {
+            "cc": "CC_Output_SwitchStatus",
+            "fids": [
+              "MD-3_O-2-1_R-2/MD-3_M-1/1",
+              "MD-3_O-2-1_R-2/MD-3_M-8/1",
+              "MD-3_O-2-1_R-2/MD-3_M-34/1",
+              "MD-3_O-2-1_R-2/MD-3_M-59/1",
+              "MD-3_O-2-1_R-2/MD-3_M-234/1",
+              "MD-3_O-2-1_R-2/MD-3_M-244/1",
+              "MD-3_O-2-1_R-2/MD-3_M-264/1",
+              "MD-3_O-2-1_R-2/MD-3_M-274/1"
+            ],
+            "function_text": "Schalten - Status",
+            "numbers": {
+              "0": 50,
+              "1": 54,
+              "2": 58,
+              "3": 62,
+              "4": 66,
+              "5": 70,
+              "6": 74,
+              "7": 78
+            },
+            "global": false
+          }
+        ]
       }
     ]
   },
@@ -17680,6 +18704,166 @@
             "function_text": "Schalten",
             "numbers": {
               "0": 1059
+            },
+            "global": false
+          }
+        ]
+      },
+      {
+        "id": "mode_trigger_switch_off",
+        "block": "trigger",
+        "n_channels": 2,
+        "parameters": [
+          {
+            "fids": [
+              "MD-3_P-3_R-6/MD-3_M-1/1",
+              "MD-3_P-3_R-6/MD-3_M-8/1"
+            ],
+            "text": "Beim Drücken",
+            "value": 2,
+            "type_id": "PT-.5FE.5FBefehl.20Schalten",
+            "type": "TypeRestriction",
+            "global": false,
+            "context": [
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-1313_R-191//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-1313_R-191//"
+                }
+              ]
+            ]
+          }
+        ],
+        "objects": [
+          {
+            "cc": "CC_Output_Switch",
+            "fids": [
+              "MD-3_O-2-0_R-1/MD-3_M-1/1",
+              "MD-3_O-2-0_R-1/MD-3_M-8/1"
+            ],
+            "function_text": "Schalten",
+            "numbers": {
+              "0": 65,
+              "1": 69
+            },
+            "global": false
+          }
+        ]
+      },
+      {
+        "id": "mode_trigger_switch_on",
+        "block": "trigger",
+        "n_channels": 2,
+        "parameters": [
+          {
+            "fids": [
+              "MD-3_P-3_R-6/MD-3_M-1/1",
+              "MD-3_P-3_R-6/MD-3_M-8/1"
+            ],
+            "text": "Beim Drücken",
+            "value": 1,
+            "type_id": "PT-.5FE.5FBefehl.20Schalten",
+            "type": "TypeRestriction",
+            "global": false,
+            "context": [
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-1313_R-191//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-1313_R-191//"
+                }
+              ]
+            ]
+          }
+        ],
+        "objects": [
+          {
+            "cc": "CC_Output_Switch",
+            "fids": [
+              "MD-3_O-2-0_R-1/MD-3_M-1/1",
+              "MD-3_O-2-0_R-1/MD-3_M-8/1"
+            ],
+            "function_text": "Schalten",
+            "numbers": {
+              "0": 65,
+              "1": 69
+            },
+            "global": false
+          }
+        ]
+      },
+      {
+        "id": "mode_trigger_toggle",
+        "block": "trigger",
+        "n_channels": 2,
+        "parameters": [
+          {
+            "fids": [
+              "MD-3_P-3_R-6/MD-3_M-1/1",
+              "MD-3_P-3_R-6/MD-3_M-8/1"
+            ],
+            "text": "Beim Drücken",
+            "value": 3,
+            "type_id": "PT-.5FE.5FBefehl.20Schalten",
+            "type": "TypeRestriction",
+            "global": false,
+            "context": [
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-1313_R-191//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-1313_R-191//"
+                }
+              ]
+            ]
+          }
+        ],
+        "objects": [
+          {
+            "cc": "CC_Output_Switch",
+            "fids": [
+              "MD-3_O-2-0_R-1/MD-3_M-1/1",
+              "MD-3_O-2-0_R-1/MD-3_M-8/1"
+            ],
+            "function_text": "Schalten",
+            "numbers": {
+              "0": 65,
+              "1": 69
+            },
+            "global": false
+          },
+          {
+            "cc": "CC_Output_SwitchStatus",
+            "fids": [
+              "MD-3_O-2-1_R-2/MD-3_M-1/1",
+              "MD-3_O-2-1_R-2/MD-3_M-8/1"
+            ],
+            "function_text": "Schalten - Status",
+            "numbers": {
+              "0": 66,
+              "1": 70
             },
             "global": false
           }
@@ -18262,6 +19446,144 @@
             "numbers": {
               "0": 1059,
               "1": 1083
+            },
+            "global": false
+          }
+        ]
+      },
+      {
+        "id": "mode_trigger_switch_off",
+        "block": "trigger",
+        "n_channels": 4,
+        "parameters": [
+          {
+            "fids": [
+              "MD-3_P-3_R-6/MD-3_M-1/1",
+              "MD-3_P-3_R-6/MD-3_M-8/1",
+              "MD-3_P-3_R-6/MD-3_M-34/1",
+              "MD-3_P-3_R-6/MD-3_M-59/1"
+            ],
+            "text": "Beim Drücken",
+            "value": 2,
+            "type_id": "PT-.5FE.5FBefehl.20Schalten",
+            "type": "TypeRestriction",
+            "global": false,
+            "context": [
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-1313_R-191//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-1313_R-191//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-389_R-473//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-389_R-473//"
+                }
+              ]
+            ]
+          }
+        ],
+        "objects": [
+          {
+            "cc": "CC_Output_Switch",
+            "fids": [
+              "MD-3_O-2-0_R-1/MD-3_M-1/1",
+              "MD-3_O-2-0_R-1/MD-3_M-8/1",
+              "MD-3_O-2-0_R-1/MD-3_M-34/1",
+              "MD-3_O-2-0_R-1/MD-3_M-59/1"
+            ],
+            "function_text": "Schalten",
+            "numbers": {
+              "0": 65,
+              "1": 69,
+              "2": 73,
+              "3": 77
+            },
+            "global": false
+          }
+        ]
+      },
+      {
+        "id": "mode_trigger_switch_on",
+        "block": "trigger",
+        "n_channels": 4,
+        "parameters": [
+          {
+            "fids": [
+              "MD-3_P-3_R-6/MD-3_M-1/1",
+              "MD-3_P-3_R-6/MD-3_M-8/1",
+              "MD-3_P-3_R-6/MD-3_M-34/1",
+              "MD-3_P-3_R-6/MD-3_M-59/1"
+            ],
+            "text": "Beim Drücken",
+            "value": 1,
+            "type_id": "PT-.5FE.5FBefehl.20Schalten",
+            "type": "TypeRestriction",
+            "global": false,
+            "context": [
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-1313_R-191//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-1313_R-191//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-389_R-473//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-389_R-473//"
+                }
+              ]
+            ]
+          }
+        ],
+        "objects": [
+          {
+            "cc": "CC_Output_Switch",
+            "fids": [
+              "MD-3_O-2-0_R-1/MD-3_M-1/1",
+              "MD-3_O-2-0_R-1/MD-3_M-8/1",
+              "MD-3_O-2-0_R-1/MD-3_M-34/1",
+              "MD-3_O-2-0_R-1/MD-3_M-59/1"
+            ],
+            "function_text": "Schalten",
+            "numbers": {
+              "0": 65,
+              "1": 69,
+              "2": 73,
+              "3": 77
             },
             "global": false
           }
@@ -18972,6 +20294,294 @@
             "global": false
           }
         ]
+      },
+      {
+        "id": "mode_trigger_switch_off",
+        "block": "trigger",
+        "n_channels": 6,
+        "parameters": [
+          {
+            "fids": [
+              "MD-3_P-3_R-6/MD-3_M-1/1",
+              "MD-3_P-3_R-6/MD-3_M-8/1",
+              "MD-3_P-3_R-6/MD-3_M-34/1",
+              "MD-3_P-3_R-6/MD-3_M-59/1",
+              "MD-3_P-3_R-6/MD-3_M-234/1",
+              "MD-3_P-3_R-6/MD-3_M-244/1"
+            ],
+            "text": "Beim Drücken",
+            "value": 2,
+            "type_id": "PT-.5FE.5FBefehl.20Schalten",
+            "type": "TypeRestriction",
+            "global": false,
+            "context": [
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-1313_R-191//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-1313_R-191//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-389_R-473//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-389_R-473//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-390_R-474//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-390_R-474//"
+                }
+              ]
+            ]
+          }
+        ],
+        "objects": [
+          {
+            "cc": "CC_Output_Switch",
+            "fids": [
+              "MD-3_O-2-0_R-1/MD-3_M-1/1",
+              "MD-3_O-2-0_R-1/MD-3_M-8/1",
+              "MD-3_O-2-0_R-1/MD-3_M-34/1",
+              "MD-3_O-2-0_R-1/MD-3_M-59/1",
+              "MD-3_O-2-0_R-1/MD-3_M-234/1",
+              "MD-3_O-2-0_R-1/MD-3_M-244/1"
+            ],
+            "function_text": "Schalten",
+            "numbers": {
+              "0": 65,
+              "1": 69,
+              "2": 73,
+              "3": 77,
+              "4": 81,
+              "5": 85
+            },
+            "global": false
+          }
+        ]
+      },
+      {
+        "id": "mode_trigger_switch_on",
+        "block": "trigger",
+        "n_channels": 6,
+        "parameters": [
+          {
+            "fids": [
+              "MD-3_P-3_R-6/MD-3_M-1/1",
+              "MD-3_P-3_R-6/MD-3_M-8/1",
+              "MD-3_P-3_R-6/MD-3_M-34/1",
+              "MD-3_P-3_R-6/MD-3_M-59/1",
+              "MD-3_P-3_R-6/MD-3_M-234/1",
+              "MD-3_P-3_R-6/MD-3_M-244/1"
+            ],
+            "text": "Beim Drücken",
+            "value": 1,
+            "type_id": "PT-.5FE.5FBefehl.20Schalten",
+            "type": "TypeRestriction",
+            "global": false,
+            "context": [
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-1313_R-191//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-1313_R-191//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-389_R-473//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-389_R-473//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-390_R-474//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-390_R-474//"
+                }
+              ]
+            ]
+          }
+        ],
+        "objects": [
+          {
+            "cc": "CC_Output_Switch",
+            "fids": [
+              "MD-3_O-2-0_R-1/MD-3_M-1/1",
+              "MD-3_O-2-0_R-1/MD-3_M-8/1",
+              "MD-3_O-2-0_R-1/MD-3_M-34/1",
+              "MD-3_O-2-0_R-1/MD-3_M-59/1",
+              "MD-3_O-2-0_R-1/MD-3_M-234/1",
+              "MD-3_O-2-0_R-1/MD-3_M-244/1"
+            ],
+            "function_text": "Schalten",
+            "numbers": {
+              "0": 65,
+              "1": 69,
+              "2": 73,
+              "3": 77,
+              "4": 81,
+              "5": 85
+            },
+            "global": false
+          }
+        ]
+      },
+      {
+        "id": "mode_trigger_toggle",
+        "block": "trigger",
+        "n_channels": 6,
+        "parameters": [
+          {
+            "fids": [
+              "MD-3_P-3_R-6/MD-3_M-1/1",
+              "MD-3_P-3_R-6/MD-3_M-8/1",
+              "MD-3_P-3_R-6/MD-3_M-34/1",
+              "MD-3_P-3_R-6/MD-3_M-59/1",
+              "MD-3_P-3_R-6/MD-3_M-234/1",
+              "MD-3_P-3_R-6/MD-3_M-244/1"
+            ],
+            "text": "Beim Drücken",
+            "value": 3,
+            "type_id": "PT-.5FE.5FBefehl.20Schalten",
+            "type": "TypeRestriction",
+            "global": false,
+            "context": [
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-1313_R-191//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-1313_R-191//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-389_R-473//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-389_R-473//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-390_R-474//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-390_R-474//"
+                }
+              ]
+            ]
+          }
+        ],
+        "objects": [
+          {
+            "cc": "CC_Output_Switch",
+            "fids": [
+              "MD-3_O-2-0_R-1/MD-3_M-1/1",
+              "MD-3_O-2-0_R-1/MD-3_M-8/1",
+              "MD-3_O-2-0_R-1/MD-3_M-34/1",
+              "MD-3_O-2-0_R-1/MD-3_M-59/1",
+              "MD-3_O-2-0_R-1/MD-3_M-234/1",
+              "MD-3_O-2-0_R-1/MD-3_M-244/1"
+            ],
+            "function_text": "Schalten",
+            "numbers": {
+              "0": 65,
+              "1": 69,
+              "2": 73,
+              "3": 77,
+              "4": 81,
+              "5": 85
+            },
+            "global": false
+          },
+          {
+            "cc": "CC_Output_SwitchStatus",
+            "fids": [
+              "MD-3_O-2-1_R-2/MD-3_M-1/1",
+              "MD-3_O-2-1_R-2/MD-3_M-8/1",
+              "MD-3_O-2-1_R-2/MD-3_M-34/1",
+              "MD-3_O-2-1_R-2/MD-3_M-59/1",
+              "MD-3_O-2-1_R-2/MD-3_M-234/1",
+              "MD-3_O-2-1_R-2/MD-3_M-244/1"
+            ],
+            "function_text": "Schalten - Status",
+            "numbers": {
+              "0": 66,
+              "1": 70,
+              "2": 74,
+              "3": 78,
+              "4": 82,
+              "5": 86
+            },
+            "global": false
+          }
+        ]
       }
     ]
   },
@@ -19637,6 +21247,358 @@
               "1": 1083,
               "2": 1107,
               "3": 1131
+            },
+            "global": false
+          }
+        ]
+      },
+      {
+        "id": "mode_trigger_switch_off",
+        "block": "trigger",
+        "n_channels": 8,
+        "parameters": [
+          {
+            "fids": [
+              "MD-3_P-3_R-6/MD-3_M-1/1",
+              "MD-3_P-3_R-6/MD-3_M-8/1",
+              "MD-3_P-3_R-6/MD-3_M-34/1",
+              "MD-3_P-3_R-6/MD-3_M-59/1",
+              "MD-3_P-3_R-6/MD-3_M-234/1",
+              "MD-3_P-3_R-6/MD-3_M-244/1",
+              "MD-3_P-3_R-6/MD-3_M-264/1",
+              "MD-3_P-3_R-6/MD-3_M-274/1"
+            ],
+            "text": "Beim Drücken",
+            "value": 2,
+            "type_id": "PT-.5FE.5FBefehl.20Schalten",
+            "type": "TypeRestriction",
+            "global": false,
+            "context": [
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-1313_R-191//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-1313_R-191//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-389_R-473//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-389_R-473//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-390_R-474//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-390_R-474//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-391_R-476//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-391_R-476//"
+                }
+              ]
+            ]
+          }
+        ],
+        "objects": [
+          {
+            "cc": "CC_Output_Switch",
+            "fids": [
+              "MD-3_O-2-0_R-1/MD-3_M-1/1",
+              "MD-3_O-2-0_R-1/MD-3_M-8/1",
+              "MD-3_O-2-0_R-1/MD-3_M-34/1",
+              "MD-3_O-2-0_R-1/MD-3_M-59/1",
+              "MD-3_O-2-0_R-1/MD-3_M-234/1",
+              "MD-3_O-2-0_R-1/MD-3_M-244/1",
+              "MD-3_O-2-0_R-1/MD-3_M-264/1",
+              "MD-3_O-2-0_R-1/MD-3_M-274/1"
+            ],
+            "function_text": "Schalten",
+            "numbers": {
+              "0": 65,
+              "1": 69,
+              "2": 73,
+              "3": 77,
+              "4": 81,
+              "5": 85,
+              "6": 89,
+              "7": 93
+            },
+            "global": false
+          }
+        ]
+      },
+      {
+        "id": "mode_trigger_switch_on",
+        "block": "trigger",
+        "n_channels": 8,
+        "parameters": [
+          {
+            "fids": [
+              "MD-3_P-3_R-6/MD-3_M-1/1",
+              "MD-3_P-3_R-6/MD-3_M-8/1",
+              "MD-3_P-3_R-6/MD-3_M-34/1",
+              "MD-3_P-3_R-6/MD-3_M-59/1",
+              "MD-3_P-3_R-6/MD-3_M-234/1",
+              "MD-3_P-3_R-6/MD-3_M-244/1",
+              "MD-3_P-3_R-6/MD-3_M-264/1",
+              "MD-3_P-3_R-6/MD-3_M-274/1"
+            ],
+            "text": "Beim Drücken",
+            "value": 1,
+            "type_id": "PT-.5FE.5FBefehl.20Schalten",
+            "type": "TypeRestriction",
+            "global": false,
+            "context": [
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-1313_R-191//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-1313_R-191//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-389_R-473//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-389_R-473//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-390_R-474//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-390_R-474//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-391_R-476//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-391_R-476//"
+                }
+              ]
+            ]
+          }
+        ],
+        "objects": [
+          {
+            "cc": "CC_Output_Switch",
+            "fids": [
+              "MD-3_O-2-0_R-1/MD-3_M-1/1",
+              "MD-3_O-2-0_R-1/MD-3_M-8/1",
+              "MD-3_O-2-0_R-1/MD-3_M-34/1",
+              "MD-3_O-2-0_R-1/MD-3_M-59/1",
+              "MD-3_O-2-0_R-1/MD-3_M-234/1",
+              "MD-3_O-2-0_R-1/MD-3_M-244/1",
+              "MD-3_O-2-0_R-1/MD-3_M-264/1",
+              "MD-3_O-2-0_R-1/MD-3_M-274/1"
+            ],
+            "function_text": "Schalten",
+            "numbers": {
+              "0": 65,
+              "1": 69,
+              "2": 73,
+              "3": 77,
+              "4": 81,
+              "5": 85,
+              "6": 89,
+              "7": 93
+            },
+            "global": false
+          }
+        ]
+      },
+      {
+        "id": "mode_trigger_toggle",
+        "block": "trigger",
+        "n_channels": 8,
+        "parameters": [
+          {
+            "fids": [
+              "MD-3_P-3_R-6/MD-3_M-1/1",
+              "MD-3_P-3_R-6/MD-3_M-8/1",
+              "MD-3_P-3_R-6/MD-3_M-34/1",
+              "MD-3_P-3_R-6/MD-3_M-59/1",
+              "MD-3_P-3_R-6/MD-3_M-234/1",
+              "MD-3_P-3_R-6/MD-3_M-244/1",
+              "MD-3_P-3_R-6/MD-3_M-264/1",
+              "MD-3_P-3_R-6/MD-3_M-274/1"
+            ],
+            "text": "Beim Drücken",
+            "value": 3,
+            "type_id": "PT-.5FE.5FBefehl.20Schalten",
+            "type": "TypeRestriction",
+            "global": false,
+            "context": [
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-1313_R-191//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-1313_R-191//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-389_R-473//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-389_R-473//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-390_R-474//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-390_R-474//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-391_R-476//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-391_R-476//"
+                }
+              ]
+            ]
+          }
+        ],
+        "objects": [
+          {
+            "cc": "CC_Output_Switch",
+            "fids": [
+              "MD-3_O-2-0_R-1/MD-3_M-1/1",
+              "MD-3_O-2-0_R-1/MD-3_M-8/1",
+              "MD-3_O-2-0_R-1/MD-3_M-34/1",
+              "MD-3_O-2-0_R-1/MD-3_M-59/1",
+              "MD-3_O-2-0_R-1/MD-3_M-234/1",
+              "MD-3_O-2-0_R-1/MD-3_M-244/1",
+              "MD-3_O-2-0_R-1/MD-3_M-264/1",
+              "MD-3_O-2-0_R-1/MD-3_M-274/1"
+            ],
+            "function_text": "Schalten",
+            "numbers": {
+              "0": 65,
+              "1": 69,
+              "2": 73,
+              "3": 77,
+              "4": 81,
+              "5": 85,
+              "6": 89,
+              "7": 93
+            },
+            "global": false
+          },
+          {
+            "cc": "CC_Output_SwitchStatus",
+            "fids": [
+              "MD-3_O-2-1_R-2/MD-3_M-1/1",
+              "MD-3_O-2-1_R-2/MD-3_M-8/1",
+              "MD-3_O-2-1_R-2/MD-3_M-34/1",
+              "MD-3_O-2-1_R-2/MD-3_M-59/1",
+              "MD-3_O-2-1_R-2/MD-3_M-234/1",
+              "MD-3_O-2-1_R-2/MD-3_M-244/1",
+              "MD-3_O-2-1_R-2/MD-3_M-264/1",
+              "MD-3_O-2-1_R-2/MD-3_M-274/1"
+            ],
+            "function_text": "Schalten - Status",
+            "numbers": {
+              "0": 66,
+              "1": 70,
+              "2": 74,
+              "3": 78,
+              "4": 82,
+              "5": 86,
+              "6": 90,
+              "7": 94
             },
             "global": false
           }
