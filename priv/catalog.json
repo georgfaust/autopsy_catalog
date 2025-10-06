@@ -4941,30 +4941,6 @@
               "P-583_R-1114//"
             ],
             "type_id": "PT-.5FFunktion.20.28Wippe.29"
-          },
-          {
-            "global": false,
-            "type": "TypeRestriction",
-            "value": 2,
-            "context": [],
-            "text": "Beim Drücken",
-            "fids": [
-              "MD-13_P-3_R-6/MD-13_M-44/1",
-              "MD-13_P-3_R-6/MD-13_M-14/1"
-            ],
-            "type_id": "PT-.5FE.5FBefehl.20Schalten"
-          },
-          {
-            "global": false,
-            "type": "TypeRestriction",
-            "value": 1,
-            "context": [],
-            "text": "Beim Drücken",
-            "fids": [
-              "MD-13_P-1_R-1/MD-13_M-44/1",
-              "MD-13_P-1_R-1/MD-13_M-14/1"
-            ],
-            "type_id": "PT-.5FE.5FBefehl.20Schalten"
           }
         ],
         "objects": [
@@ -15868,28 +15844,6 @@
               "P-382_R-327//"
             ],
             "type_id": "PT-.5FFunktion.20.28Wippe.29"
-          },
-          {
-            "global": false,
-            "type": "TypeRestriction",
-            "value": 2,
-            "context": [],
-            "text": "Beim Drücken",
-            "fids": [
-              "MD-13_P-3_R-6/MD-13_M-44/1"
-            ],
-            "type_id": "PT-.5FE.5FBefehl.20Schalten"
-          },
-          {
-            "global": false,
-            "type": "TypeRestriction",
-            "value": 1,
-            "context": [],
-            "text": "Beim Drücken",
-            "fids": [
-              "MD-13_P-1_R-1/MD-13_M-44/1"
-            ],
-            "type_id": "PT-.5FE.5FBefehl.20Schalten"
           }
         ],
         "objects": [
@@ -24479,7 +24433,7 @@
         "objects": [
           {
             "global": false,
-            "cc": "CC_Motion_Lock",
+            "cc": "CC_Output_Switch",
             "fids": [
               "MD-18_O-12-0_R-17/MD-18_M-38/1",
               "MD-18_O-12-0_R-17/MD-18_M-29/1",
@@ -24496,7 +24450,7 @@
           },
           {
             "global": false,
-            "cc": "CC_Output_Switch",
+            "cc": "CC_Motion_Lock",
             "fids": [
               "MD-18_O-12-1_R-27/MD-18_M-38/1",
               "MD-18_O-12-1_R-27/MD-18_M-29/1",
@@ -24632,34 +24586,6 @@
               "P-601_R-1134//"
             ],
             "type_id": "PT-.5FFunktion.20.28Wippe.29"
-          },
-          {
-            "global": false,
-            "type": "TypeRestriction",
-            "value": 2,
-            "context": [],
-            "text": "Beim Drücken",
-            "fids": [
-              "MD-13_P-3_R-6/MD-13_M-44/1",
-              "MD-13_P-3_R-6/MD-13_M-14/1",
-              "MD-13_P-3_R-6/MD-13_M-224/1",
-              "MD-13_P-3_R-6/MD-13_M-254/1"
-            ],
-            "type_id": "PT-.5FE.5FBefehl.20Schalten"
-          },
-          {
-            "global": false,
-            "type": "TypeRestriction",
-            "value": 1,
-            "context": [],
-            "text": "Beim Drücken",
-            "fids": [
-              "MD-13_P-1_R-1/MD-13_M-44/1",
-              "MD-13_P-1_R-1/MD-13_M-14/1",
-              "MD-13_P-1_R-1/MD-13_M-224/1",
-              "MD-13_P-1_R-1/MD-13_M-254/1"
-            ],
-            "type_id": "PT-.5FE.5FBefehl.20Schalten"
           }
         ],
         "objects": [
@@ -25087,7 +25013,7 @@
         "objects": [
           {
             "global": false,
-            "cc": "CC_Motion_Lock",
+            "cc": "CC_Output_Switch",
             "fids": [
               "MD-18_O-12-0_R-17/MD-18_M-38/1",
               "MD-18_O-12-0_R-17/MD-18_M-29/1",
@@ -25102,7 +25028,7 @@
           },
           {
             "global": false,
-            "cc": "CC_Output_Switch",
+            "cc": "CC_Motion_Lock",
             "fids": [
               "MD-18_O-12-1_R-27/MD-18_M-38/1",
               "MD-18_O-12-1_R-27/MD-18_M-29/1",
@@ -25224,32 +25150,6 @@
               "P-592_R-1124//"
             ],
             "type_id": "PT-.5FFunktion.20.28Wippe.29"
-          },
-          {
-            "global": false,
-            "type": "TypeRestriction",
-            "value": 2,
-            "context": [],
-            "text": "Beim Drücken",
-            "fids": [
-              "MD-13_P-3_R-6/MD-13_M-44/1",
-              "MD-13_P-3_R-6/MD-13_M-14/1",
-              "MD-13_P-3_R-6/MD-13_M-224/1"
-            ],
-            "type_id": "PT-.5FE.5FBefehl.20Schalten"
-          },
-          {
-            "global": false,
-            "type": "TypeRestriction",
-            "value": 1,
-            "context": [],
-            "text": "Beim Drücken",
-            "fids": [
-              "MD-13_P-1_R-1/MD-13_M-44/1",
-              "MD-13_P-1_R-1/MD-13_M-14/1",
-              "MD-13_P-1_R-1/MD-13_M-224/1"
-            ],
-            "type_id": "PT-.5FE.5FBefehl.20Schalten"
           }
         ],
         "objects": [
