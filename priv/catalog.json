@@ -21875,126 +21875,27 @@
   "M-0004_A-D164-22-B1A0-O000A": {
     "modes": [
       {
-        "block": "trigger",
-        "id": "mode_trigger_dim",
-        "parameters": [
-          {
-            "global": false,
-            "type": "TypeRestriction",
-            "value": 1,
-            "context": [
-              [],
-              [],
-              [],
-              []
-            ],
-            "text": "Funktion",
-            "fids": [
-              "P-382_R-327//",
-              "P-583_R-1114//",
-              "P-739_R-421//",
-              "P-767_R-425//"
-            ],
-            "type_id": "PT-.5FFunktion.20.28Wippe.29"
-          }
-        ],
-        "objects": [],
-        "n_channels": 4
-      },
-      {
-        "block": "trigger",
-        "id": "mode_trigger_motor",
-        "parameters": [
-          {
-            "global": false,
-            "type": "TypeRestriction",
-            "value": 2,
-            "context": [
-              [],
-              [],
-              [],
-              []
-            ],
-            "text": "Funktion",
-            "fids": [
-              "P-382_R-327//",
-              "P-583_R-1114//",
-              "P-739_R-421//",
-              "P-767_R-425//"
-            ],
-            "type_id": "PT-.5FFunktion.20.28Wippe.29"
-          }
-        ],
-        "objects": [],
-        "n_channels": 4
-      },
-      {
-        "block": "trigger",
-        "id": "mode_trigger_switch",
-        "parameters": [
-          {
-            "global": false,
-            "type": "TypeRestriction",
-            "value": 0,
-            "context": [
-              [],
-              [],
-              [],
-              []
-            ],
-            "text": "Funktion",
-            "fids": [
-              "P-382_R-327//",
-              "P-583_R-1114//",
-              "P-739_R-421//",
-              "P-767_R-425//"
-            ],
-            "type_id": "PT-.5FFunktion.20.28Wippe.29"
-          }
-        ],
-        "objects": [],
-        "n_channels": 4
-      }
-    ],
-    "application_program_id": "M-0004_A-D164-22-B1A0-O000A",
-    "hardware_to_program_id": "M-0004_H-4.20.2F.2F.205294D1ST-0-O000A_HP-D164-22-0000-O000A",
-    "manufacturer_id": "M-0004",
-    "application_name": "Raumcontroller-Modul 4fach D16422",
-    "order_numbers": [
-      "5294D1ST"
-    ],
-    "manufacturer_name": "Albrecht Jung",
-    "mount_type": "flush"
-  },
-  "M-0004_A-D162-22-D781-O000A": {
-    "modes": [
-      {
         "block": "common",
         "id": "mode_common",
         "parameters": [
           {
             "global": true,
             "type": "TypeRestriction",
-            "value": 0,
-            "context": [
-              []
-            ],
-            "text": "   Farbe",
-            "fids": [
-              "P-189_R-102//"
-            ],
-            "type_id": "PT-1151.5FLED.20Farbe.20Allgemein"
-          },
-          {
-            "global": true,
-            "type": "TypeNumber",
             "value": 1,
-            "context": [],
-            "text": "Helligkeitsreduzierung",
-            "fids": [
-              "P-180_R-87//"
+            "context": [
+              [
+                {
+                  "type": "TypeNumber",
+                  "value": 1,
+                  "fid": "P-180_R-87//"
+                }
+              ]
             ],
-            "type_id": "PT-.5FAllg.5Fja1.5Fnein.5FCheckbox"
+            "text": "Objekt-Polarität",
+            "fids": [
+              "P-181_R-88//"
+            ],
+            "type_id": "PT-Nachtabsenkung.20Polarität.20Meldeobjekt"
           },
           {
             "global": true,
@@ -22006,17 +21907,6 @@
               "P-182_R-93//"
             ],
             "type_id": "PT-LED.20Helligkeitsstufen"
-          },
-          {
-            "global": true,
-            "type": "TypeRestriction",
-            "value": 1,
-            "context": [],
-            "text": "Objekt-Polarität",
-            "fids": [
-              "P-181_R-88//"
-            ],
-            "type_id": "PT-Nachtabsenkung.20Polarität.20Meldeobjekt"
           }
         ],
         "objects": [
@@ -22072,6 +21962,1220 @@
               "P-985_R-924//"
             ],
             "type_id": "PT-RTR.2DFunktion"
+          },
+          {
+            "global": false,
+            "type": "TypeNumber",
+            "value": 1,
+            "context": [],
+            "text": "Energiesparmodus",
+            "fids": [
+              "P-8_R-5//"
+            ],
+            "type_id": "PT-.5FAllg.5Fja1.5Fnein.5FCheckbox"
+          },
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 3,
+            "context": [],
+            "text": "Funktionsweise",
+            "fids": [
+              "P-354_R-454//"
+            ],
+            "type_id": "PT-.5FE.5FFunktionsweise.20Reglernebenstelle"
+          },
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 6,
+            "context": [],
+            "text": "   Solltemperaturverschiebung",
+            "fids": [
+              "P-1633_R-2695//"
+            ],
+            "type_id": "PT-.5FE.5FArt.20der.20Sollwertverschiebung"
+          },
+          {
+            "global": false,
+            "type": "TypeFloat",
+            "value": 17.0,
+            "context": [],
+            "text": "T1 - Min Verstellung",
+            "fids": [
+              "MD-25_UP-13_R-14/MD-25_M-3708/1"
+            ],
+            "type_id": "PT-.5FRegler.5FHA.5FRE.5FFloat.5F7bis45.20.28Inkrement.20.3D.201.29"
+          },
+          {
+            "global": false,
+            "type": "TypeFloat",
+            "value": 25.0,
+            "context": [],
+            "text": "T1 - Max Verstellung",
+            "fids": [
+              "MD-25_UP-12_R-10/MD-25_M-3708/1"
+            ],
+            "type_id": "PT-.5FRegler.5FHA.5FRE.5FFloat.5F7bis45.20.28Inkrement.20.3D.201.29"
+          },
+          {
+            "global": false,
+            "type": "TypeFloat",
+            "value": 17.0,
+            "context": [],
+            "text": "T2 - Min Verstellung",
+            "fids": [
+              "MD-25_UP-19_R-16/MD-25_M-3708/1"
+            ],
+            "type_id": "PT-.5FRegler.5FHA.5FRE.5FFloat.5F7bis45.20.28Inkrement.20.3D.201.29"
+          },
+          {
+            "global": false,
+            "type": "TypeFloat",
+            "value": 25.0,
+            "context": [],
+            "text": "T2 - Max Verstellung",
+            "fids": [
+              "MD-25_UP-18_R-15/MD-25_M-3708/1"
+            ],
+            "type_id": "PT-.5FRegler.5FHA.5FRE.5FFloat.5F7bis45.20.28Inkrement.20.3D.201.29"
+          },
+          {
+            "global": false,
+            "type": "TypeNumber",
+            "value": 1,
+            "context": [],
+            "text": "Wertanforderung der Reglernebenstelle",
+            "fids": [
+              "UP-663_R-1135//"
+            ],
+            "type_id": "PT-Check.20Box"
+          },
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 2,
+            "context": [],
+            "text": "Reglerbetriebsart",
+            "fids": [
+              "P-788_R-1140//"
+            ],
+            "type_id": "PT-Reglernebenstelle.5FBetriebsart"
+          },
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 2,
+            "context": [],
+            "text": "Energiesparmodus aktivieren",
+            "fids": [
+              "UP-13_R-13//"
+            ],
+            "type_id": "PT-Energiesparen.20.2D.20Aktivieren.20durch"
+          },
+          {
+            "global": false,
+            "type": "TypeNumber",
+            "value": 0,
+            "context": [],
+            "text": "Uhrzeit anfordern",
+            "fids": [
+              "P-391_R-453//"
+            ],
+            "type_id": "PT-.5FAllg.5Fja1.5Fnein.5FCheckbox.201.20Bit"
+          },
+          {
+            "global": false,
+            "type": "TypeNumber",
+            "value": 20,
+            "context": [],
+            "text": "_Display - Auto Abschaltung Sek",
+            "fids": [
+              "MD-1_UP-13_R-16/MD-1_M-254/1"
+            ],
+            "type_id": "PT-Wert.2015.2E.2E.2E60"
+          },
+          {
+            "global": false,
+            "type": "TypeNumber",
+            "value": 3,
+            "context": [],
+            "text": "   Anzahl der Anzeigeinformationen",
+            "fids": [
+              "MD-1_P-7_R-7/MD-1_M-254/1"
+            ],
+            "type_id": "PT-Wert.201.2E.2E.2E17.20Spin.20Edit"
+          },
+          {
+            "global": false,
+            "type": "TypeNumber",
+            "value": 1,
+            "context": [],
+            "text": "Tastenfunktionssymbole",
+            "fids": [
+              "MD-1_P-81_R-85/MD-1_M-254/1"
+            ],
+            "type_id": "PT-.5FAllg.5Fja1.5Fnein.5FCheckbox.201.20Bit"
+          },
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 3,
+            "context": [],
+            "text": "Anzeigeinformation 1",
+            "fids": [
+              "MD-1_P-14_R-17/MD-1_M-254/1"
+            ],
+            "type_id": "PT-.5FDisplay.5FAnzeigeinformation"
+          },
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 0,
+            "context": [],
+            "text": "Reglersymbole anzeigen",
+            "fids": [
+              "MD-1_UP-9_R-11/MD-1_M-254/1"
+            ],
+            "type_id": "PT-.5FRegler.5FSymbolanzeige"
+          },
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 2,
+            "context": [],
+            "text": "Anzeigeinformation 2",
+            "fids": [
+              "MD-1_UP-16_R-19/MD-1_M-254/1"
+            ],
+            "type_id": "PT-.5FDisplay.5FAnzeigeinformation"
+          },
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 0,
+            "context": [],
+            "text": "Reglersymbole anzeigen",
+            "fids": [
+              "MD-1_UP-19_R-22/MD-1_M-254/1"
+            ],
+            "type_id": "PT-.5FRegler.5FSymbolanzeige"
+          },
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 1,
+            "context": [],
+            "text": "Anzeigeinformation 3",
+            "fids": [
+              "MD-1_UP-21_R-24/MD-1_M-254/1"
+            ],
+            "type_id": "PT-.5FDisplay.5FAnzeigeinformation"
+          },
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 0,
+            "context": [],
+            "text": "Reglersymbole anzeigen",
+            "fids": [
+              "MD-1_UP-23_R-27/MD-1_M-254/1"
+            ],
+            "type_id": "PT-.5FRegler.5FSymbolanzeige"
+          },
+          {
+            "global": false,
+            "type": "TypeNumber",
+            "value": 1,
+            "context": [],
+            "text": "   Segment g",
+            "fids": [
+              "MD-1_P-88_R-93/MD-1_M-254/1"
+            ],
+            "type_id": "PT-.5FAllg.5Fja1.5Fnein.5FCheckbox.201.20Bit"
+          },
+          {
+            "global": false,
+            "type": "TypeNumber",
+            "value": 1,
+            "context": [],
+            "text": "   Segment g",
+            "fids": [
+              "MD-1_P-92_R-97/MD-1_M-254/1"
+            ],
+            "type_id": "PT-.5FAllg.5Fja1.5Fnein.5FCheckbox.201.20Bit"
+          },
+          {
+            "global": false,
+            "type": "TypeNumber",
+            "value": 1,
+            "context": [],
+            "text": "   Segment h",
+            "fids": [
+              "MD-1_P-91_R-96/MD-1_M-254/1"
+            ],
+            "type_id": "PT-.5FAllg.5Fja1.5Fnein.5FCheckbox.201.20Bit"
+          },
+          {
+            "global": false,
+            "type": "TypeNumber",
+            "value": 1,
+            "context": [],
+            "text": "   Segment i",
+            "fids": [
+              "MD-1_P-99_R-104/MD-1_M-254/1"
+            ],
+            "type_id": "PT-.5FAllg.5Fja1.5Fnein.5FCheckbox.201.20Bit"
+          }
+        ],
+        "objects": [
+          {
+            "global": false,
+            "cc": "CC_Sensor_Temperature",
+            "fids": [
+              "MD-1_O-2-6_R-8/MD-1_M-254/1"
+            ],
+            "function_text": "Ist-Temperatur",
+            "numbers": {
+              "0": 1081
+            }
+          },
+          {
+            "global": false,
+            "cc": "CC_HVAC_CurrentSetPoint",
+            "fids": [
+              "MD-1_O-2-7_R-9/MD-1_M-254/1"
+            ],
+            "function_text": "Solltemperatur",
+            "numbers": {
+              "0": 1082
+            }
+          },
+          {
+            "global": false,
+            "cc": "CC_HVAC_SetPointAbsolute",
+            "fids": [
+              "MD-25_O-14-1_R-1/MD-25_M-3708/1"
+            ],
+            "function_text": "RTR-Bedienstelle - Solltemperaturverschiebung",
+            "numbers": {
+              "0": 72
+            }
+          },
+          {
+            "global": false,
+            "cc": "CC_HVAC_CurrentSetPoint",
+            "fids": [
+              "MD-25_O-14-2_R-2/MD-25_M-3708/1"
+            ],
+            "function_text": "RTR-Bedienstelle - Solltemperaturverschiebung - Status",
+            "numbers": {
+              "0": 73
+            }
+          },
+          {
+            "global": false,
+            "cc": "CC_HVAC_CurrentSetPoint",
+            "fids": [
+              "O-835_R-132//"
+            ],
+            "function_text": "Solltemperatur - Aktiver Betriebsmodus - Status",
+            "numbers": {
+              "0": 835
+            }
+          }
+        ],
+        "n_channels": 1
+      },
+      {
+        "block": "sensor",
+        "id": "mode_sensors_temperature",
+        "parameters": [
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 3,
+            "context": [],
+            "text": "Ist-Temperatur senden",
+            "fids": [
+              "MD-11_P-198_R-275/MD-11_M-36/1"
+            ],
+            "type_id": "PT-NEU.5FType.5FautoAussendenZählerstand"
+          }
+        ],
+        "objects": [
+          {
+            "global": false,
+            "cc": "CC_Sensor_Temperature",
+            "fids": [
+              "MD-11_O-21-0_R-68/MD-11_M-36/1"
+            ],
+            "function_text": "Temperatursensor - Ist-Temperatur - Status",
+            "numbers": {
+              "0": 729
+            }
+          }
+        ],
+        "n_channels": 1
+      },
+      {
+        "block": "trigger",
+        "id": "mode_trigger_dim",
+        "parameters": [
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 1,
+            "context": [
+              [],
+              [],
+              []
+            ],
+            "text": "Funktion",
+            "fids": [
+              "P-583_R-1114//",
+              "P-739_R-421//",
+              "P-767_R-425//"
+            ],
+            "type_id": "PT-.5FFunktion.20.28Wippe.29"
+          },
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 0,
+            "context": [],
+            "text": "Funktion der Status-LED",
+            "fids": [
+              "P-654_R-1331//",
+              "P-1009_R-2079//",
+              "P-1343_R-2396//"
+            ],
+            "type_id": "PT-1151.5FStatus.2DLED.20.2D.20Anzeigefunktion.20WSchalten"
+          },
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 6,
+            "context": [],
+            "text": "Funktion der Status-LED",
+            "fids": [
+              "P-748_R-1459//",
+              "P-1245_R-2252//",
+              "P-1430_R-2540//"
+            ],
+            "type_id": "PT-1151.5FStatus.2DLED.20.2D.20Anzeigefunktion.20WSchalten"
+          }
+        ],
+        "objects": [
+          {
+            "global": false,
+            "cc": "CC_Output_Switch",
+            "fids": [
+              "MD-14_O-4-0_R-3/MD-14_M-3922/1",
+              "MD-14_O-4-0_R-3/MD-14_M-4683/1",
+              "MD-14_O-4-0_R-3/MD-14_M-4696/1"
+            ],
+            "function_text": "Dimmen - Schalten",
+            "numbers": {
+              "0": 103,
+              "1": 135,
+              "2": 167
+            }
+          },
+          {
+            "global": false,
+            "cc": "CC_Output_DimmingControl",
+            "fids": [
+              "MD-14_O-4-1_R-4/MD-14_M-3922/1",
+              "MD-14_O-4-1_R-4/MD-14_M-4683/1",
+              "MD-14_O-4-1_R-4/MD-14_M-4696/1"
+            ],
+            "function_text": "Dimmen",
+            "numbers": {
+              "0": 104,
+              "1": 136,
+              "2": 168
+            }
+          },
+          {
+            "global": false,
+            "cc": "CC_Output_SwitchStatus",
+            "fids": [
+              "O-523_R-105//",
+              "O-547_R-241//",
+              "O-571_R-293//"
+            ],
+            "function_text": "Schalten",
+            "numbers": {
+              "0": 523,
+              "1": 547,
+              "2": 571
+            }
+          }
+        ],
+        "n_channels": 3
+      },
+      {
+        "block": "trigger",
+        "id": "mode_trigger_garage_door_drive",
+        "parameters": [
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 0,
+            "context": [
+              [],
+              [],
+              []
+            ],
+            "text": "Funktion",
+            "fids": [
+              "P-583_R-1114//",
+              "P-739_R-421//",
+              "P-767_R-425//"
+            ],
+            "type_id": "PT-.5FFunktion.20.28Wippe.29"
+          }
+        ],
+        "objects": [
+          {
+            "global": false,
+            "cc": "CC_Output_StairCaseAutomaton",
+            "fids": [
+              "MD-13_O-2-0_R-1/MD-13_M-3921/1",
+              "MD-13_O-2-0_R-1/MD-13_M-4682/1",
+              "MD-13_O-2-0_R-1/MD-13_M-4695/1"
+            ],
+            "function_text": "Schalten",
+            "numbers": {
+              "0": 103,
+              "1": 135,
+              "2": 167
+            }
+          }
+        ],
+        "n_channels": 3
+      },
+      {
+        "block": "trigger",
+        "id": "mode_trigger_lock_motion",
+        "parameters": [
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 5,
+            "context": [
+              [],
+              [],
+              []
+            ],
+            "text": "Funktion",
+            "fids": [
+              "P-583_R-1114//",
+              "P-739_R-421//",
+              "P-767_R-425//"
+            ],
+            "type_id": "PT-.5FFunktion.20.28Wippe.29"
+          },
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 1,
+            "context": [],
+            "text": "Kurzer Tastendruck (Objekt 1)",
+            "fids": [
+              "MD-18_UP-59_R-68/MD-18_M-3926/1",
+              "MD-18_UP-59_R-68/MD-18_M-4687/1",
+              "MD-18_UP-59_R-68/MD-18_M-4700/1"
+            ],
+            "type_id": "PT-.5FE.5F2.2DKanal.20Bedienung.20Befehl.20Schalten.20.282.20Byte.29"
+          },
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 1,
+            "context": [],
+            "text": "Langer Tastendruck (Objekt 2)",
+            "fids": [
+              "MD-18_UP-70_R-79/MD-18_M-3926/1",
+              "MD-18_UP-70_R-79/MD-18_M-4687/1",
+              "MD-18_UP-70_R-79/MD-18_M-4700/1"
+            ],
+            "type_id": "PT-.5FE.5F2.2DKanal.20Bedienung.20Befehl.20Schalten.20.282.20Byte.29"
+          },
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 2,
+            "context": [],
+            "text": "Kurzer Tastendruck (Objekt 1)",
+            "fids": [
+              "MD-18_UP-36_R-50/MD-18_M-3926/1",
+              "MD-18_UP-36_R-50/MD-18_M-4687/1",
+              "MD-18_UP-36_R-50/MD-18_M-4700/1"
+            ],
+            "type_id": "PT-.5FE.5F2.2DKanal.20Bedienung.20Befehl.20Schalten.20.282.20Byte.29"
+          },
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 2,
+            "context": [],
+            "text": "Langer Tastendruck (Objekt 2)",
+            "fids": [
+              "MD-18_UP-98_R-115/MD-18_M-3926/1",
+              "MD-18_UP-98_R-115/MD-18_M-4687/1",
+              "MD-18_UP-98_R-115/MD-18_M-4700/1"
+            ],
+            "type_id": "PT-.5FE.5F2.2DKanal.20Bedienung.20Befehl.20Schalten.20.282.20Byte.29"
+          },
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 6,
+            "context": [],
+            "text": "Funktion der Status-LED",
+            "fids": [
+              "P-658_R-1345//",
+              "P-1160_R-2093//",
+              "P-1345_R-2408//"
+            ],
+            "type_id": "PT-1151.5FStatus.2DLED.20.2D.20Anzeigefunktion.20W.202.2DKanal.20Bedienung"
+          },
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 6,
+            "context": [],
+            "text": "Funktion der Status-LED",
+            "fids": [
+              "P-752_R-1473//",
+              "P-1247_R-2265//",
+              "P-1432_R-2552//"
+            ],
+            "type_id": "PT-1151.5FStatus.2DLED.20.2D.20Anzeigefunktion.20W.202.2DKanal.20Bedienung"
+          }
+        ],
+        "objects": [
+          {
+            "global": false,
+            "cc": "CC_Output_Switch",
+            "fids": [
+              "MD-18_O-12-0_R-17/MD-18_M-3926/1",
+              "MD-18_O-12-0_R-17/MD-18_M-4687/1",
+              "MD-18_O-12-0_R-17/MD-18_M-4700/1"
+            ],
+            "function_text": "Kurzer und langer Tastendruck - Objekt 1 - Schalten",
+            "numbers": {
+              "0": 103,
+              "1": 135,
+              "2": 167
+            }
+          },
+          {
+            "global": false,
+            "cc": "CC_Motion_Lock",
+            "fids": [
+              "MD-18_O-12-1_R-27/MD-18_M-3926/1",
+              "MD-18_O-12-1_R-27/MD-18_M-4687/1",
+              "MD-18_O-12-1_R-27/MD-18_M-4700/1"
+            ],
+            "function_text": "Kurzer und langer Tastendruck - Objekt 2 - Schalten",
+            "numbers": {
+              "0": 104,
+              "1": 136,
+              "2": 168
+            }
+          },
+          {
+            "global": false,
+            "cc": "CC_Motion_Lock",
+            "fids": [
+              "O-511_R-79//",
+              "O-535_R-58//",
+              "O-559_R-267//"
+            ],
+            "function_text": "Schalten",
+            "numbers": {
+              "0": 511,
+              "1": 535,
+              "2": 559
+            }
+          },
+          {
+            "global": false,
+            "cc": "CC_Motion_Lock",
+            "fids": [
+              "O-523_R-105//",
+              "O-547_R-241//",
+              "O-571_R-293//"
+            ],
+            "function_text": "Schalten",
+            "numbers": {
+              "0": 523,
+              "1": 547,
+              "2": 571
+            }
+          }
+        ],
+        "n_channels": 3
+      },
+      {
+        "block": "trigger",
+        "id": "mode_trigger_motor",
+        "parameters": [
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 2,
+            "context": [
+              [],
+              [],
+              []
+            ],
+            "text": "Funktion",
+            "fids": [
+              "P-583_R-1114//",
+              "P-739_R-421//",
+              "P-767_R-425//"
+            ],
+            "type_id": "PT-.5FFunktion.20.28Wippe.29"
+          }
+        ],
+        "objects": [
+          {
+            "global": false,
+            "cc": "CC_Motor_Stop",
+            "fids": [
+              "MD-15_O-6-0_R-6/MD-15_M-3923/1",
+              "MD-15_O-6-0_R-6/MD-15_M-4684/1",
+              "MD-15_O-6-0_R-6/MD-15_M-4697/1"
+            ],
+            "function_text": "Jalousie - Kurzzeitbetrieb",
+            "numbers": {
+              "0": 103,
+              "1": 135,
+              "2": 167
+            }
+          },
+          {
+            "global": false,
+            "cc": "CC_Motor_Move",
+            "fids": [
+              "MD-15_O-6-1_R-7/MD-15_M-3923/1",
+              "MD-15_O-6-1_R-7/MD-15_M-4684/1",
+              "MD-15_O-6-1_R-7/MD-15_M-4697/1"
+            ],
+            "function_text": "Jalousie - Langzeitbetrieb",
+            "numbers": {
+              "0": 104,
+              "1": 136,
+              "2": 168
+            }
+          }
+        ],
+        "n_channels": 3
+      },
+      {
+        "block": "trigger",
+        "id": "mode_trigger_scene",
+        "parameters": [
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 0,
+            "context": [
+              [],
+              [],
+              []
+            ],
+            "text": "Funktion",
+            "fids": [
+              "P-583_R-1114//",
+              "P-739_R-421//",
+              "P-767_R-425//"
+            ],
+            "type_id": "PT-.5FFunktion.20.28Wippe.29"
+          }
+        ],
+        "objects": [
+          {
+            "global": false,
+            "cc": "CC_Scene_Call",
+            "fids": [
+              "MD-13_O-2-0_R-1/MD-13_M-3921/1",
+              "MD-13_O-2-0_R-1/MD-13_M-4682/1",
+              "MD-13_O-2-0_R-1/MD-13_M-4695/1"
+            ],
+            "function_text": "Schalten",
+            "numbers": {
+              "0": 103,
+              "1": 135,
+              "2": 167
+            }
+          }
+        ],
+        "n_channels": 3
+      },
+      {
+        "block": "trigger",
+        "id": "mode_trigger_switch",
+        "parameters": [
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 0,
+            "context": [
+              [],
+              [],
+              []
+            ],
+            "text": "Funktion",
+            "fids": [
+              "P-583_R-1114//",
+              "P-739_R-421//",
+              "P-767_R-425//"
+            ],
+            "type_id": "PT-.5FFunktion.20.28Wippe.29"
+          },
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 0,
+            "context": [],
+            "text": "Funktion der Status-LED",
+            "fids": [
+              "P-654_R-1331//",
+              "P-1009_R-2079//",
+              "P-1343_R-2396//"
+            ],
+            "type_id": "PT-1151.5FStatus.2DLED.20.2D.20Anzeigefunktion.20WSchalten"
+          },
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 6,
+            "context": [],
+            "text": "Funktion der Status-LED",
+            "fids": [
+              "P-748_R-1459//",
+              "P-1245_R-2252//",
+              "P-1430_R-2540//"
+            ],
+            "type_id": "PT-1151.5FStatus.2DLED.20.2D.20Anzeigefunktion.20WSchalten"
+          }
+        ],
+        "objects": [
+          {
+            "global": false,
+            "cc": "CC_Output_Switch",
+            "fids": [
+              "MD-13_O-2-0_R-1/MD-13_M-3921/1",
+              "MD-13_O-2-0_R-1/MD-13_M-4682/1",
+              "MD-13_O-2-0_R-1/MD-13_M-4695/1"
+            ],
+            "function_text": "Schalten",
+            "numbers": {
+              "0": 103,
+              "1": 135,
+              "2": 167
+            }
+          },
+          {
+            "global": false,
+            "cc": "CC_Output_SwitchStatus",
+            "fids": [
+              "O-523_R-105//",
+              "O-547_R-241//",
+              "O-571_R-293//"
+            ],
+            "function_text": "Schalten",
+            "numbers": {
+              "0": 523,
+              "1": 547,
+              "2": 571
+            }
+          }
+        ],
+        "n_channels": 3
+      },
+      {
+        "block": "trigger",
+        "id": "mode_trigger_switch_off",
+        "parameters": [
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 2,
+            "context": [
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-389_R-473//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-389_R-473//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-1469_R-649//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-1469_R-649//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-1470_R-2568//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-1470_R-2568//"
+                }
+              ]
+            ],
+            "text": "Beim Drücken",
+            "fids": [
+              "MD-3_P-3_R-6/MD-3_M-3509/1",
+              "MD-3_P-3_R-6/MD-3_M-3715/1",
+              "MD-3_P-3_R-6/MD-3_M-4708/1",
+              "MD-3_P-3_R-6/MD-3_M-4722/1",
+              "MD-3_P-3_R-6/MD-3_M-3825/1",
+              "MD-3_P-3_R-6/MD-3_M-4874/1"
+            ],
+            "type_id": "PT-.5FE.5FBefehl.20Schalten"
+          }
+        ],
+        "objects": [
+          {
+            "global": false,
+            "cc": "CC_Output_Switch",
+            "fids": [
+              "MD-3_O-2-0_R-1/MD-3_M-3509/1",
+              "MD-3_O-2-0_R-1/MD-3_M-3715/1",
+              "MD-3_O-2-0_R-1/MD-3_M-4708/1",
+              "MD-3_O-2-0_R-1/MD-3_M-4722/1",
+              "MD-3_O-2-0_R-1/MD-3_M-3825/1",
+              "MD-3_O-2-0_R-1/MD-3_M-4874/1"
+            ],
+            "function_text": "Schalten",
+            "numbers": {
+              "0": 103,
+              "1": 119,
+              "2": 135,
+              "3": 151,
+              "4": 167,
+              "5": 183
+            }
+          }
+        ],
+        "n_channels": 6
+      },
+      {
+        "block": "trigger",
+        "id": "mode_trigger_switch_on",
+        "parameters": [
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 1,
+            "context": [
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-389_R-473//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-389_R-473//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-1469_R-649//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-1469_R-649//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-1470_R-2568//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-1470_R-2568//"
+                }
+              ]
+            ],
+            "text": "Beim Drücken",
+            "fids": [
+              "MD-3_P-3_R-6/MD-3_M-3509/1",
+              "MD-3_P-3_R-6/MD-3_M-3715/1",
+              "MD-3_P-3_R-6/MD-3_M-4708/1",
+              "MD-3_P-3_R-6/MD-3_M-4722/1",
+              "MD-3_P-3_R-6/MD-3_M-3825/1",
+              "MD-3_P-3_R-6/MD-3_M-4874/1"
+            ],
+            "type_id": "PT-.5FE.5FBefehl.20Schalten"
+          }
+        ],
+        "objects": [
+          {
+            "global": false,
+            "cc": "CC_Output_Switch",
+            "fids": [
+              "MD-3_O-2-0_R-1/MD-3_M-3509/1",
+              "MD-3_O-2-0_R-1/MD-3_M-3715/1",
+              "MD-3_O-2-0_R-1/MD-3_M-4708/1",
+              "MD-3_O-2-0_R-1/MD-3_M-4722/1",
+              "MD-3_O-2-0_R-1/MD-3_M-3825/1",
+              "MD-3_O-2-0_R-1/MD-3_M-4874/1"
+            ],
+            "function_text": "Schalten",
+            "numbers": {
+              "0": 103,
+              "1": 119,
+              "2": 135,
+              "3": 151,
+              "4": 167,
+              "5": 183
+            }
+          }
+        ],
+        "n_channels": 6
+      },
+      {
+        "block": "trigger",
+        "id": "mode_trigger_toggle",
+        "parameters": [
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 3,
+            "context": [
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-389_R-473//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-389_R-473//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-1469_R-649//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-1469_R-649//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-1470_R-2568//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-1470_R-2568//"
+                }
+              ]
+            ],
+            "text": "Beim Drücken",
+            "fids": [
+              "MD-3_P-3_R-6/MD-3_M-3509/1",
+              "MD-3_P-3_R-6/MD-3_M-3715/1",
+              "MD-3_P-3_R-6/MD-3_M-4708/1",
+              "MD-3_P-3_R-6/MD-3_M-4722/1",
+              "MD-3_P-3_R-6/MD-3_M-3825/1",
+              "MD-3_P-3_R-6/MD-3_M-4874/1"
+            ],
+            "type_id": "PT-.5FE.5FBefehl.20Schalten"
+          }
+        ],
+        "objects": [
+          {
+            "global": false,
+            "cc": "CC_Output_Switch",
+            "fids": [
+              "MD-3_O-2-0_R-1/MD-3_M-3509/1",
+              "MD-3_O-2-0_R-1/MD-3_M-3715/1",
+              "MD-3_O-2-0_R-1/MD-3_M-4708/1",
+              "MD-3_O-2-0_R-1/MD-3_M-4722/1",
+              "MD-3_O-2-0_R-1/MD-3_M-3825/1",
+              "MD-3_O-2-0_R-1/MD-3_M-4874/1"
+            ],
+            "function_text": "Schalten",
+            "numbers": {
+              "0": 103,
+              "1": 119,
+              "2": 135,
+              "3": 151,
+              "4": 167,
+              "5": 183
+            }
+          },
+          {
+            "global": false,
+            "cc": "CC_Output_SwitchStatus",
+            "fids": [
+              "MD-3_O-2-1_R-2/MD-3_M-3509/1",
+              "MD-3_O-2-1_R-2/MD-3_M-3715/1",
+              "MD-3_O-2-1_R-2/MD-3_M-4708/1",
+              "MD-3_O-2-1_R-2/MD-3_M-4722/1",
+              "MD-3_O-2-1_R-2/MD-3_M-3825/1",
+              "MD-3_O-2-1_R-2/MD-3_M-4874/1"
+            ],
+            "function_text": "Schalten - Status",
+            "numbers": {
+              "0": 104,
+              "1": 120,
+              "2": 136,
+              "3": 152,
+              "4": 168,
+              "5": 184
+            }
+          }
+        ],
+        "n_channels": 6
+      }
+    ],
+    "application_program_id": "M-0004_A-D164-22-B1A0-O000A",
+    "hardware_to_program_id": "M-0004_H-4.20.2F.2F.205294D1ST-0-O000A_HP-D164-22-0000-O000A",
+    "manufacturer_id": "M-0004",
+    "application_name": "Room controller module 4-gang D16422",
+    "order_numbers": [
+      "5294D1ST"
+    ],
+    "manufacturer_name": "Albrecht Jung"
+  },
+  "M-0004_A-D162-22-D781-O000A": {
+    "modes": [
+      {
+        "block": "common",
+        "id": "mode_common",
+        "parameters": [
+          {
+            "global": true,
+            "type": "TypeRestriction",
+            "value": 1,
+            "context": [
+              [
+                {
+                  "type": "TypeNumber",
+                  "value": 1,
+                  "fid": "P-180_R-87//"
+                }
+              ]
+            ],
+            "text": "Objekt-Polarität",
+            "fids": [
+              "P-181_R-88//"
+            ],
+            "type_id": "PT-Nachtabsenkung.20Polarität.20Meldeobjekt"
+          },
+          {
+            "global": true,
+            "type": "TypeRestriction",
+            "value": 1,
+            "context": [],
+            "text": "Reduzierte Helligkeit am\r\nTastsensor Grundmodul",
+            "fids": [
+              "P-182_R-93//"
+            ],
+            "type_id": "PT-LED.20Helligkeitsstufen"
+          }
+        ],
+        "objects": [
+          {
+            "global": true,
+            "cc": "CC_Time",
+            "fids": [
+              "MD-1_O-2-1_R-4/MD-1_M-254/1"
+            ],
+            "function_text": "Uhrzeit",
+            "numbers": {
+              "0": 1076
+            }
+          },
+          {
+            "global": true,
+            "cc": "CC_DayNightToggle",
+            "fids": [
+              "MD-1_O-6-6_R-13/MD-1_M-254/1"
+            ],
+            "function_text": "Aktivieren / Deaktivieren",
+            "numbers": {
+              "0": 7
+            }
+          }
+        ],
+        "n_channels": 1
+      },
+      {
+        "block": "control",
+        "id": "mode_control_room_temperature",
+        "parameters": [
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 6,
+            "context": [
+              []
+            ],
+            "text": "Funktion",
+            "fids": [
+              "P-382_R-327//"
+            ],
+            "type_id": "PT-.5FFunktion.20.28Wippe.29"
           },
           {
             "global": false,
@@ -22144,11 +23248,22 @@
             "type": "TypeNumber",
             "value": 1,
             "context": [],
-            "text": "Wertanforderung der Reglernebenstelle",
+            "text": "Energiesparmodus",
             "fids": [
-              "UP-663_R-1135//"
+              "P-8_R-5//"
             ],
-            "type_id": "PT-Check.20Box"
+            "type_id": "PT-.5FAllg.5Fja1.5Fnein.5FCheckbox"
+          },
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 2,
+            "context": [],
+            "text": "Raumtemperaturregler-Funktion 1",
+            "fids": [
+              "P-985_R-924//"
+            ],
+            "type_id": "PT-RTR.2DFunktion"
           },
           {
             "global": false,
@@ -22166,11 +23281,11 @@
             "type": "TypeNumber",
             "value": 1,
             "context": [],
-            "text": "Energiesparmodus",
+            "text": "Wertanforderung der Reglernebenstelle",
             "fids": [
-              "P-8_R-5//"
+              "UP-663_R-1135//"
             ],
-            "type_id": "PT-.5FAllg.5Fja1.5Fnein.5FCheckbox"
+            "type_id": "PT-Check.20Box"
           },
           {
             "global": false,
@@ -22208,17 +23323,6 @@
           {
             "global": false,
             "type": "TypeNumber",
-            "value": 3,
-            "context": [],
-            "text": "   Anzahl der Anzeigeinformationen",
-            "fids": [
-              "MD-1_P-7_R-7/MD-1_M-254/1"
-            ],
-            "type_id": "PT-Wert.201.2E.2E.2E17.20Spin.20Edit"
-          },
-          {
-            "global": false,
-            "type": "TypeNumber",
             "value": 1,
             "context": [],
             "text": "Tastenfunktionssymbole",
@@ -22226,6 +23330,17 @@
               "MD-1_P-81_R-85/MD-1_M-254/1"
             ],
             "type_id": "PT-.5FAllg.5Fja1.5Fnein.5FCheckbox.201.20Bit"
+          },
+          {
+            "global": false,
+            "type": "TypeNumber",
+            "value": 3,
+            "context": [],
+            "text": "   Anzahl der Anzeigeinformationen",
+            "fids": [
+              "MD-1_P-7_R-7/MD-1_M-254/1"
+            ],
+            "type_id": "PT-Wert.201.2E.2E.2E17.20Spin.20Edit"
           },
           {
             "global": false,
@@ -22237,17 +23352,6 @@
               "MD-1_UP-9_R-11/MD-1_M-254/1"
             ],
             "type_id": "PT-.5FRegler.5FSymbolanzeige"
-          },
-          {
-            "global": false,
-            "type": "TypeRestriction",
-            "value": 1,
-            "context": [],
-            "text": "Anzeigeinformation 3",
-            "fids": [
-              "MD-1_UP-21_R-24/MD-1_M-254/1"
-            ],
-            "type_id": "PT-.5FDisplay.5FAnzeigeinformation"
           },
           {
             "global": false,
@@ -22279,6 +23383,28 @@
             "text": "Reglersymbole anzeigen",
             "fids": [
               "MD-1_UP-19_R-22/MD-1_M-254/1"
+            ],
+            "type_id": "PT-.5FRegler.5FSymbolanzeige"
+          },
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 1,
+            "context": [],
+            "text": "Anzeigeinformation 3",
+            "fids": [
+              "MD-1_UP-21_R-24/MD-1_M-254/1"
+            ],
+            "type_id": "PT-.5FDisplay.5FAnzeigeinformation"
+          },
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 0,
+            "context": [],
+            "text": "Reglersymbole anzeigen",
+            "fids": [
+              "MD-1_UP-23_R-27/MD-1_M-254/1"
             ],
             "type_id": "PT-.5FRegler.5FSymbolanzeige"
           },
@@ -22393,19 +23519,6 @@
           {
             "global": false,
             "type": "TypeRestriction",
-            "value": 0,
-            "context": [
-              []
-            ],
-            "text": "Temperaturmessung durch",
-            "fids": [
-              "MD-11_P-181_R-255/MD-11_M-36/1"
-            ],
-            "type_id": "PT-.5FTemperaturerfassung.20durch"
-          },
-          {
-            "global": false,
-            "type": "TypeRestriction",
             "value": 3,
             "context": [],
             "text": "Ist-Temperatur senden",
@@ -22413,17 +23526,6 @@
               "MD-11_P-198_R-275/MD-11_M-36/1"
             ],
             "type_id": "PT-NEU.5FType.5FautoAussendenZählerstand"
-          },
-          {
-            "global": false,
-            "type": "TypeNumber",
-            "value": 25,
-            "context": [],
-            "text": "E - Temperatur - Zykluszeit min",
-            "fids": [
-              "MD-11_P-831_R-421/MD-11_M-36/1"
-            ],
-            "type_id": "PT-NEU.5FType.5FZeit.5F0bis59.5F6Bit"
           }
         ],
         "objects": [
@@ -22465,6 +23567,28 @@
             "context": [],
             "text": "Funktion der Status-LED",
             "fids": [
+              "P-1009_R-2079//"
+            ],
+            "type_id": "PT-1151.5FStatus.2DLED.20.2D.20Anzeigefunktion.20WSchalten"
+          },
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 0,
+            "context": [],
+            "text": "Funktion der Status-LED",
+            "fids": [
+              "P-1245_R-2252//"
+            ],
+            "type_id": "PT-1151.5FStatus.2DLED.20.2D.20Anzeigefunktion.20WSchalten"
+          },
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 6,
+            "context": [],
+            "text": "Funktion der Status-LED",
+            "fids": [
               "P-1343_R-2396//"
             ],
             "type_id": "PT-1151.5FStatus.2DLED.20.2D.20Anzeigefunktion.20WSchalten"
@@ -22477,28 +23601,6 @@
             "text": "Funktion der Status-LED",
             "fids": [
               "P-1430_R-2540//"
-            ],
-            "type_id": "PT-1151.5FStatus.2DLED.20.2D.20Anzeigefunktion.20WSchalten"
-          },
-          {
-            "global": false,
-            "type": "TypeRestriction",
-            "value": 0,
-            "context": [],
-            "text": "Funktion der Status-LED",
-            "fids": [
-              "P-1009_R-2079//"
-            ],
-            "type_id": "PT-1151.5FStatus.2DLED.20.2D.20Anzeigefunktion.20WSchalten"
-          },
-          {
-            "global": false,
-            "type": "TypeRestriction",
-            "value": 6,
-            "context": [],
-            "text": "Funktion der Status-LED",
-            "fids": [
-              "P-1245_R-2252//"
             ],
             "type_id": "PT-1151.5FStatus.2DLED.20.2D.20Anzeigefunktion.20WSchalten"
           }
@@ -22530,11 +23632,11 @@
             "global": false,
             "cc": "CC_Output_SwitchStatus",
             "fids": [
-              "O-547_R-241//"
+              "O-559_R-267//"
             ],
             "function_text": "Schalten",
             "numbers": {
-              "0": 547
+              "0": 559
             }
           }
         ],
@@ -22553,7 +23655,7 @@
             ],
             "text": "Funktion",
             "fids": [
-              "P-382_R-327//"
+              "P-583_R-1114//"
             ],
             "type_id": "PT-.5FFunktion.20.28Wippe.29"
           },
@@ -22600,28 +23702,6 @@
               "P-583_R-1114//"
             ],
             "type_id": "PT-.5FFunktion.20.28Wippe.29"
-          },
-          {
-            "global": false,
-            "type": "TypeRestriction",
-            "value": 0,
-            "context": [],
-            "text": "Funktion der Status-LED",
-            "fids": [
-              "P-1345_R-2408//"
-            ],
-            "type_id": "PT-1151.5FStatus.2DLED.20.2D.20Anzeigefunktion.20W.202.2DKanal.20Bedienung"
-          },
-          {
-            "global": false,
-            "type": "TypeRestriction",
-            "value": 0,
-            "context": [],
-            "text": "Funktion der Status-LED",
-            "fids": [
-              "P-1432_R-2552//"
-            ],
-            "type_id": "PT-1151.5FStatus.2DLED.20.2D.20Anzeigefunktion.20W.202.2DKanal.20Bedienung"
           },
           {
             "global": false,
@@ -22674,6 +23754,17 @@
             "context": [],
             "text": "Funktion der Status-LED",
             "fids": [
+              "P-1160_R-2093//"
+            ],
+            "type_id": "PT-1151.5FStatus.2DLED.20.2D.20Anzeigefunktion.20W.202.2DKanal.20Bedienung"
+          },
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 6,
+            "context": [],
+            "text": "Funktion der Status-LED",
+            "fids": [
               "P-1247_R-2265//"
             ],
             "type_id": "PT-1151.5FStatus.2DLED.20.2D.20Anzeigefunktion.20W.202.2DKanal.20Bedienung"
@@ -22685,7 +23776,18 @@
             "context": [],
             "text": "Funktion der Status-LED",
             "fids": [
-              "P-1160_R-2093//"
+              "P-1345_R-2408//"
+            ],
+            "type_id": "PT-1151.5FStatus.2DLED.20.2D.20Anzeigefunktion.20W.202.2DKanal.20Bedienung"
+          },
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 6,
+            "context": [],
+            "text": "Funktion der Status-LED",
+            "fids": [
+              "P-1432_R-2552//"
             ],
             "type_id": "PT-1151.5FStatus.2DLED.20.2D.20Anzeigefunktion.20W.202.2DKanal.20Bedienung"
           }
@@ -22734,6 +23836,28 @@
             "numbers": {
               "0": 547
             }
+          },
+          {
+            "global": false,
+            "cc": "CC_Motion_Lock",
+            "fids": [
+              "O-559_R-267//"
+            ],
+            "function_text": "Schalten",
+            "numbers": {
+              "0": 559
+            }
+          },
+          {
+            "global": false,
+            "cc": "CC_Motion_Lock",
+            "fids": [
+              "O-571_R-293//"
+            ],
+            "function_text": "Schalten",
+            "numbers": {
+              "0": 571
+            }
           }
         ],
         "n_channels": 1
@@ -22754,28 +23878,6 @@
               "P-583_R-1114//"
             ],
             "type_id": "PT-.5FFunktion.20.28Wippe.29"
-          },
-          {
-            "global": false,
-            "type": "TypeRestriction",
-            "value": 0,
-            "context": [],
-            "text": "Funktion der Status-LED",
-            "fids": [
-              "P-1344_R-2407//"
-            ],
-            "type_id": "PT-1151.5FStatus.2DLED.20.2D.20Anzeigefunktion.20W.20Jalousie"
-          },
-          {
-            "global": false,
-            "type": "TypeRestriction",
-            "value": 0,
-            "context": [],
-            "text": "Funktion der Status-LED",
-            "fids": [
-              "P-1431_R-2551//"
-            ],
-            "type_id": "PT-1151.5FStatus.2DLED.20.2D.20Anzeigefunktion.20W.20Jalousie"
           }
         ],
         "objects": [
@@ -22820,28 +23922,6 @@
               "P-583_R-1114//"
             ],
             "type_id": "PT-.5FFunktion.20.28Wippe.29"
-          },
-          {
-            "global": false,
-            "type": "TypeRestriction",
-            "value": 0,
-            "context": [],
-            "text": "Funktion der Status-LED",
-            "fids": [
-              "P-1343_R-2396//"
-            ],
-            "type_id": "PT-1151.5FStatus.2DLED.20.2D.20Anzeigefunktion.20WSchalten"
-          },
-          {
-            "global": false,
-            "type": "TypeRestriction",
-            "value": 0,
-            "context": [],
-            "text": "Funktion der Status-LED",
-            "fids": [
-              "P-1430_R-2540//"
-            ],
-            "type_id": "PT-1151.5FStatus.2DLED.20.2D.20Anzeigefunktion.20WSchalten"
           }
         ],
         "objects": [
@@ -22883,6 +23963,28 @@
             "context": [],
             "text": "Funktion der Status-LED",
             "fids": [
+              "P-1009_R-2079//"
+            ],
+            "type_id": "PT-1151.5FStatus.2DLED.20.2D.20Anzeigefunktion.20WSchalten"
+          },
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 0,
+            "context": [],
+            "text": "Funktion der Status-LED",
+            "fids": [
+              "P-1245_R-2252//"
+            ],
+            "type_id": "PT-1151.5FStatus.2DLED.20.2D.20Anzeigefunktion.20WSchalten"
+          },
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 6,
+            "context": [],
+            "text": "Funktion der Status-LED",
+            "fids": [
               "P-1343_R-2396//"
             ],
             "type_id": "PT-1151.5FStatus.2DLED.20.2D.20Anzeigefunktion.20WSchalten"
@@ -22895,28 +23997,6 @@
             "text": "Funktion der Status-LED",
             "fids": [
               "P-1430_R-2540//"
-            ],
-            "type_id": "PT-1151.5FStatus.2DLED.20.2D.20Anzeigefunktion.20WSchalten"
-          },
-          {
-            "global": false,
-            "type": "TypeRestriction",
-            "value": 0,
-            "context": [],
-            "text": "Funktion der Status-LED",
-            "fids": [
-              "P-1009_R-2079//"
-            ],
-            "type_id": "PT-1151.5FStatus.2DLED.20.2D.20Anzeigefunktion.20WSchalten"
-          },
-          {
-            "global": false,
-            "type": "TypeRestriction",
-            "value": 6,
-            "context": [],
-            "text": "Funktion der Status-LED",
-            "fids": [
-              "P-1245_R-2252//"
             ],
             "type_id": "PT-1151.5FStatus.2DLED.20.2D.20Anzeigefunktion.20WSchalten"
           }
@@ -22937,15 +24017,175 @@
             "global": false,
             "cc": "CC_Output_SwitchStatus",
             "fids": [
-              "O-547_R-241//"
+              "O-559_R-267//"
             ],
             "function_text": "Schalten",
             "numbers": {
-              "0": 547
+              "0": 559
             }
           }
         ],
         "n_channels": 1
+      },
+      {
+        "block": "trigger",
+        "id": "mode_trigger_switch_off",
+        "parameters": [
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 2,
+            "context": [
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-389_R-473//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-389_R-473//"
+                }
+              ]
+            ],
+            "text": "Beim Drücken",
+            "fids": [
+              "MD-3_P-3_R-6/MD-3_M-34/1",
+              "MD-3_P-3_R-6/MD-3_M-59/1"
+            ],
+            "type_id": "PT-.5FE.5FBefehl.20Schalten"
+          }
+        ],
+        "objects": [
+          {
+            "global": false,
+            "cc": "CC_Output_Switch",
+            "fids": [
+              "MD-3_O-2-0_R-1/MD-3_M-34/1",
+              "MD-3_O-2-0_R-1/MD-3_M-59/1"
+            ],
+            "function_text": "Schalten",
+            "numbers": {
+              "0": 103,
+              "1": 119
+            }
+          }
+        ],
+        "n_channels": 2
+      },
+      {
+        "block": "trigger",
+        "id": "mode_trigger_switch_on",
+        "parameters": [
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 1,
+            "context": [
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-389_R-473//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-389_R-473//"
+                }
+              ]
+            ],
+            "text": "Beim Drücken",
+            "fids": [
+              "MD-3_P-3_R-6/MD-3_M-34/1",
+              "MD-3_P-3_R-6/MD-3_M-59/1"
+            ],
+            "type_id": "PT-.5FE.5FBefehl.20Schalten"
+          }
+        ],
+        "objects": [
+          {
+            "global": false,
+            "cc": "CC_Output_Switch",
+            "fids": [
+              "MD-3_O-2-0_R-1/MD-3_M-34/1",
+              "MD-3_O-2-0_R-1/MD-3_M-59/1"
+            ],
+            "function_text": "Schalten",
+            "numbers": {
+              "0": 103,
+              "1": 119
+            }
+          }
+        ],
+        "n_channels": 2
+      },
+      {
+        "block": "trigger",
+        "id": "mode_trigger_toggle",
+        "parameters": [
+          {
+            "global": false,
+            "type": "TypeRestriction",
+            "value": 3,
+            "context": [
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-389_R-473//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-389_R-473//"
+                }
+              ]
+            ],
+            "text": "Beim Drücken",
+            "fids": [
+              "MD-3_P-3_R-6/MD-3_M-34/1",
+              "MD-3_P-3_R-6/MD-3_M-59/1"
+            ],
+            "type_id": "PT-.5FE.5FBefehl.20Schalten"
+          }
+        ],
+        "objects": [
+          {
+            "global": false,
+            "cc": "CC_Output_Switch",
+            "fids": [
+              "MD-3_O-2-0_R-1/MD-3_M-34/1",
+              "MD-3_O-2-0_R-1/MD-3_M-59/1"
+            ],
+            "function_text": "Schalten",
+            "numbers": {
+              "0": 103,
+              "1": 119
+            }
+          },
+          {
+            "global": false,
+            "cc": "CC_Output_SwitchStatus",
+            "fids": [
+              "MD-3_O-2-1_R-2/MD-3_M-34/1",
+              "MD-3_O-2-1_R-2/MD-3_M-59/1"
+            ],
+            "function_text": "Schalten - Status",
+            "numbers": {
+              "0": 104,
+              "1": 120
+            }
+          }
+        ],
+        "n_channels": 2
       }
     ],
     "application_program_id": "M-0004_A-D162-22-D781-O000A",
