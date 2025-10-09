@@ -21623,61 +21623,6 @@
         "parameters": [
           {
             "fids": [
-              "P-388_R-471//"
-            ],
-            "text": "Tastsensor Erweiterungsmodul",
-            "value": 0,
-            "type_id": "PT-Tastsensor.2DErweiterungsmodul",
-            "type": "TypeRestriction",
-            "global": true,
-            "context": []
-          },
-          {
-            "fids": [
-              "P-185_R-96//"
-            ],
-            "text": "   Helligkeit",
-            "value": 4,
-            "type_id": "PT-Betriebs.2DLED.20Helligkeitsstufen",
-            "type": "TypeRestriction",
-            "global": true,
-            "context": []
-          },
-          {
-            "fids": [
-              "P-186_R-97//"
-            ],
-            "text": "Helligkeit am Tastsensor Grundmodul",
-            "value": 4,
-            "type_id": "PT-LED.20Helligkeitsstufen",
-            "type": "TypeRestriction",
-            "global": true,
-            "context": []
-          },
-          {
-            "fids": [
-              "P-180_R-87//"
-            ],
-            "text": "Helligkeitsreduzierung",
-            "value": 1,
-            "type_id": "PT-.5FAllg.5Fja1.5Fnein.5FCheckbox",
-            "type": "TypeNumber",
-            "global": true,
-            "context": []
-          },
-          {
-            "fids": [
-              "P-8_R-5//"
-            ],
-            "text": "Energiesparmodus",
-            "value": 1,
-            "type_id": "PT-.5FAllg.5Fja1.5Fnein.5FCheckbox",
-            "type": "TypeNumber",
-            "global": true,
-            "context": []
-          },
-          {
-            "fids": [
               "P-181_R-88//"
             ],
             "text": "Objekt-Polarität",
@@ -21685,7 +21630,15 @@
             "type_id": "PT-Nachtabsenkung.20Polarität.20Meldeobjekt",
             "type": "TypeRestriction",
             "global": true,
-            "context": []
+            "context": [
+              [
+                {
+                  "type": "TypeNumber",
+                  "value": 1,
+                  "fid": "P-180_R-87//"
+                }
+              ]
+            ]
           },
           {
             "fids": [
@@ -21710,6 +21663,17 @@
               "0": 7
             },
             "global": true
+          },
+          {
+            "cc": "CC_Time",
+            "fids": [
+              "MD-38_O-2-1_R-4/MD-38_M-159/1"
+            ],
+            "function_text": "Uhrzeit",
+            "numbers": {
+              "0": 1406
+            },
+            "global": true
           }
         ]
       },
@@ -21720,24 +21684,165 @@
         "parameters": [
           {
             "fids": [
-              "P-592_R-1124//"
-            ],
-            "text": "Funktion",
-            "value": 6,
-            "type_id": "PT-.5FFunktion.20.28Wippe.29",
-            "type": "TypeRestriction",
-            "global": false,
-            "context": [
-              []
-            ]
-          },
-          {
-            "fids": [
               "P-985_R-924//"
             ],
             "text": "Raumtemperaturregler-Funktion",
             "value": 2,
             "type_id": "PT-RTR.2DFunktion",
+            "type": "TypeRestriction",
+            "global": false,
+            "context": []
+          },
+          {
+            "fids": [
+              "P-8_R-5//"
+            ],
+            "text": "Energiesparmodus",
+            "value": 1,
+            "type_id": "PT-.5FAllg.5Fja1.5Fnein.5FCheckbox",
+            "type": "TypeNumber",
+            "global": false,
+            "context": []
+          },
+          {
+            "fids": [
+              "P-194_R-76//"
+            ],
+            "text": "Wertanforderung der Reglernebenstelle",
+            "value": 1,
+            "type_id": "PT-.5F0612.5FCheck.20Box",
+            "type": "TypeNumber",
+            "global": false,
+            "context": []
+          },
+          {
+            "fids": [
+              "P-348_R-177//"
+            ],
+            "text": "Reglerbetriebsart",
+            "value": 2,
+            "type_id": "PT-.5F0612.5FReglernebenstelle.5FBetriebsart",
+            "type": "TypeRestriction",
+            "global": false,
+            "context": []
+          },
+          {
+            "fids": [
+              "UP-13_R-13//"
+            ],
+            "text": "Energiesparmodus aktivieren",
+            "value": 2,
+            "type_id": "PT-Energiesparen.20.2D.20Aktivieren.20durch",
+            "type": "TypeRestriction",
+            "global": false,
+            "context": []
+          },
+          {
+            "fids": [
+              "P-807_R-1524//"
+            ],
+            "text": "Uhrzeit anfordern",
+            "value": 0,
+            "type_id": "PT-.5F0611.5FAllg.5Fja1.5Fnein.5FCheckbox.201.20Bit",
+            "type": "TypeNumber",
+            "global": false,
+            "context": []
+          },
+          {
+            "fids": [
+              "MD-38_P-26_R-6/MD-38_M-159/1"
+            ],
+            "text": "Piktogrammrahmen",
+            "value": 1,
+            "type_id": "PT-.5F0611.5FAllg.5Fja1.5Fnein.5FCheckbox.201.20Bit",
+            "type": "TypeNumber",
+            "global": false,
+            "context": []
+          },
+          {
+            "fids": [
+              "MD-38_P-6_R-7/MD-38_M-159/1"
+            ],
+            "text": "   Anzahl der Anzeigeinformationen",
+            "value": 3,
+            "type_id": "PT-.5F0611.5FWert.201.2E.2E.2E4.20Spin.20Edit",
+            "type": "TypeNumber",
+            "global": false,
+            "context": []
+          },
+          {
+            "fids": [
+              "MD-38_P-11_R-17/MD-38_M-159/1"
+            ],
+            "text": "Anzeigeinformation 1",
+            "value": 3,
+            "type_id": "PT-.5F0611.5FDisplay.5FAnzeigeinformation",
+            "type": "TypeRestriction",
+            "global": false,
+            "context": []
+          },
+          {
+            "fids": [
+              "MD-38_UP-12_R-299/MD-38_M-159/1"
+            ],
+            "text": "Reglersymbole anzeigen",
+            "value": 0,
+            "type_id": "PT-.5F0612.5FAllg.5Fja1.5Fnein.5FCheckbox.202.20Bit",
+            "type": "TypeNumber",
+            "global": false,
+            "context": []
+          },
+          {
+            "fids": [
+              "MD-38_UP-14_R-19/MD-38_M-159/1"
+            ],
+            "text": "Anzeigeinformation 2",
+            "value": 2,
+            "type_id": "PT-.5F0611.5FDisplay.5FAnzeigeinformation",
+            "type": "TypeRestriction",
+            "global": false,
+            "context": []
+          },
+          {
+            "fids": [
+              "MD-38_UP-16_R-300/MD-38_M-159/1"
+            ],
+            "text": "Reglersymbole anzeigen",
+            "value": 0,
+            "type_id": "PT-.5F0612.5FAllg.5Fja1.5Fnein.5FCheckbox.202.20Bit",
+            "type": "TypeNumber",
+            "global": false,
+            "context": []
+          },
+          {
+            "fids": [
+              "MD-38_UP-18_R-24/MD-38_M-159/1"
+            ],
+            "text": "Anzeigeinformation 3",
+            "value": 1,
+            "type_id": "PT-.5F0611.5FDisplay.5FAnzeigeinformation",
+            "type": "TypeRestriction",
+            "global": false,
+            "context": []
+          },
+          {
+            "fids": [
+              "MD-38_UP-20_R-301/MD-38_M-159/1"
+            ],
+            "text": "Reglersymbole anzeigen",
+            "value": 0,
+            "type_id": "PT-.5F0612.5FAllg.5Fja1.5Fnein.5FCheckbox.202.20Bit",
+            "type": "TypeNumber",
+            "global": false,
+            "context": []
+          },
+          {
+            "fids": [
+              "P-592_R-1124//"
+            ],
+            "text": "Funktion",
+            "value": 6,
+            "type_id": "PT-.5FFunktion.20.28Wippe.29",
             "type": "TypeRestriction",
             "global": false,
             "context": []
@@ -21807,72 +21912,6 @@
             "type": "TypeFloat",
             "global": false,
             "context": []
-          },
-          {
-            "fids": [
-              "P-194_R-76//"
-            ],
-            "text": "Wertanforderung der Reglernebenstelle",
-            "value": 1,
-            "type_id": "PT-.5F0612.5FCheck.20Box",
-            "type": "TypeNumber",
-            "global": false,
-            "context": []
-          },
-          {
-            "fids": [
-              "P-348_R-177//"
-            ],
-            "text": "Reglerbetriebsart",
-            "value": 2,
-            "type_id": "PT-.5F0612.5FReglernebenstelle.5FBetriebsart",
-            "type": "TypeRestriction",
-            "global": false,
-            "context": []
-          },
-          {
-            "fids": [
-              "P-807_R-1524//"
-            ],
-            "text": "Uhrzeit anfordern",
-            "value": 0,
-            "type_id": "PT-.5F0611.5FAllg.5Fja1.5Fnein.5FCheckbox.201.20Bit",
-            "type": "TypeNumber",
-            "global": false,
-            "context": []
-          },
-          {
-            "fids": [
-              "MD-38_P-6_R-7/MD-38_M-159/1"
-            ],
-            "text": "   Anzahl der Anzeigeinformationen",
-            "value": 1,
-            "type_id": "PT-.5F0611.5FWert.201.2E.2E.2E4.20Spin.20Edit",
-            "type": "TypeNumber",
-            "global": false,
-            "context": []
-          },
-          {
-            "fids": [
-              "MD-38_P-11_R-17/MD-38_M-159/1"
-            ],
-            "text": "Anzeigeinformation 1",
-            "value": 3,
-            "type_id": "PT-.5F0611.5FDisplay.5FAnzeigeinformation",
-            "type": "TypeRestriction",
-            "global": false,
-            "context": []
-          },
-          {
-            "fids": [
-              "MD-38_UP-12_R-299/MD-38_M-159/1"
-            ],
-            "text": "Reglersymbole anzeigen",
-            "value": 0,
-            "type_id": "PT-.5F0612.5FAllg.5Fja1.5Fnein.5FCheckbox.202.20Bit",
-            "type": "TypeNumber",
-            "global": false,
-            "context": []
           }
         ],
         "objects": [
@@ -21919,6 +21958,17 @@
               "0": 962
             },
             "global": false
+          },
+          {
+            "cc": "CC_Sensor_Temperature",
+            "fids": [
+              "MD-38_O-2-6_R-8/MD-38_M-159/1"
+            ],
+            "function_text": "Ist-Temperatur",
+            "numbers": {
+              "0": 1411
+            },
+            "global": false
           }
         ]
       },
@@ -21929,36 +21979,12 @@
         "parameters": [
           {
             "fids": [
-              "MD-11_P-181_R-255/MD-11_M-36/1"
-            ],
-            "text": "Temperaturmessung durch",
-            "value": 0,
-            "type_id": "PT-.5FTemperaturerfassung.20durch",
-            "type": "TypeRestriction",
-            "global": false,
-            "context": [
-              []
-            ]
-          },
-          {
-            "fids": [
               "MD-11_P-198_R-275/MD-11_M-36/1"
             ],
             "text": "Ist-Temperatur senden",
             "value": 3,
             "type_id": "PT-NEU.5FType.5FautoAussendenZählerstand",
             "type": "TypeRestriction",
-            "global": false,
-            "context": []
-          },
-          {
-            "fids": [
-              "MD-11_P-831_R-421/MD-11_M-36/1"
-            ],
-            "text": "E - Temperatur - Zykluszeit min",
-            "value": 25,
-            "type_id": "PT-NEU.5FType.5FZeit.5F0bis59.5F6Bit",
-            "type": "TypeNumber",
             "global": false,
             "context": []
           }
@@ -22083,18 +22109,6 @@
               [],
               []
             ]
-          },
-          {
-            "fids": [
-              "MD-13_P-1_R-1/MD-13_M-44/1",
-              "MD-13_P-1_R-1/MD-13_M-14/1"
-            ],
-            "text": "Beim Drücken",
-            "value": 1,
-            "type_id": "PT-.5FE.5FBefehl.20Schalten",
-            "type": "TypeRestriction",
-            "global": false,
-            "context": []
           }
         ],
         "objects": [
@@ -22330,30 +22344,6 @@
               [],
               []
             ]
-          },
-          {
-            "fids": [
-              "MD-13_P-3_R-6/MD-13_M-44/1",
-              "MD-13_P-3_R-6/MD-13_M-14/1"
-            ],
-            "text": "Beim Drücken",
-            "value": 2,
-            "type_id": "PT-.5FE.5FBefehl.20Schalten",
-            "type": "TypeRestriction",
-            "global": false,
-            "context": []
-          },
-          {
-            "fids": [
-              "MD-13_P-1_R-1/MD-13_M-44/1",
-              "MD-13_P-1_R-1/MD-13_M-14/1"
-            ],
-            "text": "Beim Drücken",
-            "value": 1,
-            "type_id": "PT-.5FE.5FBefehl.20Schalten",
-            "type": "TypeRestriction",
-            "global": false,
-            "context": []
           }
         ],
         "objects": [
@@ -22441,6 +22431,230 @@
             "numbers": {
               "0": 1043,
               "1": 1067
+            },
+            "global": false
+          }
+        ]
+      },
+      {
+        "id": "mode_trigger_switch_off",
+        "block": "trigger",
+        "n_channels": 4,
+        "parameters": [
+          {
+            "fids": [
+              "MD-3_P-3_R-6/MD-3_M-1/1",
+              "MD-3_P-3_R-6/MD-3_M-8/1",
+              "MD-3_P-3_R-6/MD-3_M-34/1",
+              "MD-3_P-3_R-6/MD-3_M-59/1"
+            ],
+            "text": "Beim Drücken",
+            "value": 2,
+            "type_id": "PT-.5FE.5FBefehl.20Schalten",
+            "type": "TypeRestriction",
+            "global": false,
+            "context": [
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-1313_R-191//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-1313_R-191//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-389_R-473//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-389_R-473//"
+                }
+              ]
+            ]
+          }
+        ],
+        "objects": [
+          {
+            "cc": "CC_Output_Switch",
+            "fids": [
+              "MD-3_O-2-0_R-1/MD-3_M-1/1",
+              "MD-3_O-2-0_R-1/MD-3_M-8/1",
+              "MD-3_O-2-0_R-1/MD-3_M-34/1",
+              "MD-3_O-2-0_R-1/MD-3_M-59/1"
+            ],
+            "function_text": "Schalten",
+            "numbers": {
+              "0": 49,
+              "1": 53,
+              "2": 57,
+              "3": 61
+            },
+            "global": false
+          }
+        ]
+      },
+      {
+        "id": "mode_trigger_switch_on",
+        "block": "trigger",
+        "n_channels": 4,
+        "parameters": [
+          {
+            "fids": [
+              "MD-3_P-3_R-6/MD-3_M-1/1",
+              "MD-3_P-3_R-6/MD-3_M-8/1",
+              "MD-3_P-3_R-6/MD-3_M-34/1",
+              "MD-3_P-3_R-6/MD-3_M-59/1"
+            ],
+            "text": "Beim Drücken",
+            "value": 1,
+            "type_id": "PT-.5FE.5FBefehl.20Schalten",
+            "type": "TypeRestriction",
+            "global": false,
+            "context": [
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-1313_R-191//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-1313_R-191//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-389_R-473//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-389_R-473//"
+                }
+              ]
+            ]
+          }
+        ],
+        "objects": [
+          {
+            "cc": "CC_Output_Switch",
+            "fids": [
+              "MD-3_O-2-0_R-1/MD-3_M-1/1",
+              "MD-3_O-2-0_R-1/MD-3_M-8/1",
+              "MD-3_O-2-0_R-1/MD-3_M-34/1",
+              "MD-3_O-2-0_R-1/MD-3_M-59/1"
+            ],
+            "function_text": "Schalten",
+            "numbers": {
+              "0": 49,
+              "1": 53,
+              "2": 57,
+              "3": 61
+            },
+            "global": false
+          }
+        ]
+      },
+      {
+        "id": "mode_trigger_toggle",
+        "block": "trigger",
+        "n_channels": 4,
+        "parameters": [
+          {
+            "fids": [
+              "MD-3_P-3_R-6/MD-3_M-1/1",
+              "MD-3_P-3_R-6/MD-3_M-8/1",
+              "MD-3_P-3_R-6/MD-3_M-34/1",
+              "MD-3_P-3_R-6/MD-3_M-59/1"
+            ],
+            "text": "Beim Drücken",
+            "value": 3,
+            "type_id": "PT-.5FE.5FBefehl.20Schalten",
+            "type": "TypeRestriction",
+            "global": false,
+            "context": [
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-1313_R-191//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-1313_R-191//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-389_R-473//"
+                }
+              ],
+              [
+                {
+                  "type": "TypeRestriction",
+                  "value": 1,
+                  "fid": "P-389_R-473//"
+                }
+              ]
+            ]
+          }
+        ],
+        "objects": [
+          {
+            "cc": "CC_Output_Switch",
+            "fids": [
+              "MD-3_O-2-0_R-1/MD-3_M-1/1",
+              "MD-3_O-2-0_R-1/MD-3_M-8/1",
+              "MD-3_O-2-0_R-1/MD-3_M-34/1",
+              "MD-3_O-2-0_R-1/MD-3_M-59/1"
+            ],
+            "function_text": "Schalten",
+            "numbers": {
+              "0": 49,
+              "1": 53,
+              "2": 57,
+              "3": 61
+            },
+            "global": false
+          },
+          {
+            "cc": "CC_Output_SwitchStatus",
+            "fids": [
+              "MD-3_O-2-1_R-2/MD-3_M-1/1",
+              "MD-3_O-2-1_R-2/MD-3_M-8/1",
+              "MD-3_O-2-1_R-2/MD-3_M-34/1",
+              "MD-3_O-2-1_R-2/MD-3_M-59/1"
+            ],
+            "function_text": "Schalten - Status",
+            "numbers": {
+              "0": 50,
+              "1": 54,
+              "2": 58,
+              "3": 62
             },
             "global": false
           }
