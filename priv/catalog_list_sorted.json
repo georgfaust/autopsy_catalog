@@ -376,6 +376,61 @@
         ]
       },
       {
+        "id": "mode_trigger_scene",
+        "block": "trigger",
+        "n_channels": 1,
+        "parameters": [
+          {
+            "fids": [
+              "P-13_R-13//"
+            ],
+            "text": "Funktion",
+            "value": 0,
+            "type_id": "PT-Funktion.20.28Wippe.29",
+            "type": "TypeRestriction",
+            "global": false,
+            "context": [
+              []
+            ]
+          },
+          {
+            "fids": [
+              "P-942_R-434//"
+            ],
+            "text": "Bezeichnung der Wippe 1",
+            "value": "SWITCH",
+            "type_id": "PT-.5FAllg.5FText.5FKnotenbezeichnung",
+            "type": "TypeText",
+            "global": false,
+            "context": []
+          },
+          {
+            "fids": [
+              "P-162_R-183//"
+            ],
+            "text": "Funktion der Status-LED 1",
+            "value": 4,
+            "type_id": "PT-.5F.5FStatus.2DLED.20.2D.20Anzeigefunktion.20WSchalten",
+            "type": "TypeRestriction",
+            "global": false,
+            "context": []
+          }
+        ],
+        "objects": [
+          {
+            "cc": "CC_Scene_Call",
+            "fids": [
+              "O-37_R-814//"
+            ],
+            "function_text": "Schalten",
+            "numbers": {
+              "0": 37
+            },
+            "global": false
+          }
+        ]
+      },
+      {
         "id": "mode_trigger_switch_off",
         "block": "trigger",
         "n_channels": 2,

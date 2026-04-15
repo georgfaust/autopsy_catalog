@@ -2,7 +2,7 @@ defmodule AutopsyCatalog.Loader do
   import Enum
 
   def load_raw(path) do
-    path |> File.read!() |> :erlang.binary_to_term() |> Map.values()
+    path |> File.read!() |> :erlang.binary_to_term()
   end
 
   def load_for_cuete(catalog) do
