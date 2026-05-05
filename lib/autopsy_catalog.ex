@@ -94,7 +94,7 @@ defmodule AutopsyCatalog.Loader do
   # ---
 
   defp decode_fid(encoded_fid) do
-    case String.split(encoded_fid, "/") do
+    case String.split(encoded_fid, "|") do
       [ref_id, "", ""] ->
         %{ref_id: ref_id, instance: nil}
 
